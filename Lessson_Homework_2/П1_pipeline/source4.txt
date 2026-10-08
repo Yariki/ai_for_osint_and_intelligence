@@ -1,0 +1,3615 @@
+SAP Half-Year Report 2026
+1/50
+SAP Half-Year Report
+2026
+
+SAP Half-Year Report 2026
+2/50
+Table of Contents
+Introductory Notes and General Information
+4
+Forward-Looking Statements ........................................................................................................................................................................................................................................................... 4
+Non-IFRS Financial Information ...................................................................................................................................................................................................................................................... 5
+Consolidated Half-Year Management Report
+6
+Our Product Strategy
+........................................................................................................................................................................................................................................................... 6
+Acquisitions and Divestitures ........................................................................................................................................................................................................................................................... 7
+Performance Management System.............................................................................................................................................................................................................................................. 8
+Organization and Changes in Management .......................................................................................................................................................................................................................... 9
+Financial Performance: Review and Analysis
+10
+Economy and the Market
+........................................................................................................................................................................................................................................................ 10
+Performance in the First Half of 2026 ...................................................................................................................................................................................................................................... 11
+Dividend
+........................................................................................................................................................................................................................................................ 15
+Risks and Opportunities
+16
+Risk Management and Risks ........................................................................................................................................................................................................................................................ 16
+Opportunities
+........................................................................................................................................................................................................................................................ 16
+Outlook
+17
+Expected Developments for 2026 and Beyond ............................................................................................................................................................................................................. 17
+Targets and Prospects
+........................................................................................................................................................................................................................................................ 18
+Sustainability Information
+20
+Climate Change
+........................................................................................................................................................................................................................................................ 20
+Own Workforce
+........................................................................................................................................................................................................................................................ 20
+Consolidated Half-Year Financial Statements – IFRS
+23
+ Consolidated Income Statement of SAP Group (IFRS) – Half Year ......................................................................................................................................................... 23
+Consolidated Statements of Comprehensive Income of SAP Group (IFRS) – Half Year .............................................................................................................. 24
+ Consolidated Statement of Financial Position of SAP Group (IFRS) ...................................................................................................................................................... 25
+Consolidated Statements of Changes in Equity of SAP Group (IFRS) .......................................................................................................................................................... 26
+Consolidated Statement of Cash Flows of SAP Group (IFRS) ............................................................................................................................................................................ 27
+Notes to the Consolidated Half-Year Financial Statements
+28
+(IN.1) Basis for Preparation
+........................................................................................................................................................................................................................................................ 28
+Section A – Customers
+29
+(A.1) Revenue
+........................................................................................................................................................................................................................................................ 29
+(A.2) Trade and Other Receivables ........................................................................................................................................................................................................................................... 29
+Section B – Employees
+30
+(B.1) Employee Headcount ........................................................................................................................................................................................................................................................ 30
+(B.2) Employee Benefits Expenses ........................................................................................................................................................................................................................................... 30
+(B.3) Share-Based Payments ........................................................................................................................................................................................................................................................ 31
+
+SAP Half-Year Report 2026
+3/50
+Section C – Financial Results
+32
+(C.1) Results of Segments
+........................................................................................................................................................................................................................................................ 32
+(C.2) Reconciliation of Segment Measures to the Consolidated Income Statement ....................................................................................................................... 34
+(C.3) Financial Income, Net
+........................................................................................................................................................................................................................................................ 34
+Section D – Invested Capital
+35
+(D.1) Business Combinations ........................................................................................................................................................................................................................................................ 35
+(D.2) Goodwill
+........................................................................................................................................................................................................................................................ 36
+(D.3) Property, Plant, and Equipment ...................................................................................................................................................................................................................................... 37
+Section E – Capital Structure, Financing, and Liquidity
+38
+(E.1) Total Equity
+........................................................................................................................................................................................................................................................ 38
+(E.2) Liquidity
+........................................................................................................................................................................................................................................................ 39
+Section F – Management of Financial Risk Factors
+40
+(F.1) Financial Risk Factors, Financial Risk Management, and Fair Value Disclosures on Financial Instruments ........................................................ 40
+Section G – Other Disclosures
+41
+(G.1) Other Litigation, Claims, and Legal Contingencies .......................................................................................................................................................................................... 41
+(G.2) Related Party Transactions ................................................................................................................................................................................................................................................. 42
+(G.3) Events After the Reporting Period ................................................................................................................................................................................................................................ 43
+(G.4) Scope of Consolidation ........................................................................................................................................................................................................................................................ 43
+Release of the Consolidated Half-Year Financial Statements ............................................................................................................................................................................. 44
+Responsibility Statement
+........................................................................................................................................................................................................................................................ 44
+Supplementary Financial Information
+45
+Reconciliation of Non-IFRS Numbers to IFRS Numbers – Half Year .............................................................................................................................................................. 45
+Non-IFRS Adjustments Actuals and Estimates – Half Year .................................................................................................................................................................................... 46
+Non-IFRS Adjustments by Functional Areas – Half Year .......................................................................................................................................................................................... 47
+Revenue by Region (IFRS and Non-IFRS) – Half Year ................................................................................................................................................................................................ 47
+Additional Information
+48
+Financial Calendar
+........................................................................................................................................................................................................................................................ 48
+Investor Services
+........................................................................................................................................................................................................................................................ 48
+Addresses
+........................................................................................................................................................................................................................................................ 49
+Imprint
+........................................................................................................................................................................................................................................................ 49
+
+SAP Half-Year Report 2026
+4/50
+Introductory Notes and General
+Information
+This Half-Year Report meets the requirements of German Accounting Standard No. 16 “Half-yearly Financial Reporting” (GAS 16).
+GAS 16 also governs the Sustainability Information included in the report. We prepared the financial data in the Half-Year Report
+section for SAP SE and its subsidiaries in accordance with International Financial Reporting Standards (IFRS). In doing so, we
+observed the IFRS both as issued by the International Accounting Standards Board (IASB) and as endorsed by the European Union
+(EU). This does not apply to numbers expressly identified as non-IFRS. For additional IFRS and non-IFRS information, see the
+Supplementary Financial Information section.
+This Half-Year Report complies with the legal requirements in accordance with the German Securities Trading Act
+(Wertpapierhandelsgesetz, WpHG) for a Half-Year financial report, and comprises the consolidated Half-Year Management Report,
+condensed consolidated Half-Year Financial Statements, and the responsibility statement in accordance with the German Securities
+Trading Act, section 115 (2).
+This Half-Year Report updates our Consolidated Financial Statements 2025, presents significant events and transactions of the first
+half of 2026, and updates the forward-looking information as well as significant non-financial key figures contained in our
+Management Report 2025. This Half-Year Report only includes half-year numbers. Our quarterly numbers are available in the
+Quarterly Statements for the first and second quarters of 2026. Both the 2025 consolidated Financial Statements and the 2025
+Management Report are part of our Integrated Report 2025, which is available at www.sapintegratedreport.com.
+All of the information in this Half-Year Report is unaudited. This means that the information has been subject neither to any audit nor
+to any review by an independent auditor.
+Unless otherwise stated, all figures in this Half-Year Report are based on SAP Group results from continuing operations.
+Forward-Looking Statements
+This Half-Year Report contains forward-looking statements and information based on the beliefs of, and assumptions made by, our
+management using information currently available to them. Any statements contained in this report that are not historical facts are
+forward-looking statements as defined in the US Private Securities Litigation Reform Act of 1995. We have based these forward-
+looking statements on our current expectations, assumptions, and projections about future conditions and events. As a result, our
+forward-looking statements and information are subject to uncertainties and risks, many of which are beyond our control. If one or
+more of these uncertainties or risks materializes, or if management’s underlying assumptions prove incorrect, our actual results
+could differ materially from those described in or inferred from our forward-looking statements and information. We describe these
+risks and uncertainties in the Risk Management and Risks section, and in the sources mentioned therein.
+The words “aim,” “anticipate,” “assume,” “believe,” “continue,” “could,” “counting on,” “is confident,” “development,” “estimate,” “expect,”
+“forecast,” ”future trends,” “guidance,” “intend,” “may,” ”might,” “outlook,” “plan,” “project,” “predict,” “seek,” “should,” “strategy,” “want,”
+“will,” “would,” and similar expressions as they relate to us are intended to identify such forward-looking statements. Such statements
+include, for example, those made in the Operating Results (IFRS) section, the Risks and Opportunities section, the Outlook section,
+and other forward-looking information appearing in other parts of this Half-Year financial report. To fully consider the factors that
+could affect our future financial results, both our Integrated Report 2025 and our Annual Report on Form 20-F for 2025, should be
+considered, as well as all of our other filings with the US Securities and Exchange Commission (US SEC). Readers are cautioned not
+to place undue reliance on these forward-looking statements, which speak only as at the date specified or the date of this report.
+We undertake no obligation to publicly update or revise any forward-looking statements as a result of new information that we
+receive about conditions that existed upon issuance of this report, future events, or otherwise, unless we are required to do so by
+law.
+
+SAP Half-Year Report 2026
+5/50
+This report includes statistical data about the IT industry and global economic trends that comes from information published by
+sources including International Data Corporation (IDC) and the European Central Bank (ECB). This type of data represents only the
+estimates of IDC, the ECB, and other sources of industry data. SAP does not adopt or endorse any of the statistical information
+provided by sources such as IDC, the ECB, or other similar sources that is contained in this report. The data from these sources is
+subject to risks and uncertainties, and subject to change based on various factors, including those described above, in the Risk
+Management and Risks section, and elsewhere in this report. These and other factors could cause our results to differ materially
+from those expressed in the estimates made by third parties and SAP. We caution readers not to place undue reliance on this data.
+All of the information in this report relates to the situation as at June 30, 2026, or the half year ended on that date unless otherwise
+stated.
+Non-IFRS Financial Information
+This Half-Year Report contains non-IFRS measures as well as financial data prepared in accordance with IFRS. We present and
+discuss the reconciliation of these non-IFRS measures to the respective IFRS measures in the Supplementary Financial Information
+section. For more information about non-IFRS measures, see our SAP Performance Measures on our website.
+
+SAP Half-Year Report 2026
+6/50
+Consolidated Half-Year Management
+Report
+Our Product Strategy
+As outlined in the SAP Integrated Report 2025, generative and agentic AI are fundamentally reshaping how businesses operate and
+how end users interact with enterprise software. Across industries, AI is becoming a key driver of business transformation. SAP sees
+this as a significant and sustained opportunity.
+At SAP Sapphire in May 2026, SAP introduced its vision of the Autonomous Enterprise. This vision sets out SAP’s ambition to
+transform enterprise software from systems of record into systems that sense, reason, and act—enabling organizations to run
+intelligent, automated business processes end to end, but leaving humans with control over critical decisions. The Autonomous
+Enterprise comprises Joule as the new engagement layer, SAP Autonomous Suite as the operational execution layer—extended
+by Industry AI applications—and SAP Business AI Platform as the unifying foundation.
+Originally designed as a productivity copilot, Joule is evolving into an intent-driven engagement layer that brings together data,
+workflows, and AI agents across SAP and third-party systems. Joule Work, the user experience component of Joule, allows users to
+engage with systems based on their intent and goals in natural language rather than by navigating. One of the key capabilities of
+Joule Work is to connect users with Joule Assistants. Organized by function, Joule Assistants coordinate the appropriate Joule
+Agents across the business to execute the relevant tasks within intent-driven, adaptive workspaces.
+SAP Autonomous Suite brings AI agents and AI assistants that are capable of running processes end to end across the business to
+SAP’s existing business applications. Executing proactively within defined boundaries, these AI agents and AI assistants involve
+humans only at critical moments, for oversight, decision-making, and supervision. The suite comprises five domains—Autonomous
+Finance, Autonomous Spend, Autonomous Supply Chain Management, Autonomous Human Capital Management, and Autonomous
+Customer Experience. These automate processes end to end by orchestrating a subset of specialized AI agents and AI assistants to
+execute specific tasks. All the AI agents and AI assistants in these domains are based on specific roles and business context. We
+expect to deploy a total of more than 400 AI agents by the end of 2026.
+Industry AI, as an extension of SAP Autonomous Suite, is SAP’s deep portfolio of seven autonomous solutions that execute industry
+processes from start to finish, and embed sector-specific process logic, data models, and regulatory requirements. SAP is using its
+forward deployed engineering (FDE) approach to validate these solutions, partnering with selected strategic customers for fast
+
+SAP Half-Year Report 2026
+7/50
+feedback and iteration before wider commercialization. We expect the number of FDE and AI co-innovation engagements to reach
+about 200 by the end of 2026.
+SAP Business AI Platform combines SAP Business Technology Platform (SAP BTP), AI Foundation, SAP Business Data Cloud, SAP
+HANA Cloud, and the Business Transformation Management portfolio into a unified platform for AI. It enables customers, partners,
+and SAP to build, extend, connect, and govern AI agents, applications, and workflows—across and beyond SAP-centric
+environments. SAP Business AI Platform brings together three core components that customers need to create value from AI and
+scale within the enterprise.
+Build: This component includes solutions for building, extending, and connecting AI agents and applications. Joule Studio provides
+capabilities for grounding AI agents, workflows, and applications in extensive enterprise context and existing governance
+frameworks. It aims to be fully aware of context, including landscape information, business process improvement recommendations,
+data products access, and application code. With the new Joule Studio, customers can choose from a range of leading frontier AI
+models including Anthropic, Cohere, Mistral AI, and OpenAI.
+Contextualize and reason: The combination of SAP Knowledge Graph and our own models is the key differentiator that will take
+us beyond the limited capabilities of generic LLMs toward enterprise AI that is optimized for the business context. SAP’s recent
+acquisitions further enhance the capabilities of SAP Business Data Cloud to bring SAP and non-SAP data together. With Reltio,
+customers will benefit from one record for given entities, allowing AI agents to reason across harmonized, consistent master data.
+Dremio plans to enhance capabilities for non-SAP data. Combined with SAP Business Data Cloud, this will become an Apache
+Iceberg-native enterprise lakehouse where AI agents can reason from any cloud and without data movement—leading to better
+performance and lower TCO. While SAP’s foundation models deliver performance on SAP business data, Prior Labs will enable AI
+agents to make accurate predictions on any tabular data. With Prior Labs, SAP aims to establish a world-leading frontier AI lab for the
+structured data that underpins global business.
+Govern: SAP’s Business Transformation Management portfolio enables customers to manage the full agentic AI lifecycle securely
+and reliably out of the box. Customers can discover and maintain an inventory of SAP and non-SAP AI agents and Model Context
+Protocol (MCP) servers, ensure identity and access control, monitor their performance, and run AI agents productively.
+SAP announced various partnerships in the first half of 2026:
+– On April 22, SAP and Google Cloud announced a new partnership that will help marketers put AI agents to work at scale.
+– On May 12 at SAP Sapphire, SAP announced strategic partnerships with Anthropic, Amazon Web Services, n8n, NVIDIA, Parloa,
+Palantir, and Accenture in connection with the announcement of the Autonomous Enterprise.
+For more information about SAP’s product strategy and product portfolio, see the Our Product Strategy section in our Management
+Report 2025.
+Acquisitions and Divestitures
+On March 27, 2026, SAP announced its intent to acquire 100% of Reltio Inc. (“Reltio”), a leading master data management (MDM)
+software provider, to help customers make their SAP and non-SAP enterprise data AI-ready. By integrating Reltio, SAP intends to
+accelerate its customers’ ability to govern and expose master data as trusted and context-rich data products across multiple
+sources that serve both traditional analytics workloads and AI agents. Reltio will become a core capability within SAP Business Data
+Cloud (BDC), with a flexible commercial model where customers can purchase Reltio as a separate solution or with other SAP
+products. The transaction closed on May 7, 2026, following satisfaction of regulatory and other approvals. For more information
+about Reltio, see the Notes to the Consolidated Financial Statements, Note (D.1).
+On May 4, 2026, SAP announced its intent to acquire 100% of Dremio Corporation (“Dremio”), an open, high-performance data
+lakehouse platform built to accelerate agentic AI and expand SAP Business Data Cloud’s ability to combine SAP and non-SAP data
+to more effectively run analytical and AI workloads in real time. The transaction closed on July 6, 2026, following satisfaction of
+regulatory and other approvals. For more information about Dremio, see the Notes to the Consolidated Financial
+Statements, Note (G.3).
+On May 4, 2026, SAP announced its intent to acquire 100% of Prior Labs GmbH (“Prior Labs”), a pioneer of tabular foundation
+models (TFMs), to accelerate SAP’s success in TFMs that started with SAP-RPT-1, and bringing one of the world’s leading TFM
+research teams into the SAP family. The transaction closed on July 16, 2026, following satisfaction of regulatory and other approvals.
+For more information about Prior Labs, see the Notes to the Consolidated Financial Statements, Note (G.3).
+
+SAP Half-Year Report 2026
+8/50
+Performance Management System
+We use various performance measures to manage our performance with regard to our primary financial objectives—growth and
+profitability—and our primary non-financial objectives, which are customer satisfaction, employee engagement, climate
+performance, and working environment.
+For a more detailed description of SAP’s non-IFRS measures, their purpose and limitations, see SAP Performance Measures on our
+website.
+Changes in Financial Measures
+IFRS 18 “Presentation and Disclosure in Financial Statements” will become effective and replace IAS 1 “Presentation of Financial
+Statements” on January 1, 2027. The new standard will affect the presentation of our Consolidated Income Statements, introduce
+additional disclosure requirements, and further specify aggregation and disaggregation of information in our Notes to the
+Consolidated Financial Statements. For more information, see the Notes to the Consolidated Half-Year Financial
+Statements 2026, Note (IN.1).
+As a consequence of implementing IFRS 18, SAP has decided to introduce two new non-IFRS adjustments.
+Foreign Currency-Related Effects
+Starting in 2027, SAP will exclude foreign currency-related effects from its non-IFRS results. This adjustment will include realized and
+unrealized foreign currency effects arising mainly from balance sheet revaluations, as well as hedging of foreign exchange balance
+sheet exposure, hedging of foreign exchange cash flows, and other similar effects.
+We will exclude foreign currency-related effects to ensure overall consistent treatment in our non-IFRS figures at constant currency.
+We believe this adjustment will improve period-over-period comparability by reducing the volatility that results from foreign
+exchange rate fluctuation, which is beyond our control, and making it easier to compare SAP’s operating performance with that of
+our US peers.
+Interest Related to Taxes
+Starting in 2027, SAP will exclude interest related to taxes from its non-IFRS operating profit results. This adjustment will include
+interest income and interest expense related to income tax and other taxes.
+We will exclude interest related to taxes from our operating expense (non-IFRS) as these effects are not indicative of SAP’s core
+operating activities.
+These adjustments to SAP’s non-IFRS definitions will also impact our profit before tax (non-IFRS), profit after tax (non-IFRS), and our
+non-IFRS key ratios such as operating margin, effective tax rate, and basic earnings per share.
+
+SAP Half-Year Report 2026
+9/50
+Changes in Non-Financial Measures
+Gross Greenhouse Gas Emissions
+Starting in 2026, we revised the methodology used to calculate Scope 3 greenhouse gas (GHG) emissions. Our methodology for
+calculating category 11 emissions from the use of sold products, which previously was based on the total number of active
+maintenance contracts, was replaced with a forward-looking approach that considers the estimated emissions during the lifetime of
+all new systems sold within a specific period. This change aligns our approach more closely with the GHG Protocol.
+Cloud Customer Satisfaction
+Starting in 2026, we revised our customer experience KPI framework by switching from Customer NPS (Net Promoter Score) to
+Cloud Customer Satisfaction (Cloud CSAT). The CSAT metric is calculated as a Top 2 Box score, which is the percentage of
+customers who are “very satisfied” or “satisfied” with SAP, as indicated on a 5-point scale of response options from “very satisfied”
+to “very dissatisfied.” The range of achievable scores is therefore between 0 and 100, with 100 being the best achievable score for
+customer satisfaction as measured by the Cloud CSAT methodology.
+The Cloud CSAT KPI is calculated based on feedback from our cloud customers. A cloud customer is a customer providing
+feedback either (1) explicitly about one of the cloud solutions that they have implemented and are operationally running, or (2)
+giving feedback about “SAP in general” while having implemented and operationally running either exclusively one or more cloud
+solution(s) or has a mixed portfolio that does not include certain pre-defined solutions confirmed to be running as on-premise. If a
+customer runs any of the pre-defined on-premise solutions (ERP On-Prem, HANA On-Prem, S/4HANA On-prem, HCM On-Prem,
+SAP Business Objects, SAP Business Warehouse), with none running in private cloud, they are treated as an on-premise customer
+and their rating score is not considered in the Cloud CSAT calculation. The revenue generated with cloud solutions in any mixed
+portfolio counts toward cloud revenue reported in our financial information.
+Organization and Changes in Management
+On March 2, 2026, SAP announced that Muhammad Alam will not be renewing his Executive Board contract for personal reasons. He
+will remain with the Company until the end of his term in 2027.
+Also on March 2, 2026, SAP announced the creation of the Customer Value Group, which brought together the Customer Success
+and Customer Services & Delivery organizations effective April 1, 2026. This new Board area is led by Executive Board member
+Thomas Saueressig, whose role has expanded to that of Chief Customer Officer.
+On April 10, 2026, SAP announced that the Supervisory Board had extended Gina Vargiu-Breuer’s Executive Board contract by an
+additional three years, until January 31, 2030.
+Effective July 1, 2026, SAP transferred operational responsibility for parts of the SAP Product & Engineering organization from
+Muhammad Alam to Christian Klein on an interim basis. As part of this change, two new teams were created: SAP Business AI
+Platform & CTO, and SAP Autonomous Suite, whose respective leaders report directly to Christian Klein.
+
+SAP Half-Year Report 2026
+10/50
+Financial Performance: Review and
+Analysis
+Economy and the Market
+Global economic activity remained resilient in the first half of 2026, according to the European Central Bank (ECB) in its most recent
+Economic Bulletin¹. At the start of the year, strong manufacturing output and AI-related investment supported global economic
+activity. However, the ongoing war in the Middle East weighed on it: Energy prices increased, financial conditions tightened, and
+commodity prices remained highly volatile.
+The global IT market in the first six months of 2026 was shaped by the rapid emergence of agentic AI, which accelerates workforce
+transformation. AI agents continued moving from experimentation toward operational deployment, with International Data
+Corporation (IDC) noting that “The sudden and explosive emergence of AI agents across infrastructure, platform, and applications
+have given a large boost to simplifying and streamlining business workflows that are at the core of organizations’ businesses.”2 While
+the demand for sovereign cloud and sovereign AI solutions continued to grow, the war in the Middle East introduced risk to
+technology investment, semiconductor supply, and data center construction. Yet despite these headwinds, AI-ready platforms,
+governance frameworks, data resilience, and workforce readiness remained key priorities for organizations seeking to manage
+uncertainty and capture long-term value.
+Against this backdrop, SAP further strengthened its role as a strategic technology partner during the first half of 2026, as customers
+continued to focus on operational resilience, data sovereignty, intelligent automation, and secure cloud transformation. At
+SAP Sapphire 2026, we introduced our vision for the Autonomous Enterprise through SAP Autonomous Suite, which is built on
+SAP Business AI Platform and combines business process expertise, contextual enterprise data, and governance controls to help
+organizations build, connect, operate, and oversee AI agents within trusted business environments. SAP also continued to support
+customers across different stages of their cloud journeys, while sovereign cloud and data sovereignty remained central to SAP’s go-
+to-market approach, particularly in regions where regulatory requirements and geopolitical dynamics are driving demand for secure,
+compliant enterprise cloud solutions.
+1 European Central Bank, Economic Bulletin, Issue 4/2026, publication date: June 25, 2026 (https://www.ecb.europa.eu/pub/pdf/ecbu/eb202604.en.pdf)
+2 IDC, The Economic Impact of AI: 2026 Edition, April 2026, #US54452226
+
+SAP Half-Year Report 2026
+11/50
+Performance in the First Half of 2026
+SAP’s financial outlook, with the exception of free cash flow and the effective tax rate, is based on constant currencies. In this
+section, we therefore discuss results for the first half of 2026 at constant currencies, unless otherwise stated. The results for the first
+half of 2025 are presented at actual currencies with the exception of growth rates, which are at constant currencies. We present,
+discuss, and explain the reconciliation of IFRS measures to non-IFRS measures in the Supplementary Financial Information section.
+For information about our financial outlook, see the Targets and Prospects section in this consolidated Half-Year Management
+Report.
+Key Figures – SAP Group in the First Half of 2026
+Strategic Objective
+KPI
+Results
+for Q1–Q2 2026
+Results
+for Q1–Q2 2025
+Growth
+Cloud revenue
+€12.71 billion
+€10.12 billion
+Cloud and software revenue
+€18.01 billion
+€15.90 billion
+Total revenue growth
+11%
+12%
+Current cloud backlog growth
+26%
+28%
+Profitability
+Operating profit (non-IFRS)
+€5.85 billion
+€5.02 billion
+Free cash flow1
+€6.25 billion
+€5.94 billion
+1 at actual currencies
+Our current cloud backlog (contractually committed cloud revenue that we expect to recognize over the upcoming 12 months)
+reached €22.93 billion at actual currencies (€22.71 billion at constant currencies; 2025: €18.05 billion at actual currencies), which was
+an increase of 26% on a constant currency basis (2025: 28% at constant currencies). The current cloud backlog growth benefited
+from the first-time inclusion of Reltio, which contributed less than 1 percentage point to the constant currencies growth rate.
+The resulting cloud revenue grew from €10.12 billion (at actual currencies) in the first half of 2025 to €12.71 billion (at constant
+currencies) in the first half of 2026. That represents an increase of 26% at constant currencies. Our indirect channel continues to be a
+strong growth pillar. In the second quarter of 2026 again, cloud revenue growth for our indirect channel outpaced our direct channel.
+Cloud and software revenue grew 13% at constant currencies in the first half of 2026 to €18.01 billion (first half of
+2025: €15.90 billion at actual currencies). Total revenue on a constant currency basis grew 11% in the first half of 2026 to
+€20.11 billion (first half of 2025: €18.04 billion at actual currencies). For more information about revenue, see the Revenue section.
+Non-IFRS operating profit in the first half of 2026 was €5.85 billion on a constant currency basis (first half of 2025: €5.02 billion at
+actual currencies), reflecting an increase of 16% at constant currencies. The increase reflects lower share-based payment expenses
+as well as an increased contribution from cloud revenue which is partially offset by accelerated investments into research and
+development. In the first half of 2026, the contribution of Reltio to operating profit (IFRS) was approximately €-13 million
+(operating profit (non-IFRS) was approximately €-8 million). For more information about IFRS operating profit, see the Operating
+Profit and Operating Margin section.
+Free cash flow increased 5% to €6.25 billion in the first half of 2026 (first half of 2025: €5.94 billion). For more information about free
+cash flow, see the Finances and Assets (IFRS) section.
+The effective tax rate (IFRS) was 27.8% (first half of 2025: 28.7%) and the effective tax rate (non-IFRS) was 30.0% (first half of
+2025: 30.1%). The IFRS effective tax rate is lower than the non-IFRS effective tax rate due to tax benefits from tax-exempt income.
+Operating Results (IFRS)
+Revenue
+Total revenue rose from €18,040 million in the first half of 2025 to €19,432 million in the first half of 2026, representing an increase of
+€1,392 million, or 8%. This increase was driven by the revenue generated by our cloud business.
+Cloud and software revenue grew from €15,904 million in the first half of 2025 to €17,399 million in the first half of 2026, representing
+an increase of 9%. Cloud and software revenue represented 90% of total revenue in the first half of 2026 (first half of 2025: 88%).
+Cloud revenue increased €2,120 million, or 21%, from €10,124 million in the first half of 2025 to €12,244 million in the first half of
+2026, primarily fueled by Cloud ERP Suite revenue, which grew €2,066 million, or 24%, to €10,739 million in the first half of 2026 (first
+half of 2025: €8,673 million). Cloud ERP Suite contributed 88% to overall cloud revenue (first half of 2025: 86%). Cloud ERP Suite
+revenue growth benefited from the accelerated transition of our customers to the cloud. Extension Suite cloud revenue grew from
+€1,262 million in the first half of 2025 to €1,373 million in the first half of 2026, representing an increase of 9%. In the first half of 2026,
+
+SAP Half-Year Report 2026
+12/50
+IaaS cloud revenue declined €57 million, or 30%, to €131 million (first half of 2025: €188 million) in line with our strategic focus on
+SaaS and PaaS.
+Software licenses and software support revenue decreased €625 million, or 11%, from €5,780 million in the first half of 2025 to
+€5,155 million in the first half of 2026. Our software licenses revenue declined €130 million from €377 million in the first half of 2025
+to €247 million in the first half of 2026. The continuous decline is in line with our cloud transformation. Software support revenue
+decreased €495 million, or 9% from €5,403 million in the first half of 2025 to €4,908 million in the first half of 2026. This decline is
+attributable to the accelerated transition of our customers to cloud.
+Services revenue declined, by €103 million, or 5%, from €2,136 million in the first half of 2025 to €2,033 million in the first half of
+2026. The strategic focus of our services business is to drive adoption of our cloud solutions.
+Operating Profit and Operating Margin
+Operating profit increased in the first half of 2026 from €4,789 million to €5,383 million and operating margin improved by 1.2pp to
+27.7%. Operating profit was positively impacted by an increased contribution from cloud revenue, while total operating expenses
+increased moderately by 6% (10% at constant currencies).
+Share-based payment expenses fell to €753 million (first half of 2025: €949 million), due mainly to a reduction in the SAP share price
+of approximately €75 in the first half of 2026 (compared to an increase of more than €20 in the first half of 2025). For more
+information about share-based payments, see the Consolidated Half-Year Financial Statements, Note (B.3).
+At the end of February 2026, SAP and Teradata settled their legal dispute and agreed to withdraw all pending lawsuits. As a result of
+the settlement, an additional expense of €29 million was recorded in the first quarter of 2026 (first half of 2025: €0 million). SAP paid
+the full settlement amount of US$480 million (€408 million) in March 2026. For more information about the Teradata litigation, see
+the Consolidated Half-Year Financial Statements, Note (G.1).
+Profit After Tax and Earnings per Share
+In the first half of 2026, SAP’s profit after tax increased 17% to €4,155 million (first half of 2025: €3,545 million) and basic earnings per
+share increased 19% to €3.55 (first half of 2025: €2.98). Besides the effects in operating profit, as described above, our other non-
+operating income/expense, net remained at a similar level as in the previous year, while our finance income, net contributed
+positively with €385 million (first half of 2025: €175 million), mainly resulting from an increase of gains from equity securities,
+amounting to €504 million (first half 2025: €299 million).
+Segment Information
+At the end of the first half of 2026, SAP had two operating segments: the Applications, Technology & Support (ATS) segment and the
+Core Services segment:
+– The ATS segment represents SAP’s cohesive product portfolio, which is holistically steered and commercialized. It primarily
+generates revenue from cloud subscriptions and from the sale of software licenses and support offerings, and it incurs costs for
+support, operating our solutions, and the provision of infrastructure. Revenue and the cost of services arise from SAP’s training
+business, which is highly integrated with SAP’s product portfolio. Reltio, a newly acquired company, is part of the ATS segment
+because the intention is for its platform to become a core capability within SAP BDC.
+– The Core Services segment supports SAP’s product portfolio by enabling customers to transform their business and accelerate
+the adoption of innovations. Revenues are mainly generated from professional consulting services and premium support
+services. Cost is incurred primarily for the delivery of those services. The Core Services segment does not reflect the full services
+business.
+For more information about our segment reporting, see the Notes to the Consolidated Half-Year Financial Statements, Note (C.1)
+and Note (C.2).
+
+SAP Half-Year Report 2026
+13/50
+Applications, Technology & Support
+€ millions
+(non-IFRS)
+Q1–Q2 2026
+Q1–Q2 2025
+∆ in %
+∆ in %
+Actual
+Currency
+Constant
+Currency
+Actual
+Currency
+Actual
+Currency
+Constant
+Currency
+Cloud
+12,244
+12,708
+10,124
+21
+26
+Software licenses
+247
+254
+377
+–34
+–33
+Software support
+4,908
+5,053
+5,403
+–9
+–6
+Software licenses and support
+5,155
+5,307
+5,780
+–11
+–8
+Cloud and software
+17,399
+18,014
+15,904
+9
+13
+Services
+123
+126
+147
+–16
+–15
+Total segment revenue
+17,522
+18,140
+16,051
+9
+13
+Cost of cloud
+–2,900
+–3,033
+–2,433
+19
+25
+Cost of software licenses and support
+–527
+–542
+–561
+–6
+–3
+Cost of cloud and software
+–3,426
+–3,576
+–2,994
+14
+19
+Cost of services
+–190
+–195
+–198
+–4
+–2
+Total cost of revenue
+–3,616
+–3,771
+–3,192
+13
+18
+Segment gross profit
+13,906
+14,369
+12,859
+8
+12
+Other segment expenses
+–6,768
+–6,963
+–6,428
+5
+8
+Segment profit (loss)
+7,137
+7,407
+6,431
+11
+15
+In the first half of 2026, the Applications, Technology & Support segment significantly increased its cloud revenue by 21% (26% at
+constant currencies) to €12,244 million (first half of 2025: €10,124 million), driven by strong Cloud ERP Suite performance. At the
+same time, the cost of cloud increased by almost the same extent, by 19% (25% at constant currencies) to €2,900 million
+(first half of 2025: €2,433 million).
+Software support revenue decreased 9% (6% at constant currencies) to €4,908 million (first half of 2025: €5,403 million) and
+software licenses revenue decreased 34% (33% at constant currencies) to €247 million (first half of 2025: €377 million), as more of
+our existing customers chose our cloud offerings. Consequently, the Applications, Technology & Support segment software licenses
+and support revenue declined 11% (8% at constant currencies) to €5,155 million (first half of 2025: €5,780 million)
+As such, the total segment revenue increased 9% (13% at constant currencies) compared to the prior year, to €17,522 million (first
+half of 2025: €16,051 million). The total segment cost of revenue grew 13% (18% at constant currencies), mainly driven by an
+increase in the cost of cloud. Other segment expenses increased slightly by 5% (8% at constant currencies) and ended the first half
+of 2026 at €6,768 million (first half of 2025: €6,428 million).
+As a result, segment profit increased 11% (15% at constant currencies), from €6,431 million in the first half of 2025 to €7,137 million.
+
+SAP Half-Year Report 2026
+14/50
+Core Services
+€ millions
+(non-IFRS)
+Q1–Q2 2026
+Q1–Q2 2025
+∆ in %
+∆ in %
+Actual
+Currency
+Constant
+Currency
+Actual
+Currency
+Actual
+Currency
+Constant
+Currency
+Services
+1,910
+1,974
+1,989
+–4
+–1
+Total segment revenue
+1,910
+1,974
+1,989
+–4
+–1
+Cost of cloud
+–116
+–119
+–53
+>100
+>100
+Cost of software licenses and support
+–2
+–2
+–8
+–74
+–74
+Cost of cloud and software
+–118
+–121
+–62
+92
+97
+Cost of services
+–1,309
+–1,344
+–1,393
+–6
+–4
+Total cost of revenue
+–1,427
+–1,465
+–1,455
+–2
+1
+Segment gross profit
+483
+509
+534
+–9
+–5
+Other segment expenses
+–296
+–303
+–285
+4
+6
+Segment profit (loss)
+187
+206
+249
+–25
+–17
+The Core Services segment, which supports SAP’s product portfolio by enabling customers to transform their business and
+accelerate the adoption of innovations, closed the first half of 2026 with a decline in segment services revenue of 4%
+(1% at constant currencies).
+The segment cost of services decreased moderately by 6% (4% at constant currencies) during the first half of 2026 and other
+segment expenses grew 4% (6% at constant currencies). Overall, for the Core Services segment, profit decreased 25%
+(17% at constant currencies) to €187 million in the first half of 2026 (first half of 2025: €249 million).
+Finances and Assets (IFRS)
+Cash Flow
+€ millions
+Q1–Q2 2026
+Q1–Q2 2025
+∆
+Net cash flows from operating activities
+6,666
+6,357
+5%
+Capital expenditure, net
+–298
+–280
+7%
+Payments of lease liabilities
+–117
+–138
+–15%
+Free cash flow
+6,250
+5,939
+5%
+Free cash flow margin
+32
+33
+–1pp
+Free cash flow (as a percentage of profit after tax)
+150
+168
+–17pp
+The higher operating cash flow is mainly attributable to increased profitability, a positive development in working capital, and lower
+share-based payments (which decreased €88 million year over year). These effects were partially offset by higher income tax
+payments (which increased €465 million year over year).
+The free cash flow margin, defined as free cash flow as a percentage of total revenue, decreased 1pp year over year.
+
+SAP Half-Year Report 2026
+15/50
+Development of Net Liquidity/Net Debt
+€ millions
+2026
+2025
+Net liquidity (+)/net debt (–) 12/31/2025 (PY: 12/31/2024)
+3,381
+1,695
+Net cash flows from operating activities
+Free cash flow
+6,250
+6,666
+6,357
+Capital expenditure
+–354
+–358
+Proceeds from sales
+55
+78
+Lease payments
+–117
+–138
+Business combinations
+–991
+–5
+Dividends
+–2,883
+–2,743
+Treasury shares
+–2,600
+–1,633
+Interest payments, net
+–141
+–192
+Other
+–160
+–763
+Net liquidity (+)/net debt (–) 6/30/2026 (PY: 6/30/2025)
+2,856
+2,297
+Net liquidity/net debt is group liquidity less financial debt. In the first half of 2026, we repaid €1.1 billion in Eurobonds and issued
+€3.5 billion in Eurobonds. SAP also partially utilized a €2.0 billion bridge facility by drawing €1.0 billion as an additional liquidity
+buffer related to the announced acquisitions and until the €3.5 billion bond issuance was successfully completed. The €1.0 billion
+utilization was mandatorily repaid after a one month draw-down period in early June 2026.
+Liquidity and Financial Position
+€ millions
+6/30/2026
+12/31/2025
+∆
+Financial debt
+–8,550
+–6,150
+–2,400
+Cash and cash equivalents
+10,511
+8,220
++2,291
+Current time deposits and debt securities
+896
+1,311
+–416
+Group liquidity
+11,407
+9,531
++1,876
+Net liquidity (+)/net debt (–)
+2,856
+3,381
+–524
+Goodwill
+30,408
+29,014
++1,394
+Total assets
+75,609
+70,362
++5,247
+Total equity
+45,248
+45,073
++174
+Equity ratio (total equity as a percentage of total assets)
+60
+64
+–4pp
+Dividend
+On May 5, SAP held its Annual General Meeting (AGM) of Shareholders as a virtual event. The AGM approved the dividend proposal
+of €2.50 per share for fiscal year 2025 (fiscal year 2024: €2.35 per share). The total amount distributed in dividends was
+€2,883 million for fiscal year 2025 (fiscal year 2024: €2,743 million).
+
+SAP Half-Year Report 2026
+16/50
+Risks and Opportunities
+Risk Management and Risks
+We have comprehensive risk-management structures in place that are intended to enable us to recognize and analyze risks early on,
+take the appropriate action, and mitigate any risks that materialize, as presented in the Risk Management and Risks section in our
+Integrated Report 2025 and our Annual Report on Form 20-F for 2025.
+For changes in litigation, claims, and legal contingencies since our last Integrated Report, see the Notes to the Consolidated
+Half-Year Financial Statements, Note (G.1).
+Based on our aggregation approach, and taking into consideration the mitigations implemented for all our risk factors and risks, as at
+June 30, 2026, we see no material change relative to our 2025 risk assessment or 2025 risk-bearing capacity. We continue to monitor
+developments across all risk relevant topics, including but not limited to geopolitical conflicts, trade tensions, AI, cybersecurity, and
+potential changes in tax laws and regulations. The ongoing Middle East conflict has resulted in a surge in energy prices and
+disruption to supply chains. A prolonged or expanded conflict, particularly beyond 2026, could impact SAP’s pipeline and bookings,
+which assume a near-term de-escalation. We do not believe that any of the risks we identified in our Integrated Report 2025 and
+Annual Report on Form 20-F for 2025, and as outlined herein, jeopardize our ability to continue as a going concern.
+Opportunities
+We have comprehensive opportunity-management structures in place that are intended to enable us to recognize and analyze
+opportunities early and to take appropriate action. The opportunities remain largely unchanged compared to those we disclosed in
+our Integrated Report 2025.
+
+SAP Half-Year Report 2026
+17/50
+Outlook
+Expected Developments for 2026 and Beyond
+Global economic growth is expected to increase slightly through 2028, according to the European Central Bank (ECB) in its most
+recent Economic Bulletin.1 However, due to geopolitical tensions, growth is likely to be slower than previously projected. At the same
+time, robust AI-related investments, resilient trade flows, and supportive policy measures could bring some relief.
+Looking ahead, the global IT market is expected to continue shifting from AI experimentation toward scalable value-driven
+deployment, with agentic AI, autonomous workflows, and outcome-based economics becoming increasingly important. IDC states
+that “Technology suppliers are moving quickly to provide the foundation enterprises need to effectively and safely deploy agentic AI
+systems,”2 and that “Based on historical patterns of tech diffusion, AI will drive US$22.5 trillion in cumulative value by 2031; downside
+and upside scenarios reflect elevated levels of uncertainty.”3 Nevertheless, realizing value from agentic AI remains challenging, and
+geopolitical tensions, regulatory fragmentation, and digital sovereignty concerns will likely still influence enterprise technology
+investment decisions.
+For SAP, the outlook remains shaped both by uncertainty and by ongoing demand across strategic growth areas. Geopolitical
+tensions in the Middle East have added uncertainty to the global business environment and may affect customer investment
+timelines, though current guidance assumes an improvement in conditions during the second half of the year. Our focus for the
+remainder of 2026 remains on converting delayed pipeline opportunities. Meanwhile, SAP’s Autonomous Enterprise strategy,
+SAP Business AI Platform, the SAP Sovereign Cloud portfolio, our RISE with SAP and SAP GROW offerings, and internal deployment
+of AI continue to position the Company to help customers modernize securely, adopt AI in trusted business environments, and
+operate with greater resilience.
+1 European Central Bank, Economic Bulletin, Issue 4/2026, publication date: June 25, 2026 (https://www.ecb.europa.eu/pub/pdf/ecbu/eb202604.en.pdf)
+2 IDC FutureScape: Worldwide Agentic Artificial Intelligence 2026 Predictions, October 2025, #US53860925
+3 IDC, The Economic Impact of AI: 2026 Edition, April 2026, #US54452226
+
+SAP Half-Year Report 2026
+18/50
+Targets and Prospects
+Unless otherwise stated, financial forward-looking statements, except free cash flow and effective tax rate, are at constant
+currencies. The results for 2025 are presented at actual currencies with the exception of growth rates, which are at constant
+currencies. For more information about our performance measures, see SAP Performance Measures which is available on our
+website.
+The financial outlook reflects the dilutive impact of the Dremio and Prior Labs acquisitions closed in July. SAP’s financial outlook for
+the full-year 2026 is based on the assumption of a near-term de-escalation of the conflict in the Middle East. Other impacts due to
+the evolving situation in the Middle East are currently unknown and could potentially subject our business to materially adverse
+consequences should the situation continue or even further escalate beyond its current scope.
+Strategic Objective
+KPI
+Results for 2025
+Outlook for 2026
+Growth
+Cloud revenue
+€21.02 billion
+€25.8 billion to €26.2 billion
+Cloud and software revenue
+€32.54 billion
+€36.3 billion to €36.8 billion
+Total revenue growth
+11%
+To remain at similar levels
+Current cloud backlog growth
+25%
+To slightly decelerate
+Profitability
+Operating profit (non-IFRS)1
+€10.42 billion
+€11.8 billion to €12.2 billion
+Free cash flow2
+€8.24 billion
+Approximately €10 billion
+Customer satisfaction
+Cloud CSAT
+75%
+75% to 76%
+Working environment
+Business Health Culture Index
+81%
+80% to 82%
+Employee engagement
+Employee Engagement Index
+76%
+74% to 78%
+Climate performance
+Gross greenhouse gas emissions
+3.6 Mt
+To steadily decrease carbon
+emissions across the relevant value
+chain
+1 SAP is updating its operating profit (non-IFRS) outlook to reflect the dilutive impact of the Dremio and Prior Labs acquisitions closed in July, which is projected to be in excess
+of €100 million. The previous outlook was €11.9 billion to €12.3 billion.
+2 at actual currencies
+Furthermore, SAP provides the following additional forward-looking information for the financial year 2026 for selected metrics:
+– An effective tax rate (non-IFRS) of approximately 29% (2025: 30.5%)1
+– A slight increase in segment revenue (2025: €3.96 billion) and a moderate decrease in segment profit (2025: €0.52 billion) for the
+Core Services segment. This reflects SAP’s strategy for the Core Services segment to help customers adopt and consume
+innovation, maximize the benefits of the cloud, and realize the value of SAP Business Suite.
+Beyond the outlook for 2026, SAP expects:
+– Total revenue growth to accelerate in 2027, driven by growth in cloud revenue and primarily Cloud ERP Suite.
+– Total operating expenses to grow at 80% to 90% of total revenue growth in 2027, supported by slightly declining sales and
+marketing, research and development, and general and administration expense ratios. These improvements include efficiency
+gains from the internal deployment of SAP’s AI solutions.
+– Software support revenue decline rate to accelerate in the coming years as a consequence of an acceleration of customers
+transforming to the cloud.
+1 We do not provide an outlook for the effective tax rate (IFRS) due to the uncertainty and potential variability of gains and losses associated with equity securities, which are
+reconciling items between the two effective tax rates (non-IFRS and IFRS). These items cannot be provided without unreasonable effort but could have a significant impact on our
+future effective tax rate (IFRS).
+
+SAP Half-Year Report 2026
+19/50
+We aim to reduce our gross GHG emissions by at least 90% across our relevant value chains by 2030 as part of our net-zero
+commitment. Our net-zero 2030 target is dependent on elements, of which some are beyond SAP's direct control. For instance, the
+progress and success of the decarbonization efforts of our suppliers, as well as changes in global regulations and standards
+landscape. E.g., in June, the revision of the Science Based Target initiative (SBTi) standards has been released. SAP is currently
+analyzing this version and evaluating the risks and opportunities for SAP's SBTi-validated net-zero 2030 target. Additionally, due to
+the rapid development in the AI and general cloud infrastructure area and the resulting high energy needs, it is unclear if this
+demand can be fully covered with renewable energy. Due to these uncertainties, we are monitoring our progress toward achieving
+the net-zero target by 2030 and are continuously evaluating whether adjustments might be necessary.
+Assumptions for Constant Currencies and Non-IFRS Financial Measures
+SAP’s full-year 2026 financial outlook, except free cash flow and effective tax rate, is at constant currencies including an average
+exchange rate of US$1.13 per EUR. Where numbers are presented in actual currencies, these are likely to be affected by exchange
+rate fluctuations. See the table below for the expected currency impacts for full-year 2026. These expectations are based on the
+June 2026 level.
+In percentage points (pp)
+FY 2026
+Cloud revenue growth
+–1.5pp
+Cloud and software revenue growth
+–1.5pp
+Operating profit growth (non-IFRS)
+–2.0pp
+The following table shows the estimates of the items that represent the differences between our non-IFRS financial measures and
+our IFRS financial measures for operating profit.
+€ millions
+Estimated Amounts for
+Full-Year 2026
+Q1–Q2 2026
+Q1–Q2 2025
+Acquisition-related charges
+340–420
+177
+217
+Restructuring
+0–20
+19
+18
+Teradata litigation
+29
+29
+0
+The differences between free cash flow as our non-IFRS financial measure and operating cash flow as our IFRS financial measure
+include estimated cash flows in 2026 for expenditures and proceeds from the sale of intangible assets and property, plant, and
+equipment, and expenditures for leasing of approximately –€1.1 billion (2025: –€0.9 billion).
+Premises on Which Our Outlook and Prospects Are Based
+In preparing our outlook and prospects, we have taken into account all events known to us at the time we prepared this report that
+could influence SAP’s business going forward.
+
+SAP Half-Year Report 2026
+20/50
+Sustainability Information
+In the first half of 2026, we maintained our commitment to help rebuild a more resilient, restorative, and inclusive economy while
+respecting planetary boundaries—both as an enabler and exemplar. SAP aims to put sustainability at the core of every business. To
+help our customers on their sustainability journey, we offer an expanded portfolio of solutions for sustainability management.
+Climate Change
+Our net-zero commitment remains the cornerstone of our climate change mitigation. Under this commitment, we aim to reduce our
+gross GHG emissions (market-based) by at least 90% across the relevant value chain by 2030. The net-zero target has been
+validated and approved by the SBTi applying the SBTi Corporate net-zero Standard Version 1, which also verified that SAP’s target is
+compatible with limiting global warming to 1.5°C as advocated by the Paris Agreement.
+SAP’s decarbonization and transformation plan focuses on four main areas: cloud transformation, upstream supply chain, own
+operations, and carbon removals. Further information on the risks, assumptions, and uncertainties related to achieving our net-zero
+2030 target is provided in the Outlook section.
+Alongside our ongoing efforts to decarbonize our own operations and value chain, we are constantly refining our GHG emissions
+calculation methodologies to ensure greater precision and stronger steering capabilities. This particularly applies to the upstream
+and downstream emission categories, which represent the biggest contributors to our overall carbon footprint.
+For information on recent updates to our GHG emissions calculation methodologies, including changes to the calculation of
+Scope 3, Category 11 emissions, see the Performance Management System section.
+In the first half of 2026, SAP’s GHG emissions (market-based) totaled 1.42 million tons of CO2e, down 0.31 million tons of CO2e
+compared to the same period in 2025. This 17.8% improvement was largely driven by a decline in emissions related to the use of
+sold products and capital goods, despite a slight increase in emissions from purchased goods and services.
+Own Workforce
+Established in 2024, the People Agenda is our holistic people strategy in which people, organizational, and technological
+development are interconnected. The People Agenda is fully intertwined with SAP’s business strategy. It comprises our key strategic
+pillars—our growth culture, skills-led people ecosystem, and game-changing people technology—built on the strong foundation of
+our people-centric work environment.
+Skills-Led People Ecosystem
+As SAP continues to evolve in a fast-moving technology environment, we are progressing as planned in transforming the Company
+into a skills-led people ecosystem in which skills enable growth, innovation, and long-term employability.
+After updating all job and skills profiles across SAP in 2025, we have further strengthened this foundation over the past six months
+by expanding our Global Skills Taxonomy on a quarterly basis to include the most relevant skills and a broad range of AI-related and
+industry-specific attributes. Our aim here is to position our workforce for success in today’s fast-paced, transformative, and highly
+competitive work environment. We are currently in the process of reassigning employees to the updated profiles and expect full
+completion in the second half of 2026. This will ensure that competencies are consistent and business-aligned across the
+organization and that employees have greater clarity on skills expectations, on our strategy for hiring, upskilling, and reskilling, on
+personalized learning journeys, and on career development. This skills-led approach is our response to the “skills flux,” in which
+knowledge and proficiencies lose their relevance within six to 18 months.
+Another key focus for us has been the systematic integration of skills across core HR processes throughout the employee lifecycle,
+and into our data platforms. Our objective here is to enhance transparency, foster continuous development, and create clearer
+pathways for our people to grow with SAP as AI changes the way we work. Skills are playing an increasingly critical role in workforce
+planning, recruiting, learning and talent development. In July 2026, we prepared for the phased rollout of SAP's AI-enabled Growth
+Portfolio in SuccessFactors Talent Intelligence Hub. This repository will enable people in the organization to capture, curate, and
+leverage skills data in our updated job architecture and links to real-time learning and development opportunities.
+
+SAP Half-Year Report 2026
+21/50
+Talent Engine
+Investing in our people remains a top priority. Building on our foundation, we are shaping a highly connected people development
+portfolio—our Talent Engine—which offers structured developmental experiences and programs that will help us build a future-
+ready workforce and drive SAP’s long-term success.
+Grounded in real-world applications and business challenges, our updated leadership development portfolio equips leaders at
+every level to develop people and organizations and to lead with purpose and impact in the age of AI. Diverse learning offerings
+support capability-building at key leadership moments throughout the year. Additionally, to accelerate the development of distinct
+talent segments, we are piloting three new Acceleration Programs. Our Ignite Acceleration Program will leverage cross-functional,
+strategic projects to drive experiential learning, broaden exposure across SAP, and build readiness for future leadership roles. Our
+Elevate Acceleration Program (to be piloted in the second quarter of 2027 and launched in the third quarter of 2027) will
+strengthen participants’ ability to influence across business areas, solve high-value business problems, and build enterprise
+leadership capabilities through immersive development and cross-functional exposure. And our Ascend Acceleration Program will
+build enterprise leaders with a general management mindset by combining critical business capability development, executive
+exposure, and AI-enabled transformation experiences to strengthen succession readiness. Further, we will launch three new
+leadership flagship programs: The First Time Manager and Leading Manager programs (piloted in the second quarter for launch in
+the third quarter of 2026) will enable individuals who are stepping into a first- or mid-level management role to take on expanded
+responsibility with confidence. The Leading the AI Business program will support executives in building strategic and enterprise
+leadership. Unless otherwise stated, all programs will be piloted by the end of 2026 and launched in 2027.
+Further, we are evolving our proactive, intelligence-led succession management strategy, which safeguards business continuity while
+sustaining a strong, varied pipeline and accelerating readiness for SAP’s most critical roles.
+Learning
+In addition to its focus on distinct talent segments, SAP continues to prioritize capability-building across the Company as AI
+reshapes business processes, products, and ways of working.
+To support its ambition to lead in business AI, SAP is increasingly structuring learning around skills-based pathways that are aligned
+with strategic objectives. Quarterly learning priorities and curated recommendations for job profiles support the development of
+critical capabilities in line with evolving business and technology requirements. Current learning priorities include context
+engineering, quality assurance of AI output, and the practical application of agentic AI in daily tasks.
+In the first half of the year, SAP expanded its AI enablement and skills development initiatives to foster the effective, compliant, and
+responsible use of AI across functions. Key components include mandatory courses, AI readiness assessments, and business
+impact initiatives, such as scenario-based training on applying SAP Business AI to customer contexts. The Introducing Autonomous
+Enterprise program, which explains SAP’s 2026 strategy and the role of AI, integrated processes, and human-AI collaboration in
+enabling autonomous operations, was completed by approximately 90% of the initial target group in its first month. The program is
+now being expanded across the organization.
+SAP’s learning ecosystem combines curated digital content on the SAP SuccessFactors Learning solution with hands-on formats that
+are designed to support the practical application of tools such as Joule and Joule Studio in business contexts. Targeted offerings,
+including SAP Joule for Consultants and SAP Joule for Developers, support adoption in day-to-day workflows. Peer-driven formats,
+such as AI communities, manager toolkits, and team workshops, further reinforce continuous learning and application of knowledge
+in real-life scenarios.
+In the second quarter, SAP introduced focused learning time as a structural measure to embed capability-building more sustainably
+into everyday work. Lastly, to strengthen alignment with strategic priorities and support execution of its AI-first, suite-first strategy,
+learning budgets were centralized.
+
+SAP Half-Year Report 2026
+22/50
+People-Related KPIs
+In our April 2026 #Unfiltered engagement survey, the Employee Engagement Index scored 73%, representing a 2pp decrease from
+the 75% score in the October 2025 survey, and a 3pp decrease from the full-year result of 76% published in our Integrated
+Report 2025. We continue to expect the full-year score to remain within the target range of 74% to 78%.
+The Business Health Culture Index scored 79%, representing a 2pp decrease from the 81% score in the October 2025 survey and
+from the full-year result of 81% published in our Integrated Report 2025. We continue to expect the full-year Business Health
+Culture Index to be maintained within the target corridor of 80% to 82%.
+In the April 2026 survey, we introduced a revised Leadership Index that aligns with our leadership philosophy of “Develop People,”
+“Drive Transformation,” and “Deliver Results.” The index is based on eight survey items and is reported as the percentage of
+favorable responses. The revised Leadership Index reached 86% in April 2026. Due to the methodological changes, this result is not
+directly comparable to the full-year score of 89% reported in 2025.
+At the end of the first half of 2026, SAP’s Employee Turnover1 decreased to 5.6% compared to 8.2% at the end of the first half of
+2025 and 8.2% at the end of 2025, reflecting the impact of the restructuring and workforce transformation programs in 2025. On
+June 30, 2026, we had 112,019 FTEs worldwide (June 30, 2025: 108,929 FTEs; December 31, 2025: 110,650 FTEs). For a breakdown
+of the number of employees by function and geography, see the Notes to the Consolidated Half-Year Financial Statements,
+Note (B.1).
+1 This describes the overall rate of terminations (that is, employees leaving SAP, not internal transfers). It applies to headcount-relevant employees only and is calculated based on
+FTE numbers.
+
+SAP Half-Year Report 2026
+23/50
+Consolidated Half-Year Financial
+Statements – IFRS
+ Consolidated Income Statement of SAP Group (IFRS) – Half Year
+€ millions, unless otherwise stated
+Q1–Q2
+2026
+Q1–Q2
+2025
+∆ in %
+Cloud
+12,244
+10,124
+21
+Software licenses
+247
+377
+–34
+Software support
+4,908
+5,403
+–9
+Software licenses and support
+5,155
+5,780
+–11
+Cloud and software
+17,399
+15,904
+9
+Services
+2,033
+2,136
+–5
+Total revenue
+19,432
+18,040
+8
+Cost of cloud
+–3,130
+–2,570
+22
+Cost of software licenses and support
+–559
+–605
+–8
+Cost of cloud and software
+–3,688
+–3,176
+16
+Cost of services
+–1,543
+–1,638
+–6
+Total cost of revenue
+–5,232
+–4,813
+9
+Gross profit
+14,201
+13,226
+7
+Research and development
+–3,546
+–3,291
+8
+Sales and marketing
+–4,455
+–4,391
+1
+General and administration
+–762
+–719
+6
+Restructuring
+–19
+–18
+8
+Other operating income/expense, net
+–36
+–19
+86
+Total operating expenses
+–14,049
+–13,251
+6
+Operating profit (loss)
+5,383
+4,789
+12
+Other non-operating income/expense, net
+–16
+7
+N/A
+Finance income
+1,000
+722
+39
+Finance costs
+–615
+–548
+12
+Financial income, net
+385
+175
+>100
+Profit (loss) before tax
+5,753
+4,970
+16
+Income tax expense
+–1,597
+–1,425
+12
+Profit (loss) after tax
+4,155
+3,545
+17
+Attributable to owners of parent
+4,112
+3,477
+18
+Attributable to non-controlling interests
+44
+68
+–36
+Earnings per share, basic (in €)1
+3.55
+2.98
+19
+Earnings per share, diluted (in €)1
+3.54
+2.96
+20
+1 For the first half of 2026 and 2025, the weighted average number of shares was 1,158 million (diluted: 1,163 million) and 1,167 million (diluted: 1,175 million)
+respectively (treasury stock excluded).
+
+SAP Half-Year Report 2026
+24/50
+Consolidated Statements of Comprehensive Income of SAP Group (IFRS) – Half Year
+€ millions
+Q1–Q2 2026
+Q1–Q2 2025
+ Profit after tax
+4,155
+3,545
+Items that will not be reclassified to profit or loss
+Remeasurements on defined benefit pension plans, before tax
+–6
+10
+Income taxes relating to remeasurements on defined benefit pension plans
+1
+0
+Remeasurements on defined benefit pension plans, net of tax
+–5
+10
+Other comprehensive income for items that will not be reclassified to profit or loss, net of tax
+–5
+10
+Items that will be reclassified subsequently to profit or loss
+Gains (losses) on exchange differences on translation, before tax
+1,057
+–4,438
+Reclassification adjustments on exchange differences on translation, before tax
+0
+–3
+Exchange differences, before tax
+1,057
+–4,441
+Income taxes relating to exchange differences on translation
+–1
+–5
+Exchange differences, net of tax
+1,056
+–4,446
+Gains (losses) on cash flow hedges/cost of hedging, before tax
+–136
+299
+Reclassification adjustments on cash flow hedges/cost of hedging, before tax
+47
+–87
+Cash flow hedges/cost of hedging, before tax
+–88
+212
+Income taxes relating to cash flow hedges/cost of hedging
+24
+–56
+Cash flow hedges/cost of hedging, net of tax
+–65
+156
+Other comprehensive income for items that will be reclassified to profit or loss, net of tax
+991
+–4,291
+Other comprehensive income, net of tax
+986
+–4,280
+Total comprehensive income
+5,141
+–735
+Attributable to owners of parent
+5,079
+–741
+Attributable to non-controlling interests
+62
+6
+
+SAP Half-Year Report 2026
+25/50
+ Consolidated Statement of Financial Position of SAP Group (IFRS)
+as at 6/30/2026 and 12/31/2025
+€ millions
+2026
+2025
+Cash and cash equivalents
+10,511
+8,220
+Other financial assets
+1,114
+1,552
+Trade and other receivables
+7,076
+6,675
+Other non-financial assets
+3,267
+3,212
+Tax assets
+680
+598
+Total current assets
+22,649
+20,256
+Goodwill
+30,408
+29,014
+Intangible assets
+2,638
+2,282
+Property, plant, and equipment
+4,504
+4,497
+Other financial assets
+8,123
+7,269
+Trade and other receivables
+149
+218
+Other non-financial assets
+4,450
+4,419
+Tax assets
+307
+244
+Deferred tax assets
+2,381
+2,163
+Total non-current assets
+52,960
+50,106
+Total assets
+75,609
+70,362
+€ millions
+2026
+2025
+Trade and other payables
+2,747
+2,431
+Tax liabilities
+1,359
+968
+Financial liabilities
+1,966
+2,050
+Other non-financial liabilities
+3,699
+4,849
+Provisions
+119
+537
+Contract liabilities
+9,843
+6,581
+Total current liabilities
+19,734
+17,416
+Trade and other payables
+1
+2
+Tax liabilities
+670
+562
+Financial liabilities
+8,541
+6,021
+Other non-financial liabilities
+456
+524
+Provisions
+611
+550
+Deferred tax liabilities
+211
+72
+Contract liabilities
+136
+144
+Total non-current liabilities
+10,627
+7,873
+Total liabilities
+30,361
+25,288
+Issued capital
+1,229
+1,229
+Share premium
+2,969
+2,778
+Retained earnings
+48,579
+47,345
+Other components of equity
+1,155
+182
+Treasury shares
+–9,190
+–6,948
+Equity attributable to owners of parent
+44,742
+44,586
+Non-controlling interests
+505
+488
+Total equity
+45,248
+45,073
+Total equity and liabilities
+75,609
+70,362
+
+SAP Half-Year Report 2026
+26/50
+Consolidated Statements of Changes in Equity of SAP Group (IFRS)
+€ millions
+Equity Attributable to Owners of Parent
+Non-
+Controlling
+Interests
+Total Equity
+Issued Capital
+Share
+Premium
+Retained
+Earnings
+Other
+Components
+of Equity
+Treasury
+Shares
+Total
+12/31/2024
+1,229
+2,564
+42,907
+4,692
+–5,954
+45,438
+368
+45,806
+ Profit after tax
+3,477
+3,477
+68
+3,545
+Other comprehensive income
+10
+–4,228
+–4,218
+–62
+–4,280
+Comprehensive income
+3,487
+–4,228
+–741
+6
+–735
+Share-based payments, before tax
+99
+99
+99
+Income taxes relating to share-
+based payments
+114
+114
+114
+Dividends
+–2,743
+–2,743
+–2,743
+Purchase of treasury shares
+–1,615
+–1,615
+–1,615
+Reissuance of treasury shares
+under share-based payments
+445
+445
+445
+Other changes
+3
+3
+27
+30
+6/30/2025
+1,229
+2,776
+43,653
+464
+–7,123
+40,998
+401
+41,400
+ 12/31/2025
+1,229
+2,778
+47,345
+182
+–6,948
+44,586
+488
+45,073
+ Profit after tax
+4,112
+4,112
+44
+4,155
+Other comprehensive income
+–5
+973
+967
+19
+986
+Comprehensive income
+4,106
+973
+5,079
+62
+5,141
+Share-based payments, before tax
+222
+222
+222
+Income taxes relating to share-
+based payments
+–31
+–31
+–31
+Dividends
+–2,883
+–2,883
+–37
+–2,920
+Purchase of treasury shares
+–2,600
+–2,600
+–2,600
+Reissuance of treasury shares
+under share-based payments
+359
+359
+359
+Other changes
+10
+10
+–8
+3
+ 6/30/2026
+1,229
+2,969
+48,579
+1,155
+–9,190
+44,742
+505
+45,248
+
+SAP Half-Year Report 2026
+27/50
+Consolidated Statement of Cash Flows of SAP Group (IFRS)
+€ millions
+Q1–Q2 2026
+Q1–Q2 2025
+ Profit (loss) after tax
+4,155
+3,545
+Adjustments to reconcile profit (loss) after tax to net cash flows from operating activities:
+Depreciation and amortization
+621
+668
+Share-based payment expense
+753
+949
+ Income tax expense
+1,597
+1,425
+ Financial income, net
+–385
+–175
+Increase/decrease in allowances on trade receivables
+31
+18
+Other adjustments for non-cash items
+–30
+–11
+Increase/decrease in trade and other receivables
+–224
+103
+Increase/decrease in other assets
+75
+–154
+Increase/decrease in trade payables, provisions, and other liabilities
+–1,252
+–1,843
+Increase/decrease in contract liabilities
+2,990
+3,121
+Share-based payments
+–291
+–378
+Income taxes paid, net of refunds
+–1,376
+–911
+Net cash flows from operating activities
+6,666
+6,357
+Business combinations, net of cash and cash equivalents acquired
+–991
+–5
+Purchase of intangible assets and property, plant, and equipment
+–354
+–358
+Proceeds from sales of intangible assets and property, plant, and equipment
+55
+78
+Purchase of equity or debt instruments of other entities
+–1,780
+–3,386
+Proceeds from sales of equity or debt instruments of other entities
+1,988
+2,812
+Interest received
+161
+187
+Net cash flows from investing activities
+–920
+–673
+Dividends paid
+–2,883
+–2,743
+Dividends paid on non-controlling interests
+–28
+0
+Purchase of treasury shares
+–2,600
+–1,633
+Proceeds from borrowings
+4,486
+2
+Repayments of borrowings
+–2,100
+–1,850
+Payments of lease liabilities
+–117
+–138
+Interest paid
+–302
+–379
+Net cash flows from financing activities
+–3,545
+–6,742
+Effect of foreign currency rates on cash and cash equivalents
+90
+–610
+Net increase/decrease in cash and cash equivalents
+2,291
+–1,668
+ Cash and cash equivalents at the beginning of the period
+8,220
+9,609
+ Cash and cash equivalents at the end of the period
+10,511
+7,942
+
+SAP Half-Year Report 2026
+28/50
+Notes to the Consolidated Half-Year
+Financial Statements
+(IN.1) Basis for Preparation
+General Information About Consolidated Half-Year Financial Statements
+The registered seat of SAP SE is in Walldorf, Germany (Commercial Register of the Lower Court of Mannheim HRB 719915). The
+condensed Consolidated Half-Year Financial Statements of SAP SE and its subsidiaries (collectively, “we,” “us,” “our,” “SAP,” “Group,”
+and “Company”) have been prepared in accordance with the International Financial Reporting Standards (IFRS) and in particular in
+compliance with International Accounting Standard (IAS) 34. In this context, IFRS includes all standards issued by the International
+Accounting Standards Board (IASB) and related interpretations issued by the IFRS Interpretations Committee (IFRS IC). The
+variances between the applicable IFRS standards as issued by the IASB and the standards as used by the European Union are not
+relevant to these financial statements.
+Certain information and disclosures normally included in the notes to the annual financial statements prepared in accordance with
+IFRS have been condensed or omitted. We believe that the disclosures made are adequate and that the information gives a true
+and fair view.
+With the ongoing transformation from on-premise to cloud services, our revenues are no longer significantly influenced by seasonal
+effects. Consequently, interim results are now more indicative of our results for the full year, enabling more consistent financial
+planning and forecasting.
+Amounts reported in previous years have been reclassified if appropriate to conform to the presentation in this Half-Year report.
+These unaudited condensed Consolidated Half-Year Financial Statements should be read in conjunction with SAP’s audited
+Consolidated IFRS Financial Statements for the Year Ended December 31, 2025, included in our Integrated Report 2025.
+Due to rounding, numbers presented throughout these Consolidated Half-Year Financial Statements may not add up precisely to the
+totals we provide and percentages may not precisely reflect the absolute figures.
+Amounts disclosed in our Consolidated Half-Year Financial Statements that are taken directly from our  Consolidated Income
+Statements or our  Consolidated Statements of Financial Position are marked by the symbols  and  , respectively.
+Accounting Policies, Management Judgments, and Sources of Estimation Uncertainty
+How We Present Our Accounting Policies, Judgments, and Estimates
+To ease the understanding of our financial statements, we present the accounting policies, judgments, and estimates on a given
+subject together with other disclosures related to the same subject in the Note that deals with this subject, and highlight this
+disclosure with a light gray box and the symbol  . We describe, however, only material changes of our accounting policies,
+judgments, and estimates in relation to our Consolidated Financial Statements for 2025.
+ New Accounting Standards Not Yet Adopted
+As disclosed in our Consolidated Financial Statements for 2025, IFRS 18 “Presentation and Disclosure in Financial Statements” will
+become effective for annual reporting periods beginning on January 1, 2027. Based on the assessment performed to date, applying
+the IFRS 18 requirements would have reduced our operating profit for the first half of 2026 by approximately €30 million (for full-
+year 2025 by approximately €40 million). The most significant effects resulted from foreign currency effects and interest related to
+taxes. We are currently assessing our management performance measures (MPMs).
+As a consequence of implementing IFRS 18, starting in 2027, SAP has decided to adjust its non-IFRS performance measures and
+exclude foreign currency-related effects and interest related to taxes. We will exclude foreign currency-related effects to ensure
+overall consistent treatment in our non-IFRS figures at constant currency. We believe this adjustment will improve period-over-
+period comparability by reducing the volatility that results from foreign exchange rate fluctuation, which is beyond our control, and
+making it easier to compare SAP’s operating performance with that of our US peers. We will exclude interest related to taxes from
+our operating expense (non-IFRS), as these effects are not indicative of SAP’s core operating activities.
+
+SAP Half-Year Report 2026
+29/50
+Section A – Customers
+This section discusses disclosures related to contracts with our customers. These consist of revenue breakdowns and information
+about our trade receivables. For more information, see our Consolidated Financial Statements for 2025, Section A – Customers.
+(A.1) Revenue
+Geographic Information
+The amounts for revenue by region in the following tables are based on the location of customers.
+Total Revenue by Region
+€ millions
+Q1–Q2 2026
+Q1–Q2 2025
+Germany
+3,086
+2,791
+Rest of EMEA
+5,996
+5,400
+EMEA
+9,082
+8,191
+United States
+5,968
+5,781
+Rest of Americas
+1,629
+1,437
+Americas
+7,597
+7,219
+Japan
+773
+789
+Rest of APJ
+1,980
+1,841
+APJ
+2,753
+2,630
+ SAP Group
+19,432
+18,040
+Major Revenue Classes by Region
+Cloud Revenue
+Cloud and Software Revenue
+€ millions
+Q1–Q2 2026
+Q1–Q2 2025
+Q1–Q2 2026
+Q1–Q2 2025
+EMEA
+5,321
+4,195
+8,119
+7,208
+Americas
+5,147
+4,446
+6,765
+6,315
+APJ
+1,775
+1,483
+2,515
+2,382
+ SAP Group
+12,244
+10,124
+17,399
+15,904
+For more information about our revenue accounting policies, see the Notes to the Consolidated Financial Statements for 2025,
+Note (A.1).
+(A.2) Trade and Other Receivables
+€ millions
+6/30/2026
+Current
+Non-Current
+Total
+Trade receivables, net
+6,151
+0
+6,151
+Other receivables
+925
+149
+1,074
+ Total
+7,076
+149
+7,225
+€ millions
+12/31/2025
+Current
+Non-Current
+Total
+Trade receivables, net
+5,790
+0
+5,790
+Other receivables
+885
+218
+1,103
+ Total
+6,675
+218
+6,893
+
+SAP Half-Year Report 2026
+30/50
+Section B – Employees
+This section provides financial insights into our employee benefit arrangements. It should be read in conjunction with the
+compensation disclosures for key management personnel in Note (G.5) in our Consolidated Financial Statements for 2025. For more
+information, see our Consolidated Financial Statements for 2025, Section B – Employees.
+(B.1) Employee Headcount
+On June 30, 2026, the breakdown of our full-time equivalent employee numbers by function and by region was as shown in the
+table below.
+Number of Employees (in Full-Time Equivalents)
+Full-time equivalents
+6/30/2026
+6/30/2025
+EMEA
+Americas
+APJ
+Total
+EMEA
+Americas
+APJ
+Total
+Cloud and software
+4,684
+4,573
+5,496
+14,752
+4,553
+4,486
+5,109
+14,148
+Services
+8,298
+4,600
+5,842
+18,741
+8,237
+4,681
+5,814
+18,732
+Research and development
+18,741
+5,883
+13,685
+38,309
+18,063
+5,761
+13,349
+37,174
+Sales and marketing
+12,315
+10,050
+5,017
+27,382
+11,694
+9,793
+4,981
+26,467
+General and administration
+4,098
+1,952
+1,365
+7,415
+3,903
+1,910
+1,343
+7,157
+Infrastructure
+3,208
+1,138
+1,073
+5,419
+3,123
+1,152
+976
+5,252
+SAP Group (6/30)
+51,345
+28,195
+32,479
+112,019
+49,574
+27,783
+31,573
+108,929
+Thereof acquisitions1
+83
+226
+194
+503
+0
+0
+0
+0
+SAP Group (six months’ end average)
+51,072
+27,886
+32,205
+111,163
+49,038
+27,695
+31,264
+107,997
+1 Acquisitions closed between January 1 and June 30 of the respective year
+(B.2) Employee Benefits Expenses
+€ millions
+Q1–Q2 2026
+Q1–Q2 2025
+Salaries
+6,238
+6,075
+Social security expenses
+1,026
+1,044
+Share-based payment expenses
+753
+949
+Pension expenses
+255
+255
+Employee-related restructuring expenses
+19
+18
+Termination benefits
+23
+24
+Employee benefits expenses
+8,314
+8,365
+
+SAP Half-Year Report 2026
+31/50
+(B.3) Share-Based Payments
+The allocations of expenses for share-based payments to the various expense items are as follows:
+Share-Based Payments
+€ millions
+Q1–Q2 2026
+Q1–Q2 2025
+Cost of cloud
+53
+59
+Cost of software licenses and support
+13
+16
+Cost of services
+108
+133
+Research and development
+325
+326
+Sales and marketing
+225
+331
+General and administration
+29
+84
+Share-based payment expenses
+753
+949
+Thereof cash-settled share-based payments
+47
+255
+Thereof equity-settled share-based payments
+706
+695
+Elevate SAP Plan / Move SAP Plan
+Effective March 2026, SAP grants share units under the Elevate SAP plan, which succeeds the Move SAP plan (Move). Under the
+Elevate SAP plan, Restricted Stock Units (RSUs), which are subject solely to a service condition, mainly vest on a quarterly basis over
+a three-year period after a waiting period of 12 months (Move: six months); and Performance Share Units (PSUs), which are subject
+to both a service condition and the achievement of certain key performance indicators (KPIs), mainly vest annually over a three-year
+period (Move: on a quarterly basis after a waiting period of 12 months).
+In the first half of 2026, we granted 9.8 million (first half of 2025: 5.2 million) share units. This includes 9.1 million (first half of
+2025: 4.8 million) share units which we intend to settle in shares. The dilutive effect of outstanding equity-settled share units is
+reflected in the calculation of earnings per share, diluted.
+For more information about SAP’s hedge strategy related to its cash-settled share-based compensation payments, see the Notes to
+the Consolidated Financial Statements for 2025, Note (F.1).
+Own SAP Plan
+Under the Own SAP plan, employees can purchase, on a monthly basis, SAP shares without any required holding period. The
+number of shares purchased by our employees under this plan was 3.0 million in the first half of 2026 (first half of 2025: 1.8 million).
+For more information about our share-based payments and a detailed description of our share-based payment plans, see the
+Notes to the Consolidated Financial Statements for 2025, Note (B.3).
+
+SAP Half-Year Report 2026
+32/50
+Section C – Financial Results
+This section provides insight into the financial results of SAP’s reportable segments and of SAP overall, as far as not already covered
+by previous sections. This includes segment results and income taxes. For more information, see our Consolidated Financial
+Statements for 2025, Section C – Financial Results.
+(C.1) Results of Segments
+General Information
+At the end of the first half of 2026, SAP had two operating segments: the Applications, Technology & Support (ATS) segment and the
+Core Services segment:
+– The ATS segment represents SAP’s cohesive product portfolio, which is holistically steered and commercialized. It primarily
+generates revenue from cloud subscriptions and from the sale of software licenses and support offerings, and it incurs cost for
+support, operating our solutions, and the provision of infrastructure. Revenue and the cost of services arise from SAP’s training
+business, which is highly integrated with SAP’s product portfolio. Reltio, a newly acquired company, is part of the ATS segment,
+because the intention is for its platform to become a core capability within SAP BDC.
+– The Core Services segment supports SAP’s product portfolio by enabling customers to transform their business and accelerate
+the adoption of innovations. Revenues are mainly generated from professional consulting services and premium support
+services. Cost is incurred primarily for the delivery of those services. The Core Services segment does not reflect the full services
+business.
+Results of Segments
+Applications, Technology & Support
+€ millions
+(non-IFRS)
+Q1–Q2 2026
+Q1–Q2 2025
+Actual
+Currency
+Constant
+Currency
+Actual
+Currency
+Cloud
+12,244
+12,708
+10,124
+Software licenses
+247
+254
+377
+Software support
+4,908
+5,053
+5,403
+Software licenses and support
+5,155
+5,307
+5,780
+Cloud and software
+17,399
+18,014
+15,904
+Services
+123
+126
+147
+Total segment revenue
+17,522
+18,140
+16,051
+Cost of cloud
+–2,900
+–3,033
+–2,433
+Cost of software licenses and support
+–527
+–542
+–561
+Cost of cloud and software
+–3,426
+–3,576
+–2,994
+Cost of services
+–190
+–195
+–198
+Total cost of revenue
+–3,616
+–3,771
+–3,192
+Segment gross profit
+13,906
+14,369
+12,859
+Other segment expenses
+–6,768
+–6,963
+–6,428
+Segment profit (loss)
+7,137
+7,407
+6,431
+In the first half of 2026, the depreciation and amortization expense increased 2% (4% at constant currencies), from €345 million to
+€354 million.
+
+SAP Half-Year Report 2026
+33/50
+Core Services
+€ millions
+(non-IFRS)
+Q1–Q2 2026
+Q1–Q2 2025
+Actual
+Currency
+Constant
+Currency
+Actual
+Currency
+Services
+1,910
+1,974
+1,989
+Total segment revenue
+1,910
+1,974
+1,989
+Cost of cloud
+–116
+–119
+–53
+Cost of software licenses and support
+–2
+–2
+–8
+Cost of cloud and software
+–118
+–121
+–62
+Cost of services
+–1,309
+–1,344
+–1,393
+Total cost of revenue
+–1,427
+–1,465
+–1,455
+Segment gross profit
+483
+509
+534
+Other segment expenses
+–296
+–303
+–285
+Segment profit (loss)
+187
+206
+249
+In the first half of 2026, the depreciation and amortization expense decreased slightly, by 1%, from €52 million to €51 million. On a
+constant currency level, the depreciation and amortization expense remained on a similar level.
+Segment Revenue by Region
+Applications, Technology & Support
+Q1–Q2 2026
+Q1–Q2 2025
+€ millions
+Actual
+Currency
+Constant
+Currency
+Actual
+Currency
+Germany
+2,727
+2,730
+2,432
+Rest of EMEA
+5,458
+5,500
+4,853
+EMEA
+8,185
+8,231
+7,285
+United States
+5,315
+5,659
+5,040
+Rest of Americas
+1,490
+1,526
+1,319
+Americas
+6,805
+7,185
+6,359
+Japan
+699
+789
+706
+Rest of APJ
+1,833
+1,935
+1,701
+APJ
+2,532
+2,724
+2,407
+Segment revenue
+17,522
+18,140
+16,051
+Core Services
+Q1–Q2 2026
+Q1–Q2 2025
+€ millions
+Actual
+Currency
+Constant
+Currency
+Actual
+Currency
+Germany
+359
+360
+360
+Rest of EMEA
+538
+541
+547
+EMEA
+896
+901
+906
+United States
+653
+697
+742
+Rest of Americas
+139
+142
+119
+Americas
+792
+838
+860
+Japan
+75
+85
+83
+Rest of APJ
+147
+151
+139
+APJ
+222
+235
+222
+Segment revenue
+1,910
+1,974
+1,989
+
+SAP Half-Year Report 2026
+34/50
+(C.2) Reconciliation of Segment Measures to the Consolidated Income Statement
+€ millions
+Q1–Q2 2026
+Q1–Q2 2025
+Actual
+Currency
+Constant
+Currency
+Actual
+Currency
+Total revenue for ATS segment
+17,522
+18,140
+16,051
+Total revenue for Core Services segment
+1,910
+1,974
+1,989
+Total segment revenue
+19,432
+20,114
+18,040
+Adjustment for currency impact
+0
+–681
+0
+ Total revenue
+19,432
+19,432
+18,040
+Total profit for ATS segment
+7,137
+7,407
+6,431
+Total profit for Core Services segment
+187
+206
+249
+Total segment profit
+7,324
+7,613
+6,680
+Adjustment for currency impact
+0
+–242
+0
+Other expenses
+–1,715
+–1,761
+–1,656
+Adjustment for
+Acquisition-related charges
+–177
+–177
+–217
+ Restructuring
+–19
+–19
+–18
+Teradata litigation expenses
+–29
+–29
+ Operating profit
+5,383
+5,383
+4,789
+ Other non-operating income/expense, net
+–16
+–16
+7
+Financial income, net
+–119
+–119
+–125
+Adjustment for gains and losses from equity securities, net
+504
+504
+299
+ Profit before tax
+5,753
+5,753
+4,970
+(C.3) Financial Income, Net
+In the first half of 2026, finance income mainly consisted of gains from disposals and fair value adjustments of equity securities
+totaling €810 million (first half of 2025: €491 million), as well as interest income from loans and receivables, other financial assets
+(cash, cash equivalents, and current investments), and derivatives amounting to €169 million (first half of 2025: €226 million).
+In the first half of 2026, finance costs were primarily impacted by losses from disposals and fair value adjustments of equity
+securities amounting to €306 million (first half of 2025: €192 million), by interest expense on financial liabilities including lease
+liabilities, and by negative effects from derivatives amounting to €229 million (first half of 2025: €276 million).
+For more information about our financial income, net, see the Notes to the Consolidated Financial Statements for 2025, Note (C.4).
+
+SAP Half-Year Report 2026
+35/50
+Section D – Invested Capital
+This section highlights the non-current assets including investments that form the basis of our operating activities. Additions in
+invested capital include separate asset acquisitions or business combinations. For more information, see our Consolidated Financial
+Statements for 2025, Section D – Invested Capital.
+(D.1) Business Combinations
+Reltio Acquisition
+On March 27, 2026, SAP announced its intention to acquire 100% of Reltio Inc. (“Reltio”), a leading master data management (MDM)
+software provider, to help customers make their SAP and non-SAP enterprise data AI-ready. The transaction closed on May 7, 2026,
+following satisfaction of customary closing conditions and regulatory approvals.
+The acquisition is expected to help SAP strengthen SAP BDC and expedite the solution’s evolution into a fully interoperable
+enterprise data platform that supports enterprise-wide agentic AI. It will also help SAP accelerate its customers’ ability to govern and
+expose master data as trusted and context-rich data products across multiple sources that serve both traditional analytics
+workloads and AI agents.
+€ millions
+Cash paid
+979
+Share-based payment awards
+96
+Other incurred liabilities
+1
+Total consideration transferred
+1,076
+The consideration transferred amounted to €1,076 million and the majority was paid in cash. Upon acquisition, SAP exchanged
+share-based payments awards (collectively referred to as “replacement awards”) held by employees of Reltio for deferred fixed
+cash compensation. The replacement awards represent both the vested and the earned portion of unvested equity-settled share-
+based payment awards previously held by Reltio’s employees as at the acquisition date. The earned portion of the unvested
+replacement awards attributable to pre-combination service will result in a further element of the consideration transferred and the
+unearned portion will be recognized as compensation expense over the respective service periods.
+The acquisition of Reltio represents a business combination achieved in stages in accordance with IFRS 3. As at the acquisition date,
+SAP held an equity interest of 3% in the ordinary shares of Reltio, which was accounted for as a financial asset at FVTPL prior to
+obtaining control. In accordance with IFRS 3, the previously held equity interest was remeasured to its acquisition-date fair value.
+The following table summarizes the values of identifiable assets acquired and liabilities assumed in connection with the acquisition
+of Reltio, as at the acquisition date:
+€ millions
+Intangible assets
+452
+Cash and cash equivalents
+78
+Other identifiable assets
+179
+Total identifiable assets
+709
+Other identifiable liabilities
+278
+Total identifiable liabilities
+278
+Total identifiable net assets
+431
+Goodwill
+701
+Previously held equity at FV
+56
+Total consideration transferred
+1,076
+Given that the Reltio acquisition closed only recently, we are still in the process of identifying and measuring the Reltio assets and
+liabilities. Thus, the accounting for the Reltio acquisition is preliminary. This primarily relates to intangible assets and to tax assets
+
+SAP Half-Year Report 2026
+36/50
+and liabilities, but also to certain acquisition accounting–related matters such as the consideration transferred and certain
+accounting alignments.
+Accordingly, the amounts recognized in our Consolidated Financial Statements for these items are regarded as provisional as at
+June 30, 2026.
+The goodwill arising from our acquisitions consists largely of the synergies and the know-how and skills of the acquired businesses’
+workforces. Reltio goodwill was attributed to expected synergies from the acquisition, particularly in the following areas:
+– Master data management (MDM) represents a fundamental capability for SAP to deliver harmonized, governed, high-quality data
+across SAP and non-SAP sources to unlock superior value in the AI and application layers. With MDM integrated into SAP BDC,
+we empower data analysts and AI agents to operate confidently across complex enterprise processes and application systems.
+– The business combination facilitates new cross-selling opportunities to existing SAP customers across all regions, using SAP’s
+sales organization.
+The operating results and the assets and liabilities are reflected in our Consolidated Financial Statements from May 7, 2026,
+onwards.
+The allocation of the goodwill resulting from the Reltio acquisition to our operating segments depends on how our operating
+segments benefit from the synergies of the Reltio business combination. For more information, see Note (D.2).
+Impact of Business Combinations on Our Consolidated Financial Statements
+The amounts of revenue and profit or loss of the Reltio business acquired in 2026 since the acquisition date are included in our
+Consolidated Financial Statements for the first half of 2026 as follows:
+€ millions
+2026 as Reported
+Contribution of Reltio
+ Revenue
+19,432
+25
+ Profit after tax
+4,155
+–10
+Had Reltio been consolidated as at January 1, 2026, our estimated pro forma revenue for the reporting period would have been
+€19,485 million and our estimated pro forma profit after tax would have been €4,146 million.
+These pro forma numbers have been prepared for comparative purposes only. The pro forma revenue and profit numbers are not
+necessarily indicative of the results of operations that would have occurred had the acquisition been in effect at the beginning of the
+respective periods, or of future results.
+(D.2) Goodwill
+The Company evaluates on an ongoing basis whether there are triggering events that would require an impairment test for goodwill
+through both qualitative and quantitative analyses. The €1,394 million increase in goodwill since December 31, 2025, was mainly due
+to the goodwill arising from the acquisition of Reltio (€701 million) and due to revaluation of amounts denominated in foreign
+currencies (€693 million). Our assessment of internal and external factors in the first half of 2026 led us to conclude that no triggering
+events occurred since our annual goodwill impairment test in 2025. No impairment tests were performed in the first half of 2026.
+Based on the expected synergies, the goodwill added through the acquisition of Reltio was provisionally allocated to the
+Applications, Technology & Support segment on June 30, 2026, as the initial accounting for the Reltio business combination is still
+preliminary (for more information, see Note (D.1)). The goodwill impairment test for the Applications, Technology & Support segment
+on October 1, 2025, resulted in a headroom that is significantly higher than the portion of the goodwill that was allocated to the
+segment. Thus, there is no impairment risk resulting from the allocation of the Reltio goodwill.
+
+SAP Half-Year Report 2026
+37/50
+(D.3) Property, Plant, and Equipment
+Property, Plant, and Equipment (Summary)
+€ millions
+6/30/2026
+12/31/2025
+Property, plant, and equipment excluding leases
+2,990
+3,020
+Right-of-use assets
+1,514
+1,477
+ Total
+4,504
+4,497
+Additions
+Q1–Q2 2026
+Q1–Q4 2025
+Property, plant, and equipment excluding leases
+228
+709
+Right-of-use assets
+181
+421
+ Total
+409
+1,130
+
+SAP Half-Year Report 2026
+38/50
+Section E – Capital Structure,
+Financing, and Liquidity
+This section provides information related to how SAP manages its capital structure. Our capital management is based on a high
+equity ratio, modest financial leverage, a well-balanced maturity profile, and deep debt capacity. For more information, see our
+Consolidated Financial Statements for 2025, Section E – Capital Structure, Financing, and Liquidity.
+(E.1) Total Equity
+Number of Shares
+millions
+Issued Capital
+Treasury Shares
+12/31/2024
+1,228.5
+–61.9
+Reissuance under share-based payments
+0
+4.4
+Purchase
+0
+–6.3
+6/30/2025
+1,228.5
+–63.9
+12/31/2025
+1,228.5
+–60.9
+Reissuance under share-based payments
+0
+3.0
+Purchase
+0
+–16.3
+6/30/2026
+1,228.5
+–74.3
+In January 2026, we announced a new share repurchase program with an aggregate volume of up to €10 billion and a term until
+December 31, 2027. As of June 30, 2026, we had repurchased 16.3 million shares at an average price of €161.16 resulting in a
+purchased volume of approximately €2.6 billion under the program. Further, we reissued 3.0 million treasury shares to service share-
+based payment awards under our Elevate SAP Plan. In the first half of 2025, we bought back 6.3 million shares and reissued
+4.4 million treasury shares to service share-based payment awards under our Move SAP Plan.
+Other Components of Equity
+€ millions
+Exchange Differences
+Cash Flow Hedges
+Total
+12/31/2024
+4,787
+–15
+4,772
+Other comprehensive income
+–4,446
+156
+–4,291
+6/30/2025
+341
+141
+481
+12/31/2025
+193
+11
+204
+Other comprehensive income
+1,056
+–65
+991
+6/30/2026
+1,249
+–53
+1,195
+
+SAP Half-Year Report 2026
+39/50
+(E.2) Liquidity
+€ millions
+6/30/2026
+Nominal Volume
+Carrying Amount
+Current
+Non-Current
+Current
+Non-Current
+Total
+Bonds
+1,000
+7,050
+980
+6,726
+7,706
+Private placement transactions
+0
+0
+0
+0
+0
+Commercial Paper
+500
+0
+498
+0
+498
+Bank loans
+0
+0
+0
+0
+0
+Financial debt
+1,500
+7,050
+1,478
+6,726
+8,205
+Lease liabilities
+N/A
+N/A
+281
+1,454
+1,735
+Other financial liabilities
+N/A
+N/A
+207
+361
+568
+ Financial liabilities
+1,966
+8,541
+10,508
+Financial debt as % of  financial liabilities
+75
+79
+78
+€ millions
+12/31/2025
+Nominal Volume
+Carrying Amount
+Current
+Non-Current
+Current
+Non-Current
+Total
+Bonds
+1,100
+4,550
+1,100
+4,194
+5,294
+Private placement transactions
+0
+0
+0
+0
+0
+Commercial Paper
+500
+0
+498
+0
+498
+Bank loans
+0
+0
+0
+0
+0
+Financial debt
+1,600
+4,550
+1,598
+4,194
+5,792
+Lease liabilities
+N/A
+N/A
+254
+1,430
+1,684
+Other financial liabilities
+N/A
+N/A
+198
+397
+594
+ Financial liabilities
+2,050
+6,021
+8,070
+Financial debt as % of  financial liabilities
+78
+70
+72
+
+SAP Half-Year Report 2026
+40/50
+Section F – Management of Financial
+Risk Factors
+This section discusses financial risk factors and risk management. In our Half-Year report, this includes the transfers between levels
+of the fair value hierarchy. For more information, particularly about our risk management related to foreign currency exchange rate
+risk, interest rate risk, equity price risk, credit risk, liquidity risk, and other financial risk factors, see our Consolidated Financial
+Statements for 2025, Section F – Risk Management and Fair Value Disclosures.
+(F.1) Financial Risk Factors, Financial Risk Management, and Fair Value Disclosures
+on Financial Instruments
+A detailed overview of our other financial instruments, financial risk factors, the management of financial risks, and the determination
+of fair value as well as the classification of our other financial instruments into the fair value hierarchy of IFRS 13 are presented in
+Notes (F.1) and (F.2) in the Consolidated Financial Statements for 2025.
+We do not disclose the fair value of our financial instruments as at June 30, 2026, for the following reasons:
+– For a large number of our financial instruments, their carrying amounts are a reasonable approximation of their fair values, and
+– For those financial instruments where the carrying amount differs from fair value, there was no material change in the relation
+between carrying amount and fair value since December 31, 2025.
+
+SAP Half-Year Report 2026
+41/50
+Section G – Other Disclosures
+This section provides additional disclosures on miscellaneous topics, including information pertaining to other litigation, claims, and
+legal contingencies, and related party transactions. For more information, see our Consolidated Financial Statements for 2025,
+Section G – Other Disclosures.
+(G.1) Other Litigation, Claims, and Legal Contingencies
+We are subject to a variety of claims and lawsuits that arise from time to time in the ordinary course of our business, including
+proceedings and claims that relate to companies we have acquired. We will continue to vigorously defend the Company against all
+claims and lawsuits against us. We currently believe that resolving the claims and lawsuits pending as at June 30, 2026, will neither
+individually nor in the aggregate have a material adverse effect on our business, financial position, profit, or cash flows.
+Among the claims and lawsuits are the following classes (for more information about these classes, see the Notes to the
+Consolidated Financial Statements for 2025, Note (G.3)).
+Intellectual-Property-Related Litigation and Claims
+The provisions recorded for intellectual-property-related litigation and claims as at June 30, 2026, continue to be not material.
+Contingent liabilities exist from intellectual-property-related litigation and claims for which no provision has been recognized.
+Generally, it is not practicable to estimate the financial impact of these contingent liabilities due to the uncertainties around the
+litigation and claims (for more information, see the Notes to the Consolidated Financial Statements for 2025, Note (G.3)). Based on
+our past experience, most of the intellectual-property-related litigation and claims tend to be either dismissed in court or settled out
+of court for amounts significantly below the originally claimed amounts.
+Individual cases of intellectual-property-related litigation and claims include the following:
+At the end of February 2026, SAP and Teradata settled their legal dispute and agreed to withdraw all pending lawsuits. The Teradata
+litigation claims had been pending in the US federal court since 2018, when Teradata Corporation, Teradata US, Inc., and Teradata
+Operations, Inc. (collectively “Teradata”) filed a civil lawsuit against SAP SE, SAP America, Inc., and SAP Labs, LLC. A provision of
+€387 million for a potential settlement amount and related legal fees had been recognized as at December 31, 2025. As a result of
+the settlement, an additional expense of €29 million was recorded in the first quarter of 2026. SAP paid the full settlement amount
+of US$480 million (€408 million) in March 2026.
+In 2023 and 2024, Celonis SE (together with its subsidiary Celonis USA, Inc., “Celonis”) sent letters to SAP setting out various
+concerns and allegations. In 2025, SAP filed a negative declaratory judgment action in Germany denying Celonis’ allegations. In
+March 2025, Celonis filed a lawsuit in the US federal court in California, alleging that SAP had violated USsn antitrust and
+competition laws relating to SAP’s sale of products from its subsidiary Signavio, and in SAP’s communications to SAP customers and
+the market concerning SAP’s policies for data access. Celonis requested a preliminary injunction against SAP requiring SAP to allow
+Celonis to continue to use its data extraction tool, and requiring SAP to retract or correct the alleged misstatements. The parties
+reached an agreement on June 5, 2025, whereby Celonis withdrew its request for a preliminary injunction. While the US court initially
+dismissed the majority of Celonis’ claims in June 2025, it allowed additional claims to proceed in October 2025, after Celonis
+amended its complaint. SAP subsequently filed patent counterclaims against Celonis in November 2025. The trial is currently
+scheduled to begin on September 13, 2027. In May 2026, Celonis added trade secret claims to its US lawsuit, alleging that SAP hired
+a former Celonis employee who brought confidential information to SAP. On June 25, 2026, the court allowed Celonis to add these
+claims. Celonis also filed a complaint against SAP in Germany (Munich), alleging unfair competition. In addition, both SAP and
+Celonis have initiated several patent cases in various courts in the United States (Eastern District of Texas and Delaware) and in
+Germany (Munich and Dusseldorf). Additionally, SAP is currently engaged in a constructive dialogue with the German Federal Cartel
+Office (FCO – Bundeskartellamt) regarding a complaint raised by Celonis. We are providing the FCO with comprehensive legal and
+factual arguments to support SAP’s position. Celonis has stated that it will seek damages from SAP based on its various claims. At
+present, Celonis has not made any formal monetary demands of SAP in connection with its claims in Germany or with any patent
+claims. In its US antitrust case, Celonis is currently seeking damages of around US$70 million (around €61 million as at
+June 30, 2026).
+
+SAP Half-Year Report 2026
+42/50
+Competition Law Claims
+In September 2025, the European Commission (EC) started formal proceedings concerning SAP’s on-premise maintenance and
+support policies, which are based on long-established standards that are common across the global software sector. The
+investigation did not relate to or affect our cloud offerings. To address the EC’s concerns and to end the formal proceedings, SAP
+suggested remedies which were market-tested by the EC in 2025. After the market test, the Commission and SAP continued their
+constructive and cooperative dialogue to finalize the commitments. On July 9, 2026, the EC adopted a decision which declared
+SAP's commitments legally binding, thereby concluding its competition investigation into certain aspects of SAP's on-premise
+maintenance and support practices. SAP is required to implement the commitments within a period of three months after the EC’s
+decision.
+Tax-Related Litigation
+We are subject to ongoing audits by domestic and foreign tax authorities. In respect of income taxes as well as other taxes, we are
+involved in various proceedings with foreign tax authorities, for which we have not recorded a provision, as we believe that the tax
+authorities’ claims have no merit and that no adjustment is warranted. Based on our assessment of whether a revaluation of our
+judgment is required, as of June 30, 2026, we see no material change relative to the disclosures in our Integrated Report 2025.
+(G.2) Related Party Transactions
+Certain Executive Board and Supervisory Board members of SAP SE currently hold or have held positions of significant
+responsibility with other entities (for more information, see the Notes to the Consolidated Financial Statements for 2025, Note (G.4)).
+Executive Board Members
+Supervisory Board Members1
+Companies Controlled by
+Supervisory Board Members1
+Associated Entities
+€ millions
+Q1–Q2 2026
+Q1–Q2 2025
+Q1–Q2 2026
+Q1–Q2 2025
+Q1–Q2 2026
+Q1–Q2 2025
+Q1–Q2 2026
+Q1–Q2 2025
+Products and
+services provided
+N/A
+N/A
+N/A
+N/A
+N/A
+N/A
+29
+18
+Products and
+services received
+N/A
+N/A
+12
+12
+N/A
+N/A
+43
+37
+Sponsoring and other
+financial support
+provided
+N/A
+N/A
+N/A
+N/A
+N/A
+N/A
+N/A
+N/A
+Outstanding balances on
+6/30 (Vendors)
+N/A
+N/A
+N/A
+N/A
+N/A
+N/A
+3
+5
+Outstanding balances on
+6/30 (Customers)
+N/A
+N/A
+0
+0
+N/A
+N/A
+3
+2
+1 At the Annual General Meeting of shareholders on May 5, 2026, Gerhard Oswald and Gunnar Wiedenfels stepped down from the Supervisory Board, and René Obermann and
+Michael Gregoire joined. The resulting changes in Supervisory Board members and companies controlled by them are reflected in the data collection for this table.
+2 Including services from employee representatives on the Supervisory Board in their capacity as employees of SAP.
+For more information about related party transactions, see the Notes to the Consolidated Financial Statements for 2025, Note (G.6).
+
+SAP Half-Year Report 2026
+43/50
+(G.3) Events After the Reporting Period
+Dremio Acquisition
+On May 4, 2026, SAP announced its intention to acquire 100% of Dremio Corporation (“Dremio”), an open, high-performance data
+lakehouse platform built to accelerate agentic AI. The transaction closed on July 6, 2026, following satisfaction of customary closing
+conditions and regulatory approvals. The acquisition is intended to accelerate SAP's agentic AI strategy and enhance customers’
+ability to combine SAP and non-SAP data for analytical and AI workloads in real time.
+Dremio will be consolidated in SAP’s consolidated financial statements from the acquisition date onward. The cash consideration
+transferred amounts to approximately €0.5 billion, representing the main portion of the consideration transferred.
+The initial accounting for the business combination, including the determination of the final consideration transferred, the
+measurement of identifiable intangible assets and resulting goodwill, is incomplete given the short period of time between the
+acquisition date and issuance of this report.
+Prior Labs Acquisition
+On May 4, 2026, SAP announced its intention to acquire 100% of Prior Labs GmbH, (“Prior Labs”), a pioneer of tabular foundation
+models (TFMs). The transaction closed on July 16, 2026, following satisfaction of customary closing conditions and regulatory
+approvals.
+With Prior Labs, SAP will deliver TFMs with predictive capability that understand tables natively, learning statistical reasoning directly
+from data and will power agentic AI systems capable of understanding high-level goals, combining tables, language and images to
+reason, integrate domain knowledge, infer causality and adapt dynamically. SAP is committed to invest to scale Prior Labs into a
+globally leading frontier AI lab for structured data.
+Prior Labs will be consolidated in SAP's consolidated financial statements from the acquisition date onward. The consideration paid
+in cash amounts to approximately €0.4 billion and represents the majority of the consideration transferred.
+The initial accounting for the business combination, including the determination of the final consideration transferred, the
+measurement of identifiable intangible assets and resulting goodwill, is incomplete given the short period of time between the
+acquisition date and issuance of this report.
+(G.4) Scope of Consolidation
+Entities Consolidated in the Financial Statements
+Total
+12/31/2025
+216
+Additions
+6
+Disposals
+–6
+6/30/2026
+216
+The additions in the first half of 2026 relate to legal entities added in connection with acquisitions and foundations. The disposals
+are mainly due to liquidations and mergers of legal entities.
+For more information about our business combinations and divestitures, and their effect on our Consolidated Financial Statements,
+see the SAP Integrated Report 2025.
+
+SAP Half-Year Report 2026
+44/50
+Release of the Consolidated Half-Year Financial Statements
+The Executive Board of SAP SE approved these Consolidated Half-Year Financial Statements on July 22, 2026, for submission to the
+Audit and Compliance Committee of the Supervisory Board and for subsequent issuance.
+Responsibility Statement
+To the best of our knowledge, and in accordance with the applicable reporting principles for Half-Year financial reporting, the
+Consolidated Half-Year Financial Statements give a true and fair view of the assets, liabilities, financial position, and profit or loss of
+the SAP Group, and the Consolidated Half-Year Management Report of the SAP Group includes a fair review of the development
+and performance of the business and the position of the SAP Group, together with a description of the material opportunities and
+risks associated with the expected development of the SAP Group for the remaining months of the financial year.
+Walldorf, July 22, 2026
+SAP SE
+Walldorf, Germany
+The Executive Board
+Christian Klein
+Muhammad Alam
+Dominik Asam
+Thomas Saueressig
+Sebastian Steinhaeuser
+Gina Vargiu-Breuer
+
+SAP Half-Year Report 2026
+45/50
+Supplementary Financial Information
+Reconciliation of Non-IFRS Numbers to IFRS Numbers – Half Year
+Reconciliation of Non-IFRS Revenue – Year-to-Date
+€ millions, unless otherwise stated
+Q1–Q2 2026
+Q1–Q2 2025
+∆ in %
+IFRS
+Currency
+Impact
+Non-IFRS
+Constant
+Currency
+IFRS
+IFRS
+Non-IFRS
+Constant
+Currency
+Revenue Numbers
+Cloud
+12,244
+464
+12,708
+10,124
+21
+26
+Software licenses
+247
+7
+254
+377
+–34
+–33
+Software support
+4,908
+145
+5,053
+5,403
+–9
+–6
+Software licenses and support
+5,155
+151
+5,307
+5,780
+–11
+–8
+Cloud and software
+17,399
+615
+18,014
+15,904
+9
+13
+Services
+2,033
+66
+2,100
+2,136
+–5
+–2
+Total revenue
+19,432
+681
+20,114
+18,040
+8
+11
+Reconciliation of Non-IFRS Operating Expenses – Year-to-Date
+€ millions, unless otherwise stated
+Q1–Q2 2026
+Q1–Q2 2025
+∆ in %
+IFRS
+Adj. Non-IFRS
+Currency
+Impact
+Non-IFRS
+Constant
+Currency
+IFRS
+Adj.
+Non-IFRS
+IFRS Non-IFRS
+Non-IFRS
+Constant
+Currency
+Operating Expense Numbers
+Cost of cloud
+–3,130
+54
+–3,076
+–2,570
+48
+–2,523
+22
+22
+Cost of software licenses and
+support
+–559
+9
+–550
+–605
+0
+–605
+–8
+–9
+Cost of cloud and software
+–3,688
+63
+–3,625
+–3,176
+48
+–3,128
+16
+16
+Cost of services
+–1,543
+0
+–1,544
+–1,638
+1
+–1,637
+–6
+–6
+Total cost of revenue
+–5,232
+63
+–5,169
+–4,813
+48
+–4,765
+9
+8
+Gross profit
+14,201
+63
+14,263
+482
+14,746
+13,226
+48
+13,275
+7
+7
+11
+Research and development
+–3,546
+2
+–3,543
+–3,291
+3
+–3,288
+8
+8
+Sales and marketing
+–4,455
+114
+–4,341
+–4,391
+163
+–4,228
+1
+3
+General and administration
+–762
+28
+–734
+–719
+2
+–717
+6
+2
+Restructuring
+–19
+19
+0
+–18
+18
+0
+8
+N/A
+Other operating income/expense,
+net
+–36
+0
+–36
+–19
+0
+–19
+86
+86
+Total operating expenses
+–14,049
+226
+–13,823
+–439
+–14,262
+–13,251
+235
+–13,016
+6
+6
+10
+
+SAP Half-Year Report 2026
+46/50
+Reconciliation of Non-IFRS Profit Figures, Income Tax, and Key Ratios – Year-to-Date
+€ millions, unless otherwise stated
+Q1–Q2 2026
+Q1–Q2 2025
+∆ in %
+IFRS
+Adj. Non-IFRS
+Currency
+Impact
+Non-IFRS
+Constant
+Currency
+IFRS
+Adj.
+Non-IFRS
+IFRS Non-IFRS
+Non-IFRS
+Constant
+Currency
+Profit Numbers
+Operating profit (loss)
+5,383
+226
+5,609
+242
+5,852
+4,789
+235
+5,024
+12
+12
+16
+Other non-operating
+income/expense, net
+–16
+0
+–16
+7
+0
+7
+N/A
+N/A
+Finance income
+1,000
+–810
+191
+722
+–491
+231
+39
+–17
+Finance costs
+–615
+306
+–309
+–548
+192
+–356
+12
+–13
+Financial income, net
+385
+–504
+–119
+175
+–299
+–125
+>100
+–5
+Profit (loss) before tax
+5,753
+–277
+5,475
+4,970
+–64
+4,906
+16
+12
+Income tax expense
+–1,597
+–48
+–1,645
+–1,425
+–53
+–1,478
+12
+11
+Profit (loss) after tax
+4,155
+–325
+3,830
+3,545
+–117
+3,428
+17
+12
+Attributable to owners of parent
+4,112
+–279
+3,833
+3,477
+–45
+3,432
+18
+12
+Attributable to non-controlling
+interests
+44
+–46
+–3
+68
+–72
+–4
+–36
+–36
+Key Ratios
+Operating margin (in %)
+27.7
+28.9
+29.1
+26.5
+27.8
+1.2pp
+1.0pp
+1.2pp
+Effective tax rate (in %)1
+27.8
+30.0
+28.7
+30.1
+–0.9pp
+–0.1pp
+Earnings per share, basic (in €)
+3.55
+3.31
+2.98
+2.94
+19
+12
+1 In the first half of 2026 and 2025 the difference between our effective IFRS tax rate and non-IFRS effective tax rate mainly resulted from tax effects of equity securities.
+Reconciliation of Free Cash Flow
+€ millions, unless otherwise stated
+Q1–Q2 2026
+Q1–Q2 2025
+Net cash flows from operating activities
+6,666
+6,357
+Purchase of intangible assets and property, plant, and equipment
+–354
+–358
+Proceeds from sales of intangible assets and property, plant, and equipment
+55
+78
+Payments of lease liabilities
+–117
+–138
+Free cash flow
+6,250
+5,939
+Net cash flows from investing activities
+–920
+–673
+Net cash flows from financing activities
+–3,545
+–6,742
+Non-IFRS Adjustments Actuals and Estimates – Half Year
+€ millions, unless otherwise stated
+Estimated Amounts for
+Full Year 2026
+Q1–Q2 2026
+Q1–Q2 2025
+Profit (loss) before tax (IFRS)
+5,753
+4,970
+Adjustment for acquisition-related charges
+340–420
+177
+217
+Adjustment for restructuring expenses
+0–20
+19
+18
+Adjustment for the Teradata litigation expenses
+29
+29
+0
+Adjustment for gains and losses from equity securities, net
+N/A1
+–504
+–299
+Profit (loss) before tax (non-IFRS)
+5,475
+4,906
+1 Due to the uncertainty and potential variability of gains and losses from equity securities, we cannot provide an estimate for the half year without unreasonable efforts. This item
+could, however, have a material impact on our non-IFRS measures below operating profit.
+
+SAP Half-Year Report 2026
+47/50
+Non-IFRS Adjustments by Functional Areas – Half Year
+€ millions
+Q1–Q2 2026
+Q1–Q2 2025
+IFRS Acquisition-
+Related
+Restruc-
+turing
+Teradata
+litigation
+Non-IFRS
+IFRS
+Acquisition-
+Related
+Restruc-
+turing
+Teradata
+litigation
+Non-IFRS
+Cost of cloud
+–3,130
+45
+0
+9
+–3,076
+–2,570
+48
+0
+0
+–2,523
+Cost of software licenses and
+support
+–559
+0
+0
+9
+–550
+–605
+0
+0
+0
+–605
+Cost of services
+–1,543
+0
+0
+0
+–1,544
+–1,638
+1
+0
+0
+–1,637
+Research and development
+–3,546
+2
+0
+0
+–3,543
+–3,291
+3
+0
+0
+–3,288
+Sales and marketing
+–4,455
+114
+0
+0
+–4,341
+–4,391
+163
+0
+0
+–4,228
+General and administration
+–762
+17
+0
+12
+–734
+–719
+2
+0
+0
+–717
+Restructuring
+–19
+0
+19
+0
+0
+–18
+0
+18
+0
+0
+Other operating income/expense,
+net
+–36
+0
+0
+0
+–36
+–19
+0
+0
+0
+–19
+Total operating expenses
+–14,049
+177
+19
+29
+–13,823
+–13,251
+217
+18
+0
+–13,016
+Revenue by Region (IFRS and Non-IFRS) – Half Year
+€ millions
+Q1–Q2 2026
+Q1–Q2 2025
+∆ in %
+Actual Currency
+Currency
+Impact
+Constant
+Currency
+Actual Currency
+Actual Currency
+Constant
+Currency
+Cloud Revenue by Region
+EMEA
+5,321
+44
+5,366
+4,195
+27
+28
+Americas
+5,147
+284
+5,431
+4,446
+16
+22
+APJ
+1,775
+136
+1,911
+1,483
+20
+29
+Cloud revenue
+12,244
+464
+12,708
+10,124
+21
+26
+Cloud and Software Revenue by Region
+EMEA
+8,119
+45
+8,165
+7,208
+13
+13
+Americas
+6,765
+379
+7,143
+6,315
+7
+13
+APJ
+2,515
+191
+2,706
+2,382
+6
+14
+Cloud and software revenue
+17,399
+615
+18,014
+15,904
+9
+13
+Total Revenue by Region
+Germany
+3,086
+3
+3,089
+2,791
+11
+11
+Rest of EMEA
+5,996
+46
+6,042
+5,400
+11
+12
+Total EMEA
+9,082
+49
+9,131
+8,191
+11
+11
+United States
+5,968
+388
+6,356
+5,781
+3
+10
+Rest of Americas
+1,629
+39
+1,668
+1,437
+13
+16
+Total Americas
+7,597
+427
+8,024
+7,219
+5
+11
+Japan
+773
+101
+873
+789
+–2
+11
+Rest of APJ
+1,980
+105
+2,085
+1,841
+8
+13
+Total APJ
+2,753
+206
+2,959
+2,630
+5
+12
+Total revenue
+19,432
+681
+20,114
+18,040
+8
+11
+
+SAP Half-Year Report 2026
+48/50
+Additional Information
+Financial Calendar
+October 21, 2026
+Third-quarter 2026 earnings release, conference call for financial analysts and investors.
+Investor Services
+Additional information about this Half-Year report is available online at www.sap.com/investors, including the official quarterly
+statement, a presentation about the quarterly results, and a recording of the conference call for financial analysts.
+Visit https://www.sap.com/investors/en/financial-documents-and-events.html to access the following publications:
+– SAP Integrated Report (IFRS, PDF, www.sapintegratedreport.com)
+– SAP Annual Report on Form 20-F (IFRS, PDF)
+– SAP SE Statutory Financial Statements and Review of Operations (HGB, German only, PDF)
+– Half-Year Report (IFRS, PDF)
+– Quarterly Statements (IFRS, PDF)
+Our Investor Relations website at www.sap.com/investors provides in-depth information about stock, debt, and corporate
+governance; financial and event news; and various services designed to help investors find the information they need.
+For sustainability reasons and faster distribution, SAP decided to refrain from printing reports.
+You can reach us by phone at +49 6227 7-67336, or email us at investor@sap.com.
+
+SAP Half-Year Report 2026
+49/50
+Addresses
+SAP SE
+Dietmar-Hopp-Allee 16
+69190 Walldorf
+Germany
+Tel.: +49 6227 7-47474
+Internet: www.sap.com
+Email: info@sap.com
+The addresses of all our international subsidiaries and sales partners are available on our public website at
+https://www.sap.com/about/company/office-locations.html
+Information About Content
+Investor Relations
+Tel.: +49 6227 7-67336
+Email: investor@sap.com
+LinkedIn: https://www.linkedin.com/showcase/sap-investor-relations/
+Internet: www.sap.com/investors
+Imprint
+Overall responsibility:
+SAP SE
+Global Accounting, Reporting & Tax
+Published on July 23, 2026.
+The German version of this Half-Year Report can be found at https://www.sap.com/investors/de/financial-documents-and-
+events.html
+Copyright Usage in Collateral
+© 2026 SAP SE or an SAP affiliate company. All rights reserved. No part of this publication may be reproduced or transmitted in any
+form or for any purpose without the express permission of SAP SE or an SAP affiliate company. SAP and other SAP products and
+services mentioned herein as well as their respective logos are trademarks or registered trademarks of SAP SE (or an SAP affiliate
+company) in Germany and other countries. All other product and service names mentioned are the trademarks of their respective
+companies. Please see https://www.sap.com/trademark for additional trademark information and notices.
+
+SAP Half-Year Report 2026
+50/50
+Group Headquarters
+SAP SE
+Dietmar-Hopp-Allee 16
+69190 Walldorf
+Germany

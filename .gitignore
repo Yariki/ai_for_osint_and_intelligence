@@ -1,1 +1,153 @@
 *.zip
+__pycache__/
+*.pyc
+.venv/
+node_modules/
+dist/
+.env
+
+############################
+# OS / General
+############################
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+*.swp
+*.swo
+*.pid
+
+############################
+# IDEs / Editors
+############################
+.idea/
+*.iml
+
+############################
+# Python
+############################
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.env
+.venv
+venv/
+ENV/
+env/
+
+# Python packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Pip
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Testing / coverage
+.coverage
+.coverage.*
+htmlcov/
+.pytest_cache/
+
+# Mypy / Ruff / Pyright
+.mypy_cache/
+.ruff_cache/
+.pyright/
+
+# Jupyter
+.ipynb_checkpoints/
+
+############################
+# FastAPI / SQLAlchemy / Alembic
+############################
+# Alembic
+alembic/versions/*.pyc
+
+# SQLite (if used locally)
+*.db
+*.sqlite3
+
+############################
+# Environment variables
+############################
+.env.*
+!.env.example
+
+############################
+# Node / Vue / TypeScript
+############################
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Build output
+dist/
+build/
+.vite/
+.nuxt/
+.output/
+
+# Vue specific
+*.local
+
+############################
+# TypeScript
+############################
+*.tsbuildinfo
+
+############################
+# Testing (frontend)
+############################
+coverage/
+
+############################
+# Logs
+############################
+logs/
+*.log
+
+############################
+# Docker
+############################
+docker-compose.override.yml
+
+############################
+# Misc
+############################
+*.bak
+*.orig
+
+############################
+# Static / media (optional)
+############################
+# Uncomment if you generate files locally
+# uploads/
+# media/
+# staticfiles/
+
+############################
+# Secrets / Keys
+############################
+*.pem
+*.key
+*.crt
+
+############################
+# VS Code testing / temp
+############################
+.history/
+
+
+/backend/.venv/
+/frontend/node_modules/
+alembic/versions/*.pyc
+*.session
+
+frontend/.vscode/chromium-debug-profile/*
+frontend/.vscode/firefox-debug-profile/*
