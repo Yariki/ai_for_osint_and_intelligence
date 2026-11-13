@@ -116,6 +116,7 @@ logs/
 # Docker
 ############################
 docker-compose.override.yml
+/Lesson_Homework_13/data/
 
 ############################
 # Misc
