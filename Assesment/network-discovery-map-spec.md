@@ -42,8 +42,8 @@ These were not discussed explicitly. Each is the default the specification is wr
 |---|---|
 | A1 | The 256-address limit applies to a single scan. A project's authorized scope may be larger (default ceiling 65,536 addresses per project, configurable) and is scanned in several scans. |
 | A2 | Although there is one user, the application requires login. An unauthenticated instance that can launch scans is not acceptable. |
-| A3 | Scan history is kept indefinitely. Data is removed only by explicit deletion of a scan or a project. |
-!!!!| A4 | A host is identified by its IP address within a project. Data is never merged across projects. |
+| A3 | Scan history is kept indefinitely. Data is marked as removed only by explicit deletion of a scan or a project. |
+| A4 | A host is identified by its IP address within a project. Data is merged across projects. App has a global view of hosts.|
 | A5 | The UI is English only and targets current desktop Chromium and Firefox. |
 | A6 | Automatic diffs run for scheduled scans only. Manual scans are compared on demand. |
 | A7 | Sizing envelope: up to 100 projects, 20 active schedules, 50 million host observations and 250 million open-port observations over the life of an installation. |
@@ -187,7 +187,7 @@ These were not discussed explicitly. Each is the default the specification is wr
 - **FR-TRC-2 (M)** Methods: ICMP (default), TCP to a chosen port (defaulting to an open port of the host), and UDP. Parameters: maximum hops, probes per hop, timeout.
 - **FR-TRC-3 (M)** For each hop the result records the TTL, every responding address (several are possible on load-balanced paths), per-probe round-trip times, and loss. Hops that do not answer are recorded as such.
 - **FR-TRC-4 (M)** Hop addresses are enriched like hosts (section 5.6, including reverse DNS). Private and CGNAT hops are shown and marked as unlocatable.
-!!!!- **FR-TRC-5 (M)** Intermediate hops are observed only through their replies to the traceroute. They are never port-scanned or probed directly unless they are themselves in the project scope and part of a scan.
+- **FR-TRC-5 (M)** Intermediate hops are observed only through their replies to the traceroute. Their port-scanning could be initiated additionally or probed directly unless they are themselves in the project scope and part of a scan. All traceroute hops (IP addresses) should be saved in the host table. 
 - **FR-TRC-6 (M)** Hops appear in the UI as they are discovered. The path is drawn on the map through the hops that have coordinates, and segments that skip unlocated or silent hops are visually distinct.
 - **FR-TRC-7 (M)** Every traceroute is stored with its method, parameters, vantage point and timestamp, and is listed in the host's history.
 - **FR-TRC-8 (C)** Two traceroutes to the same address can be compared side by side.
@@ -313,7 +313,9 @@ A proposal for incremental delivery. The architect may re-cut it.
 Not part of version 1; listed so the design does not block them.
 
 - **Distributed scanning agents.** Workers in several geographic locations, each a vantage point. The same target scanned from several vantage points; results comparable per vantage point. Implies agent registration, authentication and scope enforcement at the agent.
+- **Traceroute hop storage.** All intermediate hops observed during traceroutes should be saved in the host table, even if they are not part of the project scope. This ensures a complete view of the network topology over time.
 - **Graph topology.** A graph built from stored traceroutes: addresses and ASNs as nodes, observed adjacency as edges, with evolution over time. Version 1 already stores the hop-level data this needs.
+- **Manual Enrichment.** Users should be able to manually add or correct information about hosts, such as hostnames, roles, or other metadata, to complement automated discovery and classification. For example, user age going to add information about IP relation to some organization (like company, university, government entity, manufacturer, location (lat, lon), etc). This info also would be stored available for analysis. Graph topology also would be related to this enriched data. Because analytic should know not only the physical infrasctucture but relation to the organization and between them.
 
 ## 11. Open issues and risks for the architect
 
