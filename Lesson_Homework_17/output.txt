@@ -1,0 +1,124 @@
+
+==============================================================================
+ЗАВДАННЯ 1. Базовий період (posts, 01.08–29.09, n=60)
+==============================================================================
+Середнє:              34.62
+Медіана:              32.50
+Ст. відхилення (ddof=1): 13.15
+Q1 / Q3 / IQR:        26.75 / 41.00 / 14.25
+Верхня межа Tukey:    62.38
+
+Дні з posts > 62.38 (усього 24):
+      date   period signature  posts  channels  young_channels  avg_views  forwards_share
+2026-08-18 baseline   organic     78        45               1       4800            0.23
+2026-09-29 baseline   organic     94        47               0       5110            0.19
+2026-09-30 campaign  campaign    206        78              33       1544            0.64
+2026-10-01 campaign  campaign    228        80              45        916            0.67
+2026-10-02 campaign  campaign    194        62              31        750            0.66
+2026-10-03 campaign  campaign    184        69              37       1079            0.65
+2026-10-04 campaign  campaign    157        47              33        747            0.74
+2026-10-05 campaign  campaign    121        40              22        906            0.58
+2026-10-06 campaign  campaign    128        43              21       1099            0.63
+2026-10-07 campaign  campaign    145        55              23       1620            0.54
+2026-10-08 campaign  campaign    128        48              19       1540            0.56
+2026-10-09 campaign  campaign    104        34              19       1202            0.61
+2026-10-10 campaign  campaign     65        21              11        747            0.62
+2026-10-11 campaign  campaign     86        31              18        859            0.70
+2026-10-12 campaign  campaign     83        31               9       1893            0.44
+2026-10-13 campaign  campaign    145        55              25       1467            0.63
+2026-10-14 campaign  campaign    166        56              29        845            0.64
+2026-10-15 campaign  campaign    122        42              25        840            0.63
+2026-10-16 campaign  campaign     70        26               7       1564            0.50
+2026-10-19 campaign  campaign     67        27               7       1927            0.41
+2026-10-20 campaign  campaign     73        35              10       1394            0.52
+2026-10-26 campaign  campaign     69        33               9       1924            0.45
+2026-10-28 campaign  campaign     69        27               4       2532            0.42
+2026-10-29 campaign  campaign     63        25               5       1854            0.42
+
+Середній профіль двох типів днів вище межі:
+           days  posts  avg_views  forwards_share  young_channels  young_share  posts_per_channel
+signature                                                                                        
+campaign     22  121.5     1329.5            0.58           20.09         0.43               2.75
+organic       2   86.0     4955.0            0.21            0.50         0.01               1.87
+
+Довідково — медіани базового періоду:
+avg_views            2595.50
+forwards_share          0.22
+young_channels          0.00
+young_share             0.00
+posts_per_channel       1.79
+
+==============================================================================
+ЗАВДАННЯ 2. Порівняння періодів (база n=60, кампанія n=30)
+==============================================================================
+               mean_base mean_camp      diff  ratio   p_welch     p_mwu p_welch_bonf p_mwu_bonf  significant
+metric                                                                                                      
+posts              34.62    103.97     69.35   3.00  6.14e-08  3.39e-13     3.07e-07   1.70e-12         True
+channels           19.45     38.33     18.88   1.97  2.58e-06  3.85e-09     1.29e-05   1.92e-08         True
+young_channels      0.20     16.40     16.20  82.00  1.99e-08  3.95e-17     9.96e-08   1.97e-16         True
+avg_views        2677.05   1371.43  -1305.62   0.51  3.86e-18  1.60e-13     1.93e-17   8.02e-13         True
+forwards_share      0.22      0.55      0.33   2.50  2.68e-18  1.28e-14     1.34e-17   6.42e-14         True
+
+Бонферроні: m=5, поріг α/m = 0.010; стовпці *_bonf = min(1, p·m).
+
+95% довірчі інтервали середнього posts (t-розподіл):
+  baseline  [31.22; 38.01]
+  campaign  [84.24; 123.70]
+  Перетинаються: ні
+
+БОНУС. Автокореляція posts (лаг 1) та ефективний розмір вибірки:
+           n  r_lag1   n_eff
+period                      
+baseline  60   0.176  42.031
+campaign  30   0.888   1.780
+  Welch, n як є:     t=7.08, df=30.8, p=6.14e-08
+  Welch, n_eff (не менше 2): t=1.85, df=1.0, p=0.314
+
+==============================================================================
+ЗАВДАННЯ 3. Кореляції Пірсона / Спірмена
+==============================================================================
+                                            n  pearson_r  pearson_p  spearman_rho  spearman_p
+pair                   scope                                                                 
+posts ~ avg_views      all_90              90    -0.5157     0.0000       -0.4127      0.0001
+                       baseline            60     0.8003     0.0000        0.6116      0.0000
+                       baseline_no_spikes  58     0.5806     0.0000        0.5699      0.0000
+                       campaign            30    -0.4393     0.0152       -0.3886      0.0338
+posts ~ forwards_share all_90              90     0.8124     0.0000        0.6619      0.0000
+                       baseline            60    -0.0482     0.7145        0.0200      0.8796
+                       baseline_no_spikes  58    -0.0055     0.9674        0.0415      0.7573
+                       campaign            30     0.6957     0.0000        0.7117      0.0000
+
+Третя змінна young_channels (усі 90 днів):
+                                          pearson_r  spearman_rho
+pair                            scope                            
+posts ~ young_channels          all_90       0.9594        0.8128
+                                baseline     0.2924        0.3445
+forwards_share ~ young_channels all_90       0.8749        0.7629
+                                baseline    -0.0113       -0.0013
+
+posts ~ forwards_share, 90 днів: r = 0.8124; часткова кореляція за контролю young_channels: Пірсон -0.1974, Спірмен 0.1109
+
+==============================================================================
+ЗАВДАННЯ 4. Оновлення ймовірності H = «скоординована кампанія»
+==============================================================================
+Період кампанії по тижнях (останній блок — 9 днів):
+           start         end   posts  x_baseline  days_above_fence  days  young_channels  forwards_share  avg_views
+week                                                                                                               
+1     2026-09-30  2026-10-06  174.00        5.03                 7     7           31.71            0.65    1005.86
+2     2026-10-07  2026-10-13  108.00        3.12                 7     7           17.71            0.59    1332.57
+3     2026-10-14  2026-10-20   87.86        2.54                 5     7           13.00            0.53    1334.43
+4     2026-10-21  2026-10-29   58.89        1.70                 3     9            6.11            0.45    1714.78
+
+A: young_channels > 2 (макс. бази); B: forwards_share > 0.30 (макс. бази)
+B      False  True  разом
+A                        
+False     60     0     60
+True       0    30     30
+разом     60    30     90
+Спірмен young_share ~ forwards_share, усі 90 днів: 0.764
+Спірмен young_share ~ forwards_share, кампанія: 0.864
+
+  Prior                              LR=    —  P(H)= 15.0%  highly unlikely (10–20%)
+  Після A                            LR= 8.00  P(H)= 58.5%  likely / probable (55–75%)
+  Після A і B — наївно (B ⟂ A)       LR= 4.67  P(H)= 86.8%  highly likely (80–90%)
+  Після A і B — з урахуванням B|A    LR= 1.50  P(H)= 67.9%  likely / probable (55–75%)

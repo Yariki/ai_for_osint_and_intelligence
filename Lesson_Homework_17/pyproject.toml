@@ -1,0 +1,27 @@
+[project]
+name = "hw17-water-posts"
+version = "0.1.0"
+description = "HW17: statistics for Telegram posts about water outages"
+requires-python = ">=3.12"
+dependencies = [
+    "numpy>=2.5.4",
+    "pandas>=3.1.1",
+    "scipy>=1.18.1",
+]
+
+[tool.uv]
+package = false
+
+[tool.ruff]
+line-length = 92
+# Sibling project with its own repo and style: never lint or format it from here.
+extend-exclude = ["telegram-war-channels-dashboard"]
+
+[tool.pytest.ini_options]
+testpaths = ["test_analysis.py"]
+
+[dependency-groups]
+dev = [
+    "pytest>=9.2.0",
+    "ruff>=0.17.5",
+]
