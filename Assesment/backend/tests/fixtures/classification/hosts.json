@@ -1,0 +1,301 @@
+{
+  "description": "Fixed inputs for the ruleset regression test (check 3.2). Made up. Each host is the four allowed inputs of the evaluator (FR-CLS-2). expected.json holds the output of the ruleset version it names; a change of output needs a new ruleset version.",
+  "hosts": [
+    {
+      "name": "core-router",
+      "open_ports": [
+        22,
+        179
+      ],
+      "ptr_names": [
+        "ae1.core1.fra.example.net"
+      ],
+      "enrichment": {
+        "as_holder": "EXAMPLE-TRANSIT"
+      },
+      "seen_as_hop": true
+    },
+    {
+      "name": "hop-only",
+      "open_ports": [],
+      "ptr_names": [],
+      "enrichment": {},
+      "seen_as_hop": true
+    },
+    {
+      "name": "router-name-only",
+      "open_ports": [
+        22
+      ],
+      "ptr_names": [
+        "rtr2.example.net"
+      ],
+      "enrichment": {},
+      "seen_as_hop": false
+    },
+    {
+      "name": "bgp-speaker",
+      "open_ports": [
+        179
+      ],
+      "ptr_names": [],
+      "enrichment": {},
+      "seen_as_hop": false
+    },
+    {
+      "name": "ldp-and-name",
+      "open_ports": [
+        646
+      ],
+      "ptr_names": [
+        "xe-0.border.example.net"
+      ],
+      "enrichment": {},
+      "seen_as_hop": false
+    },
+    {
+      "name": "vpn-portal",
+      "open_ports": [
+        443,
+        10443
+      ],
+      "ptr_names": [
+        "vpn.example.com"
+      ],
+      "enrichment": {},
+      "seen_as_hop": false
+    },
+    {
+      "name": "firewall-management",
+      "open_ports": [
+        541,
+        443
+      ],
+      "ptr_names": [
+        "fw1.example.com"
+      ],
+      "enrichment": {},
+      "seen_as_hop": false
+    },
+    {
+      "name": "pptp",
+      "open_ports": [
+        1723
+      ],
+      "ptr_names": [],
+      "enrichment": {},
+      "seen_as_hop": false
+    },
+    {
+      "name": "dns-resolver",
+      "open_ports": [
+        53
+      ],
+      "ptr_names": [
+        "ns1.example.net"
+      ],
+      "enrichment": {},
+      "seen_as_hop": false
+    },
+    {
+      "name": "dns-port-only",
+      "open_ports": [
+        53
+      ],
+      "ptr_names": [],
+      "enrichment": {},
+      "seen_as_hop": false
+    },
+    {
+      "name": "dns-name-only",
+      "open_ports": [],
+      "ptr_names": [
+        "resolver2.example.org"
+      ],
+      "enrichment": {},
+      "seen_as_hop": false
+    },
+    {
+      "name": "camera",
+      "open_ports": [
+        80,
+        554
+      ],
+      "ptr_names": [
+        "cam07.example.org"
+      ],
+      "enrichment": {},
+      "seen_as_hop": false
+    },
+    {
+      "name": "dvr",
+      "open_ports": [
+        34567,
+        37777
+      ],
+      "ptr_names": [],
+      "enrichment": {},
+      "seen_as_hop": false
+    },
+    {
+      "name": "web-server",
+      "open_ports": [
+        80,
+        443
+      ],
+      "ptr_names": [
+        "www.example.com"
+      ],
+      "enrichment": {},
+      "seen_as_hop": false
+    },
+    {
+      "name": "web-port-only",
+      "open_ports": [
+        8080
+      ],
+      "ptr_names": [],
+      "enrichment": {},
+      "seen_as_hop": false
+    },
+    {
+      "name": "mail-server",
+      "open_ports": [
+        25,
+        587,
+        993
+      ],
+      "ptr_names": [
+        "mx1.example.com"
+      ],
+      "enrichment": {},
+      "seen_as_hop": false
+    },
+    {
+      "name": "database",
+      "open_ports": [
+        5432
+      ],
+      "ptr_names": [],
+      "enrichment": {},
+      "seen_as_hop": false
+    },
+    {
+      "name": "remote-desktop",
+      "open_ports": [
+        3389
+      ],
+      "ptr_names": [],
+      "enrichment": {},
+      "seen_as_hop": false
+    },
+    {
+      "name": "file-server",
+      "open_ports": [
+        139,
+        445
+      ],
+      "ptr_names": [
+        "files.example.com"
+      ],
+      "enrichment": {},
+      "seen_as_hop": false
+    },
+    {
+      "name": "web-and-database",
+      "open_ports": [
+        443,
+        3306,
+        6379
+      ],
+      "ptr_names": [],
+      "enrichment": {},
+      "seen_as_hop": false
+    },
+    {
+      "name": "hosted-ssh",
+      "open_ports": [
+        22
+      ],
+      "ptr_names": [],
+      "enrichment": {
+        "organization": "Example Cloud Hosting GmbH"
+      },
+      "seen_as_hop": false
+    },
+    {
+      "name": "hosted-web",
+      "open_ports": [
+        22,
+        443
+      ],
+      "ptr_names": [
+        "web3.example.net"
+      ],
+      "enrichment": {
+        "organization": "Example Data Center Ltd"
+      },
+      "seen_as_hop": false
+    },
+    {
+      "name": "ssh-only",
+      "open_ports": [
+        22
+      ],
+      "ptr_names": [],
+      "enrichment": {
+        "organization": "Example Telecom"
+      },
+      "seen_as_hop": false
+    },
+    {
+      "name": "nothing-open",
+      "open_ports": [],
+      "ptr_names": [],
+      "enrichment": {},
+      "seen_as_hop": false
+    },
+    {
+      "name": "unknown-port",
+      "open_ports": [
+        9999
+      ],
+      "ptr_names": [
+        "host-1-2-3-4.example.net"
+      ],
+      "enrichment": {},
+      "seen_as_hop": false
+    },
+    {
+      "name": "router-or-dns",
+      "open_ports": [
+        53,
+        179
+      ],
+      "ptr_names": [],
+      "enrichment": {},
+      "seen_as_hop": false
+    },
+    {
+      "name": "dns-and-hop",
+      "open_ports": [
+        53
+      ],
+      "ptr_names": [
+        "gw.example.net"
+      ],
+      "enrichment": {},
+      "seen_as_hop": true
+    },
+    {
+      "name": "name-not-a-word",
+      "open_ports": [],
+      "ptr_names": [
+        "webcamera-shop.example.com",
+        "nsone.example.com"
+      ],
+      "enrichment": {},
+      "seen_as_hop": false
+    }
+  ]
+}

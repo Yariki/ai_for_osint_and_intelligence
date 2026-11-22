@@ -1,0 +1,36 @@
+# The proxy: Caddy with the built single-page application.
+# Build context: the Assesment/ directory.
+
+FROM node:26.12.0-alpine AS build
+
+WORKDIR /app
+COPY frontend/package.json frontend/package-lock.json ./
+RUN npm ci
+COPY frontend/ ./
+RUN npm run build
+
+
+FROM caddy:2.11.9-alpine
+
+# The release this image belongs to. Not a secret: the version and the commit.
+ARG NDM_VERSION=dev
+ARG NDM_REVISION=unknown
+LABEL org.opencontainers.image.title="ndm-proxy" \
+      org.opencontainers.image.version="${NDM_VERSION}" \
+      org.opencontainers.image.revision="${NDM_REVISION}" \
+      org.opencontainers.image.description="Network Discovery Map"
+
+# Caddy runs as a non-root user and listens on unprivileged ports (see Caddyfile),
+# so it needs no capability. Its state (the internal CA and the certificates)
+# lives under /var/lib/caddy, which Compose backs with a named volume.
+RUN adduser -D -H -u 10002 ndm \
+    && mkdir -p /var/lib/caddy/data /var/lib/caddy/config \
+    && chown -R 10002:10002 /var/lib/caddy
+ENV XDG_DATA_HOME=/var/lib/caddy/data \
+    XDG_CONFIG_HOME=/var/lib/caddy/config
+
+COPY deploy/Caddyfile /etc/caddy/Caddyfile
+COPY --from=build /app/dist /srv
+
+USER 10002
+EXPOSE 8443

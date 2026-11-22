@@ -1,0 +1,33 @@
+# Build context is this directory (Assesment/). Keep it small and free of secrets.
+
+# Secrets: environment files never enter a build context or an image layer.
+**/.env
+**/.env.*
+!**/.env.example
+
+# Dependencies and build output are produced inside the images.
+**/node_modules
+**/.venv
+**/dist
+**/__pycache__
+**/.pytest_cache
+**/.mypy_cache
+**/.ruff_cache
+**/*.tsbuildinfo
+
+# Not needed in any image.
+.git
+*.md
+docs
+backend/tests
+backend/openapi.json
+deploy/lab
+deploy/checks
+
+# Reference data never enters an image (NFR-LIC-1): the registries' bulk files,
+# and any GeoLite2 database lying around.
+deploy/registry-files
+**/*.mmdb
+frontend/e2e
+frontend/test-results
+frontend/playwright-report

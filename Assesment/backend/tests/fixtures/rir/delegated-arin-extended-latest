@@ -1,0 +1,8 @@
+2.3|arin|1794837621855|4|19700101|20261116|-0500
+arin|*|asn|*|1|summary
+arin|*|ipv4|*|3|summary
+arin|*|ipv6|*|0|summary
+arin|US|asn|1|1|20010920|assigned|e5e3b9c13678dfc483fb1f819d70883c
+arin|US|ipv4|8.0.0.0|16777216|19921201|allocated|0123456789abcdef0123456789abcdef
+arin|CA|ipv4|24.48.0.0|131072|19980922|allocated|fedcba9876543210fedcba9876543210
+arin||ipv4|23.128.0.0|4194304||reserved|

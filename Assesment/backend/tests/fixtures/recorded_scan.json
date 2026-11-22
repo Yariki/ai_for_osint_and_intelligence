@@ -1,0 +1,301 @@
+{
+  "description": "The complete message sequence of one small scan: 4 targets, discovery by ICMP echo and TCP 80/443, then ports 22, 80, 443 and 8080 on the 3 hosts that answered. Written by the stub scanner's respond() from the world below.",
+  "world": {
+    "8.8.8.1": {
+      "ping": true,
+      "open_ports": [
+        22,
+        443
+      ],
+      "closed": "reset"
+    },
+    "8.8.8.2": {
+      "ping": false,
+      "open_ports": [
+        443
+      ],
+      "closed": "drop"
+    },
+    "8.8.8.3": {
+      "ping": true,
+      "open_ports": [],
+      "closed": "reset"
+    }
+  },
+  "scan": {
+    "targets": [
+      "8.8.8.1",
+      "8.8.8.2",
+      "8.8.8.3",
+      "8.8.8.4"
+    ],
+    "ports": [
+      22,
+      80,
+      443,
+      8080
+    ]
+  },
+  "chunks": [
+    {
+      "schema_version": 1,
+      "message_id": "00000000-0000-0000-0000-000000000001",
+      "scan_id": 1,
+      "type": "chunk",
+      "chunk_seq": 0,
+      "phase": "discovery",
+      "technique": "syn",
+      "targets": [
+        "8.8.8.1",
+        "8.8.8.2",
+        "8.8.8.3",
+        "8.8.8.4"
+      ],
+      "ports": [],
+      "discovery": {
+        "icmp_echo": true,
+        "tcp_ports": [
+          80,
+          443
+        ]
+      },
+      "pps": 1000,
+      "timeout_ms": 1500,
+      "retries": 1,
+      "seed": 91823,
+      "attestation_id": 1,
+      "scope": [
+        [
+          "8.8.8.0",
+          "8.8.8.255"
+        ]
+      ]
+    },
+    {
+      "schema_version": 1,
+      "message_id": "00000000-0000-0000-0000-000000000002",
+      "scan_id": 1,
+      "type": "chunk",
+      "chunk_seq": 1,
+      "phase": "port_scan",
+      "technique": "syn",
+      "targets": [
+        "8.8.8.1",
+        "8.8.8.2",
+        "8.8.8.3"
+      ],
+      "ports": [
+        443,
+        22
+      ],
+      "discovery": null,
+      "pps": 1000,
+      "timeout_ms": 1500,
+      "retries": 1,
+      "seed": 91823,
+      "attestation_id": 1,
+      "scope": [
+        [
+          "8.8.8.0",
+          "8.8.8.255"
+        ]
+      ]
+    },
+    {
+      "schema_version": 1,
+      "message_id": "00000000-0000-0000-0000-000000000003",
+      "scan_id": 1,
+      "type": "chunk",
+      "chunk_seq": 2,
+      "phase": "port_scan",
+      "technique": "syn",
+      "targets": [
+        "8.8.8.1",
+        "8.8.8.2",
+        "8.8.8.3"
+      ],
+      "ports": [
+        8080,
+        80
+      ],
+      "discovery": null,
+      "pps": 1000,
+      "timeout_ms": 1500,
+      "retries": 1,
+      "seed": 91823,
+      "attestation_id": 1,
+      "scope": [
+        [
+          "8.8.8.0",
+          "8.8.8.255"
+        ]
+      ]
+    }
+  ],
+  "results": [
+    {
+      "schema_version": 1,
+      "message_id": "00000000-0000-0000-0000-000000000004",
+      "scan_id": 1,
+      "type": "findings",
+      "chunk_seq": 0,
+      "hosts": [
+        {
+          "address": "8.8.8.1",
+          "evidence": {
+            "icmp": {
+              "at": "2026-11-15T10:00:00Z",
+              "rtt_ms": 1.5
+            },
+            "tcp:80": {
+              "at": "2026-11-15T10:00:00.100000Z",
+              "rtt_ms": 2.5
+            },
+            "tcp:443": {
+              "at": "2026-11-15T10:00:00.200000Z",
+              "rtt_ms": 2.5
+            }
+          },
+          "open_ports": []
+        },
+        {
+          "address": "8.8.8.2",
+          "evidence": {
+            "tcp:443": {
+              "at": "2026-11-15T10:00:00.300000Z",
+              "rtt_ms": 2.5
+            }
+          },
+          "open_ports": []
+        }
+      ]
+    },
+    {
+      "schema_version": 1,
+      "message_id": "00000000-0000-0000-0000-000000000005",
+      "scan_id": 1,
+      "type": "findings",
+      "chunk_seq": 0,
+      "hosts": [
+        {
+          "address": "8.8.8.3",
+          "evidence": {
+            "icmp": {
+              "at": "2026-11-15T10:00:00.400000Z",
+              "rtt_ms": 1.5
+            },
+            "tcp:80": {
+              "at": "2026-11-15T10:00:00.500000Z",
+              "rtt_ms": 2.5
+            },
+            "tcp:443": {
+              "at": "2026-11-15T10:00:00.600000Z",
+              "rtt_ms": 2.5
+            }
+          },
+          "open_ports": []
+        }
+      ]
+    },
+    {
+      "schema_version": 1,
+      "message_id": "00000000-0000-0000-0000-000000000006",
+      "scan_id": 1,
+      "type": "chunk_done",
+      "chunk_seq": 0,
+      "probes_sent": 4,
+      "receive_drops": 0,
+      "counts": []
+    },
+    {
+      "schema_version": 1,
+      "message_id": "00000000-0000-0000-0000-000000000007",
+      "scan_id": 1,
+      "type": "findings",
+      "chunk_seq": 1,
+      "hosts": [
+        {
+          "address": "8.8.8.1",
+          "evidence": {
+            "tcp:22": {
+              "at": "2026-11-15T10:00:00.700000Z",
+              "rtt_ms": 2.5
+            },
+            "tcp:443": {
+              "at": "2026-11-15T10:00:00.800000Z",
+              "rtt_ms": 2.5
+            }
+          },
+          "open_ports": [
+            22,
+            443
+          ]
+        },
+        {
+          "address": "8.8.8.2",
+          "evidence": {
+            "tcp:443": {
+              "at": "2026-11-15T10:00:00.900000Z",
+              "rtt_ms": 2.5
+            }
+          },
+          "open_ports": [
+            443
+          ]
+        }
+      ]
+    },
+    {
+      "schema_version": 1,
+      "message_id": "00000000-0000-0000-0000-000000000008",
+      "scan_id": 1,
+      "type": "chunk_done",
+      "chunk_seq": 1,
+      "probes_sent": 6,
+      "receive_drops": 0,
+      "counts": [
+        {
+          "address": "8.8.8.1",
+          "closed": 0,
+          "filtered": 0
+        },
+        {
+          "address": "8.8.8.2",
+          "closed": 0,
+          "filtered": 1
+        },
+        {
+          "address": "8.8.8.3",
+          "closed": 2,
+          "filtered": 0
+        }
+      ]
+    },
+    {
+      "schema_version": 1,
+      "message_id": "00000000-0000-0000-0000-000000000009",
+      "scan_id": 1,
+      "type": "chunk_done",
+      "chunk_seq": 2,
+      "probes_sent": 6,
+      "receive_drops": 0,
+      "counts": [
+        {
+          "address": "8.8.8.1",
+          "closed": 2,
+          "filtered": 0
+        },
+        {
+          "address": "8.8.8.2",
+          "closed": 0,
+          "filtered": 2
+        },
+        {
+          "address": "8.8.8.3",
+          "closed": 2,
+          "filtered": 0
+        }
+      ]
+    }
+  ]
+}

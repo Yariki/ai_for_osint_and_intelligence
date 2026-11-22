@@ -1,0 +1,26 @@
+#
+# Copyright (c) APNIC Pty. Ltd.
+# Restricted rights.
+#
+
+inetnum:        1.0.0.0 - 1.0.0.255
+netname:        EXAMPLE-LIBRARY-AU
+descr:          Example Library of Australia
+country:        AU
+org:            ORG-EL1-AP
+admin-c:        EX68-AP
+status:         ASSIGNED PORTABLE
+remarks:        --------------------------------------------------------
+remarks:        To report network abuse, please contact mnt-irt
+remarks:        --------------------------------------------------------
+mnt-by:         APNIC-HM
+last-modified:  2023-02-17T08:17:38Z
+source:         APNIC
+
+inetnum:        1.0.1.0 - 1.0.1.255
+netname:        EXAMPLE-CN-NET
+descr:          Example Telecom
+descr:          Fuzhou
+country:        CN
+status:         ALLOCATED PORTABLE
+source:         APNIC

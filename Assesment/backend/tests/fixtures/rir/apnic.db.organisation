@@ -1,0 +1,15 @@
+#
+# Copyright (c) APNIC Pty. Ltd.
+# Restricted rights.
+#
+
+organisation:   ORG-EL1-AP
+org-name:       Example Library of Australia
+org-type:       LIR
+country:        AU
+address:        ********
+phone:          ********
+e-mail:         ********
+mnt-by:         APNIC-HM
+last-modified:  2023-09-05T02:15:19Z
+source:         APNIC

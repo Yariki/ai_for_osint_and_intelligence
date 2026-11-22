@@ -1,0 +1,70 @@
+# ndm-scanner: the image of the scanner worker.
+# Build context: the Assesment/ directory.
+#
+# It installs the core dependencies only: no database driver and no web
+# framework (C-3), and no external scanner or diagnostic binary (C-2). The
+# scanner probes with the sockets of Python's standard library.
+#
+# Privileges (architecture section 8.4):
+#   - the process runs as a non-root user;
+#   - a non-root process gets no container capability by itself, so the image
+#     puts the cap_net_raw file capability on its OWN copy of the interpreter.
+#     The ordinary "python" in the image has no capability;
+#   - Compose drops all capabilities and adds NET_RAW only;
+#   - "no-new-privileges" must NOT be set for this container: it switches file
+#     capabilities off.
+
+FROM python:3.14.4-slim-bookworm AS build
+
+COPY --from=ghcr.io/astral-sh/uv:0.13.8 /uv /bin/uv
+ENV UV_COMPILE_BYTECODE=1 \
+    UV_LINK_MODE=copy \
+    UV_PYTHON_DOWNLOADS=never
+
+WORKDIR /app
+
+# No "--extra backend": the core dependencies and the (empty) scanner group.
+COPY backend/pyproject.toml backend/uv.lock ./
+RUN uv sync --locked --no-dev --extra scanner --no-install-project
+
+# Only the two packages the scanner is made of. ndm.db, ndm.api and
+# ndm.orchestrator are not even copied into the image.
+COPY backend/src/ndm/__init__.py ./src/ndm/__init__.py
+COPY backend/src/ndm/core ./src/ndm/core
+COPY backend/src/ndm/scanner ./src/ndm/scanner
+RUN uv sync --locked --no-dev --extra scanner --no-editable
+
+
+FROM python:3.14.4-slim-bookworm
+
+# The release this image belongs to. Not a secret: the version and the commit.
+ARG NDM_VERSION=dev
+ARG NDM_REVISION=unknown
+LABEL org.opencontainers.image.title="ndm-scanner" \
+      org.opencontainers.image.version="${NDM_VERSION}" \
+      org.opencontainers.image.revision="${NDM_REVISION}" \
+      org.opencontainers.image.description="Network Discovery Map"
+
+RUN apt-get update \
+    && apt-get install -y --no-install-recommends libcap2-bin \
+    && rm -rf /var/lib/apt/lists/* \
+    # The copy sits beside the original, so it finds the same standard library.
+    && cp "$(readlink -f /usr/local/bin/python3)" /usr/local/bin/python-netraw \
+    && setcap cap_net_raw+ep /usr/local/bin/python-netraw \
+    && apt-get purge -y libcap2-bin \
+    && useradd --uid 10003 --no-create-home --shell /usr/sbin/nologin ndm
+
+WORKDIR /app
+COPY --from=build /app/.venv /app/.venv
+
+# The interpreter copy is not the environment's own, so the packages are named to it.
+ENV PYTHONPATH=/app/.venv/lib/python3.14/site-packages \
+    PYTHONDONTWRITEBYTECODE=1 \
+    PYTHONUNBUFFERED=1
+
+USER 10003
+
+# The launcher runs on the ordinary interpreter and switches to python-netraw
+# only when the container has NET_RAW: without it, the kernel refuses to run
+# python-netraw at all, and the scanner must still start, in connect mode.
+CMD ["python", "-m", "ndm.scanner.start"]

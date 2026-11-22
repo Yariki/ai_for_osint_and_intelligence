@@ -1,0 +1,154 @@
+# Classification ruleset, version 1 (FR-CLS-1 to FR-CLS-4).
+#
+# A rule asserts a device type (and for servers, optionally a sub-role) with a
+# confidence. It fires when all of its conditions hold. Conditions may look at
+# the four allowed inputs only (FR-CLS-2):
+#
+#   open_any:     [ports]   at least one of these TCP ports is open
+#   open_all:     [ports]   all of these TCP ports are open
+#   ptr_matches:  regex     a reverse-DNS name matches (case-insensitive search)
+#   seen_as_hop:  true      the address answered as an intermediate traceroute hop
+#   enrichment:   {field: regex}  an enrichment attribute matches; fields:
+#                 asn, as_holder, organization, network_name, rir,
+#                 registration_country, country
+#
+# For each type, the confidences of its fired rules combine as 1 - prod(1 - c).
+# The type with the highest combined confidence wins; below the threshold set
+# by the operator (NDM_CLASSIFICATION_THRESHOLD) the result is "unknown".
+#
+# Only TCP is scanned. A DNS server is inferred from TCP port 53 alone (R5).
+# Expect many hosts to stay "unknown": port numbers and names are weak evidence.
+#
+# A change to any rule needs a new version: the stored results of earlier
+# scans name the version that produced them, and the regression fixtures
+# (tests/fixtures/classification) fail on any change of output.
+
+version: "1"
+
+taxonomy:
+  router:
+    label: Router
+  gateway:
+    label: Gateway, firewall or VPN endpoint
+  dns_server:
+    label: DNS server
+  camera:
+    label: IP camera or DVR
+  server:
+    label: Server
+    sub_roles:
+      web: Web
+      mail: Mail
+      database: Database
+      remote_access: Remote access
+      file: File
+
+rules:
+  # --- Router ---
+  - id: router-seen-as-hop
+    type: router
+    confidence: 0.6
+    when:
+      seen_as_hop: true
+  - id: router-routing-protocol
+    type: router
+    confidence: 0.5
+    when:
+      open_any: [179, 646]  # BGP, LDP
+  - id: router-name
+    type: router
+    confidence: 0.4
+    when:
+      ptr_matches: '(^|[.-])((rtr|router|core|border|bgp)[0-9]*|ae[0-9]+|be[0-9]+|(xe|ge|et)-[0-9])([.-]|$)'
+
+  # --- Gateway, firewall, VPN endpoint ---
+  - id: gateway-vpn-port
+    type: gateway
+    confidence: 0.5
+    when:
+      open_any: [1723, 4433, 10443, 1194]  # PPTP, SSL VPN portals, OpenVPN over TCP
+  - id: gateway-firewall-management
+    type: gateway
+    confidence: 0.5
+    when:
+      open_any: [264, 541, 4444, 18264]  # Check Point, FortiGate, Sophos management
+  - id: gateway-name
+    type: gateway
+    confidence: 0.4
+    when:
+      ptr_matches: '(^|[.-])(fw|firewall|vpn|gw|gateway|asa)[0-9]*([.-]|$)'
+
+  # --- DNS server ---
+  - id: dns-port
+    type: dns_server
+    confidence: 0.6
+    when:
+      open_any: [53]
+  - id: dns-name
+    type: dns_server
+    confidence: 0.4
+    when:
+      ptr_matches: '(^|[.-])(ns|dns|resolver)[0-9]*([.-]|$)'
+
+  # --- IP camera, DVR ---
+  - id: camera-port
+    type: camera
+    confidence: 0.5
+    when:
+      open_any: [554, 37777, 34567]  # RTSP, Dahua, generic DVR
+  - id: camera-name
+    type: camera
+    confidence: 0.4
+    when:
+      ptr_matches: '(^|[.-])(cam|camera|dvr|nvr)[0-9]*([.-]|$)'
+
+  # --- Server, by sub-role ---
+  - id: server-web-port
+    type: server
+    sub_role: web
+    confidence: 0.5
+    when:
+      open_any: [80, 443, 8080, 8443]
+  - id: server-web-name
+    type: server
+    sub_role: web
+    confidence: 0.3
+    when:
+      ptr_matches: '(^|[.-])(www|web)[0-9]*([.-]|$)'
+  - id: server-mail-port
+    type: server
+    sub_role: mail
+    confidence: 0.5
+    when:
+      open_any: [25, 465, 587, 110, 143, 993, 995]
+  - id: server-mail-name
+    type: server
+    sub_role: mail
+    confidence: 0.3
+    when:
+      ptr_matches: '(^|[.-])(mail|smtp|mx|imap|pop)[0-9]*([.-]|$)'
+  - id: server-database-port
+    type: server
+    sub_role: database
+    confidence: 0.6
+    when:
+      open_any: [1433, 1521, 3306, 5432, 6379, 9200, 27017]
+  - id: server-remote-desktop
+    type: server
+    sub_role: remote_access
+    confidence: 0.5
+    when:
+      open_any: [3389, 5900, 5901]
+  - id: server-file-port
+    type: server
+    sub_role: file
+    confidence: 0.5
+    when:
+      open_any: [21, 139, 445, 873, 2049]
+  - id: server-hosting-network
+    type: server
+    confidence: 0.2
+    when:
+      open_any: [22]
+      enrichment:
+        organization: '(hosting|cloud|data ?cent(er|re)|colocation)'

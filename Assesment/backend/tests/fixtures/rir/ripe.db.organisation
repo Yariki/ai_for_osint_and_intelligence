@@ -1,0 +1,19 @@
+#
+# The contents of this file are subject to
+# RIPE Database Terms and Conditions
+#
+
+organisation:   ORG-EX1-RIPE
+org-name:       Example Networks B.V.
+country:        NL
+org-type:       LIR
+address:        Dummy address for ORG-EX1-RIPE
+e-mail:         unread@ripe.net
+mnt-by:         RIPE-NCC-HM-MNT
+source:         RIPE
+
+organisation:   ORG-UE2-RIPE
+org-name:       University of Example
+org-type:       OTHER
+address:        Dummy address for ORG-UE2-RIPE
+source:         RIPE

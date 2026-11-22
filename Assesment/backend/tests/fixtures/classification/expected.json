@@ -1,0 +1,666 @@
+{
+  "ruleset_version": "1",
+  "threshold": 0.5,
+  "results": {
+    "core-router": {
+      "device_type": "router",
+      "sub_role": null,
+      "confidence": 0.88,
+      "rules": [
+        {
+          "rule": "router-seen-as-hop",
+          "type": "router",
+          "sub_role": null,
+          "confidence": 0.6,
+          "evidence": {
+            "seen_as_hop": true
+          }
+        },
+        {
+          "rule": "router-routing-protocol",
+          "type": "router",
+          "sub_role": null,
+          "confidence": 0.5,
+          "evidence": {
+            "open_ports": [
+              179
+            ]
+          }
+        },
+        {
+          "rule": "router-name",
+          "type": "router",
+          "sub_role": null,
+          "confidence": 0.4,
+          "evidence": {
+            "ptr_names": [
+              "ae1.core1.fra.example.net"
+            ]
+          }
+        }
+      ]
+    },
+    "hop-only": {
+      "device_type": "router",
+      "sub_role": null,
+      "confidence": 0.6,
+      "rules": [
+        {
+          "rule": "router-seen-as-hop",
+          "type": "router",
+          "sub_role": null,
+          "confidence": 0.6,
+          "evidence": {
+            "seen_as_hop": true
+          }
+        }
+      ]
+    },
+    "router-name-only": {
+      "device_type": "unknown",
+      "sub_role": null,
+      "confidence": 0.4,
+      "rules": [
+        {
+          "rule": "router-name",
+          "type": "router",
+          "sub_role": null,
+          "confidence": 0.4,
+          "evidence": {
+            "ptr_names": [
+              "rtr2.example.net"
+            ]
+          }
+        }
+      ]
+    },
+    "bgp-speaker": {
+      "device_type": "router",
+      "sub_role": null,
+      "confidence": 0.5,
+      "rules": [
+        {
+          "rule": "router-routing-protocol",
+          "type": "router",
+          "sub_role": null,
+          "confidence": 0.5,
+          "evidence": {
+            "open_ports": [
+              179
+            ]
+          }
+        }
+      ]
+    },
+    "ldp-and-name": {
+      "device_type": "router",
+      "sub_role": null,
+      "confidence": 0.7,
+      "rules": [
+        {
+          "rule": "router-routing-protocol",
+          "type": "router",
+          "sub_role": null,
+          "confidence": 0.5,
+          "evidence": {
+            "open_ports": [
+              646
+            ]
+          }
+        },
+        {
+          "rule": "router-name",
+          "type": "router",
+          "sub_role": null,
+          "confidence": 0.4,
+          "evidence": {
+            "ptr_names": [
+              "xe-0.border.example.net"
+            ]
+          }
+        }
+      ]
+    },
+    "vpn-portal": {
+      "device_type": "gateway",
+      "sub_role": null,
+      "confidence": 0.7,
+      "rules": [
+        {
+          "rule": "gateway-vpn-port",
+          "type": "gateway",
+          "sub_role": null,
+          "confidence": 0.5,
+          "evidence": {
+            "open_ports": [
+              10443
+            ]
+          }
+        },
+        {
+          "rule": "gateway-name",
+          "type": "gateway",
+          "sub_role": null,
+          "confidence": 0.4,
+          "evidence": {
+            "ptr_names": [
+              "vpn.example.com"
+            ]
+          }
+        },
+        {
+          "rule": "server-web-port",
+          "type": "server",
+          "sub_role": "web",
+          "confidence": 0.5,
+          "evidence": {
+            "open_ports": [
+              443
+            ]
+          }
+        }
+      ]
+    },
+    "firewall-management": {
+      "device_type": "gateway",
+      "sub_role": null,
+      "confidence": 0.7,
+      "rules": [
+        {
+          "rule": "gateway-firewall-management",
+          "type": "gateway",
+          "sub_role": null,
+          "confidence": 0.5,
+          "evidence": {
+            "open_ports": [
+              541
+            ]
+          }
+        },
+        {
+          "rule": "gateway-name",
+          "type": "gateway",
+          "sub_role": null,
+          "confidence": 0.4,
+          "evidence": {
+            "ptr_names": [
+              "fw1.example.com"
+            ]
+          }
+        },
+        {
+          "rule": "server-web-port",
+          "type": "server",
+          "sub_role": "web",
+          "confidence": 0.5,
+          "evidence": {
+            "open_ports": [
+              443
+            ]
+          }
+        }
+      ]
+    },
+    "pptp": {
+      "device_type": "gateway",
+      "sub_role": null,
+      "confidence": 0.5,
+      "rules": [
+        {
+          "rule": "gateway-vpn-port",
+          "type": "gateway",
+          "sub_role": null,
+          "confidence": 0.5,
+          "evidence": {
+            "open_ports": [
+              1723
+            ]
+          }
+        }
+      ]
+    },
+    "dns-resolver": {
+      "device_type": "dns_server",
+      "sub_role": null,
+      "confidence": 0.76,
+      "rules": [
+        {
+          "rule": "dns-port",
+          "type": "dns_server",
+          "sub_role": null,
+          "confidence": 0.6,
+          "evidence": {
+            "open_ports": [
+              53
+            ]
+          }
+        },
+        {
+          "rule": "dns-name",
+          "type": "dns_server",
+          "sub_role": null,
+          "confidence": 0.4,
+          "evidence": {
+            "ptr_names": [
+              "ns1.example.net"
+            ]
+          }
+        }
+      ]
+    },
+    "dns-port-only": {
+      "device_type": "dns_server",
+      "sub_role": null,
+      "confidence": 0.6,
+      "rules": [
+        {
+          "rule": "dns-port",
+          "type": "dns_server",
+          "sub_role": null,
+          "confidence": 0.6,
+          "evidence": {
+            "open_ports": [
+              53
+            ]
+          }
+        }
+      ]
+    },
+    "dns-name-only": {
+      "device_type": "unknown",
+      "sub_role": null,
+      "confidence": 0.4,
+      "rules": [
+        {
+          "rule": "dns-name",
+          "type": "dns_server",
+          "sub_role": null,
+          "confidence": 0.4,
+          "evidence": {
+            "ptr_names": [
+              "resolver2.example.org"
+            ]
+          }
+        }
+      ]
+    },
+    "camera": {
+      "device_type": "camera",
+      "sub_role": null,
+      "confidence": 0.7,
+      "rules": [
+        {
+          "rule": "camera-port",
+          "type": "camera",
+          "sub_role": null,
+          "confidence": 0.5,
+          "evidence": {
+            "open_ports": [
+              554
+            ]
+          }
+        },
+        {
+          "rule": "camera-name",
+          "type": "camera",
+          "sub_role": null,
+          "confidence": 0.4,
+          "evidence": {
+            "ptr_names": [
+              "cam07.example.org"
+            ]
+          }
+        },
+        {
+          "rule": "server-web-port",
+          "type": "server",
+          "sub_role": "web",
+          "confidence": 0.5,
+          "evidence": {
+            "open_ports": [
+              80
+            ]
+          }
+        }
+      ]
+    },
+    "dvr": {
+      "device_type": "camera",
+      "sub_role": null,
+      "confidence": 0.5,
+      "rules": [
+        {
+          "rule": "camera-port",
+          "type": "camera",
+          "sub_role": null,
+          "confidence": 0.5,
+          "evidence": {
+            "open_ports": [
+              34567,
+              37777
+            ]
+          }
+        }
+      ]
+    },
+    "web-server": {
+      "device_type": "server",
+      "sub_role": "web",
+      "confidence": 0.65,
+      "rules": [
+        {
+          "rule": "server-web-port",
+          "type": "server",
+          "sub_role": "web",
+          "confidence": 0.5,
+          "evidence": {
+            "open_ports": [
+              80,
+              443
+            ]
+          }
+        },
+        {
+          "rule": "server-web-name",
+          "type": "server",
+          "sub_role": "web",
+          "confidence": 0.3,
+          "evidence": {
+            "ptr_names": [
+              "www.example.com"
+            ]
+          }
+        }
+      ]
+    },
+    "web-port-only": {
+      "device_type": "server",
+      "sub_role": "web",
+      "confidence": 0.5,
+      "rules": [
+        {
+          "rule": "server-web-port",
+          "type": "server",
+          "sub_role": "web",
+          "confidence": 0.5,
+          "evidence": {
+            "open_ports": [
+              8080
+            ]
+          }
+        }
+      ]
+    },
+    "mail-server": {
+      "device_type": "server",
+      "sub_role": "mail",
+      "confidence": 0.65,
+      "rules": [
+        {
+          "rule": "server-mail-port",
+          "type": "server",
+          "sub_role": "mail",
+          "confidence": 0.5,
+          "evidence": {
+            "open_ports": [
+              25,
+              587,
+              993
+            ]
+          }
+        },
+        {
+          "rule": "server-mail-name",
+          "type": "server",
+          "sub_role": "mail",
+          "confidence": 0.3,
+          "evidence": {
+            "ptr_names": [
+              "mx1.example.com"
+            ]
+          }
+        }
+      ]
+    },
+    "database": {
+      "device_type": "server",
+      "sub_role": "database",
+      "confidence": 0.6,
+      "rules": [
+        {
+          "rule": "server-database-port",
+          "type": "server",
+          "sub_role": "database",
+          "confidence": 0.6,
+          "evidence": {
+            "open_ports": [
+              5432
+            ]
+          }
+        }
+      ]
+    },
+    "remote-desktop": {
+      "device_type": "server",
+      "sub_role": "remote_access",
+      "confidence": 0.5,
+      "rules": [
+        {
+          "rule": "server-remote-desktop",
+          "type": "server",
+          "sub_role": "remote_access",
+          "confidence": 0.5,
+          "evidence": {
+            "open_ports": [
+              3389
+            ]
+          }
+        }
+      ]
+    },
+    "file-server": {
+      "device_type": "server",
+      "sub_role": "file",
+      "confidence": 0.5,
+      "rules": [
+        {
+          "rule": "server-file-port",
+          "type": "server",
+          "sub_role": "file",
+          "confidence": 0.5,
+          "evidence": {
+            "open_ports": [
+              139,
+              445
+            ]
+          }
+        }
+      ]
+    },
+    "web-and-database": {
+      "device_type": "server",
+      "sub_role": "database",
+      "confidence": 0.8,
+      "rules": [
+        {
+          "rule": "server-web-port",
+          "type": "server",
+          "sub_role": "web",
+          "confidence": 0.5,
+          "evidence": {
+            "open_ports": [
+              443
+            ]
+          }
+        },
+        {
+          "rule": "server-database-port",
+          "type": "server",
+          "sub_role": "database",
+          "confidence": 0.6,
+          "evidence": {
+            "open_ports": [
+              3306,
+              6379
+            ]
+          }
+        }
+      ]
+    },
+    "hosted-ssh": {
+      "device_type": "unknown",
+      "sub_role": null,
+      "confidence": 0.2,
+      "rules": [
+        {
+          "rule": "server-hosting-network",
+          "type": "server",
+          "sub_role": null,
+          "confidence": 0.2,
+          "evidence": {
+            "open_ports": [
+              22
+            ],
+            "enrichment": {
+              "organization": "Example Cloud Hosting GmbH"
+            }
+          }
+        }
+      ]
+    },
+    "hosted-web": {
+      "device_type": "server",
+      "sub_role": "web",
+      "confidence": 0.72,
+      "rules": [
+        {
+          "rule": "server-web-port",
+          "type": "server",
+          "sub_role": "web",
+          "confidence": 0.5,
+          "evidence": {
+            "open_ports": [
+              443
+            ]
+          }
+        },
+        {
+          "rule": "server-web-name",
+          "type": "server",
+          "sub_role": "web",
+          "confidence": 0.3,
+          "evidence": {
+            "ptr_names": [
+              "web3.example.net"
+            ]
+          }
+        },
+        {
+          "rule": "server-hosting-network",
+          "type": "server",
+          "sub_role": null,
+          "confidence": 0.2,
+          "evidence": {
+            "open_ports": [
+              22
+            ],
+            "enrichment": {
+              "organization": "Example Data Center Ltd"
+            }
+          }
+        }
+      ]
+    },
+    "ssh-only": {
+      "device_type": "unknown",
+      "sub_role": null,
+      "confidence": 0.0,
+      "rules": []
+    },
+    "nothing-open": {
+      "device_type": "unknown",
+      "sub_role": null,
+      "confidence": 0.0,
+      "rules": []
+    },
+    "unknown-port": {
+      "device_type": "unknown",
+      "sub_role": null,
+      "confidence": 0.0,
+      "rules": []
+    },
+    "router-or-dns": {
+      "device_type": "dns_server",
+      "sub_role": null,
+      "confidence": 0.6,
+      "rules": [
+        {
+          "rule": "router-routing-protocol",
+          "type": "router",
+          "sub_role": null,
+          "confidence": 0.5,
+          "evidence": {
+            "open_ports": [
+              179
+            ]
+          }
+        },
+        {
+          "rule": "dns-port",
+          "type": "dns_server",
+          "sub_role": null,
+          "confidence": 0.6,
+          "evidence": {
+            "open_ports": [
+              53
+            ]
+          }
+        }
+      ]
+    },
+    "dns-and-hop": {
+      "device_type": "router",
+      "sub_role": null,
+      "confidence": 0.6,
+      "rules": [
+        {
+          "rule": "router-seen-as-hop",
+          "type": "router",
+          "sub_role": null,
+          "confidence": 0.6,
+          "evidence": {
+            "seen_as_hop": true
+          }
+        },
+        {
+          "rule": "gateway-name",
+          "type": "gateway",
+          "sub_role": null,
+          "confidence": 0.4,
+          "evidence": {
+            "ptr_names": [
+              "gw.example.net"
+            ]
+          }
+        },
+        {
+          "rule": "dns-port",
+          "type": "dns_server",
+          "sub_role": null,
+          "confidence": 0.6,
+          "evidence": {
+            "open_ports": [
+              53
+            ]
+          }
+        }
+      ]
+    },
+    "name-not-a-word": {
+      "device_type": "unknown",
+      "sub_role": null,
+      "confidence": 0.0,
+      "rules": []
+    }
+  }
+}

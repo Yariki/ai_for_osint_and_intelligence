@@ -1,0 +1,107 @@
+[project]
+name = "ndm"
+version = "0.1.0"
+description = "Network Discovery Map: API, orchestrator and scanner in one package"
+requires-python = ">=3.14"
+dependencies = [
+    # Core: what every process needs, the scanner included.
+    "pydantic-settings>=2.6",
+    "structlog>=24.4",
+    "aio-pika>=10.2",
+]
+
+[project.optional-dependencies]
+# The api, the orchestrator and the migration job (image ndm-backend).
+backend = [
+    "fastapi>=0.115",
+    "uvicorn>=0.32",
+    "sqlalchemy[asyncio]>=2.0.36",
+    "asyncpg>=0.30",
+    "alembic>=1.14",
+    "argon2-cffi>=23.1",
+    "prometheus-client>=0.26",
+    # Enrichment, in the orchestrator: GeoLite2 reader, reverse DNS, dataset downloads.
+    "maxminddb>=3.2",
+    "dnspython>=2.9",
+    "httpx>=0.27",
+    # The classification ruleset is a YAML file in the package.
+    "pyyaml>=6.0.3",
+    # Cron expressions of schedules, with time zones.
+    "cronsim>=2.8",
+]
+# The scanner (image ndm-scanner) installs the core and this group only: no
+# database driver and no web framework (C-3). It needs nothing beyond the core
+# so far, because it uses the sockets of the standard library.
+scanner = []
+
+# Exact versions are pinned in uv.lock. The manifest and the lockfile are
+# changed only by the groundwork task of a phase (task graph, section 4).
+# Development needs every group: uv sync --all-extras
+[dependency-groups]
+dev = [
+    "pytest>=8.3",
+    "pytest-asyncio>=0.24",
+    "testcontainers[postgres,rabbitmq]>=4.8",
+    "ruff>=0.8",
+    "mypy>=1.13",
+    "pip-audit>=2.7",
+    # The lab manifest is YAML; the lab tests read it.
+    "pyyaml>=6.0.3",
+    "types-pyyaml>=6.0.12",
+    # Builds small MaxMind databases for tests. No GeoLite2 file is in the repository.
+    "mmdb-writer>=0.2.7",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/ndm"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+# importlib mode: test directories need no __init__.py files.
+addopts = "--import-mode=importlib --strict-markers"
+asyncio_mode = "auto"
+# One event loop for the whole run, so session-scoped async fixtures
+# (database engine, broker connection) can be shared between tests.
+asyncio_default_fixture_loop_scope = "session"
+asyncio_default_test_loop_scope = "session"
+
+[tool.ruff]
+line-length = 100
+target-version = "py314"
+# "." makes the tests package first-party for import sorting.
+src = ["src", "."]
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I", "UP", "B", "TID251"]
+
+# Import rule (C-3): the scanner, and the core it imports, must not use the
+# database or the web layer. The ban applies everywhere and is lifted below for
+# the packages that are allowed to use them, so new code is covered by default.
+[tool.ruff.lint.flake8-tidy-imports.banned-api]
+"ndm.db".msg = "ndm.scanner and ndm.core must not import the database layer (C-3)"
+"ndm.api".msg = "ndm.scanner and ndm.core must not import the web layer (C-3)"
+"ndm.orchestrator".msg = "ndm.scanner and ndm.core must not import the orchestrator (C-3)"
+"sqlalchemy".msg = "not installed in the scanner image (C-3)"
+"asyncpg".msg = "not installed in the scanner image (C-3)"
+"alembic".msg = "not installed in the scanner image (C-3)"
+"fastapi".msg = "not installed in the scanner image (C-3)"
+
+[tool.ruff.lint.per-file-ignores]
+"src/ndm/api/**" = ["TID251"]
+"src/ndm/db/**" = ["TID251"]
+"src/ndm/orchestrator/**" = ["TID251"]
+"tests/**" = ["TID251"]
+"scripts/**" = ["TID251"]
+
+[tool.mypy]
+python_version = "3.14"
+strict = true
+files = ["src", "tests"]
+mypy_path = "src"
+# Tests have no __init__.py files; this lets mypy tell apart two test
+# modules with the same file name in different directories.
+explicit_package_bases = true

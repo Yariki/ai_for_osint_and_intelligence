@@ -1,0 +1,528 @@
+{
+  "description": "Pairs of scans as the diff sees them, with the expected diff (check 4.1). Made up. A change is [address, kind, port] or, for names, classification and enrichment, [address, kind, port, field, before, after, dataset_change].",
+  "pairs": [
+    {
+      "name": "hosts and ports",
+      "description": "A host appears, one disappears, ports open and close; addresses targeted by one scan only are not comparable.",
+      "base": {
+        "targets": [
+          "198.51.100.1",
+          "198.51.100.2",
+          "198.51.100.3",
+          "198.51.100.4",
+          "198.51.100.9"
+        ],
+        "probed_ports": [
+          22,
+          80,
+          443
+        ],
+        "hosts": {
+          "198.51.100.1": {
+            "reachable": true,
+            "port_scanned": true,
+            "open_ports": [
+              22,
+              80
+            ]
+          },
+          "198.51.100.2": {
+            "reachable": true,
+            "port_scanned": true,
+            "open_ports": [
+              443
+            ]
+          },
+          "198.51.100.4": {
+            "reachable": true,
+            "port_scanned": true,
+            "open_ports": [
+              80
+            ]
+          }
+        }
+      },
+      "target": {
+        "targets": [
+          "198.51.100.1",
+          "198.51.100.2",
+          "198.51.100.3",
+          "198.51.100.4",
+          "198.51.100.10"
+        ],
+        "probed_ports": [
+          22,
+          80,
+          443
+        ],
+        "hosts": {
+          "198.51.100.1": {
+            "reachable": true,
+            "port_scanned": true,
+            "open_ports": [
+              80,
+              443
+            ]
+          },
+          "198.51.100.3": {
+            "reachable": true,
+            "port_scanned": true,
+            "open_ports": [
+              22
+            ]
+          },
+          "198.51.100.4": {
+            "reachable": true,
+            "port_scanned": true,
+            "open_ports": [
+              80
+            ]
+          }
+        }
+      },
+      "expected": {
+        "compared_ports": [
+          [
+            22,
+            22
+          ],
+          [
+            80,
+            80
+          ],
+          [
+            443,
+            443
+          ]
+        ],
+        "not_comparable": [
+          "198.51.100.9",
+          "198.51.100.10"
+        ],
+        "changes": [
+          [
+            "198.51.100.1",
+            "port_opened",
+            443
+          ],
+          [
+            "198.51.100.1",
+            "port_closed",
+            22
+          ],
+          [
+            "198.51.100.2",
+            "host_disappeared",
+            null
+          ],
+          [
+            "198.51.100.3",
+            "host_appeared",
+            null
+          ]
+        ]
+      }
+    },
+    {
+      "name": "different port profiles",
+      "description": "Ports probed in one scan only are not compared, and the compared ports are stated.",
+      "base": {
+        "targets": [
+          "198.51.100.1"
+        ],
+        "probed_ports": [
+          21,
+          22,
+          23,
+          80,
+          443
+        ],
+        "hosts": {
+          "198.51.100.1": {
+            "reachable": true,
+            "port_scanned": true,
+            "open_ports": [
+              21,
+              22,
+              80
+            ]
+          }
+        }
+      },
+      "target": {
+        "targets": [
+          "198.51.100.1"
+        ],
+        "probed_ports": [
+          22,
+          23,
+          80,
+          443,
+          3389,
+          8080
+        ],
+        "hosts": {
+          "198.51.100.1": {
+            "reachable": true,
+            "port_scanned": true,
+            "open_ports": [
+              22,
+              443,
+              3389,
+              8080
+            ]
+          }
+        }
+      },
+      "expected": {
+        "compared_ports": [
+          [
+            22,
+            23
+          ],
+          [
+            80,
+            80
+          ],
+          [
+            443,
+            443
+          ]
+        ],
+        "not_comparable": [],
+        "changes": [
+          [
+            "198.51.100.1",
+            "port_opened",
+            443
+          ],
+          [
+            "198.51.100.1",
+            "port_closed",
+            80
+          ]
+        ]
+      }
+    },
+    {
+      "name": "not port-scanned in one scan",
+      "description": "A host that did not answer discovery was not port-scanned: it appears, and no port is reported.",
+      "base": {
+        "targets": [
+          "198.51.100.1",
+          "198.51.100.2"
+        ],
+        "probed_ports": [
+          22,
+          80
+        ],
+        "hosts": {
+          "198.51.100.1": {
+            "reachable": false,
+            "port_scanned": false
+          },
+          "198.51.100.2": {
+            "reachable": true,
+            "port_scanned": true,
+            "open_ports": [
+              22
+            ]
+          }
+        }
+      },
+      "target": {
+        "targets": [
+          "198.51.100.1",
+          "198.51.100.2"
+        ],
+        "probed_ports": [
+          22,
+          80
+        ],
+        "hosts": {
+          "198.51.100.1": {
+            "reachable": true,
+            "port_scanned": true,
+            "open_ports": [
+              22,
+              80
+            ]
+          },
+          "198.51.100.2": {
+            "reachable": false,
+            "port_scanned": false
+          }
+        }
+      },
+      "expected": {
+        "compared_ports": [
+          [
+            22,
+            22
+          ],
+          [
+            80,
+            80
+          ]
+        ],
+        "not_comparable": [],
+        "changes": [
+          [
+            "198.51.100.1",
+            "host_appeared",
+            null
+          ],
+          [
+            "198.51.100.2",
+            "host_disappeared",
+            null
+          ]
+        ]
+      }
+    },
+    {
+      "name": "names, classification and enrichment",
+      "description": "Reverse DNS, classification and enrichment changes; the dataset flag where the dataset behind the field changed; unavailable fields are not changes.",
+      "base": {
+        "targets": [
+          "198.51.100.1",
+          "198.51.100.2"
+        ],
+        "probed_ports": [
+          80
+        ],
+        "hosts": {
+          "198.51.100.1": {
+            "reachable": true,
+            "port_scanned": true,
+            "open_ports": [
+              80
+            ],
+            "ptr_names": [
+              "www.example.net"
+            ],
+            "device_type": "server",
+            "sub_role": "web",
+            "enrichment": {
+              "asn": 64496,
+              "as_holder": "EXAMPLE-AS",
+              "city": "Mountain View",
+              "country": "US",
+              "rir": "arin",
+              "organization": "Example LLC",
+              "organization_source": "registry",
+              "network_name": "EX-NET",
+              "registration_country": "US"
+            },
+            "dataset_versions": {
+              "geolite2-city": "2026-11-06",
+              "geolite2-asn": "2026-11-06",
+              "rir-delegation-arin": "2026-11-10",
+              "rir-objects-arin": "2026-11-10"
+            }
+          },
+          "198.51.100.2": {
+            "reachable": true,
+            "port_scanned": true,
+            "open_ports": [
+              80
+            ],
+            "enrichment": {
+              "city": null,
+              "country": null,
+              "asn": 64497,
+              "as_holder": "OTHER-AS"
+            },
+            "unavailable": [
+              "city",
+              "country"
+            ],
+            "dataset_versions": {
+              "geolite2-asn": "2026-11-06"
+            }
+          }
+        }
+      },
+      "target": {
+        "targets": [
+          "198.51.100.1",
+          "198.51.100.2"
+        ],
+        "probed_ports": [
+          80
+        ],
+        "hosts": {
+          "198.51.100.1": {
+            "reachable": true,
+            "port_scanned": true,
+            "open_ports": [
+              80
+            ],
+            "ptr_names": [
+              "web1.example.net"
+            ],
+            "device_type": "server",
+            "sub_role": "mail",
+            "enrichment": {
+              "asn": 64500,
+              "as_holder": "NEW-AS",
+              "city": "Sunnyvale",
+              "country": "US",
+              "rir": "arin",
+              "organization": "Example Inc",
+              "organization_source": "registry",
+              "network_name": "EX-NET",
+              "registration_country": "US"
+            },
+            "dataset_versions": {
+              "geolite2-city": "2026-11-13",
+              "geolite2-asn": "2026-11-06",
+              "rir-delegation-arin": "2026-11-10",
+              "rir-objects-arin": "2026-11-10"
+            }
+          },
+          "198.51.100.2": {
+            "reachable": true,
+            "port_scanned": true,
+            "open_ports": [
+              80
+            ],
+            "enrichment": {
+              "city": "Zurich",
+              "country": "CH",
+              "asn": 64497,
+              "as_holder": "OTHER-AS"
+            },
+            "dataset_versions": {
+              "geolite2-city": "2026-11-13",
+              "geolite2-asn": "2026-11-06"
+            }
+          }
+        }
+      },
+      "expected": {
+        "compared_ports": [
+          [
+            80,
+            80
+          ]
+        ],
+        "not_comparable": [],
+        "changes": [
+          [
+            "198.51.100.1",
+            "ptr_changed",
+            null,
+            null,
+            [
+              "www.example.net"
+            ],
+            [
+              "web1.example.net"
+            ],
+            false
+          ],
+          [
+            "198.51.100.1",
+            "classification_changed",
+            null,
+            null,
+            {
+              "device_type": "server",
+              "sub_role": "web"
+            },
+            {
+              "device_type": "server",
+              "sub_role": "mail"
+            },
+            false
+          ],
+          [
+            "198.51.100.1",
+            "enrichment_changed",
+            null,
+            "asn",
+            64496,
+            64500,
+            false
+          ],
+          [
+            "198.51.100.1",
+            "enrichment_changed",
+            null,
+            "as_holder",
+            "EXAMPLE-AS",
+            "NEW-AS",
+            false
+          ],
+          [
+            "198.51.100.1",
+            "enrichment_changed",
+            null,
+            "organization",
+            "Example LLC",
+            "Example Inc",
+            false
+          ],
+          [
+            "198.51.100.1",
+            "enrichment_changed",
+            null,
+            "city",
+            "Mountain View",
+            "Sunnyvale",
+            true
+          ]
+        ]
+      }
+    },
+    {
+      "name": "nothing changed",
+      "description": "The same scan twice: no change.",
+      "base": {
+        "targets": [
+          "198.51.100.1"
+        ],
+        "probed_ports": [
+          22
+        ],
+        "hosts": {
+          "198.51.100.1": {
+            "reachable": true,
+            "port_scanned": true,
+            "open_ports": [
+              22
+            ]
+          }
+        }
+      },
+      "target": {
+        "targets": [
+          "198.51.100.1"
+        ],
+        "probed_ports": [
+          22
+        ],
+        "hosts": {
+          "198.51.100.1": {
+            "reachable": true,
+            "port_scanned": true,
+            "open_ports": [
+              22
+            ]
+          }
+        }
+      },
+      "expected": {
+        "compared_ports": [
+          [
+            22,
+            22
+          ]
+        ],
+        "not_comparable": [],
+        "changes": []
+      }
+    }
+  ]
+}

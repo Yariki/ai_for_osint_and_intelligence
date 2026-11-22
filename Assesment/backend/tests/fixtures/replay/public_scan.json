@@ -1,0 +1,156 @@
+{
+  "description": "A made-up scan of public address ranges, for the findings-replay harness. 80 targets in five /28 networks, 13 hosts. Nothing here was measured: the hosts, their ports and the reference data are invented. The networks are those of the registry fixtures (tests/fixtures/rir), so registry lookups have something to find. Four hosts share one location and two networks more, so co-located hosts are the normal case; the hosts of 200.3.13.0/28 have no location.",
+  "scope": [
+    "8.8.8.0/28",
+    "193.0.6.0/28",
+    "1.0.0.0/28",
+    "41.0.0.0/28",
+    "200.3.13.0/28"
+  ],
+  "world": {
+    "8.8.8.1": {
+      "ping": true,
+      "open_ports": [
+        53,
+        443
+      ],
+      "closed": "drop"
+    },
+    "8.8.8.2": {
+      "ping": true,
+      "open_ports": [
+        53,
+        443,
+        853
+      ],
+      "closed": "drop"
+    },
+    "8.8.8.3": {
+      "ping": false,
+      "open_ports": [
+        443
+      ],
+      "closed": "drop"
+    },
+    "8.8.8.8": {
+      "ping": true,
+      "open_ports": [
+        53,
+        443,
+        853
+      ],
+      "closed": "drop"
+    },
+    "193.0.6.1": {
+      "ping": true,
+      "open_ports": [
+        22,
+        80,
+        443
+      ],
+      "closed": "reset"
+    },
+    "193.0.6.2": {
+      "ping": true,
+      "open_ports": [
+        25,
+        587,
+        993
+      ],
+      "closed": "reset"
+    },
+    "193.0.6.9": {
+      "ping": true,
+      "open_ports": [],
+      "closed": "reset"
+    },
+    "1.0.0.1": {
+      "ping": true,
+      "open_ports": [
+        80,
+        443
+      ],
+      "closed": "drop"
+    },
+    "1.0.0.5": {
+      "ping": true,
+      "open_ports": [
+        22
+      ],
+      "closed": "reset"
+    },
+    "41.0.0.4": {
+      "ping": true,
+      "open_ports": [
+        80,
+        8080
+      ],
+      "closed": "reset"
+    },
+    "41.0.0.10": {
+      "ping": false,
+      "open_ports": [
+        3389
+      ],
+      "closed": "drop"
+    },
+    "200.3.13.2": {
+      "ping": true,
+      "open_ports": [
+        80,
+        443
+      ],
+      "closed": "reset"
+    },
+    "200.3.13.7": {
+      "ping": true,
+      "open_ports": [
+        22,
+        5432
+      ],
+      "closed": "drop"
+    }
+  },
+  "reference": {
+    "8.8.8.0/28": {
+      "city": "Mountain View",
+      "country": "US",
+      "latitude": 37.4056,
+      "longitude": -122.0775,
+      "accuracy_radius_km": 1000,
+      "asn": 64496,
+      "as_holder": "EXAMPLE-DNS"
+    },
+    "193.0.6.0/28": {
+      "city": "Amsterdam",
+      "country": "NL",
+      "latitude": 52.3759,
+      "longitude": 4.8975,
+      "accuracy_radius_km": 20,
+      "asn": 64497,
+      "as_holder": "EXAMPLE-UNIVERSITY-AS"
+    },
+    "1.0.0.0/28": {
+      "city": "Canberra",
+      "country": "AU",
+      "latitude": -35.2809,
+      "longitude": 149.13,
+      "accuracy_radius_km": 50,
+      "asn": 64498,
+      "as_holder": "EXAMPLE-LIBRARY-AS"
+    },
+    "41.0.0.0/28": {
+      "city": "Johannesburg",
+      "country": "ZA",
+      "latitude": -26.2041,
+      "longitude": 28.0473,
+      "accuracy_radius_km": 100,
+      "asn": 64499,
+      "as_holder": "EXAMPLE-MOBILE-AS"
+    },
+    "200.3.13.0/28": {
+      "asn": 64500,
+      "as_holder": "EXAMPLE-UY-AS"
+    }
+  }
+}

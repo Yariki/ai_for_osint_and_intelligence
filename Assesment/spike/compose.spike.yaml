@@ -1,0 +1,28 @@
+# Phase 0 spike scanner, with the container privileges of architecture section 8.4.
+# Start the lab first (deploy/lab). Then, from this directory:
+#
+#   docker compose -f compose.spike.yaml build
+#   docker compose -f compose.spike.yaml run --rm spike --manifest /lab/manifest.yaml
+#
+# Everything after "spike" is passed to spike_scan.py (try --help).
+
+name: ndm-spike
+
+services:
+  spike:
+    build:
+      context: ..
+      dockerfile: spike/scanner/Dockerfile
+    image: ndm-spike:local
+    # The scanner sends from the host's own address: no NAT between it and the targets.
+    network_mode: host
+    user: "10003:10003"
+    cap_drop:
+      - ALL
+    cap_add:
+      - NET_RAW
+    # Deliberately no "security_opt: no-new-privileges": it would switch off the
+    # file capability that gives the non-root process its one capability.
+    read_only: true
+    volumes:
+      - ../deploy/lab/manifest.yaml:/lab/manifest.yaml:ro

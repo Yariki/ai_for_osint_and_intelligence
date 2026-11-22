@@ -152,3 +152,16 @@ alembic/versions/*.pyc
 
 frontend/.vscode/chromium-debug-profile/*
 frontend/.vscode/firefox-debug-profile/*
+############################
+# Network Discovery Map (Assesment/)
+############################
+# Generated for `npm run gen:api`; delete after use.
+Assesment/backend/openapi.json
+# Bulk files of the registries: under their terms, never committed.
+Assesment/deploy/registry-files/*
+!Assesment/deploy/registry-files/README.md
+# Playwright's output.
+Assesment/frontend/test-results/
+Assesment/frontend/playwright-report/
+# Results of the scanner spike.
+Assesment/spike/results/

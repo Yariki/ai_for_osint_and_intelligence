@@ -1,0 +1,24 @@
+% Made-up content in the object format of LACNIC's whois service.
+
+inetnum:     200.3.12/22
+status:      assigned
+owner:       Ejemplo - Registro de Direcciones
+ownerid:     UY-EJRD-LACNIC
+responsible: ********
+country:     UY
+owner-c:     ABC
+created:     20021107
+changed:     20201105
+
+inetnum:     200.160/19
+status:      allocated
+owner:       Exemplo Telecomunicacoes S.A.
+ownerid:     BR-EXTE-LACNIC
+country:     BR
+created:     19970603
+
+inetnum:     200.3.13.0/24
+status:      reassigned
+owner:       Cliente de Ejemplo
+ownerid:     UY-CLEJ-LACNIC
+country:     UY

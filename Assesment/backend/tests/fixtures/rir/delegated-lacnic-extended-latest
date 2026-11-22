@@ -1,0 +1,8 @@
+2.3|lacnic|20261116|4|19870101|20261113|-0300
+lacnic|*|ipv4|*|3|summary
+lacnic|*|ipv6|*|0|summary
+lacnic|*|asn|*|1|summary
+lacnic|UY|ipv4|200.3.12.0|1024|20021107|assigned|71316
+lacnic|BR|ipv4|200.160.0.0|8192|19970603|allocated|12345
+lacnic||ipv4|200.3.16.0|256||reserved
+lacnic|UY|asn|28000|1|20030101|allocated|71316

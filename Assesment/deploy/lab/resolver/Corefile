@@ -1,0 +1,13 @@
+# The lab resolver: answers reverse lookups for the scanned lab network from a
+# zone file, and nothing else. It forwards no query: an address that is not
+# in the zone gets "no such name", and a name outside the zone is refused.
+3.77.10.in-addr.arpa:53 {
+    file /etc/coredns/lab.zone
+    log
+    errors
+}
+
+.:53 {
+    log
+    errors
+}

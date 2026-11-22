@@ -1,0 +1,28 @@
+; Reverse zone of the scanned lab network, 10.77.3.0/24.
+;
+; The names recorded here are what check 2.7 expects to find stored with a
+; scan of the lab. Every address is a host of ../manifest.yaml.
+;
+;   - 10.77.3.10 has two names.
+;   - 10.77.3.30 and 10.77.3.40 have none: a lookup for them answers "no such name".
+;
+; A unit test (tests/unit/test_lab_resolver.py) checks this file against the manifest.
+
+$ORIGIN 3.77.10.in-addr.arpa.
+$TTL 60
+
+@    IN SOA ns.lab.test. hostmaster.lab.test. (
+             2026111601 ; serial
+             3600       ; refresh
+             600        ; retry
+             86400      ; expire
+             60 )       ; negative answers
+     IN NS  ns.lab.test.
+
+0    IN PTR first.lab.test.
+10   IN PTR web.lab.test.
+10   IN PTR www.lab.test.
+11   IN PTR mail.lab.test.
+20   IN PTR fw-quiet.lab.test.
+21   IN PTR db.lab.test.
+255  IN PTR last.lab.test.

@@ -1,0 +1,58 @@
+# Reverse proxy of Network Discovery Map: TLS, the static application, /api to the API.
+#
+# Caddy listens on unprivileged ports inside the container. Compose publishes
+# 8443 as port 443 of the host; 8080 is not published and serves only the
+# container's own health check.
+
+{
+	admin off
+	http_port 8080
+	https_port 8443
+	# Nothing is published on port 80, so there is nothing to redirect from.
+	auto_https disable_redirects
+}
+
+# The name or address the analyst types into the browser.
+{$NDM_SITE_ADDRESS:localhost} {
+	# Certificate from Caddy's own CA. The operator guide says how to trust it.
+	tls internal
+
+	# Server-sent events must reach the browser as they are written.
+	@compressible not path /api/v1/events
+	encode @compressible gzip
+
+	header {
+		Strict-Transport-Security "max-age=31536000"
+		X-Content-Type-Options "nosniff"
+		X-Frame-Options "DENY"
+		Referrer-Policy "no-referrer"
+		-Server
+	}
+
+	handle /api/v1/events {
+		reverse_proxy api:8000 {
+			# Do not buffer: forward every event at once.
+			flush_interval -1
+		}
+	}
+
+	handle /api/* {
+		reverse_proxy api:8000
+	}
+
+	handle /healthz {
+		reverse_proxy api:8000
+	}
+
+	# Everything else is the single-page application; unknown paths get its entry page.
+	handle {
+		root * /srv
+		try_files {path} /index.html
+		file_server
+	}
+}
+
+# Health check of the proxy container itself. Reachable inside the container only.
+http://:8080 {
+	respond /proxy-health 200
+}

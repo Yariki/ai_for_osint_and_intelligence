@@ -1,0 +1,55 @@
+#
+# The contents of this file are subject to
+# RIPE Database Terms and Conditions
+#
+
+inetnum:        0.0.0.0 - 255.255.255.255
+netname:        IANA-BLK
+descr:          The whole IPv4 address space
+country:        EU # Country is really world wide
+org:            ORG-IANA1-RIPE
+status:         ALLOCATED UNSPECIFIED
+source:         RIPE
+
+inetnum:        193.0.0.0 - 193.0.7.255
+netname:        NL-EXAMPLE-19930901
+country:        NL
+org:            ORG-EX1-RIPE
+admin-c:        DUMY-RIPE
+tech-c:         DUMY-RIPE
+status:         ALLOCATED PA
+mnt-by:         RIPE-NCC-HM-MNT
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        ****************************
+
+inetnum:        193.0.6.0 - 193.0.6.255
+netname:        EXAMPLE-UNIVERSITY
+descr:          Campus network
+                of the university
++               second building
+country:        nl
+org:            org-ue2-ripe
+status:         ASSIGNED PA
+source:         RIPE
+
+inetnum:        193.0.8.0 - 193.0.10.255
+netname:        DE-CUSTOMER-NET
+descr:          Beispiel GmbH
+descr:          Musterstadt
+country:        DE
+status:         ASSIGNED PA
+source:         RIPE
+
+inetnum:        8.0.0.0 - 8.255.255.255
+netname:        NON-RIPE-NCC-MANAGED-ADDRESS-BLOCK
+descr:          IPv4 address block not managed by the RIPE NCC
+country:        EU # Country is really world wide
+status:         ALLOCATED UNSPECIFIED
+source:         RIPE
+
+inetnum:        not an address - at all
+netname:        BROKEN-OBJECT
+country:        NL
+source:         RIPE

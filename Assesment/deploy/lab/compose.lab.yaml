@@ -1,0 +1,258 @@
+# The Compose lab: scan targets with known open ports, one routed hop away.
+#
+#   docker compose -f compose.lab.yaml up -d --build
+#
+#   lab host 10.77.0.1 ── transit 10.77.0.0/24 ── router ── targets segment 10.77.2.0/24
+#                                              10.77.0.2 / 10.77.2.2          │
+#                                                              targets container 10.77.2.10
+#                                                              holding the manifest's hosts
+#                                                              in 10.77.3.0/24 (the scanned /24)
+#
+# The scanned network 10.77.3.0/24 is not a Docker network. The host reaches it
+# only through the router, so a probe to an address without a host is routed
+# and silently dropped, as on the Internet. The lab gateway (10.77.0.1) is
+# outside the scanned /24.
+#
+# Everything here is non-public address space: the lab works only with the
+# test switch NDM_ALLOW_NON_PUBLIC_TARGETS on. See README.md.
+#
+# To scan the lab with the product stack, start the lab as above and then the
+# stack with the lab's settings on top of its own (from deploy/):
+#
+#   docker compose --env-file .env --env-file lab/lab.env up -d --build
+#
+# lab.env sets the test switch for the api, the orchestrator and the scanner.
+# The scanner needs no network of its own here: it runs on the host network,
+# and the host reaches the scanned /24 through the lab router.
+
+name: ndm-lab
+
+services:
+  router:
+    build: ./router
+    image: ndm-lab-router:local
+    environment:
+      LAB_SCANNED_NETWORK: 10.77.3.0/24
+      LAB_TARGETS_SIDE: 10.77.2.2
+    cap_drop: [ALL]
+    cap_add: [NET_ADMIN]
+    sysctls:
+      net.ipv4.ip_forward: "1"
+    networks:
+      transit:
+        ipv4_address: 10.77.0.2
+      targets:
+        ipv4_address: 10.77.2.2
+    healthcheck:
+      test: ["CMD", "test", "-f", "/tmp/ready"]
+      interval: 2s
+      timeout: 2s
+      retries: 15
+    restart: unless-stopped
+
+  targets:
+    build: ./target
+    image: ndm-lab-target:local
+    environment:
+      LAB_ROUTER: 10.77.2.2
+    volumes:
+      # The manifest decides which hosts exist; nothing about them is repeated here.
+      - ./manifest.yaml:/lab/manifest.yaml:ro
+    cap_drop: [ALL]
+    # NET_ADMIN: addresses, routes and firewall rules of its own namespace.
+    # NET_BIND_SERVICE: ports below 1024. NET_RAW: needed by iptables.
+    cap_add: [NET_ADMIN, NET_BIND_SERVICE, NET_RAW]
+    networks:
+      targets:
+        ipv4_address: 10.77.2.10
+    depends_on:
+      router:
+        condition: service_healthy
+    healthcheck:
+      test: ["CMD", "test", "-f", "/tmp/ready"]
+      interval: 2s
+      timeout: 2s
+      retries: 15
+    restart: unless-stopped
+
+  # The lab resolver: known PTR records for the lab hosts (resolver/lab.zone).
+  # It is published on the lab host's address on the transit network, port
+  # 1053, where the orchestrator's container reaches it:
+  #   NDM_PTR_RESOLVER=10.77.0.1:1053   (set in lab.env)
+  # It forwards nothing, so no lab address leaves the host in a DNS query.
+  resolver:
+    image: coredns/coredns:1.15.0
+    command: ["-conf", "/etc/coredns/Corefile"]
+    volumes:
+      - ./resolver:/etc/coredns:ro
+    cap_drop: [ALL]
+    # Port 53 inside the container.
+    cap_add: [NET_BIND_SERVICE]
+    read_only: true
+    ports:
+      - "10.77.0.1:1053:53/udp"
+      - "10.77.0.1:1053:53/tcp"
+    networks:
+      transit:
+        ipv4_address: 10.77.0.53
+    restart: unless-stopped
+
+  # --- The router chain (Phase 3): hop1 -- hop2 (silent) -- hop3 -- far target ---
+  # See the chain section of manifest.yaml for the expected hop sequence.
+  hop1:
+    build: ./hops
+    image: ndm-lab-hop:local
+    environment:
+      LAB_FORWARD: 10.77.25.0/24
+      LAB_NEXT: 10.77.22.3
+    cap_drop: [ALL]
+    cap_add: [NET_ADMIN]
+    sysctls:
+      net.ipv4.ip_forward: "1"
+    networks:
+      transit:
+        ipv4_address: 10.77.0.21
+      link12:
+        ipv4_address: 10.77.22.2
+    healthcheck: &ready
+      test: ["CMD", "test", "-f", "/tmp/ready"]
+      interval: 2s
+      timeout: 2s
+      retries: 15
+    restart: unless-stopped
+
+  hop2:
+    image: ndm-lab-hop:local
+    environment:
+      LAB_FORWARD: 10.77.25.0/24
+      LAB_NEXT: 10.77.23.3
+      LAB_BACK: 10.77.22.2
+      LAB_SILENT: "true"
+    cap_drop: [ALL]
+    # NET_RAW: iptables needs it for its own socket.
+    cap_add: [NET_ADMIN, NET_RAW]
+    sysctls:
+      net.ipv4.ip_forward: "1"
+    networks:
+      link12:
+        ipv4_address: 10.77.22.3
+      link23:
+        ipv4_address: 10.77.23.2
+    depends_on:
+      hop1:
+        condition: service_healthy
+    healthcheck: *ready
+    restart: unless-stopped
+
+  hop3:
+    image: ndm-lab-hop:local
+    environment:
+      LAB_FORWARD: 10.77.25.0/24
+      LAB_NEXT: direct:10.77.24.3
+      LAB_BACK: 10.77.23.2
+    cap_drop: [ALL]
+    cap_add: [NET_ADMIN]
+    sysctls:
+      net.ipv4.ip_forward: "1"
+    networks:
+      link23:
+        ipv4_address: 10.77.23.3
+      far:
+        ipv4_address: 10.77.24.3
+    depends_on:
+      hop2:
+        condition: service_healthy
+    healthcheck: *ready
+    restart: unless-stopped
+
+  far-target:
+    image: ndm-lab-target:local
+    environment:
+      LAB_ROUTER: 10.77.24.3
+      LAB_MANIFEST_SECTION: chain
+    volumes:
+      - ./manifest.yaml:/lab/manifest.yaml:ro
+    cap_drop: [ALL]
+    cap_add: [NET_ADMIN, NET_BIND_SERVICE, NET_RAW]
+    networks:
+      far:
+        ipv4_address: 10.77.24.10
+    depends_on:
+      targets:
+        condition: service_healthy
+      hop3:
+        condition: service_healthy
+    healthcheck: *ready
+    restart: unless-stopped
+
+  # Check 5.5 (question Q1): 10.77.4.0/24, in which every address answers on
+  # every TCP port. It sits on the transit network, one hop from the lab host,
+  # and is a scan target only for the capacity tests (tests/load).
+  allopen:
+    build: ./allopen
+    image: ndm-lab-allopen:local
+    environment:
+      LAB_ALLOPEN_NETWORK: 10.77.4.0/24
+    cap_drop: [ALL]
+    # NET_ADMIN: the local route and the NAT rule of its own namespace.
+    # NET_RAW: needed by iptables.
+    cap_add: [NET_ADMIN, NET_RAW]
+    sysctls:
+      net.core.somaxconn: "4096"
+    networks:
+      transit:
+        ipv4_address: 10.77.0.30
+    healthcheck: *ready
+    restart: unless-stopped
+
+  # One-shot: tells the lab host that the scanned network is behind the router,
+  # and the far network behind the first router of the chain. It changes the
+  # host's routing table, which is why it runs on the host network with
+  # NET_ADMIN. The routes disappear with the lab's transit network.
+  host-route:
+    image: ndm-lab-router:local
+    network_mode: host
+    cap_drop: [ALL]
+    cap_add: [NET_ADMIN]
+    entrypoint:
+      - sh
+      - -c
+      - >-
+        ip route replace 10.77.3.0/24 via 10.77.0.2 &&
+        ip route replace 10.77.25.0/24 via 10.77.0.21 &&
+        ip route replace 10.77.4.0/24 via 10.77.0.30
+    depends_on:
+      router:
+        condition: service_healthy
+      hop1:
+        condition: service_healthy
+      allopen:
+        condition: service_healthy
+    restart: "no"
+
+networks:
+  transit:
+    ipam:
+      config:
+        - subnet: 10.77.0.0/24
+          gateway: 10.77.0.1
+  targets:
+    ipam:
+      config:
+        - subnet: 10.77.2.0/24
+          gateway: 10.77.2.1
+  link12:
+    ipam:
+      config:
+        - subnet: 10.77.22.0/24
+          gateway: 10.77.22.1
+  link23:
+    ipam:
+      config:
+        - subnet: 10.77.23.0/24
+          gateway: 10.77.23.1
+  far:
+    ipam:
+      config:
+        - subnet: 10.77.24.0/24
+          gateway: 10.77.24.1

@@ -1,0 +1,80 @@
+# Lab manifest: the single source of truth for the lab targets.
+#
+# The targets container reads this file and creates exactly these hosts: it
+# takes the addresses, opens the listed ports and sets the behaviour of closed
+# ports. Accuracy checks read the same file as their expectation. An address
+# of the scanned network that is not listed here has no host: packets to it
+# are routed and silently dropped.
+#
+# Per host:
+#   address       an address inside scanned_network
+#   closed_ports  reset - a closed port answers with RST (the kernel's default)
+#                 drop  - a closed port does not answer (a filtering firewall)
+#   ping          whether the host answers ICMP echo
+#   open_ports    TCP ports that accept connections
+
+scanned_network: 10.77.3.0/24
+
+hosts:
+  # The first and the last address of the /24 are ordinary hosts (FR-CFG-1).
+  - address: 10.77.3.0
+    closed_ports: reset
+    ping: true
+    open_ports: [80]
+
+  - address: 10.77.3.10
+    closed_ports: reset
+    ping: true
+    open_ports: [22, 80, 443]
+
+  - address: 10.77.3.11
+    closed_ports: reset
+    ping: true
+    open_ports: [25, 53, 110, 143, 587, 993]
+
+  # Filtering hosts. The first one does not answer ICMP echo either, so it is
+  # found only by a TCP probe to an open port.
+  - address: 10.77.3.20
+    closed_ports: drop
+    ping: false
+    open_ports: [443, 8443]
+
+  - address: 10.77.3.21
+    closed_ports: drop
+    ping: true
+    open_ports: [21, 3306, 5432]
+
+  # A host that is up and has no open port.
+  - address: 10.77.3.30
+    closed_ports: reset
+    ping: true
+    open_ports: []
+
+  # Many open ports, from the lowest to the highest port number.
+  - address: 10.77.3.40
+    closed_ports: reset
+    ping: true
+    open_ports: [1, 7, 22, 23, 80, 111, 135, 139, 443, 445, 1433, 3389, 5900, 8080, 8443, 9100, 49152, 65535]
+
+  - address: 10.77.3.255
+    closed_ports: reset
+    ping: true
+    open_ports: [443]
+
+# The router chain (traceroute checks of Phase 3). One more target, behind
+# three routers, of which the middle one is silent: it forwards probes and
+# sends no ICMP error. The far-target container plays this section's host.
+#
+#   lab host -- hop1 -- hop2 (silent) -- hop3 -- 10.77.25.10
+#
+# hops is what a traceroute from the lab host must report, TTL by TTL: the
+# address that answers each TTL, null for the silent router. Every hop is
+# outside chain.scanned_network, so none may ever be probed directly (I2).
+chain:
+  scanned_network: 10.77.25.0/24
+  hops: [10.77.0.21, null, 10.77.23.3]
+  hosts:
+    - address: 10.77.25.10
+      closed_ports: reset
+      ping: true
+      open_ports: [22, 80, 443]
