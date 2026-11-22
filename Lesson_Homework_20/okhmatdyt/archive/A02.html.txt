@@ -1,0 +1,1397 @@
+<!DOCTYPE html>
+<!--[if lte IE 9]><html class="no-js legacy" lang="en-GB"><![endif]-->
+<!--[if gt IE 9]><!--><html class="no-js" lang="en-GB"><!--<![endif]-->
+<head>
+    <meta charset="UTF-8" />
+    <title>Russian Missile Identified in Kyiv Children’s Hospital Attack - bellingcat</title>
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    
+    <link href="https://mstdn.social/@Bellingcat" rel="me">
+
+    <meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
+
+	<!-- This site is optimized with the Yoast SEO plugin v28.2 - https://yoast.com/product/yoast-seo-wordpress/ -->
+	<title>Russian Missile Identified in Kyiv Children’s Hospital Attack - bellingcat</title>
+	<meta name="description" content="An analysis of open source evidence, as well as missile experts, have pointed to a Russian launched Kh-101 cruise missile being the weapon that struck a children’s hospital in Kyiv." />
+	<link rel="canonical" href="https://www.bellingcat.com/news/2024/07/09/russian-missile-identified-in-kyiv-childrens-hospital-attack/" />
+	<meta property="og:locale" content="en_US" />
+	<meta property="og:type" content="article" />
+	<meta property="og:title" content="Russian Missile Identified in Kyiv Children’s Hospital Attack - bellingcat" />
+	<meta property="og:description" content="An analysis of open source evidence, as well as missile experts, have pointed to a Russian launched Kh-101 cruise missile being the weapon that struck a children’s hospital in Kyiv." />
+	<meta property="og:url" content="https://www.bellingcat.com/news/2024/07/09/russian-missile-identified-in-kyiv-childrens-hospital-attack/" />
+	<meta property="og:site_name" content="bellingcat" />
+	<meta property="article:published_time" content="2024-07-09T14:32:21+00:00" />
+	<meta property="article:modified_time" content="2026-02-11T10:58:40+00:00" />
+	<meta property="og:image" content="https://www.bellingcat.com/app/uploads/2024/07/Screenshot-2024-07-09-at-05.51.19.png" />
+	<meta property="og:image:width" content="1206" />
+	<meta property="og:image:height" content="826" />
+	<meta property="og:image:type" content="image/png" />
+	<meta name="author" content="Michael Sheldon, Giancarlo Fiorella, Jake Godin, Carlos Gonzales" />
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta name="twitter:label1" content="Written by" />
+	<meta name="twitter:data1" content="Michael Sheldon, Giancarlo Fiorella, Jake Godin, Carlos Gonzales" />
+	<meta name="twitter:label2" content="Est. reading time" />
+	<meta name="twitter:data2" content="13 minutes" />
+	<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https:\/\/schema.org","@graph":[{"@type":"Article","@id":"https:\/\/www.bellingcat.com\/news\/2024\/07\/09\/russian-missile-identified-in-kyiv-childrens-hospital-attack\/#article","isPartOf":{"@id":"https:\/\/www.bellingcat.com\/news\/2024\/07\/09\/russian-missile-identified-in-kyiv-childrens-hospital-attack\/"},"author":[{"@id":"https:\/\/www.bellingcat.com\/#\/schema\/person\/24902f4a0cdb625f93063b71055dab36"},{"@id":"https:\/\/www.bellingcat.com\/#\/schema\/person\/def8efec8aca2810839ee6413213e542"},{"@id":"https:\/\/www.bellingcat.com\/#\/schema\/person\/62a2e00ad7f156d6b402487b27fd12b0"},{"@id":"https:\/\/www.bellingcat.com\/#\/schema\/person\/7c1626c46bc255a60cec28d53eb89383"}],"headline":"Russian Missile Identified in Kyiv Children’s Hospital Attack","datePublished":"2024-07-09T14:32:21+00:00","dateModified":"2026-02-11T10:58:40+00:00","mainEntityOfPage":{"@id":"https:\/\/www.bellingcat.com\/news\/2024\/07\/09\/russian-missile-identified-in-kyiv-childrens-hospital-attack\/"},"wordCount":2248,"image":{"@id":"https:\/\/www.bellingcat.com\/news\/2024\/07\/09\/russian-missile-identified-in-kyiv-childrens-hospital-attack\/#primaryimage"},"thumbnailUrl":"https:\/\/www.bellingcat.com\/app\/uploads\/2024\/07\/Screenshot-2024-07-09-at-05.51.19.png","keywords":["Conflict and Human Rights Team","Missile","Russia","Ukraine"],"articleSection":["Europe","Investigations"],"inLanguage":"en-US"},{"@type":"WebPage","@id":"https:\/\/www.bellingcat.com\/news\/2024\/07\/09\/russian-missile-identified-in-kyiv-childrens-hospital-attack\/","url":"https:\/\/www.bellingcat.com\/news\/2024\/07\/09\/russian-missile-identified-in-kyiv-childrens-hospital-attack\/","name":"Russian Missile Identified in Kyiv Children’s Hospital Attack - bellingcat","isPartOf":{"@id":"https:\/\/www.bellingcat.com\/#website"},"primaryImageOfPage":{"@id":"https:\/\/www.bellingcat.com\/news\/2024\/07\/09\/russian-missile-identified-in-kyiv-childrens-hospital-attack\/#primaryimage"},"image":{"@id":"https:\/\/www.bellingcat.com\/news\/2024\/07\/09\/russian-missile-identified-in-kyiv-childrens-hospital-attack\/#primaryimage"},"thumbnailUrl":"https:\/\/www.bellingcat.com\/app\/uploads\/2024\/07\/Screenshot-2024-07-09-at-05.51.19.png","datePublished":"2024-07-09T14:32:21+00:00","dateModified":"2026-02-11T10:58:40+00:00","author":{"@id":"https:\/\/www.bellingcat.com\/#\/schema\/person\/24902f4a0cdb625f93063b71055dab36"},"description":"An analysis of open source evidence, as well as missile experts, have pointed to a Russian launched Kh-101 cruise missile being the weapon that struck a children’s hospital in Kyiv.","breadcrumb":{"@id":"https:\/\/www.bellingcat.com\/news\/2024\/07\/09\/russian-missile-identified-in-kyiv-childrens-hospital-attack\/#breadcrumb"},"inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/www.bellingcat.com\/news\/2024\/07\/09\/russian-missile-identified-in-kyiv-childrens-hospital-attack\/"]}]},{"@type":"ImageObject","inLanguage":"en-US","@id":"https:\/\/www.bellingcat.com\/news\/2024\/07\/09\/russian-missile-identified-in-kyiv-childrens-hospital-attack\/#primaryimage","url":"https:\/\/www.bellingcat.com\/app\/uploads\/2024\/07\/Screenshot-2024-07-09-at-05.51.19.png","contentUrl":"https:\/\/www.bellingcat.com\/app\/uploads\/2024\/07\/Screenshot-2024-07-09-at-05.51.19.png","width":1206,"height":826},{"@type":"BreadcrumbList","@id":"https:\/\/www.bellingcat.com\/news\/2024\/07\/09\/russian-missile-identified-in-kyiv-childrens-hospital-attack\/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https:\/\/www.bellingcat.com\/"},{"@type":"ListItem","position":2,"name":"Russian Missile Identified in Kyiv Children’s Hospital Attack"}]},{"@type":"WebSite","@id":"https:\/\/www.bellingcat.com\/#website","url":"https:\/\/www.bellingcat.com\/","name":"bellingcat","description":"the home of online investigations","potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https:\/\/www.bellingcat.com\/?s={search_term_string}"},"query-input":{"@type":"PropertyValueSpecification","valueRequired":true,"valueName":"search_term_string"}}],"inLanguage":"en-US"},{"@type":"Person","@id":"https:\/\/www.bellingcat.com\/#\/schema\/person\/24902f4a0cdb625f93063b71055dab36","name":"Michael Sheldon","description":"Michael Sheldon is a researcher for Bellingcat. He has a background in open source research and verification on the conflict in the Donbas. Prior to joining Bellingcat, Michael worked at the DFRLab.","url":"https:\/\/www.bellingcat.com\/author\/michaelsheldon\/"},{"@type":"Person","@id":"https:\/\/www.bellingcat.com\/#\/schema\/person\/def8efec8aca2810839ee6413213e542","name":"Giancarlo Fiorella","description":"Giancarlo is the Director for Research and Training at Bellingcat. He has a PhD from the Centre for Criminology &amp; Sociolegal Studies at the University of Toronto, where his research focused on non-state actors and antigovernmental protests in Venezuela. He is also an Assistant Professor with the Global Justice Investigations Lab at Utrecht University.","url":"https:\/\/www.bellingcat.com\/author\/giancarlofiorella\/"},{"@type":"Person","@id":"https:\/\/www.bellingcat.com\/#\/schema\/person\/62a2e00ad7f156d6b402487b27fd12b0","name":"Jake Godin","description":"Jake Godin is a researcher for Bellingcat. He has covered multiple conflicts with an emphasis on geolocation, munition identification and documenting civilian harm. Prior to joining Bellingcat, he worked at Scripps News on open source reporting, some in partnership with Bellingcat.","url":"https:\/\/www.bellingcat.com\/author\/jakegodin\/"},{"@type":"Person","@id":"https:\/\/www.bellingcat.com\/#\/schema\/person\/7c1626c46bc255a60cec28d53eb89383","name":"Carlos Gonzales","description":"Carlos Gonzales is a researcher and trainer at Bellingcat. Carlos fuses his engineering background with digital forensics. He specialises in the analysis of photographs, videos, satellite imagery, social media posts, timelines and 3D scene reconstruction. In 2020, he was nominated to the European Press Prize category Innovation.","sameAs":["https:\/\/x.com\/mabl2k"],"url":"https:\/\/www.bellingcat.com\/author\/carlosgonzales\/"}]}</script>
+	<!-- / Yoast SEO plugin. -->
+
+
+<link rel="alternate" title="oEmbed (JSON)" type="application/json+oembed" href="https://www.bellingcat.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.bellingcat.com%2Fnews%2F2024%2F07%2F09%2Frussian-missile-identified-in-kyiv-childrens-hospital-attack%2F" />
+<link rel="alternate" title="oEmbed (XML)" type="text/xml+oembed" href="https://www.bellingcat.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.bellingcat.com%2Fnews%2F2024%2F07%2F09%2Frussian-missile-identified-in-kyiv-childrens-hospital-attack%2F&#038;format=xml" />
+<!-- www.bellingcat.com is managing ads with Advanced Ads 2.0.26 – https://wpadvancedads.com/ --><script id="belli-ready">
+			window.advanced_ads_ready=function(e,a){a=a||"complete";var d=function(e){return"interactive"===a?"loading"!==e:"complete"===e};d(document.readyState)?e():document.addEventListener("readystatechange",(function(a){d(a.target.readyState)&&e()}),{once:"interactive"===a})},window.advanced_ads_ready_queue=window.advanced_ads_ready_queue||[];		</script>
+		<style id="wp-img-auto-sizes-contain-inline-css">
+img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
+/*# sourceURL=wp-img-auto-sizes-contain-inline-css */
+</style>
+<style id="wp-block-paragraph-inline-css">
+.is-small-text{font-size:.875em}.is-regular-text{font-size:1em}.is-large-text{font-size:2.25em}.is-larger-text{font-size:3em}.has-drop-cap:not(:focus):first-letter{float:left;font-size:8.4em;font-style:normal;font-weight:100;line-height:.68;margin:.05em .1em 0 0;text-transform:uppercase}body.rtl .has-drop-cap:not(:focus):first-letter{float:none;margin-left:.1em}p.has-drop-cap.has-background{overflow:hidden}:root :where(p.has-background){padding:1.25em 2.375em}:where(p.has-text-color:not(.has-link-color)) a{color:inherit}p.has-text-align-left[style*="writing-mode:vertical-lr"],p.has-text-align-right[style*="writing-mode:vertical-rl"]{rotate:180deg}
+/*# sourceURL=https://www.bellingcat.com/wp-includes/blocks/paragraph/style.min.css */
+</style>
+<style id="wp-block-spacer-inline-css">
+.wp-block-spacer{clear:both}
+/*# sourceURL=https://www.bellingcat.com/wp-includes/blocks/spacer/style.min.css */
+</style>
+<style id="wp-block-image-inline-css">
+.wp-block-image>a,.wp-block-image>figure>a{display:inline-block}.wp-block-image img{box-sizing:border-box;height:auto;max-width:100%;vertical-align:bottom}@media not (prefers-reduced-motion){.wp-block-image img.hide{visibility:hidden}.wp-block-image img.show{animation:show-content-image .4s}}.wp-block-image[style*=border-radius] img,.wp-block-image[style*=border-radius]>a{border-radius:inherit}.wp-block-image.has-custom-border img{box-sizing:border-box}.wp-block-image.aligncenter{text-align:center}.wp-block-image.alignfull>a,.wp-block-image.alignwide>a{width:100%}.wp-block-image.alignfull img,.wp-block-image.alignwide img{height:auto;width:100%}.wp-block-image .aligncenter,.wp-block-image .alignleft,.wp-block-image .alignright,.wp-block-image.aligncenter,.wp-block-image.alignleft,.wp-block-image.alignright{display:table}.wp-block-image .aligncenter>figcaption,.wp-block-image .alignleft>figcaption,.wp-block-image .alignright>figcaption,.wp-block-image.aligncenter>figcaption,.wp-block-image.alignleft>figcaption,.wp-block-image.alignright>figcaption{caption-side:bottom;display:table-caption}.wp-block-image .alignleft{float:left;margin:.5em 1em .5em 0}.wp-block-image .alignright{float:right;margin:.5em 0 .5em 1em}.wp-block-image .aligncenter{margin-left:auto;margin-right:auto}.wp-block-image :where(figcaption){margin-bottom:1em;margin-top:.5em}.wp-block-image.is-style-circle-mask img{border-radius:9999px}@supports ((-webkit-mask-image:none) or (mask-image:none)) or (-webkit-mask-image:none){.wp-block-image.is-style-circle-mask img{border-radius:0;-webkit-mask-image:url('data:image/svg+xml;utf8,<svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg"><circle cx="50" cy="50" r="50"/></svg>');mask-image:url('data:image/svg+xml;utf8,<svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg"><circle cx="50" cy="50" r="50"/></svg>');mask-mode:alpha;-webkit-mask-position:center;mask-position:center;-webkit-mask-repeat:no-repeat;mask-repeat:no-repeat;-webkit-mask-size:contain;mask-size:contain}}:root :where(.wp-block-image.is-style-rounded img,.wp-block-image .is-style-rounded img){border-radius:9999px}.wp-block-image figure{margin:0}.wp-lightbox-container{display:flex;flex-direction:column;position:relative}.wp-lightbox-container img{cursor:zoom-in}.wp-lightbox-container img:hover+button{opacity:1}.wp-lightbox-container button{align-items:center;backdrop-filter:blur(16px) saturate(180%);background-color:#5a5a5a40;border:none;border-radius:4px;cursor:zoom-in;display:flex;height:20px;justify-content:center;opacity:0;padding:0;position:absolute;right:16px;text-align:center;top:16px;width:20px;z-index:100}@media not (prefers-reduced-motion){.wp-lightbox-container button{transition:opacity .2s ease}}.wp-lightbox-container button:focus-visible{outline:3px auto #5a5a5a40;outline:3px auto -webkit-focus-ring-color;outline-offset:3px}.wp-lightbox-container button:hover{cursor:pointer;opacity:1}.wp-lightbox-container button:focus{opacity:1}.wp-lightbox-container button:focus,.wp-lightbox-container button:hover,.wp-lightbox-container button:not(:hover):not(:active):not(.has-background){background-color:#5a5a5a40;border:none}.wp-lightbox-overlay{box-sizing:border-box;cursor:zoom-out;height:100vh;left:0;overflow:hidden;position:fixed;top:0;visibility:hidden;width:100%;z-index:100000}.wp-lightbox-overlay .wp-lightbox-close-button{align-items:center;cursor:pointer;display:flex;font-family:inherit;gap:8px;justify-content:center;line-height:1;min-height:40px;min-width:40px;padding:0 4px;position:absolute;right:calc(env(safe-area-inset-right) + 16px);top:calc(env(safe-area-inset-top) + 16px);z-index:5000000}.wp-lightbox-overlay .wp-lightbox-close-button:focus,.wp-lightbox-overlay .wp-lightbox-close-button:hover,.wp-lightbox-overlay .wp-lightbox-close-button:not(:hover):not(:active):not(.has-background){background:none;border:none}.wp-lightbox-overlay .wp-lightbox-close-button:has(.wp-lightbox-close-text:not([hidden])) .wp-lightbox-close-icon svg{height:1em;width:1em}.wp-lightbox-overlay .wp-lightbox-close-icon svg{display:block}.wp-lightbox-overlay .wp-lightbox-navigation-button-next,.wp-lightbox-overlay .wp-lightbox-navigation-button-prev{align-items:center;bottom:16px;cursor:pointer;display:flex;font-family:inherit;gap:4px;justify-content:center;line-height:1;min-height:40px;min-width:40px;padding:0 8px;position:absolute;z-index:2000002}.wp-lightbox-overlay .wp-lightbox-navigation-button-next[hidden],.wp-lightbox-overlay .wp-lightbox-navigation-button-prev[hidden]{display:none}@media (min-width:960px){.wp-lightbox-overlay .wp-lightbox-navigation-button-next,.wp-lightbox-overlay .wp-lightbox-navigation-button-prev{bottom:50%;transform:translateY(-50%)}}.wp-lightbox-overlay .wp-lightbox-navigation-button-next:focus,.wp-lightbox-overlay .wp-lightbox-navigation-button-next:hover,.wp-lightbox-overlay .wp-lightbox-navigation-button-next:not(:hover):not(:active):not(.has-background),.wp-lightbox-overlay .wp-lightbox-navigation-button-prev:focus,.wp-lightbox-overlay .wp-lightbox-navigation-button-prev:hover,.wp-lightbox-overlay .wp-lightbox-navigation-button-prev:not(:hover):not(:active):not(.has-background){background:none;border:none;padding:0 8px}.wp-lightbox-overlay .wp-lightbox-navigation-button-next:has(.wp-lightbox-navigation-text:not([hidden])) .wp-lightbox-navigation-icon svg,.wp-lightbox-overlay .wp-lightbox-navigation-button-prev:has(.wp-lightbox-navigation-text:not([hidden])) .wp-lightbox-navigation-icon svg{display:block;height:1.5em;width:1.5em}.wp-lightbox-overlay .wp-lightbox-navigation-button-prev{left:calc(env(safe-area-inset-left) + 16px)}.wp-lightbox-overlay .wp-lightbox-navigation-button-next{right:calc(env(safe-area-inset-right) + 16px)}.wp-lightbox-overlay .wp-lightbox-navigation-icon svg{vertical-align:middle}.wp-lightbox-overlay .lightbox-image-container{height:var(--wp--lightbox-container-height);left:50%;overflow:hidden;position:absolute;top:50%;transform:translate(-50%,-50%);transform-origin:top left;width:var(--wp--lightbox-container-width);z-index:2000001}.wp-lightbox-overlay .wp-block-image{align-items:center;box-sizing:border-box;display:flex;height:100%;justify-content:center;margin:0;position:relative;transform-origin:0 0;width:100%;z-index:3000000}.wp-lightbox-overlay .wp-block-image img{height:var(--wp--lightbox-image-height);min-height:var(--wp--lightbox-image-height);min-width:var(--wp--lightbox-image-width);width:var(--wp--lightbox-image-width)}.wp-lightbox-overlay .wp-block-image figcaption{display:none}.wp-lightbox-overlay button{background:none;border:none}.wp-lightbox-overlay .scrim{background-color:#fff;height:100%;opacity:.9;position:absolute;width:100%;z-index:2000000}.wp-lightbox-overlay.active{visibility:visible}@media not (prefers-reduced-motion){.wp-lightbox-overlay.active{animation:turn-on-visibility .25s both}.wp-lightbox-overlay.active img{animation:turn-on-visibility .35s both}.wp-lightbox-overlay.show-closing-animation:not(.active){animation:turn-off-visibility .35s both}.wp-lightbox-overlay.show-closing-animation:not(.active) img{animation:turn-off-visibility .25s both}.wp-lightbox-overlay.zoom.active{animation:none;opacity:1;visibility:visible}.wp-lightbox-overlay.zoom.active .lightbox-image-container{animation:lightbox-zoom-in .4s}.wp-lightbox-overlay.zoom.active .lightbox-image-container img{animation:none}.wp-lightbox-overlay.zoom.active .scrim{animation:turn-on-visibility .4s forwards}.wp-lightbox-overlay.zoom.show-closing-animation:not(.active){animation:none}.wp-lightbox-overlay.zoom.show-closing-animation:not(.active) .lightbox-image-container{animation:lightbox-zoom-out .4s}.wp-lightbox-overlay.zoom.show-closing-animation:not(.active) .lightbox-image-container img{animation:none}.wp-lightbox-overlay.zoom.show-closing-animation:not(.active) .scrim{animation:turn-off-visibility .4s forwards}}@keyframes show-content-image{0%{visibility:hidden}99%{visibility:hidden}to{visibility:visible}}@keyframes turn-on-visibility{0%{opacity:0}to{opacity:1}}@keyframes turn-off-visibility{0%{opacity:1;visibility:visible}99%{opacity:0;visibility:visible}to{opacity:0;visibility:hidden}}@keyframes lightbox-zoom-in{0%{transform:translate(calc((-100vw + var(--wp--lightbox-scrollbar-width))/2 + var(--wp--lightbox-initial-left-position)),calc(-50vh + var(--wp--lightbox-initial-top-position))) scale(var(--wp--lightbox-scale))}to{transform:translate(-50%,-50%) scale(1)}}@keyframes lightbox-zoom-out{0%{transform:translate(-50%,-50%) scale(1);visibility:visible}99%{visibility:visible}to{transform:translate(calc((-100vw + var(--wp--lightbox-scrollbar-width))/2 + var(--wp--lightbox-initial-left-position)),calc(-50vh + var(--wp--lightbox-initial-top-position))) scale(var(--wp--lightbox-scale));visibility:hidden}}
+/*# sourceURL=https://www.bellingcat.com/wp-includes/blocks/image/style.min.css */
+</style>
+<style id="wp-block-library-inline-css">
+:root{--wp-block-synced-color:#7a00df;--wp-block-synced-color--rgb:122,0,223;--wp-bound-block-color:var(--wp-block-synced-color);--wp-editor-canvas-background:#ddd;--wp-admin-theme-color:#007cba;--wp-admin-theme-color--rgb:0,124,186;--wp-admin-theme-color-darker-10:#006ba1;--wp-admin-theme-color-darker-10--rgb:0,107,160.5;--wp-admin-theme-color-darker-20:#005a87;--wp-admin-theme-color-darker-20--rgb:0,90,135;--wp-admin-border-width-focus:2px}@media (min-resolution:192dpi){:root{--wp-admin-border-width-focus:1.5px}}.wp-element-button{cursor:pointer}:root .has-very-light-gray-background-color{background-color:#eee}:root .has-very-dark-gray-background-color{background-color:#313131}:root .has-very-light-gray-color{color:#eee}:root .has-very-dark-gray-color{color:#313131}:root .has-vivid-green-cyan-to-vivid-cyan-blue-gradient-background{background:linear-gradient(135deg,#00d084,#0693e3)}:root .has-purple-crush-gradient-background{background:linear-gradient(135deg,#34e2e4,#4721fb 50%,#ab1dfe)}:root .has-hazy-dawn-gradient-background{background:linear-gradient(135deg,#faaca8,#dad0ec)}:root .has-subdued-olive-gradient-background{background:linear-gradient(135deg,#fafae1,#67a671)}:root .has-atomic-cream-gradient-background{background:linear-gradient(135deg,#fdd79a,#004a59)}:root .has-nightshade-gradient-background{background:linear-gradient(135deg,#330968,#31cdcf)}:root .has-midnight-gradient-background{background:linear-gradient(135deg,#020381,#2874fc)}:root{--wp--preset--font-size--normal:16px;--wp--preset--font-size--huge:42px}.has-regular-font-size{font-size:1em}.has-larger-font-size{font-size:2.625em}.has-normal-font-size{font-size:var(--wp--preset--font-size--normal)}.has-huge-font-size{font-size:var(--wp--preset--font-size--huge)}:root .has-text-align-center{text-align:center}:root .has-text-align-left{text-align:left}:root .has-text-align-right{text-align:right}.has-fit-text{white-space:nowrap!important}#end-resizable-editor-section{display:none}.aligncenter{clear:both}.items-justified-left{justify-content:flex-start}.items-justified-center{justify-content:center}.items-justified-right{justify-content:flex-end}.items-justified-space-between{justify-content:space-between}.screen-reader-text{word-wrap:normal!important;border:0;clip-path:inset(50%);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px}.screen-reader-text:focus{background-color:#ddd;clip-path:none;color:#444;display:block;font-size:1em;height:auto;left:5px;line-height:normal;padding:15px 23px 14px;text-decoration:none;top:5px;width:auto;z-index:100000}html :where(.has-border-color){border-style:solid}html :where([style*=border-color]){border-style:solid}html :where([style*=border-top-color]){border-top-style:solid}html :where([style*=border-right-color]){border-right-style:solid}html :where([style*=border-bottom-color]){border-bottom-style:solid}html :where([style*=border-left-color]){border-left-style:solid}html :where([style*=border-width]){border-style:solid}html :where([style*=border-top-width]){border-top-style:solid}html :where([style*=border-right-width]){border-right-style:solid}html :where([style*=border-bottom-width]){border-bottom-style:solid}html :where([style*=border-left-width]){border-left-style:solid}html :where(img[class*=wp-image-]){height:auto;max-width:100%}:where(figure){margin:0 0 1em}html :where(.is-position-sticky){--wp-admin--admin-bar--position-offset:var(--wp-admin--admin-bar--height,0px)}@media screen and (max-width:600px){html :where(.is-position-sticky){--wp-admin--admin-bar--position-offset:0px}}
+
+/*# sourceURL=/wp-includes/css/dist/block-library/common.min.css */
+</style>
+<style id="wp-block-heading-inline-css">
+h1:where(.wp-block-heading).has-background,h2:where(.wp-block-heading).has-background,h3:where(.wp-block-heading).has-background,h4:where(.wp-block-heading).has-background,h5:where(.wp-block-heading).has-background,h6:where(.wp-block-heading).has-background{padding:1.25em 2.375em}h1.has-text-align-left[style*=writing-mode]:where([style*=vertical-lr]),h1.has-text-align-right[style*=writing-mode]:where([style*=vertical-rl]),h2.has-text-align-left[style*=writing-mode]:where([style*=vertical-lr]),h2.has-text-align-right[style*=writing-mode]:where([style*=vertical-rl]),h3.has-text-align-left[style*=writing-mode]:where([style*=vertical-lr]),h3.has-text-align-right[style*=writing-mode]:where([style*=vertical-rl]),h4.has-text-align-left[style*=writing-mode]:where([style*=vertical-lr]),h4.has-text-align-right[style*=writing-mode]:where([style*=vertical-rl]),h5.has-text-align-left[style*=writing-mode]:where([style*=vertical-lr]),h5.has-text-align-right[style*=writing-mode]:where([style*=vertical-rl]),h6.has-text-align-left[style*=writing-mode]:where([style*=vertical-lr]),h6.has-text-align-right[style*=writing-mode]:where([style*=vertical-rl]){rotate:180deg}
+/*# sourceURL=https://www.bellingcat.com/wp-includes/blocks/heading/style.min.css */
+</style>
+<style id="wp-block-separator-inline-css">
+@charset "UTF-8";.wp-block-separator{border:none;border-top:2px solid}:root :where(.wp-block-separator.is-style-dots){height:auto;line-height:1;text-align:center}:root :where(.wp-block-separator.is-style-dots):before{color:currentColor;content:"···";font-family:serif;font-size:1.5em;letter-spacing:2em;padding-left:2em}.wp-block-separator.is-style-dots{background:none!important;border:none!important}
+/*# sourceURL=https://www.bellingcat.com/wp-includes/blocks/separator/style.min.css */
+</style>
+
+<style id="classic-theme-styles-inline-css">
+/*! This file is auto-generated */
+.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}
+/*# sourceURL=/wp-includes/css/classic-themes.min.css */
+</style>
+
+<style id="global-styles-inline-css">
+:root{--wp--preset--aspect-ratio--square: 1;--wp--preset--aspect-ratio--4-3: 4/3;--wp--preset--aspect-ratio--3-4: 3/4;--wp--preset--aspect-ratio--3-2: 3/2;--wp--preset--aspect-ratio--2-3: 2/3;--wp--preset--aspect-ratio--16-9: 16/9;--wp--preset--aspect-ratio--9-16: 9/16;--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgb(6,147,227) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgb(252,185,0) 0%,rgb(255,105,0) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgb(255,105,0) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgb(255, 255, 255), 6px 6px rgb(0, 0, 0);--wp--preset--shadow--crisp: 6px 6px 0px rgb(0, 0, 0);}:where(body) { margin: 0; }:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}body .is-layout-flex{display: flex;}.is-layout-flex{flex-wrap: wrap;align-items: center;}.is-layout-flex > :is(*, div){margin: 0;}body .is-layout-grid{display: grid;}.is-layout-grid > :is(*, div){margin: 0;}body{padding-top: 0px;padding-right: 0px;padding-bottom: 0px;padding-left: 0px;}:root :where(.wp-element-button, .wp-block-button__link){background-color: #32373c;border-width: 0;color: #fff;font-family: inherit;font-size: inherit;font-style: inherit;font-weight: inherit;letter-spacing: inherit;line-height: inherit;padding-top: calc(0.667em + 2px);padding-right: calc(1.333em + 2px);padding-bottom: calc(0.667em + 2px);padding-left: calc(1.333em + 2px);text-decoration: none;text-transform: inherit;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+/*# sourceURL=global-styles-inline-css */
+</style>
+
+<link rel='stylesheet' id='nouislider-css-css' href='https://www.bellingcat.com/app/plugins/before-after-image-slider-lite/libs/nouislider-14.6.2/nouislider.css?ver=14.6.2' media='all' />
+<link rel='stylesheet' id='wpbaimages-css-css' href='https://www.bellingcat.com/app/plugins/before-after-image-slider-lite/ImageComparisonSlider.css?ver=2.2.0' media='all' />
+<link rel='stylesheet' id='bp-style-css' href='https://www.bellingcat.com/app/themes/bellingcat/assets/css/style.min.css?ver=20261106140005Z' media='all' />
+<script id="jquery-core-js" src="https://www.bellingcat.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1"></script>
+<script id="jquery-migrate-js" src="https://www.bellingcat.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1"></script>
+<script id="nouislider-js-js" src="https://www.bellingcat.com/app/plugins/before-after-image-slider-lite/libs/nouislider-14.6.2/nouislider.js?ver=14.6.2"></script>
+<script id="wpbaimages-js-js" src="https://www.bellingcat.com/app/plugins/before-after-image-slider-lite/ImageComparisonSlider.js?ver=2.2.0"></script>
+<script id="bp-js-js" src="https://www.bellingcat.com/app/themes/bellingcat/assets/js/main.min.js?ver=20261106140005Z"></script>
+<script id="advanced-ads-advanced-js-js-extra">
+var advads_options = {"blog_id":"1","privacy":{"enabled":false,"state":"not_needed"}};
+//# sourceURL=advanced-ads-advanced-js-js-extra
+</script>
+<script id="advanced-ads-advanced-js-js" src="https://www.bellingcat.com/app/plugins/advanced-ads/assets/dist/advanced.js?ver=4e4c7549b1472da4abe5"></script>
+<script id="utils-js-extra">
+var userSettings = {"url":"/","uid":"0","time":"1795377299","secure":"1"};
+//# sourceURL=utils-js-extra
+</script>
+<script id="utils-js" src="https://www.bellingcat.com/wp-includes/js/utils.min.js?ver=7.0.3"></script>
+<link rel="https://api.w.org/" href="https://www.bellingcat.com/wp-json/" /><link rel="alternate" title="JSON" type="application/json" href="https://www.bellingcat.com/wp-json/wp/v2/posts/44869" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://www.bellingcat.com/xmlrpc.php?rsd" />
+<!-- Onion Location for language: en -->
+<meta http-equiv="onion-location" content="http://bellcatmbguthn3age23lrbseln2lryzv3mt7whis7ktjw4qrestbzad.onion/" />
+		<script type="text/javascript">
+			var advadsCfpQueue = [];
+			var advadsCfpAd = function( adID ) {
+				if ( 'undefined' === typeof advadsProCfp ) {
+					advadsCfpQueue.push( adID )
+				} else {
+					advadsProCfp.addElement( adID )
+				}
+			}
+		</script>
+				<script type="text/javascript">
+			if ( typeof advadsGATracking === 'undefined' ) {
+				window.advadsGATracking = {
+					delayedAds: {},
+					deferedAds: {}
+				};
+			}
+		</script>
+		<style id="wp-custom-css">
+/* The following CSS was added to support details/summary tags. (December 2020) */
+
+.collapse-details {
+  display:none;
+  padding-left: 4px;
+  padding-right: 0px;
+	margin-right: 4px;
+}
+
+.collapse-open {
+  display: none;
+}
+
+.collapse-button {
+  border: 1px solid #999;
+  background-color: #eee;
+  border-radius: 2px;
+  cursor: pointer;
+  padding-left: 4px;
+  padding-right: 6px;
+	margin-right: 4px;
+}
+
+.collapse-button:hover {
+ background-color: #ddd;
+}
+
+.collapse-open:checked ~ .collapse-button {
+  display: none;
+}
+
+.collapse-open:checked ~ .collapse-details 
+{
+  display: inline;
+  margin-left: 4px;
+  background-color: #eee;
+}
+
+.collapse-close {
+  border: 1px solid #999;
+  background-color: #eee;
+  border-radius: 2px;
+  padding-left: 4px;
+  padding-right: 2px;
+  margin-left: 4px;
+  cursor: pointer;
+}
+
+.collapse-close:hover {
+  background-color: #ddd;
+}
+
+/* The following CSS was added to allow certain elements to be hidden on mobile or desktop devices (particularly data visualizations that need a minimum width). 2021 */
+
+@media (max-width: 680px) {
+  .mobilehide {
+    display: none;
+  }
+}
+
+@media (min-width: 681px) {
+  .desktophide {
+    display: none;
+  }
+}
+
+/* This is used for iframes that should be larger on mobile. */
+
+@media (max-width: 1023px) {
+	iframe.square {
+		height: 100vw;
+	}
+}
+
+/* H6 is hijacked to support drop caps on specified paragraphs. July 2021*/
+
+h6 {
+	margin-bottom: 1rem;
+	font-size: 1.06rem;
+	line-height: 1.65;
+	font-weight: normal;
+}
+
+h6:first-letter {
+  float: left;
+  font-family: Georgia;
+  font-size: 75px;
+  line-height: 60px;
+  padding-top: 6px;
+  padding-right: 8px;
+  padding-left: 3px;
+}
+
+/* Additional CSS for new editor drop caps */
+
+.has-drop-cap:not(:focus):first-letter {
+	float: left;
+  font-family: Georgia !important;
+  font-size: 75px;
+  line-height: 60px;
+  padding-top: 6px;
+  padding-right: 8px;
+  padding-left: 3px;
+}
+
+/* Tweaks to HR styling */
+
+hr {
+	background-color: rgba(0,0,0,0.2);
+	height: 3px;
+	margin-top: 2em;
+	margin-bottom: 2em;
+}
+
+/* Pull quotes. 2021 */
+
+blockquote.pull {
+	background: #fffff0;
+  border-left: 10px solid #faf9a2;
+  margin: 1.5em 10px;
+  padding: 0.5em 3em;
+  quotes: "\201C""\201D""\2018""\2019";
+	font-size: 24px;
+	font-style: italic;
+	text-align: center;
+}
+
+@media (min-width: 1024px) {
+	blockquote.pull {
+		margin-left: -20%;
+		width: 120%;
+	}
+}
+
+blockquote.pull:before {
+	color: #ccc;
+  content: open-quote;
+  font-size: 4em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
+}
+
+blockquote.pull p {
+  display: inline;
+	color: #444 !important;
+}
+
+/* Use system defaults for higlight colors, for accessibility. August 2021  */
+
+::selection {
+	color: highlighttext !important;
+	background-color: highlight !important;
+}
+
+/* Support scrolly-telling parallax maps. November 2021 */
+
+.overlay-caption {
+width: 300px;
+    margin-left: 400px;
+    background-color: rgba(255,255,255,0.8);
+    z-index: 2;
+    position: relative;
+    margin-bottom: 200px;
+    font-size: 20px;
+    padding: 0.5em;
+	  border: 1px solid rgba(0,0,0,0.5)
+}
+
+@media (max-width: 680px) {
+	.overlay-caption {
+		margin-left: unset;
+	}
+}
+
+.overlay-image {
+	  position: absolute;
+    top: 100px;
+    height: 250px;
+    width: auto;
+    left: -700px;
+}
+
+.overlay-image .media {
+	height: 100%;
+}
+
+.overlay-image .media img {
+	height: 100%;
+}
+
+/* The following CSS was added to support a scrollytelling visualization. November 2022 */
+
+.scrolly {
+	overflow: hidden;
+	position: relative;
+}
+
+.scrolly div.p {
+	position: absolute;
+	right: 2em;
+	max-width: 300px;
+	background-color: rgba(255, 255, 255, 0.7);
+	border-radius: 0px;
+	padding: 1em;
+}
+
+.scrolly div.p img {
+	margin-bottom: 1em;
+	max-width: 100%;
+}
+
+.overlay-counter {
+	opacity: 0;
+}
+
+@media (max-width: 680px) {
+	.scrolly div.p {
+		z-index: 2;
+		margin-top: 200px;
+		right: 0px;
+		left: 0px;
+		max-width: 100% !important;
+	}
+}
+
+/* Additional block styles, November 2022 */
+
+cite {
+	margin-top: 0;
+	font-size: .875rem;
+	line-height: 1.57;
+}
+
+.wp-block-table figcaption {
+	  margin-top: 0;
+    font-size: .875rem;
+    line-height: 1.57;
+}
+
+/* Fix menu spacing, December 2022  */
+
+@media screen and (min-width: 1024px) and (max-width: 1150px) {
+	.nav__list-item {
+		padding: 10px 5px !important;
+	}
+}
+
+/* Consistent size form checkboxes, Feb 2023 */
+
+.gform_wrapper.gravity-theme .gfield_checkbox label, .gform_wrapper.gravity-theme .gfield_radio label {
+	font-size: 0.875em !important;
+}
+
+/* Hide form tabs Feb 2023 */
+
+.donate__support {
+	display: flex;
+	margin-bottom: 2em;
+}
+
+.donate__support .support__item {
+	width: 50%;
+}
+
+.ginput_address_country {
+	flex: 1 !important;
+}
+
+#input_8_2 {
+	width: 100%;
+}
+
+/** Front page hotfix **/
+/**
+p a:hover {
+	color: black !important;
+}
+**/
+
+@media screen and (max-width: 600px) {
+	h1.heading--jumbo {
+		font-size: xx-large !important;
+	}
+	
+	h1 {
+		font-size: x-large !important;
+	}
+	
+	.featured-posts {
+		padding-bottom: 2rem !important;
+	}
+}
+
+/**
+
+.section--patreon p {
+	color: white;
+}
+
+.section--socials p {
+	color: white;
+}
+
+.section--socials p a {
+	text-decoration: underline;
+}
+
+.highlight p a {
+	text-decoration: underline;
+}
+
+@media screen and (max-width: 600px) {
+	.footer__logo svg {
+		max-width: calc(100% - 5em);
+	}
+	
+	.email form input[type=email] {
+		max-width: calc(100% - 90px);
+	}
+	
+	.section--newsletter div.d--f {
+		    max-width: calc(100% - 32px);
+	}
+	
+	.section--newsletter div h1 {
+		max-width: calc(100% - 1em) !important;
+	}
+	
+	footer {
+		overflow-x: hidden;
+	}
+}
+
+.highlight {
+	margin-right: 1em;
+}**/
+
+/* Page 53953: transparent button with a soft grey outline */
+.page-id-53953 .wp-block-button.custom-yellow-hover .wp-block-button__link {
+    background-color: transparent !important;
+    border: 2px solid #6a6a6a !important;
+    color: #000000 !important;
+    transition: background-color 0.25s ease, border-color 0.25s ease, color 0.25s ease;
+}
+
+/* Hover: yellow background, yellow outline, black text */
+.page-id-53953 .wp-block-button.custom-yellow-hover .wp-block-button__link:hover {
+    background-color: #fcb900 !important;
+    border-color: #fcb900 !important;
+    color: #000000 !important;
+}
+</style>
+
+
+    <link rel="shortcut icon" href="/app/themes/bellingcat/assets/icons/favicons/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="https://www.bellingcat.com/app/themes/bellingcat/assets/icons/favicons/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://www.bellingcat.com/app/themes/bellingcat/assets/icons/favicons/favicon-32x32.png">
+<link rel="manifest" href="https://www.bellingcat.com/app/themes/bellingcat/assets/icons/favicons/manifest.json">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="theme-color" content="#000">
+<meta name="application-name" content="bellingcat">
+<link rel="apple-touch-icon" sizes="57x57" href="https://www.bellingcat.com/app/themes/bellingcat/assets/icons/favicons/apple-touch-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="https://www.bellingcat.com/app/themes/bellingcat/assets/icons/favicons/apple-touch-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="https://www.bellingcat.com/app/themes/bellingcat/assets/icons/favicons/apple-touch-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="https://www.bellingcat.com/app/themes/bellingcat/assets/icons/favicons/apple-touch-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="https://www.bellingcat.com/app/themes/bellingcat/assets/icons/favicons/apple-touch-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="https://www.bellingcat.com/app/themes/bellingcat/assets/icons/favicons/apple-touch-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="https://www.bellingcat.com/app/themes/bellingcat/assets/icons/favicons/apple-touch-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="https://www.bellingcat.com/app/themes/bellingcat/assets/icons/favicons/apple-touch-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="167x167" href="https://www.bellingcat.com/app/themes/bellingcat/assets/icons/favicons/apple-touch-icon-167x167.png">
+<link rel="apple-touch-icon" sizes="180x180" href="https://www.bellingcat.com/app/themes/bellingcat/assets/icons/favicons/apple-touch-icon-180x180.png">
+<link rel="apple-touch-icon" sizes="1024x1024" href="https://www.bellingcat.com/app/themes/bellingcat/assets/icons/favicons/apple-touch-icon-1024x1024.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="bellingcat">
+
+    <script defer data-domain="www.bellingcat.com" src="https://plausible.io/js/script.tagged-events.outbound-links.js"></script>
+    
+    
+    </head>
+<body class="wp-singular post-template-default single single-post postid-44869 single-format-standard wp-theme-bellingcat aa-prefix-belli- front-end visitor" itemscope itemtype="//schema.org/WebPage">
+
+    <header class="site__header">
+  <div class="container d--f fw--nw ai--c">
+    <div class="logo header-logo">
+          <a href="/" class="header-link--togglable">
+        <svg class="logo header-link--togglable" xmlns="http://www.w3.org/2000/svg" width="200" height="32" viewBox="0 0 200 32">
+            <path fill="#FFF" fill-rule="evenodd" d="M131.456 8.326c2.982 0 4.878 1.739 5.595 3.382h.06V8.736h1.523v15.616c0 4.963-2.982 7.175-6.93 7.175-4.319 0-6.211-1.929-6.739-4.456h1.644c.467 1.928 2.02 3.097 5.096 3.097 2.58 0 5.315-1.263 5.315-5.532v-2.719h-.094c-1.089 2.086-3.17 3.32-5.903 3.32-2.983 0-6.929-1.992-6.929-8.47 0-5.564 3.137-8.441 7.362-8.441zm-101.898 0c5.002 0 6.555 3.984 6.555 7.65v1.327l-12.272.032c.093 4.425 1.864 6.921 5.81 6.921 3.137 0 4.319-2.116 4.66-2.971h1.523c-.622 2.403-2.858 4.364-6.244 4.364-5.095 0-7.365-3.13-7.365-8.504 0-5.088 2.55-8.82 7.333-8.82zm124.125-.03c2.795 0 5.781 1.265 6.308 4.74h-1.646c-.219-1.642-1.742-3.317-4.599-3.317-3.48 0-5.749 2.591-5.749 7.235 0 4.617 1.773 7.303 5.594 7.303 3.137 0 4.35-1.675 4.754-3.855h1.646c-.59 3.506-3.075 5.247-6.464 5.247-4.908 0-7.268-3.384-7.268-8.504 0-4.994 2.64-8.85 7.424-8.85zM90.062 7.031v.822c0 3.224-.31 3.728-2.516 5.687l-1.305 1.17c-1.584 1.392-2.3 2.876-2.3 4.9 0 2.97 1.927 4.646 5.283 4.646 3.355 0 5.654-2.338 5.56-6.29h1.522c.125 4.932-3.012 7.682-7.207 7.682-4.723 0-6.804-2.781-6.804-5.849 0-3.13 1.368-4.583 3.325-6.447l.995-.949c1.738-1.643 1.957-1.927 1.957-4.519v-.853h1.49zM1.647.33v11.315h.03c1.088-2.15 3.139-3.32 5.81-3.32 3.45 0 6.898 2.244 6.898 8.662 0 5.973-3.417 8.662-7.332 8.662-2.89 0-4.722-1.708-5.469-3.384h-.062v2.972H0V.33h1.647zm191.236 3.35v5.057H200v1.36h-7.117v11c0 2.181 1.244 3.066 3.389 3.066 1.18 0 2.578-.16 3.728-.537v1.42c-.871.286-2.144.57-3.758.57-3.793 0-5.003-1.77-5.003-4.646V10.097h-4.687v-1.36h2.76c1.709 0 1.988-.411 1.988-2.181V3.68h1.583zm-19.031 4.678c5.182 0 5.907 3.167 5.932 6.243v7.57c0 1.265.403 1.705 1.463 1.705h.619v1.361h-.653c-2.33 0-2.983-1.074-2.951-3.32h-.06c-.902 2.246-3.047 3.573-5.72 3.573-3.076 0-5.187-1.674-5.187-4.583 0-1.928.961-3.13 2.175-3.856 1.614-.918 4.35-1.233 8.76-1.516v-.601c0-3.036-.432-5.186-4.349-5.186-2.797 0-4.132 1.519-4.38 3.32h-1.553c.279-2.466 2.235-4.646 5.904-4.71zM50.38.33v23.546h6.307v1.362h-14.2v-1.362h6.246V1.753h-5.097V.33h6.744zm19.878 0v23.546h6.31v1.362h-14.2v-1.362h6.245V1.753h-5.095V.33h6.74zm40.456 7.996c3.852 0 5.437 2.309 5.437 6.228v10.684h-1.648v-10.81c0-1.423-.278-2.53-.87-3.32-.62-.853-1.614-1.328-3.169-1.328-3.729 0-5.281 2.908-5.281 5.848v9.61h-1.647V8.736h1.522v3.036h.062c.964-1.96 2.454-3.446 5.594-3.446zM7.208 9.718c-3.822 0-5.561 2.845-5.561 5.594v3.256c0 2.591 1.615 5.688 5.437 5.688 3.697 0 5.562-2.875 5.562-7.269 0-3.887-1.399-7.269-5.438-7.269zm170.993 7.175c-4.723.314-6.774.6-7.8 1.326-.9.601-1.428 1.485-1.428 2.655 0 2.15 1.553 3.256 3.76 3.256 2.764 0 5.468-2.213 5.468-6.258v-.979zm-46.745-7.175c-3.788 0-5.654 3.034-5.654 7.048 0 3.981 1.583 7.08 5.624 7.08 3.758 0 5.561-2.813 5.561-5.627v-2.812c0-2.592-1.583-5.689-5.53-5.689zm-101.898 0c-3.574 0-5.407 2.592-5.685 6.289h10.626v-.126c.03-2.37-.746-6.163-4.941-6.163zM89.303 0c1.071 0 1.938.884 1.938 1.972 0 1.09-.867 1.975-1.938 1.975-1.07 0-1.94-.885-1.94-1.975 0-1.088.87-1.972 1.94-1.972z"/>
+        </svg>
+    </a>
+
+    </div>
+
+    <div class="nav">
+        <ul class="nav__list d--f fd--r ai--c">
+
+      <li class="nav__list-item menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor current-menu-parent current-post-parent menu-item-28462">
+          <a class="nav__link header-link--togglable" style="font-size: 1rem; letter-spacing: 1px; font-weight: 700;" href="https://www.bellingcat.com/category/news/">
+        Investigations
+    </a>
+
+
+    </li>
+      <li class="nav__list-item menu-item menu-item-type-taxonomy menu-item-object-category menu-item-28469">
+          <a class="nav__link header-link--togglable" style="font-size: 1rem; letter-spacing: 1px; font-weight: 700;" href="https://www.bellingcat.com/category/resources/">
+        Resources
+    </a>
+
+
+    </li>
+      <li class="nav__list-item menu-item menu-item-type-custom menu-item-object-custom menu-item-34298">
+          <a class="nav__link header-link--togglable" style="font-size: 1rem; letter-spacing: 1px; font-weight: 700;" href="https://www.bellingcat.com/tag/ukraine/">
+        Ukraine
+    </a>
+
+
+    </li>
+      <li class="nav__list-item menu-item menu-item-type-post_type_archive menu-item-object-bc_event menu-item-29387">
+          <a class="nav__link header-link--togglable" style="font-size: 1rem; letter-spacing: 1px; font-weight: 700;" href="https://www.bellingcat.com/workshops/">
+        Workshops
+    </a>
+
+
+    </li>
+  
+      <li class="nav__list-search search-icon" style="padding-bottom: 11px;"></li>
+
+
+      <li class="nav__list-h-menu hamburger-menu">
+        <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24" fill="white">
+            <path d="M21 6H3V5h18v1zm0 5H3v1h18v-1zm0 6H3v1h18v-1z"></path>
+        </svg>
+    </li>
+
+
+              <li class="nav__list-lang nav__list-item localeSwitcher">
+            <a class="js-localeSwitch localeSwitch selected">
+                <span class="localeCode header-link--togglable" style="font-size: 1rem; letter-spacing: 1px; font-weight: 700;">
+                    EN
+                </span>
+            <svg class="header-link--togglable" xmlns="http://www.w3.org/2000/svg" width="16" height="10" viewBox="0 0 10 20" version="1.1"><g fill="#fff"><polygon points="0 0 10 10 20 0"/></g></svg></a>
+                <ul>
+                                            <li><a href="https://ru.bellingcat.com" rel="nofollow">Русский</a></li>
+                                            <li><a href="https://fr.bellingcat.com" rel="nofollow">Français</a></li>
+                                            <li><a href="https://es.bellingcat.com" rel="nofollow">Español</a></li>
+                                            <li><a href="https://de.bellingcat.com" rel="nofollow">Deutsch</a></li>
+                                            <li><a href="https://uk.bellingcat.com" rel="nofollow">Українська</a></li>
+                                    </ul>
+        </li>
+    
+
+              <li class="nav__list-donate">
+            <a class="nav__link btn btn--primary header-link--togglable plausible-event-name=DonateBtnNav" href="https://www.bellingcat.com/donate">Donate</a>
+        </li>
+    
+
+
+</ul>    </div>
+  </div>
+</header>
+
+<div class="site__header--search d--f fd--r ai--c">
+  <div class="container d--f">
+        <form role="search" method="get" id="searchform" class="searchform" action="https://www.bellingcat.com/">
+				<div>
+					<label class="screen-reader-text" for="s">Search for:</label>
+					<input type="text" value="" name="s" id="s" />
+					<input type="submit" id="searchsubmit" value="Search" />
+				</div>
+			</form>
+
+  </div>
+</div>
+
+
+    <div class="mobile-menu">
+              <ul class="mobile-nav__list mobile-nav d--f fd--r ai--c">
+                      <li class="mobile-nav__list-item menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor current-menu-parent current-post-parent menu-item-28462">
+                  <a class="nav__link header-link--togglable" style="font-size: 1rem; letter-spacing: 1px; font-weight: 700;" href="https://www.bellingcat.com/category/news/">
+        Investigations
+    </a>
+
+
+            </li>
+                      <li class="mobile-nav__list-item menu-item menu-item-type-taxonomy menu-item-object-category menu-item-28469">
+                  <a class="nav__link header-link--togglable" style="font-size: 1rem; letter-spacing: 1px; font-weight: 700;" href="https://www.bellingcat.com/category/resources/">
+        Resources
+    </a>
+
+
+            </li>
+                      <li class="mobile-nav__list-item menu-item menu-item-type-custom menu-item-object-custom menu-item-34298">
+                  <a class="nav__link header-link--togglable" style="font-size: 1rem; letter-spacing: 1px; font-weight: 700;" href="https://www.bellingcat.com/tag/ukraine/">
+        Ukraine
+    </a>
+
+
+            </li>
+                      <li class="mobile-nav__list-item menu-item menu-item-type-post_type_archive menu-item-object-bc_event menu-item-29387">
+                  <a class="nav__link header-link--togglable" style="font-size: 1rem; letter-spacing: 1px; font-weight: 700;" href="https://www.bellingcat.com/workshops/">
+        Workshops
+    </a>
+
+
+            </li>
+                    <li class="mobile-nav__list-item mobile-nav__list-item--donate">
+            <a class="nav__link btn btn--primary header-link--togglable plausible-event-name=DonateBtnNav" 
+                href="/donate">
+                Donate
+            </a>
+          </li>
+        </ul>
+          </div>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    const searchIcon = document.querySelector('.search-icon');
+    const togglables = document.querySelectorAll('.header-link--togglable');
+
+    if (searchIcon && togglables) {
+      searchIcon.addEventListener('click', function() {
+        togglables.forEach(element => {
+          element.classList.toggle('inactive');
+          
+          if (element.tagName.toLowerCase() === 'svg') {
+            const eleWithFill = element.querySelector('g') || element.querySelector('path');
+
+            if (eleWithFill) {
+              if (element.classList.contains('inactive')) {
+                eleWithFill.style.fill = '#8C8C8B';
+              } else {
+                eleWithFill.style.fill = 'white';
+              }
+            } else { console.log('Msg: No fillable element found in header.') }
+          }
+        });
+      });
+    }
+  });
+</script>
+
+    <main class="site__content">
+        
+      <div class="singular">
+
+          <div class="container">
+
+        <div class="singular__content">
+          <aside class="singular__content__aside">
+
+            
+              <div class="sidebar--author">
+                                                                      
+                  <a href="https://www.bellingcat.com/author/michaelsheldon/">
+                                          <img src="https://www.bellingcat.com/app/uploads/2022/04/LWVYg4iS_400x400-1.jpg" alt="Profile picture for: Michael Sheldon"/>
+                    </a>
+                  <span><a href="https://www.bellingcat.com/author/michaelsheldon/">Michael Sheldon</a></span>
+                  
+                                      <p>Michael Sheldon is a researcher for Bellingcat. He has a background in open source research and verification on the conflict in the Donbas. Prior to joining Bellingcat, Michael worked at the DFRLab.</p>
+                                  
+                                                                      
+                  <a href="https://www.bellingcat.com/author/giancarlofiorella/">
+                                          <img src="https://www.bellingcat.com/app/uploads/2021/11/DSCF9189-300x300.jpg" alt="Profile picture for: Giancarlo Fiorella"/>
+                    </a>
+                  <span><a href="https://www.bellingcat.com/author/giancarlofiorella/">Giancarlo Fiorella</a></span>
+                  
+                                      <p>Giancarlo is the Director for Research and Training at Bellingcat. He has a PhD from the Centre for Criminology & Sociolegal Studies at the University of Toronto, where his research focused on non-state actors and antigovernmental protests in Venezuela. He is also an Assistant Professor with the Global Justice Investigations Lab at Utrecht University.</p>
+                                  
+                                                                      
+                  <a href="https://www.bellingcat.com/author/jakegodin/">
+                                          <img src="https://www.bellingcat.com/app/uploads/2022/08/Screen-Shot-2022-08-30-at-12.02.00-PM-300x300.png" alt="Profile picture for: Jake Godin"/>
+                    </a>
+                  <span><a href="https://www.bellingcat.com/author/jakegodin/">Jake Godin</a></span>
+                  
+                                      <p>Jake Godin is a researcher for Bellingcat. He has covered multiple conflicts with an emphasis on geolocation, munition identification and documenting civilian harm. Prior to joining Bellingcat, he worked at Scripps News on open source reporting, some in partnership with Bellingcat.</p>
+                                  
+                                                                      
+                  <a href="https://www.bellingcat.com/author/carlosgonzales/">
+                                          <img src="https://www.bellingcat.com/app/uploads/2023/11/Profile-1.jpg" alt="Profile picture for: Carlos Gonzales"/>
+                    </a>
+                  <span><a href="https://www.bellingcat.com/author/carlosgonzales/">Carlos Gonzales</a></span>
+                  
+                                      <p>Carlos Gonzales is a researcher and trainer at Bellingcat. 
+
+Carlos fuses his engineering background with digital forensics. He specialises in the analysis of photographs, videos, satellite imagery, social media posts, timelines and 3D scene reconstruction.
+
+In 2020, he was nominated to the European Press Prize category Innovation.</p>
+                                  
+                              </div>
+            
+          <div style="max-width: 100%; margin-top: 360px;" class="belli-b0a187a483f4db0728ee8cc8f722538b belli-sidebar-end" id="belli-b0a187a483f4db0728ee8cc8f722538b"></div></aside>
+          <div class="singular__content__text">
+            <div class="singular__content__text__title">
+              <h1>
+                                  Russian Missile Identified in Kyiv Children’s Hospital Attack
+                              </h1>
+            </div>
+            
+            
+                          <div class="singular__content__text__meta">
+                <div class="meta meta">
+
+    <time datetime="July 9, 2024" class="meta__time">
+    July 9, 2024
+  </time>
+  
+  <div class="meta__tags">
+        <ul>
+            <li><a href="/tag/missile">Missile</a></li>
+            <li><a href="/tag/russia">Russia</a></li>
+            <li><a href="/tag/ukraine">Ukraine</a></li>
+          </ul>
+  </div>
+</div>
+              </div>
+            
+            <div class="singular__content__text__content">
+              
+<p class="wp-block-paragraph">An analysis of open source evidence, as well as missile experts, have pointed to a Russian launched Kh-101 cruise missile being the weapon that struck a children’s hospital in Kyiv, debunking claims from pro-Russian accounts and actors that denied responsibility and sought to shift the blame for the incident on to Ukraine.</p>
+
+
+
+<p class="wp-block-paragraph">The July 8 attack on the Okhmatdyt Children’s Hospital <a href="https://www.facebook.com/share/p/7qtQnWmyiTiwJ19F/">killed two</a> and injured over 50 others, according to the hospital. However, the full toll of dead and injured remains unknown with individuals <a href="https://www.theguardian.com/world/article/2024/jul/08/rescuers-search-rubble-of-kyiv-childrens-hospital-after-russian-missile-attack-in-ukraine">reported</a> to still be trapped under rubble.</p>
+
+
+
+<p class="wp-block-paragraph">In the aftermath of the strike, several social media accounts known for spreading disinformation — including that of the <a href="https://x.com/mfa_russia/status/1810307880244965438">Russian Ministry of Foreign Affairs</a> — began to claim that the missile was American-made and that it had been launched from a Ukrainian anti-aircraft missile system.&nbsp;</p>
+
+
+
+<p class="wp-block-paragraph">Yet an analysis conducted by Bellingcat using social media footage as well as&nbsp; a 3D model of the missile, all point to the munition being a <a href="https://missilethreat.csis.org/missile/kh-101-kh-102/">Russian Kh-101 cruise missile</a>. The analysis is in line with the view of experts, including <a href="https://x.com/FRHoffmann1/status/1810350033616732653">Fabian Hoffman</a>, a doctoral research fellow at the University of Oslo who specialises in missile technology.&nbsp;&nbsp;</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter size-full is-resized"><a href="https://x.com/FRHoffmann1/status/1810350033616732653" target="_blank" rel="https://x.com/FRHoffmann1/status/1810350033616732653 noreferrer noopener"><div class="media"><img fetchpriority="high" decoding="async" src="https://www.bellingcat.com/app/uploads/2024/07/Screenshot-2024-07-09-at-05.45.11.png" alt="" class="wp-image-44889" width="295" height="489" srcset="https://www.bellingcat.com/app/uploads/2024/07/Screenshot-2024-07-09-at-05.45.11.png 596w, https://www.bellingcat.com/app/uploads/2024/07/Screenshot-2024-07-09-at-05.45.11-181x300.png 181w" sizes="(max-width: 295px) 100vw, 295px" /></div></a><figcaption class="wp-element-caption">A screengrab of a tweet by missile technology expert Fabian Hoffman.</figcaption></figure>
+</div>
+
+
+<p class="wp-block-paragraph">Dr. Jeffrey Lewis, a nuclear weapons and missile expert at the Middlebury Institute of International Studies at Monterey in California, similarly concluded in an email to Bellingcat that a Kh-101 missile could be seen in footage of the attack posted to social media sites. </p>
+
+
+
+<p class="wp-block-paragraph">Bellingcat also tested an alternative theory floated online that the missile was a US-made AIM-120, but found no evidence for this.</p>
+
+
+
+<p class="wp-block-paragraph">The hospital attack came as part of a wider Russian missile barrage that hit civilian targets elsewhere in Ukraine, including the city of Dnipro. According to <a href="https://t.me/kpszsu/16341">the Ukrainian Air Force</a>, the attack began at approximately 10:00 AM local time and involved at least 36 missiles, including 13 Kh-101 cruise missiles.</p>
+
+
+
+<h2 class="wp-block-heading"><strong>Analysing the Missile Strike Footage</strong></h2>
+
+
+
+<p class="wp-block-paragraph">Shortly before noon, <a href="https://t.me/Tsaplienko/56544">reports began to surface</a> claiming that there had been an explosion at the Okhmatdyt Children’s Hospital. These reports were followed by video footage posted to Telegram showing a missile impacting the hospital.</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter size-full"><div class="media"><img decoding="async" width="494" height="910" src="https://www.bellingcat.com/app/uploads/2024/07/Screenshot-2024-07-09-at-04.57.34.jpeg" alt="" class="wp-image-44912" srcset="https://www.bellingcat.com/app/uploads/2024/07/Screenshot-2024-07-09-at-04.57.34.jpeg 494w, https://www.bellingcat.com/app/uploads/2024/07/Screenshot-2024-07-09-at-04.57.34-163x300.jpeg 163w" sizes="(max-width: 494px) 100vw, 494px" /></div><figcaption class="wp-element-caption">A <em>screenshot from a video from a </em><a href="https://t.me/Tsaplienko/56581"><em>Telegram channel</em></a><em> showing the missile near the moment of impact at </em><a href="https://www.google.com/maps/place/50%C2%B027'02.4%22N+30%C2%B028'53.8%22E/@50.450675[…]data=!3m1!4b1!4m4!3m3!8m2!3d50.4506754!4d30.4816207?entry=ttu"><em>the hospital</em></a><strong> </strong><em>(Source:</em><a href="https://t.me/Tsaplienko/56581"><em>Telegram</em></a><em>)</em></figcaption></figure>
+</div>
+
+
+<p class="wp-block-paragraph">The video clearly captured the missile that impacted the hospital. The following frames of the missile were taken from the video above.</p>
+
+
+
+<figure class="wp-block-image size-large"><div class="media"><img decoding="async" width="1200" height="1200" src="https://www.bellingcat.com/app/uploads/2024/07/2-MissileCollage-1200x1200.jpeg" alt="" class="wp-image-44913" srcset="https://www.bellingcat.com/app/uploads/2024/07/2-MissileCollage-1200x1200.jpeg 1200w, https://www.bellingcat.com/app/uploads/2024/07/2-MissileCollage-300x300.jpeg 300w, https://www.bellingcat.com/app/uploads/2024/07/2-MissileCollage-150x150.jpeg 150w, https://www.bellingcat.com/app/uploads/2024/07/2-MissileCollage-768x768.jpeg 768w, https://www.bellingcat.com/app/uploads/2024/07/2-MissileCollage-1536x1536.jpeg 1536w, https://www.bellingcat.com/app/uploads/2024/07/2-MissileCollage.jpeg 1827w" sizes="(max-width: 1200px) 100vw, 1200px" /></div><figcaption class="wp-element-caption"><em>The image collage above was made using four screenshots from </em><a href="https://t.me/Tsaplienko/56581"><em>the video</em></a><em> shared previously. It shows the missile an instant before it hits the hospital (Source:</em><a href="https://t.me/Tsaplienko/56581"><em>Telegram</em></a><em>)&nbsp;</em><br></figcaption></figure>
+
+
+
+<p class="wp-block-paragraph">The missile exhibits several characteristics, including the presence of what appears to be a jet engine at its rear as well as two short wings near the middle of the missile.</p>
+
+
+
+<p class="wp-block-paragraph">These are distinct features of the <a href="https://missilethreat.csis.org/missile/kh-101-kh-102/">Kh-101</a>, a cruise missile used exclusively by the Russian armed forces. A comparison of a screenshot of the missile that hit the hospital with a 3D rendering of a Kh-101 missile shows that the two indeed share these features.</p>
+
+
+
+<figure class="wp-block-image size-large"><div class="media"><img loading="lazy" decoding="async" width="1200" height="565" src="https://www.bellingcat.com/app/uploads/2024/07/Screenshot-2024-07-09-at-07.39.11-1200x565.jpeg" alt="" class="wp-image-44915" srcset="https://www.bellingcat.com/app/uploads/2024/07/Screenshot-2024-07-09-at-07.39.11-1200x565.jpeg 1200w, https://www.bellingcat.com/app/uploads/2024/07/Screenshot-2024-07-09-at-07.39.11-300x141.jpeg 300w, https://www.bellingcat.com/app/uploads/2024/07/Screenshot-2024-07-09-at-07.39.11-768x362.jpeg 768w, https://www.bellingcat.com/app/uploads/2024/07/Screenshot-2024-07-09-at-07.39.11.jpeg 1444w" sizes="auto, (max-width: 1200px) 100vw, 1200px" /></div><figcaption class="wp-element-caption"><em>Left, a 3D model of a Kh-101 missile created by a Bellingcat researcher as seen on </em><a href="https://www.blender.org/"><em>Blender</em></a><em>, a 3D modelling platform. On the right, a screenshot of the missile that hit the Okhmatdyt Children’s Hospital. Note that the two share identical proportions, as well as the presence of a jet engine at the rear of the missile and two wings near the middle part of the missile’s body (Source: Michael Sheldon/</em><a href="https://t.me/Tsaplienko/56581"><em>Telegram</em></a><em>)</em></figcaption></figure>
+
+
+
+<p class="wp-block-paragraph">A video overlay of the two images above also demonstrates the matching the features and proportions of the 3D model of the Kh-101 and the missile that hit the hospital.</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter size-full"><div class="media"><img loading="lazy" decoding="async" width="419" height="416" src="https://www.bellingcat.com/app/uploads/2024/07/ezgif.com-video-to-gif-converter-1.gif" alt="" class="wp-image-44926"/></div><figcaption class="wp-element-caption"><em>A video showing the images in the previous graphic overlaid on top of one another. Note that the features in each of the images are a match (Source: Michael Sheldon/</em><a href="https://t.me/Tsaplienko/56581"><em>Telegram</em></a><em>).</em><br></figcaption></figure>
+</div>
+
+
+<h2 class="wp-block-heading">Missile Remnants</h2>
+
+
+
+<p class="wp-block-paragraph">After the strike, the SBU <a href="https://ssu.gov.ua/novyny/slidchi-sbu-vstanovyly-shcho-rf-udaryla-po-okhmatdytu-raketoiu-kh101">released three images</a> claiming to show remnants of the munition that hit the hospital. They stated that preliminary findings indicated it was a Kh-101, which appeared to tally with the aforementioned video footage.&nbsp;</p>
+
+
+
+<p class="wp-block-paragraph">The images showed what appeared to be a support spar and engine panel. Manuals and imagery that documented previous Kh-101 strikes detailed similar remnants.&nbsp;</p>
+
+
+
+<p class="wp-block-paragraph">For example, the support spar in the image below appeared similar to one found in a 2022 Ukrainian Territorial Defense Forces’ <a href="https://sprotyvg7.com.ua/wp-content/uploads/2023/03/%D0%9C%D0%B5%D1%82%D0%BE%D0%B4.%D1%80%D0%B5%D0%BA.-%D0%86%D0%B4%D0%B5%D0%BD%D1%82%D0%B8%D1%84.-%D1%80%D0%B0%D0%BA%D0%B5%D1%82.pdf">identification manual</a> (page 28) which detailed a previous Kh-101 strike.</p>
+
+
+
+<figure class="wp-block-image size-large"><div class="media"><img loading="lazy" decoding="async" width="1200" height="722" src="https://www.bellingcat.com/app/uploads/2024/07/Screenshot-2024-07-09-at-05.12.18-1200x722.jpeg" alt="" class="wp-image-44916" srcset="https://www.bellingcat.com/app/uploads/2024/07/Screenshot-2024-07-09-at-05.12.18-1200x722.jpeg 1200w, https://www.bellingcat.com/app/uploads/2024/07/Screenshot-2024-07-09-at-05.12.18-300x180.jpeg 300w, https://www.bellingcat.com/app/uploads/2024/07/Screenshot-2024-07-09-at-05.12.18-768x462.jpeg 768w, https://www.bellingcat.com/app/uploads/2024/07/Screenshot-2024-07-09-at-05.12.18.jpeg 1240w" sizes="auto, (max-width: 1200px) 100vw, 1200px" /></div><figcaption class="wp-element-caption"><em>On the left is a crop of the support spar in the Territorial Defense Forces’ </em><a href="https://sprotyvg7.com.ua/wp-content/uploads/2023/03/%D0%9C%D0%B5%D1%82%D0%BE%D0%B4.%D1%80%D0%B5%D0%BA.-%D0%86%D0%B4%D0%B5%D0%BD%D1%82%D0%B8%D1%84.-%D1%80%D0%B0%D0%BA%D0%B5%D1%82.pdf"><em>identification manual</em></a><em>. On the right is a crop of a remnant image (flipped horizontally for clarity) released by the SBU after the Kyiv hospital attack. The placement of holes on the SBU remnant (red and blue annotations) as well as the overall shape (yellow annotation) appear to match in both images (Source: </em><a href="https://sprotyvg7.com.ua/wp-content/uploads/2023/03/%D0%9C%D0%B5%D1%82%D0%BE%D0%B4.%D1%80%D0%B5%D0%BA.-%D0%86%D0%B4%D0%B5%D0%BD%D1%82%D0%B8%D1%84.-%D1%80%D0%B0%D0%BA%D0%B5%D1%82.pdf"><em>Ukraine Territorial Defense Forces</em></a><em>/</em><a href="https://t.me/SBUkr/12339?single"><em>Telegram</em></a><em>)&nbsp;</em><br></figcaption></figure>
+
+
+
+<p class="wp-block-paragraph">Another image showing a yellow panel with the numbers “2983” appears to match with what the same identification manual describes as the Kh-101’s engine cover (page 28, figure 22). The reference image from the manual has another piece that gives a more complete look at the serial number.</p>
+
+
+
+<figure class="wp-block-image size-large"><div class="media"><img loading="lazy" decoding="async" width="1200" height="718" src="https://www.bellingcat.com/app/uploads/2024/07/Screenshot-2024-07-09-at-05.13.07-1200x718.jpeg" alt="" class="wp-image-44917" srcset="https://www.bellingcat.com/app/uploads/2024/07/Screenshot-2024-07-09-at-05.13.07-1200x718.jpeg 1200w, https://www.bellingcat.com/app/uploads/2024/07/Screenshot-2024-07-09-at-05.13.07-300x180.jpeg 300w, https://www.bellingcat.com/app/uploads/2024/07/Screenshot-2024-07-09-at-05.13.07-768x460.jpeg 768w, https://www.bellingcat.com/app/uploads/2024/07/Screenshot-2024-07-09-at-05.13.07.jpeg 1240w" sizes="auto, (max-width: 1200px) 100vw, 1200px" /></div><figcaption class="wp-element-caption">Another image showing a yellow panel with the numbers “2983” appears to match with what the same identification manual describes as the Kh-101’s engine cover (page 28, figure 22). The reference image from the manual has another piece that gives a more complete look at the serial number (Source <a href="https://sprotyvg7.com.ua/wp-content/uploads/2023/03/%D0%9C%D0%B5%D1%82%D0%BE%D0%B4.%D1%80%D0%B5%D0%BA.-%D0%86%D0%B4%D0%B5%D0%BD%D1%82%D0%B8%D1%84.-%D1%80%D0%B0%D0%BA%D0%B5%D1%82.pdf"><em>Ukraine Territorial Defense Forces</em></a><em>/</em><a href="https://t.me/SBUkr/12339?single"><em>Telegram</em></a>).</figcaption></figure>
+
+
+
+<p class="wp-block-paragraph">Additionally, one of the images released by the SBU shows markings on another remnant of the missile that hit the hospital. These markings include the numbers “840708036”, “~234452”, and “45 • 14” . Similar markings using this same format&nbsp; are also visible on a remnant from a Kh-101 that was descibes as having been shot down over Ukraine on December 29, 2023. Some components were turned into a keychain and put up for sale on a website called <a href="https://airhubstore.com/Keychain-downed-Russian-Kh-101?search=Kh-101">AirHubStore</a>:</p>
+
+
+
+<figure class="wp-block-image size-large"><div class="media"><img loading="lazy" decoding="async" width="1200" height="461" src="https://www.bellingcat.com/app/uploads/2024/07/Screenshot-2024-07-09-at-05.14.05-1200x461.jpeg" alt="" class="wp-image-44918" srcset="https://www.bellingcat.com/app/uploads/2024/07/Screenshot-2024-07-09-at-05.14.05-1200x461.jpeg 1200w, https://www.bellingcat.com/app/uploads/2024/07/Screenshot-2024-07-09-at-05.14.05-300x115.jpeg 300w, https://www.bellingcat.com/app/uploads/2024/07/Screenshot-2024-07-09-at-05.14.05-768x295.jpeg 768w, https://www.bellingcat.com/app/uploads/2024/07/Screenshot-2024-07-09-at-05.14.05.jpeg 1244w" sizes="auto, (max-width: 1200px) 100vw, 1200px" /></div><figcaption class="wp-element-caption"><em>The image on the left shows a remnant of the missile that hit the hospital as released by the SBU on Monday. The image on the right shows a remnant of a Kh-101 missile for sale on a website called AirHubStore (cropped and rotated for clarity). Note the similar markings (Source: </em><a href="https://t.me/SBUkr/12339?single"><em>Telegram</em></a><em>/</em><a href="https://airhubstore.com/Keychain-downed-Russian-Kh-101?search=Kh-101"><em>AirHubStore</em></a><em>)</em></figcaption></figure>
+
+
+
+<p class="wp-block-paragraph">It is important to note, however, that none of the SBU images were geolocatable on their own given they were closed cropped and did not show surroundings with identifiable features.&nbsp;</p>
+
+
+
+<p class="wp-block-paragraph">This complicated verifying that these parts had indeed been at the scene.</p>
+
+
+
+<p class="wp-block-paragraph">However, images posted later by the Gazeta.UA news website were geolocatable to the hospital and appeared to show the same munition remnants as detailed in the SBU posts. For example the support spar can be seen under the arm of an investigator below.</p>
+
+
+
+<figure class="wp-block-image size-large"><div class="media"><img loading="lazy" decoding="async" width="1200" height="723" src="https://www.bellingcat.com/app/uploads/2024/07/Screenshot-2024-07-09-at-05.15.43-1-1200x723.jpeg" alt="" class="wp-image-44919" srcset="https://www.bellingcat.com/app/uploads/2024/07/Screenshot-2024-07-09-at-05.15.43-1-1200x723.jpeg 1200w, https://www.bellingcat.com/app/uploads/2024/07/Screenshot-2024-07-09-at-05.15.43-1-300x181.jpeg 300w, https://www.bellingcat.com/app/uploads/2024/07/Screenshot-2024-07-09-at-05.15.43-1-768x463.jpeg 768w, https://www.bellingcat.com/app/uploads/2024/07/Screenshot-2024-07-09-at-05.15.43-1.jpeg 1242w" sizes="auto, (max-width: 1200px) 100vw, 1200px" /></div><figcaption class="wp-element-caption">A side by side comparison of an image taken at the scene by Gazeta.UA (left) and an image posted by the SBU on Telegram (right). The same piece of equipment appears visible in both (Source: <a href="http://gazeta.ua"><em>Gazeta.ua</em></a>/<a href="https://t.me/SBUkr/12339?single"><em>Telegram</em></a>).</figcaption></figure>
+
+
+
+<p class="wp-block-paragraph">The engine panel, meanwhile, can also be seen and its shape matched to the item that can be seen in the earlier SBU picture.</p>
+
+
+
+<figure class="wp-block-image size-large"><div class="media"><img loading="lazy" decoding="async" width="1200" height="662" src="https://www.bellingcat.com/app/uploads/2024/07/Screenshot-2024-07-09-at-05.17.11-1-1200x662.jpeg" alt="" class="wp-image-44920" srcset="https://www.bellingcat.com/app/uploads/2024/07/Screenshot-2024-07-09-at-05.17.11-1-1200x662.jpeg 1200w, https://www.bellingcat.com/app/uploads/2024/07/Screenshot-2024-07-09-at-05.17.11-1-300x165.jpeg 300w, https://www.bellingcat.com/app/uploads/2024/07/Screenshot-2024-07-09-at-05.17.11-1-768x424.jpeg 768w, https://www.bellingcat.com/app/uploads/2024/07/Screenshot-2024-07-09-at-05.17.11-1.jpeg 1244w" sizes="auto, (max-width: 1200px) 100vw, 1200px" /></div><figcaption class="wp-element-caption">A montage showing an image posted to Telegram by the SBU (right) of missile remnants, an image published by Gazeta.ua (left) that appears to show the same piece of wreckage and (centre) a close up highlighting the similarities of the item in both images(Source: <a href="http://gazeta.ua"><em>Gazeta.ua</em></a>/<a href="https://t.me/SBUkr/12339?single"><em>Telegram</em></a>).</figcaption></figure>
+
+
+
+<p class="wp-block-paragraph">The full Gazeta.ua image can be geolocated just a few metres west of the damaged hospital building (<a href="https://maps.app.goo.gl/TYtnT4rRvgtd3VZ58">50.450632, 30.481437)</a> thanks to other images and videos from the scene captured by Reuters and the Kyiv Post.</p>
+
+
+
+<p class="wp-block-paragraph">For example, this video posted by the Kyiv Post showed another angle from where the Gazeta.ua image was taken. Bellingcat has blurred the face, but the same individual in military fatigues can even be seen in each respective publication’s footage, as well as the same damaged material.</p>
+
+
+
+<figure class="wp-block-image size-large"><div class="media"><img loading="lazy" decoding="async" width="1200" height="403" src="https://www.bellingcat.com/app/uploads/2024/07/Screenshot-2024-07-09-at-07.35.19-1200x403.jpeg" alt="" class="wp-image-44921" srcset="https://www.bellingcat.com/app/uploads/2024/07/Screenshot-2024-07-09-at-07.35.19-1200x403.jpeg 1200w, https://www.bellingcat.com/app/uploads/2024/07/Screenshot-2024-07-09-at-07.35.19-300x101.jpeg 300w, https://www.bellingcat.com/app/uploads/2024/07/Screenshot-2024-07-09-at-07.35.19-768x258.jpeg 768w, https://www.bellingcat.com/app/uploads/2024/07/Screenshot-2024-07-09-at-07.35.19.jpeg 1232w" sizes="auto, (max-width: 1200px) 100vw, 1200px" /></div><figcaption class="wp-element-caption"><em>Right: Stitched footage showing the location (marked in yellow)&nbsp; where missile debris was photographed by Gazeta.ua. A broken pipe, metal sheet and people at the scene were matched with the Gazeta.ua image (left). (Source: Youtube/ </em><a href="https://youtu.be/W0leF2K29Sc?feature=shared&amp;t=100"><em>Kyiv Post</em></a><em>).</em></figcaption></figure>
+
+
+
+<p class="wp-block-paragraph">Similarly, a Reuters photo from the scene captures the same pattern of damage that can be seen in the Gazeta.ua image that shows the same missile remnants as those posted by the SBU.</p>
+
+
+
+<figure class="wp-block-image size-large"><div class="media"><img loading="lazy" decoding="async" width="1200" height="619" src="https://www.bellingcat.com/app/uploads/2024/07/Screenshot-2024-07-09-at-07.36.03-1200x619.jpeg" alt="" class="wp-image-44922" srcset="https://www.bellingcat.com/app/uploads/2024/07/Screenshot-2024-07-09-at-07.36.03-1200x619.jpeg 1200w, https://www.bellingcat.com/app/uploads/2024/07/Screenshot-2024-07-09-at-07.36.03-300x155.jpeg 300w, https://www.bellingcat.com/app/uploads/2024/07/Screenshot-2024-07-09-at-07.36.03-768x396.jpeg 768w, https://www.bellingcat.com/app/uploads/2024/07/Screenshot-2024-07-09-at-07.36.03.jpeg 1236w" sizes="auto, (max-width: 1200px) 100vw, 1200px" /></div><figcaption class="wp-element-caption">Top left and right: An image gives a high resolution view of a wall from a building. The scene shows the same masonry detail (red) and metal rod (blue) seen in the image taken by Gazeta.ua (bottom left). The wider view of the scene allowed us to confirm the location of this building. (Source: <a href="http://gazeta.ua"><em>Gazeta.ua</em>/ </a><a href="https://www.reutersconnect.com/all?id=tag%3Areuters.com%2C2024%3Anewsml_MT1ANADL000UL9CLW&amp;share=true">Reuters</a>)</figcaption></figure>
+
+
+
+<h2 class="wp-block-heading"><strong>Debunking US Missile Claims</strong></h2>
+
+
+
+<p class="wp-block-paragraph">In the aftermath of the explosion, some social media personalities were quick to claim that the missile was not of Russian origin.</p>
+
+
+
+<p class="wp-block-paragraph">Jackson Hinkle, a political activist who has appeared on Russian state media, was one of the individuals who <a href="https://x.com/jacksonhinklle/status/1810294806066626762">made the incorrect claim</a> that the missile was US-made.</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter size-full"><div class="media"><img loading="lazy" decoding="async" width="818" height="1122" src="https://www.bellingcat.com/app/uploads/2024/07/Screenshot-2024-07-09-at-05.21.31.jpeg" alt="" class="wp-image-44923" srcset="https://www.bellingcat.com/app/uploads/2024/07/Screenshot-2024-07-09-at-05.21.31.jpeg 818w, https://www.bellingcat.com/app/uploads/2024/07/Screenshot-2024-07-09-at-05.21.31-219x300.jpeg 219w, https://www.bellingcat.com/app/uploads/2024/07/Screenshot-2024-07-09-at-05.21.31-768x1053.jpeg 768w" sizes="auto, (max-width: 818px) 100vw, 818px" /></div><figcaption class="wp-element-caption"><em>Screenshot of a tweet by Jackson Hinkle claiming without evidence that the missile that hit the hospital was “an American Patriot air defense missile”. The Russian Ministry of Foreign Affairs </em><a href="https://x.com/mfa_russia/status/1810307880244965438"><em>made a similar claim</em></a><em> later in the day (Source: </em><a href="https://x.com/jacksonhinklle/status/1810294806066626762"><em>X</em></a><em>/Twitter)</em></figcaption></figure>
+</div>
+
+
+<p class="wp-block-paragraph">Hinkle has been <a href="https://www.conspiracywatch.info/en/who-is-jackson-hinkle-twitters-most-viral-misinformation-spreader-and-anti-israel-activist/">banned</a> from several social media platforms for spreading false information.<br></p>
+
+
+
+<p class="wp-block-paragraph">Similarly, <em>War on Fakes </em>— widely <a href="https://www.poynter.org/fact-checking/2022/how-war-on-fakes-uses-fact-checking-to-spread-pro-russia-propaganda/">regarded</a> as <a href="https://www.sgdsn.gouv.fr/files/files/Publications/20230719_NP_VIGINUM_RAPPORT-CAMPAGNE-RRN_EN.pdf">a </a><a href="https://www.logically.ai/resources/russian-war-on-fakes-fact-checking-account">Russian propaganda and disinformation outlet</a> —<em> </em><a href="https://t.me/warfakes/23213">claimed</a> in a visual analysis that given the length-to-width ratio of the missile, it could not be a Kh-101, but instead an <a href="https://www.af.mil/About-Us/Fact-Sheets/Display/Article/104576/aim-120-amraam/">AIM-120</a> fired from a Ukrainian <a href="https://www.rtx.com/raytheon/what-we-do/integrated-air-and-missile-defense/nasams">NASAMS battery</a>. The AIM-120 is produced by the U.S. defence contractor Raytheon Company.<br><br>The claim that the missile was an AIM-120 ignores the jet engine prominently hanging from the empennage of the missile that hit the hospital. This highly visible feature is present on the Kh-101, but not on the AIM-120. Furthermore, the wings in the mid-section of the missile that hit the hospital are a mismatch for those on an AIM-120.<br><br>At the time of writing this article, <em>War on Fakes’</em> Telegram post had nearly 800k views, and thousands of shares.</p>
+
+
+
+<p class="wp-block-paragraph">In a <a href="https://t.me/warfakes/23217">follow-up post</a>, <em>War on Fakes </em>claimed that higher quality stills had been edited to make the jet engine of the Kh-101 more prominent, and that in fact the video had shown an AIM-120. However, the jet engine was still visible in lower quality versions of the video, including the ones used in the analysis in this article.&nbsp;</p>
+
+
+
+<p class="wp-block-paragraph">Another Telegram account, ves.rf (ВЕСЪ.РФ), which has more than 56,000 followers, also made a post attempting to exonerate Russia for the attack. The post, which had been viewed more than 440,000 times and which had been widely reposted on X/Twitter, also claimed that the missile that struck the hospital was an AIM-120. Simultaneously, ves.rf also provided cover for the strike by stating that the children’s hospital was directly next to the Ukrainian State Aviation Service. This would seem to undermine its earlier claims it was not a Russian missile that hit the hospital.</p>
+
+
+
+<p class="wp-block-paragraph">Nevertheless, Bellingcat created a second 3D model to represent an AIM-120 missile to test this theory. When comparing this model to images of the missile that hit the hospital, factors like the forward fins of the AIM-120 not matching were apparent. Additionally, the nose of the AIM-120 is much sharper than that of the missile in the hospital strike video. Perhaps most noticeable is the absence of any component on the AIM-120 matching the jet engine seen at the rear of the missile in the video.&nbsp;</p>
+
+
+
+<figure class="wp-block-image size-large"><div class="media"><img loading="lazy" decoding="async" width="1200" height="373" src="https://www.bellingcat.com/app/uploads/2024/07/Screenshot-2024-07-09-at-07.31.07-1200x373.jpeg" alt="" class="wp-image-44924" srcset="https://www.bellingcat.com/app/uploads/2024/07/Screenshot-2024-07-09-at-07.31.07-1200x373.jpeg 1200w, https://www.bellingcat.com/app/uploads/2024/07/Screenshot-2024-07-09-at-07.31.07-300x93.jpeg 300w, https://www.bellingcat.com/app/uploads/2024/07/Screenshot-2024-07-09-at-07.31.07-768x239.jpeg 768w, https://www.bellingcat.com/app/uploads/2024/07/Screenshot-2024-07-09-at-07.31.07.jpeg 1442w" sizes="auto, (max-width: 1200px) 100vw, 1200px" /></div><figcaption class="wp-element-caption"><em>Left and right, 3D models created by Bellingcat of a Kh-101 and an AIM-120, respectively. Centre, a screenshot from a video showing the missile that hit the hospital. Note that the features of the missile that hit the hospital closely match those of the Kh-101, but not at all those of the AIM-120 model (Source:Michael Sheldon/</em><a href="https://t.me/Tsaplienko/56581"><em>Telegram</em></a><em>)</em></figcaption></figure>
+
+
+
+<p class="wp-block-paragraph">The difference between the features of the AIM-120 and the missile that hit the hospital are also noticeable in this video overlay.</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter size-full"><div class="media"><img loading="lazy" decoding="async" width="600" height="571" src="https://www.bellingcat.com/app/uploads/2024/07/10VideoOverlayAIM120-ezgif.com-video-to-gif-converter-1.gif" alt="" class="wp-image-44906"/></div><figcaption class="wp-element-caption"><em>Note that the features of the AIM-120 missile do not match that of the missile that struck the hospital in Kyiv (Source: Michael Sheldon/</em><a href="https://t.me/Tsaplienko/56581"><em>Telegram</em></a><em>)</em></figcaption></figure>
+</div>
+
+
+<p class="wp-block-paragraph">The hospital was far from the only target during the Russian attack of July 8. At least twenty people were killed in strikes across Kyiv alone, with city mayor Vitali Klitschko <a href="https://t.me/vitaliy_klitschko/3268">saying</a> that almost 100 had been injured.<br><br>In total, <a href="https://www.reuters.com/world/europe/ukrainian-air-defence-engaged-repelling-russian-missile-attack-kyiv-officials-2024-07-08/">at least 41 people were killed</a> across the country as Russian missiles fell on several cities aside from Kyiv, including Kryvyi Rih and Dnipro.&nbsp;</p>
+
+
+
+<p class="wp-block-paragraph">This latest wave of Russian attacks against Ukraine is among the largest and deadliest in months. Most recently, the Russian armed forces launched hundreds of missiles and drones at cities across Ukraine on <a href="https://www.theguardian.com/world/2023/dec/29/russia-launches-huge-wave-missile-strikes-ukraine">December 29 2023</a> and then on <a href="https://kyivindependent.com/update-5-killed-119-injured-in-russian-jan-2-large-scale-attack-against-ukraine/">January 2 2024</a>, killing dozens of people and injuring hundreds.</p>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<p class="wp-block-paragraph"><em>Correction:</em> <em>A previous version of this story mistranslated an SBU Telegram post, stating that three had died in the attack when in fact two had died. The article has been updated to reflect this. </em></p>
+
+
+
+<p class="wp-block-paragraph"><em>Bellingcat is a non-profit and the ability to carry out our work is dependent on the kind support of individual donors. If you would like to support our work, you can do so&nbsp;</em><a href="https://www.bellingcat.com/donate/"><em>here</em></a><em>. You can also subscribe to our Patreon channel&nbsp;</em><a href="https://www.patreon.com/bellingcat"><em>here</em></a><em>. Subscribe to our&nbsp;</em><a href="https://bellingcat.us14.list-manage.com/subscribe/post?u=c435f53a5568f7951404c8a38&amp;id=4be345b082"><em>Newsletter</em></a><em>&nbsp;and follow us on Twitter&nbsp;</em><a href="https://twitter.com/bellingcat"><em>here</em></a>&nbsp;<em>and Mastodon&nbsp;<a href="https://mstdn.social/@Bellingcat">here</a></em>.</p>
+
+
+
+<p class="wp-block-paragraph"></p>
+
+            </div>
+
+            
+                          <div class="singular__content__text--social">
+                  <div class="social social--share">
+    <span class="social__heading">Share this article</span>
+    <nav role="navigation">
+      <ul class="social__list">
+        <li class="social__list-item">
+          <a class="social__link" target="_blank" href="https://bsky.app/intent/compose?text=Russian%20Missile%20Identified%20in%20Kyiv%20Children%E2%80%99s%20Hospital%20Attack%20https%3A%2F%2Fwww.bellingcat.com%2Fnews%2F2024%2F07%2F09%2Frussian-missile-identified-in-kyiv-childrens-hospital-attack%2F">
+            <img src="https://www.bellingcat.com/app/themes/bellingcat/assets/icons/svg/share-bluesky.svg" alt="Bluesky">
+          </a>
+        </li>
+        <li class="social__list-item">
+          <a class="social__link" target="_blank"
+             href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.bellingcat.com%2Fnews%2F2024%2F07%2F09%2Frussian-missile-identified-in-kyiv-childrens-hospital-attack%2F">
+            <img src="https://www.bellingcat.com/app/themes/bellingcat/assets/icons/svg/share-facebook.svg" alt="Facebook">
+          </a>
+        </li>
+        <li class="social__list-item">
+          <a class="social__link" target="_blank"
+             href="https://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fwww.bellingcat.com%2Fnews%2F2024%2F07%2F09%2Frussian-missile-identified-in-kyiv-childrens-hospital-attack%2F">
+            <img src="https://www.bellingcat.com/app/themes/bellingcat/assets/icons/svg/share-linkedin.svg" alt="Linkedin">
+          </a>
+        </li>
+        <li class="social__list-item">
+          <a class="social__link" target="_blank" href="/cdn-cgi/l/email-protection#17287578736e2a7f636367643224563225513225516060603975727b7b7e79707476633974787a32255179726064322551252725233225512720322551272e322551656264647e76793a7a7e64647e7b723a7e737279637e717e72733a7e793a7c6e7e613a747f7e7b73657279643a7f7864677e63767b3a76636376747c322551">
+            <img src="https://www.bellingcat.com/app/themes/bellingcat/assets/icons/svg/share-mail.svg" alt="E-mail">
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+              </div>
+            
+          </div>
+        </div>
+
+                  <div class="singular__related">
+              <div class="singular__related--title">
+                <h3>Related articles</h3>
+              </div>
+
+              <div class="singular__related__posts">
+                                                    <article class="grid_item">
+                    <div class="grid_item__image">
+                      <a href="https://www.bellingcat.com/resources/2026/06/25/how-to-use-ai-to-help-find-civilian-harm-conflict-report-monitor-war-machine-learning-telegram/"><img src="https://www.bellingcat.com/app/uploads/2026/06/Ontwerp-zonder-titel-29-1200x675.jpg" alt="How&#x20;to&#x20;Use&#x20;AI&#x20;to&#x20;Help&#x20;Find&#x20;Civilian&#x20;Harm"></a>
+                    </div>
+
+                    <div class="grid_item__content">
+                      <div class="meta ">
+
+  
+  <div class="meta__tags">
+        <ul>
+            <li><a href="/tag/ai">AI</a></li>
+            <li><a href="/tag/civilian-harm">Civilian Harm</a></li>
+            <li><a href="/tag/ukraine">Ukraine</a></li>
+          </ul>
+  </div>
+</div>
+
+                      <div class="grid_item__content--title">
+                        <h3>
+                          <a href="https://www.bellingcat.com/resources/2026/06/25/how-to-use-ai-to-help-find-civilian-harm-conflict-report-monitor-war-machine-learning-telegram/">
+                            How to Use AI to Help Find Civilian Harm
+                          </a>
+                        </h3>
+                      </div>
+                    </div>
+                  </article>
+                                                    <article class="grid_item">
+                    <div class="grid_item__image">
+                      <a href="https://www.bellingcat.com/news/2026/05/27/the-lost-villages-of-myanmars-rakhine/"><img src="https://www.bellingcat.com/app/uploads/2026/05/cover-final.jpg" alt="The&#x20;&amp;&#x23;8216&#x3B;Lost&amp;&#x23;8217&#x3B;&#x20;Villages&#x20;of&#x20;Myanmar&amp;&#x23;8217&#x3B;s&#x20;Rakhine"></a>
+                    </div>
+
+                    <div class="grid_item__content">
+                      <div class="meta ">
+
+  
+  <div class="meta__tags">
+        <ul>
+            <li><a href="/tag/myanmar">Myanmar</a></li>
+            <li><a href="/tag/rakhine">Rakhine</a></li>
+          </ul>
+  </div>
+</div>
+
+                      <div class="grid_item__content--title">
+                        <h3>
+                          <a href="https://www.bellingcat.com/news/2026/05/27/the-lost-villages-of-myanmars-rakhine/">
+                            The &#8216;Lost&#8217; Villages of Myanmar&#8217;s Rakhine
+                          </a>
+                        </h3>
+                      </div>
+                    </div>
+                  </article>
+                                                    <article class="grid_item">
+                    <div class="grid_item__image">
+                      <a href="https://www.bellingcat.com/news/africa/2026/05/26/banned-russian-submunitions-found-after-malis-military-announces-airstrikes/"><img src="https://www.bellingcat.com/app/uploads/2026/05/Screenshot-2026-05-26-at-12.31.08.jpg" alt="Banned&#x20;Russian&#x20;Submunitions&#x20;Found&#x20;After&#x20;Mali&amp;&#x23;8217&#x3B;s&#x20;Military&#x20;Announces&#x20;Airstrikes"></a>
+                    </div>
+
+                    <div class="grid_item__content">
+                      <div class="meta ">
+
+  
+  <div class="meta__tags">
+        <ul>
+            <li><a href="/tag/africa">Africa</a></li>
+            <li><a href="/tag/africa-corps">Africa Corps</a></li>
+            <li><a href="/tag/cluster-munitions">Cluster Munitions</a></li>
+          </ul>
+  </div>
+</div>
+
+                      <div class="grid_item__content--title">
+                        <h3>
+                          <a href="https://www.bellingcat.com/news/africa/2026/05/26/banned-russian-submunitions-found-after-malis-military-announces-airstrikes/">
+                            Banned Russian Submunitions Found After Mali&#8217;s Military Announces Airstrikes
+                          </a>
+                        </h3>
+                      </div>
+                    </div>
+                  </article>
+                              </div>
+          </div>
+        
+      </div>
+      </div>
+
+
+        <div class="push"></div>
+    </main>
+
+    
+
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
+  document.addEventListener('DOMContentLoaded', function() {
+      const newsletter = document.querySelector('.newsletter');
+      // const svg = document.querySelector('.rotatable');
+      const form = document.querySelector('.footer--subscribe');
+
+      newsletter.addEventListener('click', function() {
+          // svg.classList.toggle('rotated');
+          form.classList.remove('hidden');
+      });
+  });
+</script>
+
+<footer class="site__footer" style="padding-top: 2rem; padding-bottom: 4rem;">
+  <div class="container d--g gc--2 gg--1" style="color: white;">
+      <div class="site__footer--inner-left d--f fd--c jc--sb">
+                <div class="footer__logo" style="padding-bottom: 3rem;">
+        <svg xmlns="http://www.w3.org/2000/svg" width="300" height="auto" viewBox="0 0 200 32">
+            <path fill="#FFF" fill-rule="evenodd" d="M131.456 8.326c2.982 0 4.878 1.739 5.595 3.382h.06V8.736h1.523v15.616c0 4.963-2.982 7.175-6.93 7.175-4.319 0-6.211-1.929-6.739-4.456h1.644c.467 1.928 2.02 3.097 5.096 3.097 2.58 0 5.315-1.263 5.315-5.532v-2.719h-.094c-1.089 2.086-3.17 3.32-5.903 3.32-2.983 0-6.929-1.992-6.929-8.47 0-5.564 3.137-8.441 7.362-8.441zm-101.898 0c5.002 0 6.555 3.984 6.555 7.65v1.327l-12.272.032c.093 4.425 1.864 6.921 5.81 6.921 3.137 0 4.319-2.116 4.66-2.971h1.523c-.622 2.403-2.858 4.364-6.244 4.364-5.095 0-7.365-3.13-7.365-8.504 0-5.088 2.55-8.82 7.333-8.82zm124.125-.03c2.795 0 5.781 1.265 6.308 4.74h-1.646c-.219-1.642-1.742-3.317-4.599-3.317-3.48 0-5.749 2.591-5.749 7.235 0 4.617 1.773 7.303 5.594 7.303 3.137 0 4.35-1.675 4.754-3.855h1.646c-.59 3.506-3.075 5.247-6.464 5.247-4.908 0-7.268-3.384-7.268-8.504 0-4.994 2.64-8.85 7.424-8.85zM90.062 7.031v.822c0 3.224-.31 3.728-2.516 5.687l-1.305 1.17c-1.584 1.392-2.3 2.876-2.3 4.9 0 2.97 1.927 4.646 5.283 4.646 3.355 0 5.654-2.338 5.56-6.29h1.522c.125 4.932-3.012 7.682-7.207 7.682-4.723 0-6.804-2.781-6.804-5.849 0-3.13 1.368-4.583 3.325-6.447l.995-.949c1.738-1.643 1.957-1.927 1.957-4.519v-.853h1.49zM1.647.33v11.315h.03c1.088-2.15 3.139-3.32 5.81-3.32 3.45 0 6.898 2.244 6.898 8.662 0 5.973-3.417 8.662-7.332 8.662-2.89 0-4.722-1.708-5.469-3.384h-.062v2.972H0V.33h1.647zm191.236 3.35v5.057H200v1.36h-7.117v11c0 2.181 1.244 3.066 3.389 3.066 1.18 0 2.578-.16 3.728-.537v1.42c-.871.286-2.144.57-3.758.57-3.793 0-5.003-1.77-5.003-4.646V10.097h-4.687v-1.36h2.76c1.709 0 1.988-.411 1.988-2.181V3.68h1.583zm-19.031 4.678c5.182 0 5.907 3.167 5.932 6.243v7.57c0 1.265.403 1.705 1.463 1.705h.619v1.361h-.653c-2.33 0-2.983-1.074-2.951-3.32h-.06c-.902 2.246-3.047 3.573-5.72 3.573-3.076 0-5.187-1.674-5.187-4.583 0-1.928.961-3.13 2.175-3.856 1.614-.918 4.35-1.233 8.76-1.516v-.601c0-3.036-.432-5.186-4.349-5.186-2.797 0-4.132 1.519-4.38 3.32h-1.553c.279-2.466 2.235-4.646 5.904-4.71zM50.38.33v23.546h6.307v1.362h-14.2v-1.362h6.246V1.753h-5.097V.33h6.744zm19.878 0v23.546h6.31v1.362h-14.2v-1.362h6.245V1.753h-5.095V.33h6.74zm40.456 7.996c3.852 0 5.437 2.309 5.437 6.228v10.684h-1.648v-10.81c0-1.423-.278-2.53-.87-3.32-.62-.853-1.614-1.328-3.169-1.328-3.729 0-5.281 2.908-5.281 5.848v9.61h-1.647V8.736h1.522v3.036h.062c.964-1.96 2.454-3.446 5.594-3.446zM7.208 9.718c-3.822 0-5.561 2.845-5.561 5.594v3.256c0 2.591 1.615 5.688 5.437 5.688 3.697 0 5.562-2.875 5.562-7.269 0-3.887-1.399-7.269-5.438-7.269zm170.993 7.175c-4.723.314-6.774.6-7.8 1.326-.9.601-1.428 1.485-1.428 2.655 0 2.15 1.553 3.256 3.76 3.256 2.764 0 5.468-2.213 5.468-6.258v-.979zm-46.745-7.175c-3.788 0-5.654 3.034-5.654 7.048 0 3.981 1.583 7.08 5.624 7.08 3.758 0 5.561-2.813 5.561-5.627v-2.812c0-2.592-1.583-5.689-5.53-5.689zm-101.898 0c-3.574 0-5.407 2.592-5.685 6.289h10.626v-.126c.03-2.37-.746-6.163-4.941-6.163zM89.303 0c1.071 0 1.938.884 1.938 1.972 0 1.09-.867 1.975-1.938 1.975-1.07 0-1.94-.885-1.94-1.975 0-1.088.87-1.972 1.94-1.972z"/>
+        </svg>
+    </div>
+
+        <div class="site__footer--inner-left icons">
+          
+
+        
+
+<div class="socials--wrapper d--f fd--c">
+    <div class="socials__icons--footer">
+                    <a href="https://bsky.app/profile/bellingcat.com" target="_blank" class="socials--inner d--f fd--c ai--c">
+            <div class="socials__label--wrapper d--f fd--c ai--c">
+                <div class="socials__label">
+                    Bluesky
+                </div>
+            </div>
+            <div class="socials__icon">
+                <img src="https://www.bellingcat.com/app/themes/bellingcat/assets/assets-tmp/social/bluesky.svg" alt="Bluesky Icon">
+            </div>
+        </a>
+    
+                    <a href="https://www.linkedin.com/company/bellingcat" target="_blank" class="socials--inner d--f fd--c ai--c">
+            <div class="socials__label--wrapper d--f fd--c ai--c">
+                <div class="socials__label">
+                    Linkedin
+                </div>
+            </div>
+            <div class="socials__icon">
+                <img src="https://www.bellingcat.com/app/themes/bellingcat/assets/assets-tmp/social/linkedin.svg" alt="Linkedin Icon">
+            </div>
+        </a>
+    
+                    <a href="https://instagram.com/bellingcatofficial" target="_blank" class="socials--inner d--f fd--c ai--c">
+            <div class="socials__label--wrapper d--f fd--c ai--c">
+                <div class="socials__label">
+                    Instagram
+                </div>
+            </div>
+            <div class="socials__icon">
+                <img src="https://www.bellingcat.com/app/themes/bellingcat/assets/assets-tmp/social/instagram.svg" alt="Instagram Icon">
+            </div>
+        </a>
+    
+                    <a href="https://mstdn.social/@Bellingcat" target="_blank" class="socials--inner d--f fd--c ai--c">
+            <div class="socials__label--wrapper d--f fd--c ai--c">
+                <div class="socials__label">
+                    Mastodon
+                </div>
+            </div>
+            <div class="socials__icon">
+                <img src="https://www.bellingcat.com/app/themes/bellingcat/assets/assets-tmp/social/mastodon.svg" alt="Mastodon Icon">
+            </div>
+        </a>
+    
+                    <a href="https://www.facebook.com/bellingcat" target="_blank" class="socials--inner d--f fd--c ai--c">
+            <div class="socials__label--wrapper d--f fd--c ai--c">
+                <div class="socials__label">
+                    Facebook
+                </div>
+            </div>
+            <div class="socials__icon">
+                <img src="https://www.bellingcat.com/app/themes/bellingcat/assets/assets-tmp/social/facebook.svg" alt="Facebook Icon">
+            </div>
+        </a>
+    
+            
+    </div>
+
+    <div class="socials__icons--footer" style="padding-top: 1rem;">
+                    <a href="https://www.threads.net/@bellingcatofficial" target="_blank" class="socials--inner d--f fd--c ai--c">
+            <div class="socials__label--wrapper d--f fd--c ai--c">
+                <div class="socials__label">
+                    Threads
+                </div>
+            </div>
+            <div class="socials__icon">
+                <img src="https://www.bellingcat.com/app/themes/bellingcat/assets/assets-tmp/social/threads.svg" alt="Threads Icon">
+            </div>
+        </a>
+    
+                    <a href="https://t.me/bellingcat" target="_blank" class="socials--inner d--f fd--c ai--c">
+            <div class="socials__label--wrapper d--f fd--c ai--c">
+                <div class="socials__label">
+                    Telegram
+                </div>
+            </div>
+            <div class="socials__icon">
+                <img src="https://www.bellingcat.com/app/themes/bellingcat/assets/assets-tmp/social/telegram.svg" alt="Telegram Icon">
+            </div>
+        </a>
+    
+                    <a href="https://www.youtube.com/channel/UCFl-GzKYeCW3iWjnQDuxzAA" target="_blank" class="socials--inner d--f fd--c ai--c">
+            <div class="socials__label--wrapper d--f fd--c ai--c">
+                <div class="socials__label">
+                    YouTube
+                </div>
+            </div>
+            <div class="socials__icon">
+                <img src="https://www.bellingcat.com/app/themes/bellingcat/assets/assets-tmp/social/youtube.svg" alt="YouTube Icon">
+            </div>
+        </a>
+    
+                    <a href="https://www.patreon.com/bellingcat" target="_blank" class="socials--inner d--f fd--c ai--c">
+            <div class="socials__label--wrapper d--f fd--c ai--c">
+                <div class="socials__label">
+                    Patreon
+                </div>
+            </div>
+            <div class="socials__icon">
+                <img src="https://www.bellingcat.com/app/themes/bellingcat/assets/assets-tmp/social/patreon.svg" alt="Patreon Icon">
+            </div>
+        </a>
+    
+                    <a href="https://discord.gg/bellingcat" target="_blank" class="socials--inner d--f fd--c ai--c">
+            <div class="socials__label--wrapper d--f fd--c ai--c">
+                <div class="socials__label">
+                    Discord
+                </div>
+            </div>
+            <div class="socials__icon">
+                <img src="https://www.bellingcat.com/app/themes/bellingcat/assets/assets-tmp/social/discord.svg" alt="Discord Icon">
+            </div>
+        </a>
+    
+                    <a href="https://www.twitch.tv/bellingcat_live" target="_blank" class="socials--inner d--f fd--c ai--c">
+            <div class="socials__label--wrapper d--f fd--c ai--c">
+                <div class="socials__label">
+                    Twitch
+                </div>
+            </div>
+            <div class="socials__icon">
+                <img src="https://www.bellingcat.com/app/themes/bellingcat/assets/assets-tmp/social/twitch.svg" alt="Twitch Icon">
+            </div>
+        </a>
+    
+    </div>
+</div>
+          <div class="db--sm">
+            <a href="/donate/" class="button--default btn banner__button">
+              Donate
+            </a>
+          </div>
+        </div>
+        <div class="site__footer--inner-left watermark">
+          <a href="https://gijn.org/tag/bellingcat/" target="_blank">
+            <img class="dn--sm" src="https://www.bellingcat.com/app/themes/bellingcat/assets/assets-tmp/logo/gijn.svg" alt="Global Investigative Journalism Network">
+          </a>
+        </div>
+      </div>
+      <div class="site__footer--inner-right">
+        <div class="site__footer--inner-right donate d--g gc--2">
+                          <div class="dn--sm" style="font-size: smaller; padding-top: 1rem;">
+        Your donations directly contribute to our ability to publish groundbreaking investigations and uncover wrongdoing around the world.
+    </div>
+
+                    
+          <div class="wrapper dn--sm d--f fd--r" style="width: 100%;">
+            <div style="width: 45%; height: fit-content; align-self: center; padding-top: .5rem;">
+            <img class="arrow--squiggly dn--sm" src="https://www.bellingcat.com/app/themes/bellingcat/assets/assets-tmp/other/arrow--squiggly.svg" alt="Curly Arrow Pointing Right">
+            </div>
+            <div class="btn--wrapper as--c" style="width: 50%;">
+              <a href="/donate/" class="btn banner__button">
+                Donate
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="site__footer--inner-right footer__nav d--g gc--2" style="margin-top: 3rem;">
+          <div class="footer__nav--left d--f fd--c jc--fs">
+                <a href="/about/who-we-are" class="" style="padding: 1rem 0; color: white;">Who We Are</a>
+
+                <a href="/about/general-information" class="" style="padding: 1rem 0; color: white;">General Information</a>
+
+                <a href="/about/meet-our-team" class="" style="padding: 1rem 0; color: white;">Our Team</a>
+
+                <a href="/about/awards" class="" style="padding: 1rem 0; color: white;">Awards</a>
+
+                          <div class="newsletter" style="cursor: pointer;">
+                <div class="newsletter__wrapper">
+                  <div class="footer__nav--link" style="padding: 1rem 0;">Newsletter</div>
+                                    <div class="subscribe__wrapper ">
+                    <div class="email footer--subscribe hidden mobile">
+                      <form action="//bellingcat.us14.list-manage.com/subscribe/post?u=c435f53a5568f7951404c8a38&amp;id=4be345b082" method="post" name="mc-embedded-subscribe-form" class="mailingList__form" target="_blank" _lpchecked="1">
+                        <input type="email" name="EMAIL" class="mailingList__inputEmail" placeholder="Email address" data-com.bitwarden.browser.user-edited="yes">
+                        <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_c435f53a5568f7951404c8a38_4be345b082" tabindex="-1" value=""></div>
+                        <input type="submit" name="subscribe" class="button mailingList__inputSubmit" value="Subscribe" style="line-height: .5rem; letter-spacing: 0px; padding: 0 .65rem;">
+                      </form>
+                    </div>
+                  </div>
+                </div>
+              </div>
+                      </div>
+          <div class="footer__nav--right d--f fd--c jc--fs">
+                <a href="/about/funding-and-how-to-support-bellingcat" class="" style="padding: 1rem 0; color: white;">Funding & Supporters</a>
+
+                <a href="/about/editorial-standards-practices" class="" style="padding: 1rem 0; color: white;">Standards & Practices</a>
+
+                <a href="/about/principles-for-data-collection" class="" style="padding: 1rem 0; color: white;">Principles for Data Collection</a>
+
+                <a href="/about/data-privacy" class="" style="padding: 1rem 0; color: white;">Data Privacy</a>
+
+                <a href="/about/careers" class="" style="padding: 1rem 0; color: white;">Careers</a>
+
+                <a href="/contact" class="" style="padding: 1rem 0; color: white;">Contact Us</a>
+
+          </div>
+        </div>
+
+        <div class="email footer--subscribe hidden" style="width: 50%; padding-right: 1rem;">
+          <form action="//bellingcat.us14.list-manage.com/subscribe/post?u=c435f53a5568f7951404c8a38&amp;id=4be345b082" method="post" name="mc-embedded-subscribe-form" class="mailingList__form" target="_blank" _lpchecked="1">
+                <input type="email" name="EMAIL" class="mailingList__inputEmail" placeholder="Email address" data-com.bitwarden.browser.user-edited="yes">
+                <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_c435f53a5568f7951404c8a38_4be345b082" tabindex="-1" value=""></div>
+                <input type="submit" name="subscribe" class="button mailingList__inputSubmit" value="Subscribe" style="line-height: .5rem; letter-spacing: 0px; padding: 0 .65rem;">
+          </form>
+        </div>
+
+        <div class="watermark db--sm" style="margin-left: -13px; padding-top: .5rem;">
+          <a href="https://gijn.org/tag/bellingcat/" target="_blank">
+            <img class="db--sm" src="https://www.bellingcat.com/app/themes/bellingcat/assets/assets-tmp/logo/gijn.svg" alt="Global Investigative Journalism Network">
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+    <script type='text/javascript'>
+/* <![CDATA[ */
+var advancedAds = {"adHealthNotice":{"enabled":true,"pattern":"AdSense fallback was loaded for empty AdSense ad \"[ad_title]\""},"frontendPrefix":"belli-","tracking":{"googleEvents":{"impression":"advanced_ads_impression","click":"advanced_ads_click"}}};
+
+/* ]]> */
+</script>
+<script type="speculationrules">
+{"prefetch":[{"source":"document","where":{"and":[{"href_matches":"/*"},{"not":{"href_matches":["/wp-*.php","/wp-admin/*","/app/uploads/*","/app/*","/app/plugins/*","/app/themes/bellingcat/*","/*\\?(.+)"]}},{"not":{"selector_matches":"a[rel~=\"nofollow\"]"}},{"not":{"selector_matches":".no-prefetch, .no-prefetch a"}}]},"eagerness":"conservative"}]}
+</script>
+<script async data-wp-strategy="async" fetchpriority="low" id="comment-reply-js" src="https://www.bellingcat.com/wp-includes/js/comment-reply.min.js?ver=7.0.3"></script>
+<script id="advanced-ads-find-adblocker-js" src="https://www.bellingcat.com/app/plugins/advanced-ads/admin/assets/js/advertisement.js"></script>
+<script id="advanced-ads-pro-main-js-extra">
+var advanced_ads_cookies = {"cookie_path":"/","cookie_domain":"www.bellingcat.com"};
+var advadsCfpInfo = {"cfpExpHours":"3","cfpClickLimit":"3","cfpBan":"7","cfpPath":"","cfpDomain":"www.bellingcat.com","cfpEnabled":""};
+//# sourceURL=advanced-ads-pro-main-js-extra
+</script>
+<script id="advanced-ads-pro-main-js" src="https://www.bellingcat.com/app/plugins/advanced-ads-pro/assets/dist/advanced-ads-pro.js?ver=7.0.3"></script>
+<script id="advanced-ads-pro/postscribe-js" src="https://www.bellingcat.com/app/plugins/advanced-ads-pro/assets/js/postscribe.js?ver=3.0.14"></script>
+<script id="advanced-ads-pro/cache_busting-js-extra">
+var advanced_ads_pro_ajax_object = {"ajax_url":"https://www.bellingcat.com/wp-admin/admin-ajax.php","lazy_load_module_enabled":"","lazy_load":{"default_offset":0,"offsets":[]},"moveintohidden":"","wp_timezone_offset":"0","the_id":"44869","is_singular":"1"};
+var advanced_ads_responsive = {"reload_on_resize":"0"};
+//# sourceURL=advanced-ads-pro%2Fcache_busting-js-extra
+</script>
+<script id="advanced-ads-pro/cache_busting-js" src="https://www.bellingcat.com/app/plugins/advanced-ads-pro/assets/dist/front.js?ver=3.0.14"></script>
+<script id="advadsTrackingScript-js-extra">
+var advadsTracking = {"impressionActionName":"aatrack-records","clickActionName":"aatrack-click","targetClass":"belli-target","blogId":"1","frontendPrefix":"belli-"};
+//# sourceURL=advadsTrackingScript-js-extra
+</script>
+<script id="advadsTrackingScript-js" src="https://www.bellingcat.com/app/plugins/advanced-ads-tracking/assets/dist/tracking.js?ver=3.0.14"></script>
+<script id="advadsTrackingGAFront-js" src="https://www.bellingcat.com/app/plugins/advanced-ads-tracking/assets/dist/ga-tracking.js?ver=3.0.14"></script>
+<script>window.advads_admin_bar_items = [{"title":"Sidebar Near Top","type":"placement","count":1},{"title":"Sidebar","type":"group","count":0}];</script><script>window.advads_passive_placements = {"53950_2":{"type":"group","id":1486,"elementid":["belli-b0a187a483f4db0728ee8cc8f722538b"],"ads":{"53951":{"id":53951,"title":"Sidebar 2","expiry_date":0,"visitors":[{"type":"mobile","value":["desktop"],"connector":"and"}],"content":"<div id=\"belli-703854611\" class=\"plausible-event-name--Sidebar2 belli-target belli-target\" data-belli-trackid=\"53951\" data-belli-trackbid=\"1\"><a data-no-instant=\"1\" href=\"https:\/\/www.bellingcat.com\/donate\/?utm_source=website&#038;utm_medium=banner&#038;utm_campaign=sidebar-2\" rel=\"noopener\" class=\"a2t-link\" aria-label=\"Side banner 2 for cms@2x\"><img loading=\"lazy\" decoding=\"async\" src=\"https:\/\/www.bellingcat.com\/app\/uploads\/2026\/10\/Side-banner-2-for-cms@2x.jpg\" alt=\"\"  width=\"300\" height=\"600\"   \/><\/a><\/div>","once_per_page":0,"debugmode":false,"blog_id":1,"type":"image","position":"none","day_indexes":false,"tracking_enabled":true,"privacy":{"ignore":false,"needs_consent":false}},"53948":{"id":53948,"title":"Sidebar 1","expiry_date":0,"visitors":[{"type":"mobile","value":["desktop"],"connector":"and"}],"content":"<div id=\"belli-2306566215\" class=\"plausible-event-name--Sidebar1 belli-target belli-target\" data-belli-trackid=\"53948\" data-belli-trackbid=\"1\"><a data-no-instant=\"1\" href=\"https:\/\/www.bellingcat.com\/donate\/?utm_source=website&#038;utm_medium=banner&#038;utm_campaign=sidebar-1\" rel=\"noopener\" class=\"a2t-link\" aria-label=\"Side banner 1 for cms@2x\"><img loading=\"lazy\" decoding=\"async\" src=\"https:\/\/www.bellingcat.com\/app\/uploads\/2026\/10\/Side-banner-background-1-for-cms@2x.jpg\" alt=\"\"  width=\"300\" height=\"600\"   \/><\/a><\/div>","once_per_page":0,"debugmode":false,"blog_id":1,"type":"image","position":"none","day_indexes":false,"tracking_enabled":true,"privacy":{"ignore":false,"needs_consent":false}}},"group_info":{"id":1486,"name":"Sidebar","weights":{"53951":10,"53948":10},"type":"default","ordered_ad_ids":[53951,53948],"ad_count":1},"placement_info":{"id":"53950","title":"Sidebar Near Top","content":"New placement content goes here","type":"custom_position","slug":"sidebar-end","status":"publish","item":"group_1486","display":[],"visitors":{"1":{"type":"mobile","value":["desktop"]}},"cache-busting":"auto","placement_position":"default","ad_label":"default","inline-css":"max-width: 100%; margin-top: 360px;","cache_busting_empty":"0","inject_by":"pro_custom_element","pro_custom_element":"aside.singular__content__aside","pro_custom_position":"appendTo","container_id":"#cc1855051075da20a3427cd922542b6d2","visitor":[]},"test_id":null,"group_wrap":[{"before":"<div class=\"belli-sidebar-end belli-entity-placement\" id=\"belli-878623992\">","after":"<\/div>"}],"inject_before":[""]}};
+( window.advanced_ads_ready || jQuery( document ).ready ).call( null, function() {if ( !window.advanced_ads_pro ) {console.log("Advanced Ads Pro: cache-busting can not be initialized");} });</script><script>!function(){window.advanced_ads_ready_queue=window.advanced_ads_ready_queue||[],advanced_ads_ready_queue.push=window.advanced_ads_ready;for(var d=0,a=advanced_ads_ready_queue.length;d<a;d++)advanced_ads_ready(advanced_ads_ready_queue[d])}();</script><script id="belli-tracking">var advads_tracking_ads = {};var advads_tracking_urls = {"1":"https:\/\/www.bellingcat.com\/wp-admin\/admin-ajax.php"};var advads_tracking_methods = {"1":"frontend"};var advads_tracking_parallel = {"1":false};var advads_tracking_linkbases = {"1":"https:\/\/www.bellingcat.com\/linkout\/"};var advads_gatracking_uids = {"1":[]};var advads_gatracking_allads = {"1":{"53870":{"title":"Onsite Banner 1","target":"https:\/\/www.bellingcat.com\/donate\/?utm_source=website&utm_medium=banner&utm_campaign=onsite-banner-1","impression":true,"click":true},"53938":{"title":"Onsite Banner 1 MOBILE","target":"https:\/\/www.bellingcat.com\/donate\/?utm_source=website&utm_medium=mobile-banner&utm_campaign=onsite-mobile-banner-1","impression":true,"click":true},"53920":{"title":"Onsite Banner 1B","target":"https:\/\/www.bellingcat.com\/donate\/?utm_source=website&utm_medium=banner&utm_campaign=onsite-banner-1","impression":true,"click":true},"53871":{"title":"Onsite Banner 2","target":"https:\/\/www.bellingcat.com\/donate\/?utm_source=website&utm_medium=banner&utm_campaign=onsite-banner-2","impression":true,"click":true},"53935":{"title":"Onsite Banner 2 MOBILE","target":"https:\/\/www.bellingcat.com\/donate\/?utm_source=website&utm_medium=mobile-banner&utm_campaign=onsite-mobile-banner-2","impression":true,"click":true},"53923":{"title":"Onsite Banner 2B","target":"https:\/\/www.bellingcat.com\/donate\/?utm_source=website&utm_medium=banner&utm_campaign=onsite-banner-2","impression":true,"click":true},"54036":{"title":"Onsite Banner 4","target":"https:\/\/www.bellingcat.com\/donate\/?utm_source=website&utm_medium=banner&utm_campaign=onsite-banner-4","impression":true,"click":true},"54009":{"title":"Onsite Banner TEST 3","target":"https:\/\/www.bellingcat.com\/donate\/?utm_source=website&utm_medium=banner&utm_campaign=onsite-banner-3","impression":true,"click":true},"53948":{"title":"Sidebar 1","target":"https:\/\/www.bellingcat.com\/donate\/?utm_source=website&utm_medium=banner&utm_campaign=sidebar-1","impression":true,"click":true},"53951":{"title":"Sidebar 2","target":"https:\/\/www.bellingcat.com\/donate\/?utm_source=website&utm_medium=banner&utm_campaign=sidebar-2","impression":true,"click":true}}};var advads_gatracking_anonym = false;var advads_gatracking_transmitpageqs = {};</script>			<script type="text/javascript">
+				if ( typeof window.advadsGATracking === 'undefined' ) {
+					window.advadsGATracking = {};
+				}
+								advadsGATracking.postContext = {"postID":44869,"postSlug":"russian-missile-identified-in-kyiv-childrens-hospital-attack","cats":"europe,news"};
+							</script>
+			
+    <script>(function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'a5eaac1f89a3effb',t:'MTc5NTM3OTIyMA=='};var l=window.parent.location,o;try{o=new URL(l.origin).origin}catch(e){try{o=new URL(new URL(l.href).origin).origin}catch(e){o=''}}var u='/cdn-cgi/challenge-platform/scripts/jsd/main.js?ray=a5eaac1f89a3effb',a=document.createElement('script');a.src=o?new URL(u,o).href:u;document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+</html>
+
+<!--
+Performance optimized by W3 Total Cache. Learn more: https://www.boldgrid.com/w3-total-cache/?utm_source=w3tc&utm_medium=footer_comment&utm_campaign=free_plugin
+
+Page Caching using Disk: Enhanced 
+
+Served from: www.bellingcat.com @ 2026-11-22 19:55:00 by W3 Total Cache
+-->

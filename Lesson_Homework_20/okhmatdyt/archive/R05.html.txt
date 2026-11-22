@@ -1,0 +1,1030 @@
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr" prefix="og: https://ogp.me/ns#" class="h-100">
+  <head>
+<script type="text/javascript">(()=>{if(!window.__GCAJP__){window.__GCAJP__=!0;let a="X-SHIELD-AID",o="4a4a97dad04725954f9e85d1820a16ba";if("fetch"in window){let s=window.fetch.bind(window);window.fetch=function(t,r){try{var e,n,i;return t instanceof Request?c(t.url||"")?(e=h(r&&"headers"in(r||{})?r.headers:t.headers||void 0,a,o),n=new Request(t,{...r,headers:e}),s(n)):s(t,r):c(String(t))?((i={...r||{}}).headers=h(i.headers,a,o),s(t,i)):s(t,r)}catch(e){try{return s(t,r)}catch(e){return Promise.reject(e)}}}}if("undefined"!=typeof XMLHttpRequest){var t=XMLHttpRequest.prototype;let s=t.open,e=t.send;t.open=function(e,t,r,n,i){try{this.__sameOrigin=c(t)}catch(e){this.__sameOrigin=!1}return s.apply(this,arguments)},t.send=function(){try{this.__sameOrigin&&"function"==typeof this.setRequestHeader&&this.setRequestHeader(a,o)}catch(e){}return e.apply(this,arguments)}}function c(e){try{return new URL(e,location.href).origin===location.origin}catch(e){return!1}}function h(t,r,n){try{if(t instanceof Headers){let e=new Headers(t);return e.set(r,n),e}var e,i;if(Array.isArray(t))return 0<=(i=(e=t.slice()).findIndex(([e])=>String(e).toLowerCase()===r.toLowerCase()))?e[i]=[r,n]:e.push([r,n]),e;if(t&&"object"==typeof t)return{...t,[r]:n}}catch(e){}let s=new Headers;try{s.set(r,n)}catch(e){}return s}}})();</script>
+    <meta charset="utf-8" />
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-HWB32LNHJM"></script>
+<script>window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments)};gtag("js", new Date());gtag("set", "developer_id.dMDhkMT", true);gtag("config", "G-HWB32LNHJM", {"groups":"default","page_placeholder":"PLACEHOLDER_page_location","allow_ad_personalization_signals":false});gtag("config", "UA-202525917-1", {"groups":"default","anonymize_ip":true,"page_placeholder":"PLACEHOLDER_page_path","allow_ad_personalization_signals":false});</script>
+<meta name="description" content="Situations under investigationsUpon referrals by States Parties or by the UNSC, or on its own initiative and with the judges&#039; authorisation, the Office of the Prosecutor (OTP) conducts investigations by gathering and examining evidence, questioning persons under investigation and questioning victims and witnesses, for the purpose of finding evidence of a suspect&#039;s innocence or guilt. OTP must investigate incriminating and exonerating circumstances equally." />
+<meta name="keywords" content="ICC, CPI, International Criminal Court, Cour Pénale Internationale, Rome Statute" />
+<link rel="canonical" href="https://www.icc-cpi.int/situations-under-investigations" />
+<meta name="generator" content="Drupal 8" />
+<meta property="og:site_name" content="International Criminal Court" />
+<meta property="og:url" content="https://www.icc-cpi.int/situations-under-investigations" />
+<meta property="og:title" content="Situations under investigation" />
+<meta property="og:image:alt" content="Situations under investigation" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:site" content="@CourPenaleInt" />
+<meta name="twitter:title" content="Situations under investigation" />
+<meta name="theme-color" content="#003366" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta http-equiv="x-ua-compatible" content="IE=10" />
+<meta name="Generator" content="Drupal 11 (https://www.drupal.org)" />
+<meta name="MobileOptimized" content="width" />
+<meta name="HandheldFriendly" content="true" />
+<link rel="icon" href="/themes/custom/icccpi/favicon.ico" type="image/vnd.microsoft.icon" />
+<link rel="alternate" hreflang="en" href="https://www.icc-cpi.int/situations-under-investigations" />
+<link rel="alternate" hreflang="fr" href="https://www.icc-cpi.int/fr/situations-under-investigations" />
+
+    <title>Situations under investigation | International Criminal Court</title>
+    <link rel="stylesheet" media="all" href="/sites/default/files/css/css_AG8bcA7Vo6eWK37DtnZjWpkSHj4Tpun73W3m0nVuNrA.css?delta=0&amp;language=en&amp;theme=icccpi&amp;include=eJxdjl0KAyEQgy_krk89Txl1kCnjjhhtuz19obL9ewl8CSQJZh29UT35QGAXPpzVAumCvqts-TspDFBmuGiNfWqjkq50ofuPkYTU8rQ2a4VUHuwkxljlvxyd-sD5KPaTl_cQdnQu8-JV-Ab_0rVYGspPZZ5Mag" />
+<link rel="stylesheet" media="all" href="/sites/default/files/css/css_evzaaVmJfkooJXYQMIlTOs4whPCAJn-SyDXnIu9_LF0.css?delta=1&amp;language=en&amp;theme=icccpi&amp;include=eJxdjl0KAyEQgy_krk89Txl1kCnjjhhtuz19obL9ewl8CSQJZh29UT35QGAXPpzVAumCvqts-TspDFBmuGiNfWqjkq50ofuPkYTU8rQ2a4VUHuwkxljlvxyd-sD5KPaTl_cQdnQu8-JV-Ab_0rVYGspPZZ5Mag" />
+<link rel="stylesheet" media="all" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css" crossorigin="anonymous," integrity="sha256-2XFplPlrFClt0bIdPgpz8H7ojnk10H69xRqd9+uTShA=" />
+
+    
+    <meta name="viewport" content="width=device-width">
+  </head>
+  <body class="page-route-entity-node-canonical situations-under-investigations path-node page-node-type-page    bg- d-flex flex-column h-100">
+        <div style='display:none' id='sbbhscc'></div>
+          <script type="text/javascript">
+            var sbbvscc='';
+            var sbbgscc='';
+            function genPid() {return String.fromCharCode(73)+String.fromCharCode(104) ; };
+          </script>
+        <div id='sbbfrcc' style='position: absolute; top: -10px; left: 30px; font-size:1px'></div>
+  <script type="text/javascript">function sbbgc(check_name){var start=document.cookie.indexOf(check_name+"=");var oVal='';var len=start+check_name.length+1;if((!start)&&(document.cookie.substring(0, check_name.length)!=check_name)){oVal='';}else if(start==-1){oVal='';}else{var end=document.cookie.indexOf(';', len);if(end==-1)end=document.cookie.length;var oVal=document.cookie.substring(len, end);};return oVal;}function addmg(inm, ext){var primgobj=document.createElement('IMG');primgobj.src=window.location.protocol+"//"+window.location.hostname+(window.location.port && window.location.port !=80 ? ':'+window.location.port : '')+"/sbbi/?sbbpg="+inm+(ext ? "&"+ext : "");var sbbDiv=document.getElementById('sbbfrcc');sbbDiv.appendChild(primgobj);};function addprid(prid){var oldVal=sbbgc("PRLST");if((oldVal.indexOf(prid)==-1)&&(oldVal.split('/').length < 5)){if(oldVal !=''){oldVal+='/';}document.cookie='PRLST='+oldVal+escape(prid)+';path=/; SameSite=Lax; Secure;';}}var sbbeccf=function(){this.sp3="jass";this.sf1=function(vd){return sf2(vd)+32;};var sf2=function(avd){return avd * 12;};this.sf4=function(yavd){return yavd+2;};var strrp=function(str, key, value){if(str.indexOf('&'+key+'=')> -1 || str.indexOf(key+'=')==0){var idx=str.indexOf('&'+key+'=');if(idx==-1)idx=str.indexOf(key+'=');var end=str.indexOf('&', idx+1);var newstr;if(end !=-1)newstr=str.substr(0, idx)+str.substr(end+(idx ? 0 : 1))+'&'+key+'='+value;else newstr=str.substr(0, idx)+'&'+key+'='+value;return newstr;}else return str+'&'+key+'='+value;};var strgt=function(name, text){if(typeof text !='string')return "";var nameEQ=name+"=";var ca=text.split(/[;&]/);for(var i=0;i < ca.length;i++){var c=ca[i];while(c.charAt(0)==' ')c=c.substring(1, c.length);if(c.indexOf(nameEQ)==0)return c.substring(nameEQ.length, c.length);}return "";};this.sfecgs={sbbgh: function(){var domain=document.location.host;if(domain.indexOf('www.')==0)domain=domain.replace('www.', '');return domain;}, f: function(name, value){var fv="";if(window.globalStorage){var host=this.sbbgh();try{if(typeof(value)!="undefined")globalStorage[host][name]=value;else{fv=globalStorage[host][name];if(typeof(fv.toString)!="undefined")fv=fv.toString();}}catch(e){}}return fv;}, name: "sbbrf"};this.sfecls={f: function(name, value){var fv="";try{if(window.localStorage){if(typeof(value)!="undefined")localStorage.setItem(name, value);else{fv=localStorage.getItem(name);if(typeof(fv.toString)!="undefined")fv=fv.toString();}}}catch(e){}return fv;}, name: "sbbrf"};this.sbbcv=function(invl){try{var invalArr=invl.split("-");if(invalArr.length > 1){if(invalArr[0]=="A" || invalArr[0]=="D"){invl=invalArr[1];}else invl="";}if(invl==null || typeof(invl)=="undefined" || invl=="falseImgUT" || invl=="undefined" || invl=="null" || invl !=encodeURI(invl))invl="";if(typeof(invl).toLowerCase()=="string")if(invl.length > 20)if(invl.substr(0, 2)!="h4")invl="";}catch(ex){invl="";}return invl;};this.sbbsv=function(fv){for(var elm in this){if(this[elm].name=="sbbrf"){this[elm].f("altutgv2", fv);}}document.cookie="UTGv2="+fv+';expires=Fri, 21-May-27 20:31:43 GMT;path=/; SameSite=Lax; Secure;';};this.sbbgv=function(){var valArr=Array();var currVal="";for(var elm in this){if(this[elm].name=="sbbrf"){currVal=this[elm].f("altutgv2");currVal=this.sbbcv(currVal);if(currVal !="")valArr[currVal]=(typeof(valArr[currVal])!="undefined" ? valArr[currVal]+1 : 1);}}var lb=0;var fv="";for(var val in valArr){if(valArr[val] > lb){fv=val;lb=valArr[val]}}if(fv=="")fv=sbbgc("UTGv2");fv=this.sbbcv(fv);if(fv !="")this.sbbsv(fv);else this.sbbsv("D-h4c94e776ff4bf3d691d041df7d8b6bd9d64");return fv;};};function m2vr(m1, m2){var i=0;var rc="";var est="ghijklmnopqrstuvwyz";var rnum;var rpl;var charm1=m1.charAt(i);var charm2=m2.charAt(i);while(charm1 !="" || charm2 !=""){rnum=Math.floor(Math.random()* est.length);rpl=est.substring(rnum, rnum+1);rc+=(charm1=="" ? rpl : charm1)+(charm2=="" ? rpl : charm2);i++;charm1=m1.charAt(i);charm2=m2.charAt(i);}return rc;}function sbbls(prid){try{var eut=sbbgc("UTGv2");window.sbbeccfi=new sbbeccf();window.sbbgs=sbbeccfi.sbbgv();if(eut !=sbbgs && sbbgs !="" && typeof(sbbfcr)=="undefined"){addmg('utMedia', "vii="+m2vr("f2fee0b80d7a7239345cd4871d18bbd0", sbbgs));}var sbbiframeObj=document.createElement('IFRAME');var dfx=new Date();sbbiframeObj.id='SBBCrossIframe';sbbiframeObj.title='SBBCrossIframe';sbbiframeObj.tabindex='-1';sbbiframeObj.lang='en';sbbiframeObj.style.visibility='hidden';sbbiframeObj.setAttribute('aria-hidden', 'true');sbbiframeObj.style.border='0px';if(document.all){sbbiframeObj.style.position='absolute';sbbiframeObj.style.top='-1px';sbbiframeObj.style.height='1px';sbbiframeObj.style.width='28px';}else{sbbiframeObj.style.height='1px';sbbiframeObj.style.width='0px';}sbbiframeObj.scrolling="NO";sbbiframeObj.src=window.location.protocol+"//"+window.location.hostname+(window.location.port && window.location.port !=80 ? ':'+window.location.port : '')+'/sbbi/?sbbpg=sbbShell&gprid='+prid + '&sbbgs='+sbbgs+'&ddl='+(Math.round(dfx.getTime()/1000)-1795379503)+'';var sbbDiv=document.getElementById('sbbfrcc');sbbDiv.appendChild(sbbiframeObj);}catch(ex){;}}try{var y=unescape(sbbvscc.replace(/^<\!\-\-\s*|\s*\-\->$/g, ''));document.getElementById('sbbhscc').innerHTML=y;var x=unescape(sbbgscc.replace(/^<\!\-\-\s*|\s*\-\->$/g, ''));}catch(e){x='function genPid(){return "jser";}';}try{if(window.gprid==undefined)document.write('<'+'script type="text/javascri'+'pt">'+x+"var gprid=genPid();addprid(gprid);sbbls(gprid);<"+"/script>");}catch(e){addprid("dwer");}</script>
+        <a href="#main-content" class="visually-hidden focusable skip-link">
+      Skip to main content
+    </a>
+    
+      <div class="dialog-off-canvas-main-canvas d-flex flex-column h-100" data-off-canvas-main-canvas>
+    
+
+<header>
+  <div class="header--top">
+    <div class="container-xll">
+        <div class="region region-header">
+    <div id="block-icccpi-branding" class="block block-system block-system-branding-block">
+  
+    
+  <div class="d-flex align-items-center justify-content-between">
+
+    <div class="site--logo">
+    <div class="col-auto p-0">
+      <a href="/" title="Home" rel="home" class="site-logo d-block">
+        <img src="/themes/custom/icccpi/logo.svg" alt="Home" />
+      </a>
+    </div>
+  </div>
+  
+      <div class="site-slogan header--text">Trying individuals for genocide, war crimes, crimes against humanity, and aggression</div>
+  </div>
+</div>
+<div class="language-switcher-language-url block block-language block-language-blocklanguage-interface" id="block-languageswitcher" role="navigation">
+  
+    
+      <ul data-block="header"><li data-drupal-language="en" data-drupal-link-system-path="node/9000" class="is-active" aria-current="page"><a href="/situations-under-investigations" class="language-link is-active" hreflang="en" data-drupal-link-system-path="node/9000" aria-current="page">EN</a></li><li data-drupal-language="fr" data-drupal-link-system-path="node/9000"><a href="/fr/situations-under-investigations" class="language-link" hreflang="fr" data-drupal-link-system-path="node/9000">FR</a></li></ul>
+  </div>
+
+  </div>
+
+    </div>
+  </div>
+      <nav class="navbar navbar-expand-lg navbar- text-dark bg-">
+      <div class=" container-fluid row mx-auto">
+        <div class="col-3 col-md-auto p-0">
+          <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                  aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
+        <div class="collapse navbar-collapse col-12 col-md-auto p-0" id="navbarSupportedContent">
+            <div class="region region-nav-main">
+    <nav role="navigation" aria-labelledby="block-icccpi-main-menu-menu" id="block-icccpi-main-menu" class="block block-menu navigation menu--main">
+            
+  <h5 class="visually-hidden" id="block-icccpi-main-menu-menu">Main navigation</h5>
+  
+
+        
+            <ul data-block="nav_main" class="navbar-nav me-auto">
+                      
+  <li class="nav-item">
+          <a href="/" class="nav-link" data-drupal-link-system-path="&lt;front&gt;">Home</a>
+      </li>
+
+                  
+  <li class="nav-item dropdown">
+          <a href="/about" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false" title="Expand menu About">About</a>
+                  <ul class="dropdown-menu">
+                      
+  <li>
+          <a href="/about/the-court" class="dropdown-item" data-drupal-link-system-path="node/196795">The Court</a>
+      </li>
+
+                  
+  <li>
+          <a href="/about/how-the-court-works" class="dropdown-item" data-drupal-link-system-path="node/196786">How the Court works</a>
+      </li>
+
+                  
+  <li class="dropdown-submenu submenu">
+          <a href="/about/in-the-courtroom" class="dropdown-item" data-bs-toggle="" aria-expanded="false" title="Expand menu Organization" data-drupal-link-system-path="node/196775">Organization</a>
+                  <ul class="dropdown-menu">
+                      
+  <li>
+          <a href="/about/presidency" class="dropdown-item" data-drupal-link-system-path="node/196774">Presidency</a>
+      </li>
+
+                  
+  <li>
+          <a href="/about/judicial-divisions" class="dropdown-item" data-drupal-link-system-path="node/196649">Judicial Divisions</a>
+      </li>
+
+                  
+  <li>
+          <a href="/about/otp" class="dropdown-item" data-drupal-link-system-path="node/196679">Office of the Prosecutor</a>
+      </li>
+
+                  
+  <li>
+          <a href="/about/defence" class="dropdown-item" data-drupal-link-system-path="node/196669">Defence</a>
+      </li>
+
+                  
+  <li>
+          <a href="/about/victims" class="dropdown-item" data-drupal-link-system-path="node/196732">Victims</a>
+      </li>
+
+                  
+  <li>
+          <a href="/about/witnesses" class="dropdown-item" data-drupal-link-system-path="node/196731">Witnesses</a>
+      </li>
+
+                  
+  <li>
+          <a href="/about/registry/default" class="dropdown-item" data-drupal-link-system-path="node/196709">Registry</a>
+      </li>
+
+        </ul>
+  
+      </li>
+
+                  
+  <li>
+          <a href="/asp" class="dropdown-item" data-drupal-link-system-path="node/196663">States Parties</a>
+      </li>
+
+                  
+  <li>
+          <a href="/about/cooperation" class="dropdown-item" data-drupal-link-system-path="about/cooperation">Cooperation</a>
+      </li>
+
+                  
+  <li>
+          <a href="/about/outreach" class="dropdown-item" data-drupal-link-system-path="node/197629">Outreach</a>
+      </li>
+
+                  
+  <li>
+          <a href="/tfv" class="dropdown-item" data-drupal-link-system-path="node/196725">Trust Fund for Victims</a>
+      </li>
+
+        </ul>
+  
+      </li>
+
+                  
+  <li class="nav-item">
+          <a href="/about/otp" class="nav-link" data-drupal-link-system-path="node/196679">Office of the Prosecutor</a>
+      </li>
+
+                  
+  <li class="nav-item dropdown">
+          <a href="/" class="nav-link active dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false" title="Expand menu Situations and Cases" data-drupal-link-system-path="&lt;front&gt;">Situations and Cases</a>
+                  <ul class="dropdown-menu">
+                      
+  <li>
+          <a href="/cases" class="dropdown-item" data-drupal-link-system-path="cases">Cases</a>
+      </li>
+
+                  
+  <li>
+          <a href="/defendants" class="dropdown-item" data-drupal-link-system-path="defendants">Defendants</a>
+      </li>
+
+                  
+  <li class="dropdown-submenu submenu">
+          <a href="/situations-under-investigations" class="dropdown-item active is-active" data-bs-toggle="" aria-expanded="false" title="Expand menu Investigations" data-drupal-link-system-path="node/9000" aria-current="page">Investigations</a>
+                  <ul class="dropdown-menu">
+                      
+  <li>
+          <a href="/uganda" class="dropdown-item" data-drupal-link-system-path="node/192317">Uganda</a>
+      </li>
+
+                  
+  <li>
+          <a href="/drc" class="dropdown-item" data-drupal-link-system-path="node/192318">Democratic Republic of the Congo</a>
+      </li>
+
+                  
+  <li>
+          <a href="/darfur" class="dropdown-item" data-drupal-link-system-path="node/192319">Darfur, Sudan</a>
+      </li>
+
+                  
+  <li>
+          <a href="/car" class="dropdown-item" data-drupal-link-system-path="node/192320">Central African Republic</a>
+      </li>
+
+                  
+  <li>
+          <a href="/kenya" class="dropdown-item" data-drupal-link-system-path="node/192321">Kenya</a>
+      </li>
+
+                  
+  <li>
+          <a href="/libya" class="dropdown-item">Libya</a>
+      </li>
+
+                  
+  <li>
+          <a href="/cdi" class="dropdown-item" data-drupal-link-system-path="node/192323">Côte d&#039;Ivoire</a>
+      </li>
+
+                  
+  <li>
+          <a href="/mali" class="dropdown-item" data-drupal-link-system-path="node/192324">Mali</a>
+      </li>
+
+                  
+  <li>
+          <a href="/carII" class="dropdown-item" data-drupal-link-system-path="node/192325">Central African Republic II</a>
+      </li>
+
+                  
+  <li>
+          <a href="/georgia" class="dropdown-item" data-drupal-link-system-path="node/192326">Georgia</a>
+      </li>
+
+                  
+  <li>
+          <a href="/burundi" class="dropdown-item">Burundi</a>
+      </li>
+
+                  
+  <li>
+          <a href="/bangladesh-myanmar" class="dropdown-item" data-drupal-link-system-path="node/192301">Bangladesh/Myanmar</a>
+      </li>
+
+                  
+  <li>
+          <a href="/afghanistan" class="dropdown-item" data-drupal-link-system-path="node/192302">Afghanistan</a>
+      </li>
+
+                  
+  <li>
+          <a href="/palestine" class="dropdown-item" data-drupal-link-system-path="node/192303">State of Palestine</a>
+      </li>
+
+                  
+  <li>
+          <a href="/philippines" class="dropdown-item" data-drupal-link-system-path="node/192310">Republic of the Philippines</a>
+      </li>
+
+                  
+  <li>
+          <a href="/venezuela" class="dropdown-item">Venezuela I</a>
+      </li>
+
+                  
+  <li>
+          <a href="/ukraine" class="dropdown-item">Ukraine</a>
+      </li>
+
+                  
+  <li>
+          <a href="/lithuania-belarus" class="dropdown-item" data-drupal-link-system-path="node/225976">Republic of Lithuania/Republic of Belarus</a>
+      </li>
+
+        </ul>
+  
+      </li>
+
+                  
+  <li class="dropdown-submenu submenu">
+          <a href="/situations-preliminary-examinations" class="dropdown-item" data-bs-toggle="" aria-expanded="false" title="Expand menu Preliminary Examinations" data-drupal-link-system-path="node/9001">Preliminary Examinations</a>
+                  <ul class="dropdown-menu">
+                      
+  <li>
+          <a href="" class="dropdown-item">...</a>
+      </li>
+
+                  
+  <li>
+          <a href="" class="dropdown-item">...</a>
+      </li>
+
+                  
+  <li>
+          <a href="" class="dropdown-item">...</a>
+      </li>
+
+                  
+  <li>
+          <a href="/nigeria" class="dropdown-item" data-drupal-link-system-path="node/192309">Nigeria</a>
+      </li>
+
+        </ul>
+  
+      </li>
+
+        </ul>
+  
+      </li>
+
+                  
+  <li class="nav-item dropdown">
+          <a href="/news" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false" title="Expand menu News" data-drupal-link-system-path="news">News</a>
+                  <ul class="dropdown-menu">
+                      
+  <li>
+          <a href="/news" class="dropdown-item" data-drupal-link-system-path="news">News</a>
+      </li>
+
+                  
+  <li>
+          <a href="/news/subscribe" class="dropdown-item" data-drupal-link-system-path="node/199989">Subscribe</a>
+      </li>
+
+                  
+  <li>
+          <a href="/rss/news/all" class="dropdown-item" data-drupal-link-system-path="rss/news/all">RSS</a>
+      </li>
+
+        </ul>
+  
+      </li>
+
+                  
+  <li class="nav-item dropdown">
+          <a href="/" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false" title="Expand menu Documents" data-drupal-link-system-path="&lt;front&gt;">Documents</a>
+                  <ul class="dropdown-menu">
+                      
+  <li class="dropdown-submenu submenu">
+          <a href="/" class="dropdown-item" data-bs-toggle="" aria-expanded="false" title="Expand menu Court Records" data-drupal-link-system-path="&lt;front&gt;">Court Records</a>
+                  <ul class="dropdown-menu">
+                      
+  <li>
+          <a href="/documents" class="dropdown-item" data-drupal-link-system-path="documents">All Records</a>
+      </li>
+
+                  
+  <li>
+          <a href="/decisions" class="dropdown-item" data-drupal-link-system-path="decisions">Judgments, Decisions and Orders</a>
+      </li>
+
+                  
+  <li>
+          <a href="/about/judicial-divisions/documents-related-to-rule" class="dropdown-item" data-drupal-link-system-path="about/judicial-divisions/documents-related-to-rule">Matter Outside Situations</a>
+      </li>
+
+                  
+  <li>
+          <a href="/rss/records/all" class="dropdown-item" data-drupal-link-system-path="rss/records/all">RSS</a>
+      </li>
+
+        </ul>
+  
+      </li>
+
+                  
+  <li>
+          <a href="https://www.legal-tools.org/cld" class="dropdown-item">Case Law Database</a>
+      </li>
+
+                  
+  <li>
+          <a href="/publications/core-legal-texts" class="dropdown-item" data-drupal-link-system-path="node/226723">Core Legal Texts</a>
+      </li>
+
+                  
+  <li>
+          <a href="/resource-library/reports" class="dropdown-item" data-drupal-link-system-path="resource-library/reports">Reports</a>
+      </li>
+
+                  
+  <li>
+          <a href="/publications/factsheets" class="dropdown-item" data-drupal-link-system-path="node/229804">Factsheets</a>
+      </li>
+
+                  
+  <li>
+          <a href="/resource-library/official-journal" class="dropdown-item" data-drupal-link-system-path="resource-library/official-journal">Official Journal</a>
+      </li>
+
+                  
+  <li>
+          <a href="/resource-library/administrative-issuances" class="dropdown-item" data-drupal-link-system-path="resource-library/administrative-issuances">Administrative Issuances</a>
+      </li>
+
+                  
+  <li>
+          <a href="/resource-library" class="dropdown-item" data-drupal-link-system-path="node/196660">Resource Library</a>
+      </li>
+
+                  
+  <li>
+          <a href="/about/registry/icc-library" class="dropdown-item" data-drupal-link-system-path="node/196714">Library</a>
+      </li>
+
+                  
+  <li>
+          <a href="https://www.legal-tools.org/" class="dropdown-item">Legal Tools</a>
+      </li>
+
+        </ul>
+  
+      </li>
+
+                  
+  <li class="nav-item dropdown">
+          <a href="/" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false" title="Expand menu Practical Information" data-drupal-link-system-path="&lt;front&gt;">Practical Information</a>
+                  <ul class="dropdown-menu">
+                      
+  <li>
+          <a href="/court-calendar" class="dropdown-item" data-drupal-link-system-path="court-calendar">Court Calendar</a>
+      </li>
+
+                  
+  <li>
+          <a href="/contact" class="dropdown-item" data-drupal-link-system-path="node/196668">Contact Us</a>
+      </li>
+
+                  
+  <li>
+          <a href="/visit" class="dropdown-item" data-drupal-link-system-path="node/196729">Visit Us</a>
+      </li>
+
+                  
+  <li>
+          <a href="/get-involved/vendors" class="dropdown-item" data-drupal-link-system-path="node/196726">Vendors</a>
+      </li>
+
+        </ul>
+  
+      </li>
+
+                  
+  <li class="nav-item dropdown">
+          <a href="/" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false" title="Expand menu Get Involved" data-drupal-link-system-path="&lt;front&gt;">Get Involved</a>
+                  <ul class="dropdown-menu">
+                      
+  <li>
+          <a href="/tell-others" class="dropdown-item" data-drupal-link-system-path="node/196803">#JusticeMatters</a>
+      </li>
+
+                  
+  <li>
+          <a href="/get-involved/more-just-world" class="dropdown-item" data-drupal-link-system-path="node/196953">#MoreJustWorld</a>
+      </li>
+
+                  
+  <li>
+          <a href="/get-involved/access-to-justice" class="dropdown-item" data-drupal-link-system-path="node/196802">#AccessToJustice</a>
+      </li>
+
+                  
+  <li>
+          <a href="/get-involved/sdg16" class="dropdown-item" data-drupal-link-system-path="node/197280">#SDG16</a>
+      </li>
+
+                  
+  <li>
+          <a href="/get-involved/share-stories" class="dropdown-item" data-drupal-link-system-path="node/196797">Share Stories</a>
+      </li>
+
+                  
+  <li class="dropdown-submenu submenu">
+          <a href="/" class="dropdown-item" data-bs-toggle="" aria-expanded="false" title="Expand menu Resources For" data-drupal-link-system-path="&lt;front&gt;">Resources For</a>
+                  <ul class="dropdown-menu">
+                      
+  <li>
+          <a href="/get-involved/academics-and-researchers" class="dropdown-item" data-drupal-link-system-path="node/196659">Academics and Researches</a>
+      </li>
+
+                  
+  <li>
+          <a href="/get-involved/diplomats" class="dropdown-item" data-drupal-link-system-path="node/196671">Diplomats</a>
+      </li>
+
+                  
+  <li>
+          <a href="/get-involved/legal-professionals" class="dropdown-item" data-drupal-link-system-path="node/196674">Legal professionals</a>
+      </li>
+
+                  
+  <li>
+          <a href="/get-involved/media-and-icc" class="dropdown-item" data-drupal-link-system-path="node/196676">Media</a>
+      </li>
+
+                  
+  <li>
+          <a href="/get-involved/ngos" class="dropdown-item" data-drupal-link-system-path="node/196678">NGOs</a>
+      </li>
+
+                  
+  <li>
+          <a href="/get-involved/teachers-and-high-school-students" class="dropdown-item" data-drupal-link-system-path="node/196672">Teachers and high school students</a>
+      </li>
+
+        </ul>
+  
+      </li>
+
+        </ul>
+  
+      </li>
+
+                  
+  <li class="nav-item">
+          <a href="/jobs" class="nav-link" data-drupal-link-system-path="node/9002">Vacancies</a>
+      </li>
+
+                  
+  <li class="nav-item">
+          <a href="/search" class="nav-link" data-drupal-link-system-path="search">Search</a>
+      </li>
+
+        </ul>
+  
+
+
+
+  </nav>
+
+  </div>
+
+          
+        </div>
+      </div>
+    </nav>
+  
+</header>
+
+<main role="main" id="main">
+        <div class="container-xll region region-breadcrumb">
+    <div id="block-icccpi-breadcrumbs" class="block block-system block-system-breadcrumb-block">
+  
+    
+        <nav role="navigation" aria-labelledby="system-breadcrumb">
+    <h2 id="system-breadcrumb" class="visually-hidden">Breadcrumb</h2>
+    <ol class="breadcrumb">
+          <li class="breadcrumb-item">
+                  <a href="/">Home</a>
+              </li>
+          <li class="breadcrumb-item">
+                  Situations Under Investigation
+              </li>
+        </ol>
+  </nav>
+
+  </div>
+
+  </div>
+
+    <div class="container-xll">
+    <a id="main-content" tabindex="-1"></a>
+    
+    
+    
+
+        <div class="">
+      <div class="row g-0">
+                <div class="order-1 order-lg-2 col-12">
+            <div class="region region-content">
+    
+<div id="block-icccpi-content" class="block block-system block-system-main-block">
+  
+    
+      <article data-history-node-id="9000" class="node node--type-page node--view-mode-full">
+  <div class="node__content">
+    <div class="col-md-8 offset-md-2"></div>
+        
+            <div class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item"><h2 class="text-center font-weight-bold">Situations under investigations</h2><div class="container-xl"><p>Upon referrals by States Parties or by the UNSC, or on its own initiative and with the judges' authorisation, the Office of the Prosecutor (OTP) conducts investigations by gathering and examining evidence, questioning persons under investigation and questioning victims and witnesses, for the purpose of finding evidence of a suspect's innocence or guilt. OTP must investigate incriminating and exonerating circumstances equally.</p><p>OTP requests cooperation and assistance from States and international organisations, and also sends investigators to areas where the alleged crimes occurred to gather evidence. Investigators must be careful not to create any risk to the victims and witnesses.</p><h4 class="text-center mb-5">Investigations: Ongoing (13) | Concluded (5)</h4></div><style type="text/css">div#info-buttons {
+    display: none;
+}
+path[data-id="CF"], path[data-id="UG"], path[data-id="KE"], path[data-id="GE"] {
+    fill: #444444!important;
+}
+</style></div>
+      
+
+    
+  </div>
+</article>
+
+  </div>
+<div id="block-situationsmapaelmap" class="block block-icc-situations block-mapael-map">
+  
+    
+      <div class="mapcontainer mb-4 mt-4">
+          <div class="map"></div>
+          <div id="situation-title" class="hide"></div>
+          <div id="situationDesc" class="overLay hide">
+              <div id="info-container"></div>
+              <div class="closeBtn">x</div>
+          </div>
+      </div>
+  </div>
+<div id="block-views-block-situations-block-1" class="container-md views-element-container block block-views block-views-blocksituations-block-1">
+  
+    
+      <div data-block="content"><div class="container-md p-0 view view-situations view-id-situations view-display-id-block_1 js-view-dom-id-baaf0e6f76a0a47eaa1b57a59383962ad438d356f8741826dac8f036f3266879">
+  
+    
+      
+      <div class="view-content">
+          <div class="record-holder"><h4 class="mb-4 pt-3"><a href="/drc">Democratic Republic of the Congo</a></h4>
+<div>
+<div class="row mb-3" id="info-buttons">
+<div class="col-sm-6 p-2">
+<div class="border-top border text-center"><a class="d-block w-100 h-100 btn-info text-decoration-none p-3" href="/drc/call-for-information-drc">Call for Information</a></div>
+</div>
+</div>
+</div>
+
+<p><strong>Situation referred to the ICC by the DRC Government:</strong>&nbsp;March 2004</p>
+
+<p><strong>ICC investigations opened:</strong>&nbsp;June 2004</p>
+
+<p><strong>Current focus:</strong>Alleged war crimes and crimes against humanity committed in the context of armed conflict in the DRC since 1 July 2002 (when the Rome Statute entered into force)</p>
+
+<p><strong>Current regional focus:</strong>&nbsp;Eastern DRC, in the North and South Kivu Provinces, since 1 January 2022</p>
+</div>
+    <div class="record-holder"><h4 class="mb-4 pt-3"><a href="/uganda">Uganda</a></h4>
+<div class="ExternalClassE1CA9E33EFFE4E2182617E36BCCF96FA">
+<div class="p-2 bg-secondary d-inline mb-4 text-light small">Concluded</div>
+
+<p class="mt-3"><strong>Situation referred to the ICC by the Government of Uganda:</strong>&nbsp;January 2004</p>
+
+<p><strong>ICC investigations opened:</strong>&nbsp;July 2004</p>
+
+<p><strong>ICC investigations closed:</strong>&nbsp;1 December 2023</p>
+
+<p><strong>Focus:</strong><strong>&nbsp;</strong>Alleged war crimes and crimes&nbsp;against humanity committed in the context of a conflict between the Lord's Resistance Army (LRA) and the national authorities in Uganda since 1 July 2002 (when the Rome Statute entered into force)</p>
+
+<p><strong>Regional focus:</strong>&nbsp;Northern Uganda</p>
+</div>
+</div>
+    <div class="record-holder"><h4 class="mb-4 pt-3"><a href="/darfur">Darfur, Sudan</a></h4>
+<div>
+<div class="row mb-3" id="info-buttons">
+<div class="col-sm-6 p-2">
+<div class="border-top border text-center"><a class="d-block w-100 h-100 btn-info text-decoration-none p-3" href="https://otplink.icc-cpi.int">Provide Information</a></div>
+</div>
+
+<div class="col-sm-6 p-2">
+<div class="border-top border text-center"><a class="d-block w-100 h-100 btn-info text-decoration-none p-3" href="https://otplink.icc-cpi.int">تقديم المعلومات</a></div>
+</div>
+</div>
+
+<p><strong>Situation referred to the ICC by the United Nations Security Council:</strong>&nbsp;March 2005</p>
+
+<p><strong>ICC investigations opened:</strong>&nbsp;June 2005</p>
+
+<p><strong>Current focus:</strong><strong>&nbsp;</strong>Alleged genocide, war crimes and crimes against humanity committed in in Darfur, Sudan, since 1 July 2002 (when the Rome Statute entered into force)</p>
+
+<p><strong>Current regional focus:</strong><strong>&nbsp;</strong>Darfur (Sudan), with Outreach to refugees in Eastern Chad and those in exile throughout Europe.</p>
+</div>
+</div>
+    <div class="record-holder"><h4 class="mb-4 pt-3"><a href="/car">Central African Republic</a></h4>
+<div class="ExternalClassDE3579ACC30A425ABFF455AE596D5084">
+<div class="p-2 bg-secondary d-inline mb-4 text-light small">Concluded</div>
+
+<p class="mt-3"><strong>Situation referred to the ICC by the CAR Government:</strong>&nbsp;December 2004</p>
+
+<p><strong>ICC investigations opened:</strong>&nbsp;May 2007</p>
+
+<p><strong>ICC investigations closed:</strong>&nbsp;16 December 2022</p>
+
+<p><strong>Focus:</strong><strong>&nbsp;</strong>Alleged war crimes and crimes against humanity committed in the context of a conflict in CAR since 1 July 2002, with the peak of violence in 2002 and 2003. (See&nbsp;<a href="/carII">CAR II</a>&nbsp;for the situation in CAR from 2012 onward.)</p>
+
+<p><strong>Regional focus:</strong><strong>&nbsp;</strong>Throughout CAR</p>
+</div>
+</div>
+    <div class="record-holder"><h4 class="mb-4 pt-3"><a href="/kenya">Kenya</a></h4>
+<div class="ExternalClass320669AE5EE0432E807BCC814B8C8709">
+<div class="p-2 bg-secondary d-inline mb-4 text-light small">Concluded</div>
+
+<p class="mt-3"><strong>ICC Prosecutor opens&nbsp;</strong><strong><em>proprio motu</em></strong><strong>&nbsp;investigation:</strong>&nbsp;March 2010</p>
+
+<p><strong>ICC investigation closed</strong><strong>:</strong>&nbsp;27 November 2023</p>
+
+<p><strong>Focus:</strong><strong>&nbsp;</strong>Alleged crimes against humanity committed in the context of post-election violence in Kenya in 2007/2008.</p>
+
+<p><strong>Regional focus:</strong>&nbsp;Six of the eight Kenyan Provinces: Nairobi, North Rift Valley, Central Rift Valley, South Rift Valley, Nyanza Province and Western Province</p>
+</div>
+</div>
+    <div class="record-holder"><h4 class="mb-4 pt-3"><a href="/situations/libya">Libya</a></h4>
+<div class="ExternalClass20ECB2E91AB542CAADD19E1792AA5436"><p><strong>Situation referred to the ICC by the United Nations Security Council:</strong>&nbsp;February 2011</p><p><strong>ICC investigations opened:</strong>&nbsp;March 2011</p><p><strong>Current focus:&nbsp;</strong>Alleged crimes against humanity and war crimes committed in the context of the situation in&nbsp;Libya since 15 February 2011</p><p><strong>Current regional focus:</strong>&nbsp;Throughout Libya in,&nbsp;<em>inter alia</em>, Tripoli, Benghazi, and Misrata</p></div></div>
+    <div class="record-holder"><h4 class="mb-4 pt-3"><a href="/cdi">Côte d&#039;Ivoire</a></h4>
+<div class="ExternalClassBC3343B961B44F2BAE50154EAF557E8B">
+<p><strong>Côte d'Ivoire accepts ICC's jurisdiction:&nbsp;</strong>April 2003 – Rome Statute ratification: 15 February 2013</p>
+
+<p><strong>ICC Prosecutor opens&nbsp;</strong><strong><em>proprio motu</em></strong><strong>&nbsp;</strong><strong>investigations&nbsp;</strong><strong>after authorisation of Pre-trial Chamber:</strong>&nbsp;3 October 2011</p>
+
+<p><strong>Current focus:</strong><strong>&nbsp;</strong>Alleged crimes within the jurisdiction of the Court committed in the context of post-election violence in Côte d'Ivoire in 2010/2011, but also since 19 September 2002 to the present &nbsp;</p>
+
+<p><strong>Current regional focus:</strong>&nbsp;Throughout Côte d'Ivoire, including, the capital of Abidjan and western Côte d'Ivoire<em>&nbsp;</em>&nbsp;</p>
+</div>
+</div>
+    <div class="record-holder"><h4 class="mb-4 pt-3"><a href="/mali">Mali</a></h4>
+<div class="ExternalClassC82CA51D91D545CF936242C4439192F3">
+<p><strong>Situation referred to the ICC by the Government of Mali:</strong>&nbsp;July 2012</p>
+
+<p><strong>ICC investigations opened:</strong>&nbsp;January 2013</p>
+
+<p><strong>Current focus:</strong><strong>&nbsp;</strong>Alleged war crimes committed in Mali since January 2012</p>
+
+<p><strong>Current regional focus:</strong>&nbsp;Mainly in three northern regions, Gao, Kidal and Timbuktu, with certain incidents in Bamako and Sévaré, in the south</p>
+</div>
+#video-al-mahdi{display: none;}
+
+</div>
+    <div class="record-holder"><h4 class="mb-4 pt-3"><a href="/carII">Central African Republic II</a></h4>
+<div class="ExternalClass3D3C3CA8A08D4E8B88A01A460BC566C3">
+<div class="p-2 bg-secondary d-inline mb-4 text-light small">Concluded</div>
+
+<p class="mt-3"><strong>Situation referred to the ICC by the CAR Government:</strong>&nbsp;May 2014</p>
+
+<p><strong>ICC investigations opened:</strong>&nbsp;September 2014</p>
+
+<p><strong>ICC investigations closed:</strong>&nbsp;16 December 2022</p>
+
+<p><strong>Focus:</strong><strong>&nbsp;</strong>Alleged war crimes and crimes against humanity committed in the context of renewed violence starting in 2012 in CAR. (See&nbsp;<a href="/car">CAR I</a>&nbsp;regarding the 2002/2003 conflict in CAR.)</p>
+
+<p><strong>Regional focus:</strong>&nbsp;Throughout CAR</p>
+</div>
+</div>
+    <div class="record-holder"><h4 class="mb-4 pt-3"><a href="/georgia">Georgia</a></h4>
+<div class="ExternalClass6D42572473D948659BA48E25E761E185"><div class="p-2 bg-secondary d-inline mb-4 text-light small">Concluded</div><p class="mt-3"><strong>ICC Prosecutor&nbsp;</strong><a href="/Pages/record.aspx?docNo=ICC-01/15-12"><strong>authorized</strong></a><strong>&nbsp;to open&nbsp;</strong><em><strong>proprio motu</strong></em><strong>&nbsp;investigation:</strong>&nbsp;27 January 2016</p><p><strong>Warrants:</strong> issued on 30 June 2022 against three suspects (<a href="#suspects">details below</a>), pending execution.</p><p><strong>ICC Investigation closed:</strong> 16 December 2022</p><p><strong>Focus:&nbsp;</strong>Alleged crimes against humanity and war crimes committed in the context of an international armed conflict between 1 July and 10 October 2008</p><p><strong>Regional focus:</strong>&nbsp;According to the Prosecution's&nbsp;<a href="/Pages/record.aspx?docNo=ICC-01/15-4">request for authorization</a>&nbsp;to investigate: in and around South Ossetia (<em><span class="small">All references to the Tskhinvali region/South Ossetia, Georgia, are to be understood in full compliance with the ‘’</span></em><a href="/court-record/icc-01/15-12"><em><span class="small">Decision on the Prosecutor’s request for authorization of an investigation</span></em></a><em><span class="small">’’, dated 27 January 2016, in the Situation in Georgia.</span></em><span class="small">)</span></p></div></div>
+    <div class="record-holder"><h4 class="mb-4 pt-3"><a href="/situations/burundi">Burundi</a></h4>
+<div class="ExternalClass1F32EAE46BCE4225A9B43B8FDCB8E5A2">
+<p><strong>ICC Prosecutor&nbsp;</strong><a href="/Pages/record.aspx?docNo=ICC-01/17-9-Red"><strong>authorised</strong></a><strong>&nbsp;to open&nbsp;</strong><strong><em>proprio</em></strong><strong><em>&nbsp;</em></strong><strong><em>motu</em></strong><strong>&nbsp;investigation:</strong>&nbsp;25 October 2017&nbsp;&nbsp;</p>
+
+<p><strong>Current</strong><strong>&nbsp;focus:&nbsp;</strong>Alleged crimes against humanity committed in Burundi or by nationals of Burundi outside Burundi since 26 April 2015 until 26 October 2017&nbsp;</p>
+
+<p><strong>Current regional focus:</strong>&nbsp;Both in and outside of Burundi&nbsp;&nbsp;</p>
+
+<p><strong>ICC at a glance:</strong>&nbsp;<a href="/iccdocs/PIDS/docs/ICCAtAGlanceSKirundi.pdf">Kirundi</a></p>
+
+<p><strong>Understanding the ICC:</strong>&nbsp;<a href="/iccdocs/PIDS/docs/UICCKIR.pdf">Kirundi</a></p>
+</div>
+</div>
+    <div class="record-holder"><h4 class="mb-4 pt-3"><a href="/palestine">State of Palestine</a></h4>
+<div class="ExternalClassF630B434416A42419CC186CC34907CDD"><p><strong>Focus: Crimes within the jurisdiction of the Court that are alleged to have been committed in the Situation since 13 June 2014, the date to which reference is made in the Referral of the Situation to the Office of the Prosecutor.</strong></p><p>On 3 March 2021, the Prosecutor&nbsp;<a href="/Pages/item.aspx?name=210303-prosecutor-statement-investigation-palestine">announced</a>&nbsp;the opening of the investigation into the Situation in the State of Palestine. This followed Pre-Trial Chamber I's decision on 5 February 2021 that the Court could exercise its criminal jurisdiction in the Situation and, by majority, that the territorial scope of this jurisdiction extends to Gaza and the West Bank, including East Jerusalem.&nbsp;</p></div></div>
+    <div class="record-holder"><h4 class="mb-4 pt-3"><a href="/bangladesh-myanmar">Bangladesh/Myanmar</a></h4>
+<div class="ExternalClassBB55BB309DF04A6FB3726BE2568A1DFE">
+<p><strong>Focus:&nbsp;</strong>Any alleged crimes within the Court’s jurisdiction – including but not limited to crimes against humanity, such as deportation and persecution, allegedly committed against the Rohingya population - committed at least in part on the territory of Bangladesh, a State Party to the Rome Statute, or on the territory of any other State Party, insofar as such crimes are sufficiently linked to the situation as described in the Pre-Trial Chamber III’s 14 November 2019 decision. The situation as described in this decision encompasses the 2016 and 2017 waves of violence which allegedly took place in Rakhine State, on the territory of Myanmar.</p>
+
+<p>As for the time period, the Court has authorised the investigation of crimes allegedly committed on or after 1 June 2010, the date of entry into force of the Rome Statute&nbsp;for Bangladesh, and, in relation to crimes allegedly committed, at least in part, on the territory of other State parties - after the date of entry in force of the Statute for those States Parties, insofar as such crimes are sufficiently linked to the situation as described above. The Court has also authorised the investigation of any future crimes, again as long as such crimes are sufficiently linked to the situation as described.</p>
+</div>
+</div>
+    <div class="record-holder"><h4 class="mb-4 pt-3"><a href="/afghanistan">Afghanistan</a></h4>
+<div class="ExternalClassCAA7BBC5EAD042499441CCB11290E956"><p><strong>Focus:</strong> Alleged crimes against humanity and war crimes committed in Afghanistan since 1 May 2003</p></div></div>
+    <div class="record-holder"><h4 class="mb-4 pt-3"><a href="/philippines">Republic of the Philippines</a></h4>
+<div class="ExternalClass58E7143D9ED44E0B9F761F81F9E512BE"><p><strong>Focus:</strong> Any alleged crime within the jurisdiction of the Court, including but not limited to the crime against humanity of murder, committed in the Philippines between 1 November 2011 and 16 March 2019 in the context of the so-called 'war on drugs' campaign.</p><p><strong>ICC jurisdiction in the Philippines:</strong> 1 November 2011 to 16 March 2019. The Philippines’ withdrawal of the Rome Statute took effect on 17 March 2019, one year after the country gave notification of withdrawal.</p></div></div>
+    <div class="record-holder"><h4 class="mb-4 pt-3"><a href="/venezuela-i">Venezuela I</a></h4>
+<div class="ExternalClassA450F549E59A4DCD9534C63DC8E73A69"><p>Situation referred to ICC by a group of States Parties on 27 September 2018.</p><p>ICC Prosecutor announced that the preliminary examination had been concluded with a decision to proceed with investigations, on 3 November 2021.</p></div></div>
+    <div class="record-holder"><h4 class="mb-4 pt-3"><a href="/situations/ukraine">Ukraine</a></h4>
+<div class="ExternalClass7E42079DBC304043B29F5C2CB1092D5D">
+<p><strong>Situation referred to the ICC by 43 States Parties:</strong>&nbsp;March - April 2022</p>
+
+<p><strong>ICC investigations opened:</strong>&nbsp;2 March 2022</p>
+
+<p><strong>Focus:</strong> Alleged crimes committed in the context of situation in Ukraine since 21 November 2013&nbsp;</p>
+
+<p><strong>Current regional focus:</strong>&nbsp;Ukraine</p>
+</div>
+</div>
+    <div class="record-holder"><h4 class="mb-4 pt-3"><a href="/lithuania-belarus">Republic of Lithuania/Republic of Belarus</a></h4>
+<p>Situation referred to the ICC by the Republic of Lithuania on 30 September 2024</p><p>The ICC Office of the Prosecutor announced that the preliminary examination had been concluded with a decision to proceed with an investigation, on 12 March 2026.</p></div>
+
+    </div>
+  
+          </div>
+</div>
+
+  </div>
+
+  </div>
+
+          
+        </div>
+              </div>
+    </div>
+      </div>
+</main>
+
+  <footer class="mt-auto footer--holder   footer- text-dark bg-">
+
+          
+  <div class="region-footer-top--report-error">
+    <p>Is there a problem with this page?</p>
+        <div id="block-icc-contact-popup" class="block block-icc-contact block-icc-contact-popup-block">
+  
+    
+      <div> <a href="/contact/report_an_error" class="use-ajax contact-form" data-dialog-type="modal" data-dialog-options="{&quot;dialogClass&quot;:&quot;contact-popup&quot;}">Report an error</a> </div>
+  </div>
+
+  </div>
+
+
+    
+    <div class="container-xll">
+        <div class="footer--menus-holder row d-flex flex-wrap region region-footer">
+    <nav role="navigation" aria-labelledby="block-socialmedialinks-menu" id="block-socialmedialinks" class="block block-menu navigation menu--social-media-links">
+            
+  <h5 class="visually-hidden" id="block-socialmedialinks-menu">Social Media Links</h5>
+  
+
+        
+        <ul data-block="footer" class="nav navbar-nav">
+            <li class="nav-item">
+      <a href="https://twitter.com/intlcrimcourt" class="nav-link" target="_blank">Twitter</a>
+          </li>
+          <li class="nav-item">
+      <a href="https://www.facebook.com/pg/InternationalCriminalCourt" class="nav-link" target="_blank">Facebook</a>
+          </li>
+          <li class="nav-item">
+      <a href="https://www.instagram.com/internationalcriminalcourt" class="nav-link" target="_blank">Instagram</a>
+          </li>
+          <li class="nav-item">
+      <a href="https://www.youtube.com/IntlCriminalCourt" class="nav-link" target="_blank">Youtube</a>
+          </li>
+          <li class="nav-item">
+      <a href="https://www.flickr.com/photos/icc-cpi" class="nav-link" target="_blank">Flickr</a>
+          </li>
+          <li class="nav-item">
+      <a href="https://www.linkedin.com/company/international-criminal-court---cour-p-nale-internationale" class="nav-link" target="_blank">LinkedIn</a>
+          </li>
+          <li class="nav-item">
+      <a href="/news/subscribe" class="nav-link" target="_blank" data-drupal-link-system-path="node/199989">Subscribe</a>
+          </li>
+  </ul>
+  
+
+
+  </nav>
+<nav role="navigation" aria-labelledby="block-footermenu1-menu" id="block-footermenu1" class="footer--menu col-12 col-sm-6 col-md-3 block block-menu navigation menu--footer-menu-1">
+      
+  <h5 id="block-footermenu1-menu">About</h5>
+  
+
+        
+              <ul data-block="footer" class="nav navbar-nav">
+                    <li class="nav-item">
+        <a href="/about/the-court" class="nav-link" data-drupal-link-system-path="node/196795">The Court</a>
+              </li>
+                <li class="nav-item">
+        <a href="/about/how-the-court-works" class="nav-link" data-drupal-link-system-path="node/196786">How the Court works</a>
+              </li>
+                <li class="nav-item">
+        <a href="/about/in-the-courtroom" class="nav-link" data-drupal-link-system-path="node/196775">Organization</a>
+              </li>
+                <li class="nav-item">
+        <a href="/asp" class="nav-link" data-drupal-link-system-path="node/196663">State Parties</a>
+              </li>
+                <li class="nav-item">
+        <a href="/about/the-court" class="nav-link" data-drupal-link-system-path="node/196795">Cooperation</a>
+              </li>
+                <li class="nav-item">
+        <a href="/about/outreach" class="nav-link" data-drupal-link-system-path="node/197629">Outreach</a>
+              </li>
+                <li class="nav-item">
+        <a href="/tfv" class="nav-link" data-drupal-link-system-path="node/196725">Trust Fund for Victims</a>
+              </li>
+        </ul>
+  
+
+
+  </nav>
+<nav role="navigation" aria-labelledby="block-footermenu2-menu" id="block-footermenu2" class="footer--menu col-12 col-sm-6 col-md-3 block block-menu navigation menu--footer-menu-2">
+      
+  <h5 id="block-footermenu2-menu">Situations and Cases</h5>
+  
+
+        
+              <ul data-block="footer" class="nav navbar-nav">
+                    <li class="nav-item">
+        <a href="/cases" class="nav-link" data-drupal-link-system-path="cases">Cases</a>
+              </li>
+                <li class="nav-item">
+        <a href="/defendants" class="nav-link" data-drupal-link-system-path="defendants">Defendants</a>
+              </li>
+                <li class="nav-item">
+        <a href="/situations-under-investigations" class="nav-link active is-active" data-drupal-link-system-path="node/9000" aria-current="page">Investigations</a>
+              </li>
+                <li class="nav-item">
+        <a href="/situations-preliminary-examinations" class="nav-link" data-drupal-link-system-path="node/9001">Preliminary examinations</a>
+              </li>
+        </ul>
+  
+
+
+  </nav>
+<nav role="navigation" aria-labelledby="block-footermenu3-menu" id="block-footermenu3" class="footer--menu col-12 col-sm-6 col-md-3 block block-menu navigation menu--footer-menu-3">
+      
+  <h5 id="block-footermenu3-menu">Documents</h5>
+  
+
+        
+              <ul data-block="footer" class="nav navbar-nav">
+                    <li class="nav-item">
+        <a href="/documents" class="nav-link" data-drupal-link-system-path="documents">All records</a>
+              </li>
+                <li class="nav-item">
+        <a href="/decisions" class="nav-link" data-drupal-link-system-path="decisions">Judgments, Decisions and Orders</a>
+              </li>
+                <li class="nav-item">
+        <a href="https://www.legal-tools.org/cld" class="nav-link">Case Law Database</a>
+              </li>
+                <li class="nav-item">
+        <a href="/resource-library/reports" class="nav-link" data-drupal-link-system-path="resource-library/reports">Reports</a>
+              </li>
+                <li class="nav-item">
+        <a href="/resource-library/official-journal" class="nav-link" data-drupal-link-system-path="resource-library/official-journal">Official Journal</a>
+              </li>
+                <li class="nav-item">
+        <a href="/resource-library/administrative-issuances" class="nav-link" data-drupal-link-system-path="resource-library/administrative-issuances">Administrative Issuances</a>
+              </li>
+                <li class="nav-item">
+        <a href="/resource-library" class="nav-link" data-drupal-link-system-path="node/196660">Resource Library</a>
+              </li>
+                <li class="nav-item">
+        <a href="/about/registry/icc-library" class="nav-link" data-drupal-link-system-path="node/196714">Library</a>
+              </li>
+        </ul>
+  
+
+
+  </nav>
+<nav role="navigation" aria-labelledby="block-footermenu4-menu" id="block-footermenu4" class="footer--menu col-12 col-sm-6 col-md-3 block block-menu navigation menu--footer-menu-4">
+      
+  <h5 id="block-footermenu4-menu">Practical information</h5>
+  
+
+        
+              <ul data-block="footer" class="nav navbar-nav">
+                    <li class="nav-item">
+        <a href="/jobs" class="nav-link" data-drupal-link-system-path="node/9002">Vacancies</a>
+              </li>
+                <li class="nav-item">
+        <a href="/court-calendar" class="nav-link" data-drupal-link-system-path="court-calendar">Court calendar</a>
+              </li>
+                <li class="nav-item">
+        <a href="/contact" class="nav-link" data-drupal-link-system-path="node/196668">Contact us</a>
+              </li>
+                <li class="nav-item">
+        <a href="/visit" class="nav-link" data-drupal-link-system-path="node/196729">Visit us</a>
+              </li>
+                <li class="nav-item">
+        <a href="/get-involved/vendors" class="nav-link" data-drupal-link-system-path="node/196726">Vendors</a>
+              </li>
+                <li class="nav-item">
+        <a href="/get-involved" class="nav-link" data-drupal-link-system-path="node/196756">Get Involved</a>
+              </li>
+        </ul>
+  
+
+
+  </nav>
+
+  </div>
+
+                <div class="region region-footer-bottom">
+    <nav role="navigation" aria-labelledby="block-icccpi-footer-menu" id="block-icccpi-footer" class="block block-menu navigation menu--footer">
+            
+  <h5 class="visually-hidden" id="block-icccpi-footer-menu">Footer menu</h5>
+  
+
+        
+              <ul data-block="footer_bottom" class="nav navbar-nav">
+                    <li class="nav-item">
+        <a href="/disclaimer" class="nav-link" data-drupal-link-system-path="node/196792">Terms and conditions of use</a>
+              </li>
+                <li class="nav-item">
+        <a href="/privacy" class="nav-link" data-drupal-link-system-path="node/196793">Privacy Policy</a>
+              </li>
+        </ul>
+  
+
+
+  </nav>
+
+  </div>
+
+          </div>
+      </footer>
+
+  </div>
+
+    
+    <script type="application/json" data-drupal-selector="drupal-settings-json">{"path":{"baseUrl":"\/","pathPrefix":"","currentPath":"node\/9000","currentPathIsAdmin":false,"isFront":false,"currentLanguage":"en"},"pluralDelimiter":"\u0003","suppressDeprecationErrors":true,"ajaxPageState":{"libraries":"eJxdkEFuwzAMBD8kWae8x6BkQqBBmYKXSuu-vmgdB0YuxO7sZcBs5vCd-iNlAod86-8YV0QlZ_h9r2qZNMIPla3el8YAVUYotnNa9tFJp0VIrU600vfJN9sbqfxwqGZVeaaN9HApSJ8gSCkzxAe52IbUqBPrHy1dLpEVH-Aye9HDho_MsVsfPcDJB-ZLNZ09vtVxwLmdT3kKfyH936nZMpR_AVrWeOc","theme":"icccpi","theme_token":null},"ajaxTrustedUrl":[],"google_analytics":{"account":"G-HWB32LNHJM","trackOutbound":true,"trackMailto":true,"trackTel":true,"trackDownload":true,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc(x|m)?|dot(x|m)?|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt(x|m)?|pot(x|m)?|pps(x|m)?|ppam|sld(x|m)?|thmx|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls(x|m|b)?|xlt(x|m)|xlam|xml|z|zip","trackDomainMode":1},"statusMessages":null,"csp":{"nonce":"FQj3uv5f2zDr5FVrCJVIIg"},"investigationsMap":[{"code":"BD","country":"Bangladesh\/Myanmar","description":"\u003Cdiv class=\u0022ExternalClassBB55BB309DF04A6FB3726BE2568A1DFE\u0022\u003E\r\n\u003Cp\u003E\u003Cstrong\u003EFocus:\u0026nbsp;\u003C\/strong\u003EAny alleged crimes within the Court\u2019s jurisdiction \u2013 including but not limited to crimes against humanity, such as deportation and persecution, allegedly committed against the Rohingya population - committed at least in part on the territory of Bangladesh, a State Party to the Rome Statute, or on the territory of any other State Party, insofar as such crimes are sufficiently linked to the situation as described in the Pre-Trial Chamber III\u2019s 14 November 2019 decision. The situation as described in this decision encompasses the 2016 and 2017 waves of violence which allegedly took place in Rakhine State, on the territory of Myanmar.\u003C\/p\u003E\r\n\r\n\u003Cp\u003EAs for the time period, the Court has authorised the investigation of crimes allegedly committed on or after 1 June 2010, the date of entry into force of the Rome Statute\u0026nbsp;for Bangladesh, and, in relation to crimes allegedly committed, at least in part, on the territory of other State parties - after the date of entry in force of the Statute for those States Parties, insofar as such crimes are sufficiently linked to the situation as described above. The Court has also authorised the investigation of any future crimes, again as long as such crimes are sufficiently linked to the situation as described.\u003C\/p\u003E\r\n\u003C\/div\u003E\r\n","pe_status":null},{"code":"AF","country":"Afghanistan","description":"\u003Cdiv class=\u0022ExternalClassCAA7BBC5EAD042499441CCB11290E956\u0022\u003E\u003Cp\u003E\u003Cstrong\u003EFocus:\u003C\/strong\u003E Alleged crimes against humanity and war crimes committed in Afghanistan since 1 May 2003\u003C\/p\u003E\u003C\/div\u003E","pe_status":null},{"code":"PS","country":"State of Palestine","description":"\u003Cdiv class=\u0022ExternalClassF630B434416A42419CC186CC34907CDD\u0022\u003E\u003Cp\u003E\u003Cstrong\u003EFocus: Crimes within the jurisdiction of the Court that are alleged to have been committed in the Situation since 13 June 2014, the date to which reference is made in the Referral of the Situation to the Office of the Prosecutor.\u003C\/strong\u003E\u003C\/p\u003E\u003Cp\u003EOn 3 March 2021, the Prosecutor\u0026nbsp;\u003Ca href=\u0022\/Pages\/item.aspx?name=210303-prosecutor-statement-investigation-palestine\u0022\u003Eannounced\u003C\/a\u003E\u0026nbsp;the opening of the investigation into the Situation in the State of Palestine. This followed Pre-Trial Chamber I\u0027s decision on 5 February 2021 that the Court could exercise its criminal jurisdiction in the Situation and, by majority, that the territorial scope of this jurisdiction extends to Gaza and the West Bank, including East Jerusalem.\u0026nbsp;\u003C\/p\u003E\u003C\/div\u003E","pe_status":null},{"code":"VE","country":"Venezuela I","description":"\u003Cdiv class=\u0022ExternalClassA450F549E59A4DCD9534C63DC8E73A69\u0022\u003E\u003Cp\u003ESituation referred to ICC by a group of States Parties on 27 September 2018.\u003C\/p\u003E\u003Cp\u003EICC Prosecutor announced that the preliminary examination had been concluded with a decision to proceed with investigations, on 3 November 2021.\u003C\/p\u003E\u003C\/div\u003E","pe_status":null},{"code":"PH","country":"Republic of the Philippines","description":"\u003Cdiv class=\u0022ExternalClass58E7143D9ED44E0B9F761F81F9E512BE\u0022\u003E\u003Cp\u003E\u003Cstrong\u003EFocus:\u003C\/strong\u003E Any alleged crime within the jurisdiction of the Court, including but not limited to the crime against humanity of murder, committed in the Philippines between 1 November 2011 and 16 March 2019 in the context of the so-called \u0027war on drugs\u0027 campaign.\u003C\/p\u003E\u003Cp\u003E\u003Cstrong\u003EICC jurisdiction in the Philippines:\u003C\/strong\u003E 1 November 2011 to 16 March 2019. The Philippines\u2019 withdrawal of the Rome Statute took effect on 17 March 2019, one year after the country gave notification of withdrawal.\u003C\/p\u003E\u003C\/div\u003E","pe_status":null},{"code":"UA","country":"Ukraine","description":"\u003Cdiv class=\u0022ExternalClass7E42079DBC304043B29F5C2CB1092D5D\u0022\u003E\r\n\u003Cp\u003E\u003Cstrong\u003ESituation referred to the ICC by 43 States Parties:\u003C\/strong\u003E\u0026nbsp;March - April 2022\u003C\/p\u003E\r\n\r\n\u003Cp\u003E\u003Cstrong\u003EICC investigations opened:\u003C\/strong\u003E\u0026nbsp;2 March 2022\u003C\/p\u003E\r\n\r\n\u003Cp\u003E\u003Cstrong\u003EFocus:\u003C\/strong\u003E Alleged crimes committed in the context of situation in Ukraine since 21 November 2013\u0026nbsp;\u003C\/p\u003E\r\n\r\n\u003Cp\u003E\u003Cstrong\u003ECurrent regional focus:\u003C\/strong\u003E\u0026nbsp;Ukraine\u003C\/p\u003E\r\n\u003C\/div\u003E\r\n","pe_status":null},{"code":"UG","country":"Uganda","description":"\u003Cdiv class=\u0022ExternalClassE1CA9E33EFFE4E2182617E36BCCF96FA\u0022\u003E\r\n\u003Cdiv class=\u0022p-2 bg-secondary d-inline mb-4 text-light small\u0022\u003EConcluded\u003C\/div\u003E\r\n\r\n\u003Cp class=\u0022mt-3\u0022\u003E\u003Cstrong\u003ESituation referred to the ICC by the Government of Uganda:\u003C\/strong\u003E\u0026nbsp;January 2004\u003C\/p\u003E\r\n\r\n\u003Cp\u003E\u003Cstrong\u003EICC investigations opened:\u003C\/strong\u003E\u0026nbsp;July 2004\u003C\/p\u003E\r\n\r\n\u003Cp\u003E\u003Cstrong\u003EICC investigations closed:\u003C\/strong\u003E\u0026nbsp;1 December 2023\u003C\/p\u003E\r\n\r\n\u003Cp\u003E\u003Cstrong\u003EFocus:\u003C\/strong\u003E\u003Cstrong\u003E\u0026nbsp;\u003C\/strong\u003EAlleged war crimes and crimes\u0026nbsp;against humanity committed in the context of a conflict between the Lord\u0027s Resistance Army (LRA) and the national authorities in Uganda since 1 July 2002 (when the Rome Statute entered into force)\u003C\/p\u003E\r\n\r\n\u003Cp\u003E\u003Cstrong\u003ERegional focus:\u003C\/strong\u003E\u0026nbsp;Northern Uganda\u003C\/p\u003E\r\n\u003C\/div\u003E\r\n","pe_status":null},{"code":"CD","country":"Democratic Republic of the Congo","description":"\u003Cdiv\u003E\r\n\u003Cdiv class=\u0022row mb-3\u0022 id=\u0022info-buttons\u0022\u003E\r\n\u003Cdiv class=\u0022col-sm-6 p-2\u0022\u003E\r\n\u003Cdiv class=\u0022border-top border text-center\u0022\u003E\u003Ca class=\u0022d-block w-100 h-100 btn-info text-decoration-none p-3\u0022 href=\u0022\/drc\/call-for-information-drc\u0022\u003ECall for Information\u003C\/a\u003E\u003C\/div\u003E\r\n\u003C\/div\u003E\r\n\u003C\/div\u003E\r\n\u003C\/div\u003E\r\n\r\n\u003Cp\u003E\u003Cstrong\u003ESituation referred to the ICC by the DRC Government:\u003C\/strong\u003E\u0026nbsp;March 2004\u003C\/p\u003E\r\n\r\n\u003Cp\u003E\u003Cstrong\u003EICC investigations opened:\u003C\/strong\u003E\u0026nbsp;June 2004\u003C\/p\u003E\r\n\r\n\u003Cp\u003E\u003Cstrong\u003ECurrent focus:\u003C\/strong\u003EAlleged war crimes and crimes against humanity committed in the context of armed conflict in the DRC since 1 July 2002 (when the Rome Statute entered into force)\u003C\/p\u003E\r\n\r\n\u003Cp\u003E\u003Cstrong\u003ECurrent regional focus:\u003C\/strong\u003E\u0026nbsp;Eastern DRC, in the North and South Kivu Provinces, since 1 January 2022\u003C\/p\u003E\r\n","pe_status":null},{"code":"SD","country":"Darfur, Sudan","description":"\u003Cdiv\u003E\r\n\u003Cdiv class=\u0022row mb-3\u0022 id=\u0022info-buttons\u0022\u003E\r\n\u003Cdiv class=\u0022col-sm-6 p-2\u0022\u003E\r\n\u003Cdiv class=\u0022border-top border text-center\u0022\u003E\u003Ca class=\u0022d-block w-100 h-100 btn-info text-decoration-none p-3\u0022 href=\u0022https:\/\/otplink.icc-cpi.int\u0022\u003EProvide Information\u003C\/a\u003E\u003C\/div\u003E\r\n\u003C\/div\u003E\r\n\r\n\u003Cdiv class=\u0022col-sm-6 p-2\u0022\u003E\r\n\u003Cdiv class=\u0022border-top border text-center\u0022\u003E\u003Ca class=\u0022d-block w-100 h-100 btn-info text-decoration-none p-3\u0022 href=\u0022https:\/\/otplink.icc-cpi.int\u0022\u003E\u062a\u0642\u062f\u064a\u0645 \u0627\u0644\u0645\u0639\u0644\u0648\u0645\u0627\u062a\u003C\/a\u003E\u003C\/div\u003E\r\n\u003C\/div\u003E\r\n\u003C\/div\u003E\r\n\r\n\u003Cp\u003E\u003Cstrong\u003ESituation referred to the ICC by the United Nations Security Council:\u003C\/strong\u003E\u0026nbsp;March 2005\u003C\/p\u003E\r\n\r\n\u003Cp\u003E\u003Cstrong\u003EICC investigations opened:\u003C\/strong\u003E\u0026nbsp;June 2005\u003C\/p\u003E\r\n\r\n\u003Cp\u003E\u003Cstrong\u003ECurrent focus:\u003C\/strong\u003E\u003Cstrong\u003E\u0026nbsp;\u003C\/strong\u003EAlleged genocide, war crimes and crimes against humanity committed in in Darfur, Sudan, since 1 July 2002 (when the Rome Statute entered into force)\u003C\/p\u003E\r\n\r\n\u003Cp\u003E\u003Cstrong\u003ECurrent regional focus:\u003C\/strong\u003E\u003Cstrong\u003E\u0026nbsp;\u003C\/strong\u003EDarfur (Sudan), with Outreach to refugees in Eastern Chad and those in exile throughout Europe.\u003C\/p\u003E\r\n\u003C\/div\u003E\r\n","pe_status":null},{"code":"CF","country":"Central African Republic","description":"\u003Cdiv class=\u0022ExternalClassDE3579ACC30A425ABFF455AE596D5084\u0022\u003E\r\n\u003Cdiv class=\u0022p-2 bg-secondary d-inline mb-4 text-light small\u0022\u003EConcluded\u003C\/div\u003E\r\n\r\n\u003Cp class=\u0022mt-3\u0022\u003E\u003Cstrong\u003ESituation referred to the ICC by the CAR Government:\u003C\/strong\u003E\u0026nbsp;December 2004\u003C\/p\u003E\r\n\r\n\u003Cp\u003E\u003Cstrong\u003EICC investigations opened:\u003C\/strong\u003E\u0026nbsp;May 2007\u003C\/p\u003E\r\n\r\n\u003Cp\u003E\u003Cstrong\u003EICC investigations closed:\u003C\/strong\u003E\u0026nbsp;16 December 2022\u003C\/p\u003E\r\n\r\n\u003Cp\u003E\u003Cstrong\u003EFocus:\u003C\/strong\u003E\u003Cstrong\u003E\u0026nbsp;\u003C\/strong\u003EAlleged war crimes and crimes against humanity committed in the context of a conflict in CAR since 1 July 2002, with the peak of violence in 2002 and 2003. (See\u0026nbsp;\u003Ca href=\u0022\/carII\u0022\u003ECAR II\u003C\/a\u003E\u0026nbsp;for the situation in CAR from 2012 onward.)\u003C\/p\u003E\r\n\r\n\u003Cp\u003E\u003Cstrong\u003ERegional focus:\u003C\/strong\u003E\u003Cstrong\u003E\u0026nbsp;\u003C\/strong\u003EThroughout CAR\u003C\/p\u003E\r\n\u003C\/div\u003E\r\n","pe_status":null},{"code":"KE","country":"Kenya","description":"\u003Cdiv class=\u0022ExternalClass320669AE5EE0432E807BCC814B8C8709\u0022\u003E\r\n\u003Cdiv class=\u0022p-2 bg-secondary d-inline mb-4 text-light small\u0022\u003EConcluded\u003C\/div\u003E\r\n\r\n\u003Cp class=\u0022mt-3\u0022\u003E\u003Cstrong\u003EICC Prosecutor opens\u0026nbsp;\u003C\/strong\u003E\u003Cstrong\u003E\u003Cem\u003Eproprio motu\u003C\/em\u003E\u003C\/strong\u003E\u003Cstrong\u003E\u0026nbsp;investigation:\u003C\/strong\u003E\u0026nbsp;March 2010\u003C\/p\u003E\r\n\r\n\u003Cp\u003E\u003Cstrong\u003EICC investigation closed\u003C\/strong\u003E\u003Cstrong\u003E:\u003C\/strong\u003E\u0026nbsp;27 November 2023\u003C\/p\u003E\r\n\r\n\u003Cp\u003E\u003Cstrong\u003EFocus:\u003C\/strong\u003E\u003Cstrong\u003E\u0026nbsp;\u003C\/strong\u003EAlleged crimes against humanity committed in the context of post-election violence in Kenya in 2007\/2008.\u003C\/p\u003E\r\n\r\n\u003Cp\u003E\u003Cstrong\u003ERegional focus:\u003C\/strong\u003E\u0026nbsp;Six of the eight Kenyan Provinces: Nairobi, North Rift Valley, Central Rift Valley, South Rift Valley, Nyanza Province and Western Province\u003C\/p\u003E\r\n\u003C\/div\u003E\r\n","pe_status":null},{"code":"LY","country":"Libya","description":"\u003Cdiv class=\u0022ExternalClass20ECB2E91AB542CAADD19E1792AA5436\u0022\u003E\u003Cp\u003E\u003Cstrong\u003ESituation referred to the ICC by the United Nations Security Council:\u003C\/strong\u003E\u0026nbsp;February 2011\u003C\/p\u003E\u003Cp\u003E\u003Cstrong\u003EICC investigations opened:\u003C\/strong\u003E\u0026nbsp;March 2011\u003C\/p\u003E\u003Cp\u003E\u003Cstrong\u003ECurrent focus:\u0026nbsp;\u003C\/strong\u003EAlleged crimes against humanity and war crimes committed in the context of the situation in\u0026nbsp;Libya since 15 February 2011\u003C\/p\u003E\u003Cp\u003E\u003Cstrong\u003ECurrent regional focus:\u003C\/strong\u003E\u0026nbsp;Throughout Libya in,\u0026nbsp;\u003Cem\u003Einter alia\u003C\/em\u003E, Tripoli, Benghazi, and Misrata\u003C\/p\u003E\u003C\/div\u003E","pe_status":null},{"code":"CI","country":"C\u00f4te d\u0027Ivoire","description":"\u003Cdiv class=\u0022ExternalClassBC3343B961B44F2BAE50154EAF557E8B\u0022\u003E\r\n\u003Cp\u003E\u003Cstrong\u003EC\u00f4te d\u0027Ivoire accepts ICC\u0027s jurisdiction:\u0026nbsp;\u003C\/strong\u003EApril 2003 \u2013 Rome Statute ratification: 15 February 2013\u003C\/p\u003E\r\n\r\n\u003Cp\u003E\u003Cstrong\u003EICC Prosecutor opens\u0026nbsp;\u003C\/strong\u003E\u003Cstrong\u003E\u003Cem\u003Eproprio motu\u003C\/em\u003E\u003C\/strong\u003E\u003Cstrong\u003E\u0026nbsp;\u003C\/strong\u003E\u003Cstrong\u003Einvestigations\u0026nbsp;\u003C\/strong\u003E\u003Cstrong\u003Eafter authorisation of Pre-trial Chamber:\u003C\/strong\u003E\u0026nbsp;3 October 2011\u003C\/p\u003E\r\n\r\n\u003Cp\u003E\u003Cstrong\u003ECurrent focus:\u003C\/strong\u003E\u003Cstrong\u003E\u0026nbsp;\u003C\/strong\u003EAlleged crimes within the jurisdiction of the Court committed in the context of post-election violence in C\u00f4te d\u0027Ivoire in 2010\/2011, but also since 19 September 2002 to the present \u0026nbsp;\u003C\/p\u003E\r\n\r\n\u003Cp\u003E\u003Cstrong\u003ECurrent regional focus:\u003C\/strong\u003E\u0026nbsp;Throughout C\u00f4te d\u0027Ivoire, including, the capital of Abidjan and western C\u00f4te d\u0027Ivoire\u003Cem\u003E\u0026nbsp;\u003C\/em\u003E\u0026nbsp;\u003C\/p\u003E\r\n\u003C\/div\u003E\r\n","pe_status":null},{"code":"ML","country":"Mali","description":"\u003Cdiv class=\u0022ExternalClassC82CA51D91D545CF936242C4439192F3\u0022\u003E\r\n\u003Cp\u003E\u003Cstrong\u003ESituation referred to the ICC by the Government of Mali:\u003C\/strong\u003E\u0026nbsp;July 2012\u003C\/p\u003E\r\n\r\n\u003Cp\u003E\u003Cstrong\u003EICC investigations opened:\u003C\/strong\u003E\u0026nbsp;January 2013\u003C\/p\u003E\r\n\r\n\u003Cp\u003E\u003Cstrong\u003ECurrent focus:\u003C\/strong\u003E\u003Cstrong\u003E\u0026nbsp;\u003C\/strong\u003EAlleged war crimes committed in Mali since January 2012\u003C\/p\u003E\r\n\r\n\u003Cp\u003E\u003Cstrong\u003ECurrent regional focus:\u003C\/strong\u003E\u0026nbsp;Mainly in three northern regions, Gao, Kidal and Timbuktu, with certain incidents in Bamako and S\u00e9var\u00e9, in the south\u003C\/p\u003E\r\n\u003C\/div\u003E\r\n\u003Cstyle type=\u0022text\/css\u0022\u003E#video-al-mahdi{display: none;}\r\n\u003C\/style\u003E\r\n","pe_status":null},{"code":"CF","country":"Central African Republic II","description":"\u003Cdiv class=\u0022ExternalClass3D3C3CA8A08D4E8B88A01A460BC566C3\u0022\u003E\r\n\u003Cdiv class=\u0022p-2 bg-secondary d-inline mb-4 text-light small\u0022\u003EConcluded\u003C\/div\u003E\r\n\r\n\u003Cp class=\u0022mt-3\u0022\u003E\u003Cstrong\u003ESituation referred to the ICC by the CAR Government:\u003C\/strong\u003E\u0026nbsp;May 2014\u003C\/p\u003E\r\n\r\n\u003Cp\u003E\u003Cstrong\u003EICC investigations opened:\u003C\/strong\u003E\u0026nbsp;September 2014\u003C\/p\u003E\r\n\r\n\u003Cp\u003E\u003Cstrong\u003EICC investigations closed:\u003C\/strong\u003E\u0026nbsp;16 December 2022\u003C\/p\u003E\r\n\r\n\u003Cp\u003E\u003Cstrong\u003EFocus:\u003C\/strong\u003E\u003Cstrong\u003E\u0026nbsp;\u003C\/strong\u003EAlleged war crimes and crimes against humanity committed in the context of renewed violence starting in 2012 in CAR. (See\u0026nbsp;\u003Ca href=\u0022\/car\u0022\u003ECAR I\u003C\/a\u003E\u0026nbsp;regarding the 2002\/2003 conflict in CAR.)\u003C\/p\u003E\r\n\r\n\u003Cp\u003E\u003Cstrong\u003ERegional focus:\u003C\/strong\u003E\u0026nbsp;Throughout CAR\u003C\/p\u003E\r\n\u003C\/div\u003E\r\n","pe_status":null},{"code":"GE","country":"Georgia","description":"\u003Cdiv class=\u0022ExternalClass6D42572473D948659BA48E25E761E185\u0022\u003E\u003Cdiv class=\u0022p-2 bg-secondary d-inline mb-4 text-light small\u0022\u003EConcluded\u003C\/div\u003E\u003Cp class=\u0022mt-3\u0022\u003E\u003Cstrong\u003EICC Prosecutor\u0026nbsp;\u003C\/strong\u003E\u003Ca href=\u0022\/Pages\/record.aspx?docNo=ICC-01\/15-12\u0022\u003E\u003Cstrong\u003Eauthorized\u003C\/strong\u003E\u003C\/a\u003E\u003Cstrong\u003E\u0026nbsp;to open\u0026nbsp;\u003C\/strong\u003E\u003Cem\u003E\u003Cstrong\u003Eproprio motu\u003C\/strong\u003E\u003C\/em\u003E\u003Cstrong\u003E\u0026nbsp;investigation:\u003C\/strong\u003E\u0026nbsp;27 January 2016\u003C\/p\u003E\u003Cp\u003E\u003Cstrong\u003EWarrants:\u003C\/strong\u003E issued on 30 June 2022 against three suspects (\u003Ca href=\u0022#suspects\u0022\u003Edetails below\u003C\/a\u003E), pending execution.\u003C\/p\u003E\u003Cp\u003E\u003Cstrong\u003EICC Investigation closed:\u003C\/strong\u003E 16 December 2022\u003C\/p\u003E\u003Cp\u003E\u003Cstrong\u003EFocus:\u0026nbsp;\u003C\/strong\u003EAlleged crimes against humanity and war crimes committed in the context of an international armed conflict between 1 July and 10 October 2008\u003C\/p\u003E\u003Cp\u003E\u003Cstrong\u003ERegional focus:\u003C\/strong\u003E\u0026nbsp;According to the Prosecution\u0027s\u0026nbsp;\u003Ca href=\u0022\/Pages\/record.aspx?docNo=ICC-01\/15-4\u0022\u003Erequest for authorization\u003C\/a\u003E\u0026nbsp;to investigate: in and around South Ossetia (\u003Cem\u003E\u003Cspan class=\u0022small\u0022\u003EAll references to the Tskhinvali region\/South Ossetia, Georgia, are to be understood in full compliance with the \u2018\u2019\u003C\/span\u003E\u003C\/em\u003E\u003Ca href=\u0022\/court-record\/icc-01\/15-12\u0022\u003E\u003Cem\u003E\u003Cspan class=\u0022small\u0022\u003EDecision on the Prosecutor\u2019s request for authorization of an investigation\u003C\/span\u003E\u003C\/em\u003E\u003C\/a\u003E\u003Cem\u003E\u003Cspan class=\u0022small\u0022\u003E\u2019\u2019, dated 27 January 2016, in the Situation in Georgia.\u003C\/span\u003E\u003C\/em\u003E\u003Cspan class=\u0022small\u0022\u003E)\u003C\/span\u003E\u003C\/p\u003E\u003C\/div\u003E","pe_status":null},{"code":"BI","country":"Burundi","description":"\u003Cdiv class=\u0022ExternalClass1F32EAE46BCE4225A9B43B8FDCB8E5A2\u0022\u003E\r\n\u003Cp\u003E\u003Cstrong\u003EICC Prosecutor\u0026nbsp;\u003C\/strong\u003E\u003Ca href=\u0022\/Pages\/record.aspx?docNo=ICC-01\/17-9-Red\u0022\u003E\u003Cstrong\u003Eauthorised\u003C\/strong\u003E\u003C\/a\u003E\u003Cstrong\u003E\u0026nbsp;to open\u0026nbsp;\u003C\/strong\u003E\u003Cstrong\u003E\u003Cem\u003Eproprio\u003C\/em\u003E\u003C\/strong\u003E\u003Cstrong\u003E\u003Cem\u003E\u0026nbsp;\u003C\/em\u003E\u003C\/strong\u003E\u003Cstrong\u003E\u003Cem\u003Emotu\u003C\/em\u003E\u003C\/strong\u003E\u003Cstrong\u003E\u0026nbsp;investigation:\u003C\/strong\u003E\u0026nbsp;25 October 2017\u0026nbsp;\u0026nbsp;\u003C\/p\u003E\r\n\r\n\u003Cp\u003E\u003Cstrong\u003ECurrent\u003C\/strong\u003E\u003Cstrong\u003E\u0026nbsp;focus:\u0026nbsp;\u003C\/strong\u003EAlleged crimes against humanity committed in Burundi or by nationals of Burundi outside Burundi since 26\u202fApril 2015 until 26\u202fOctober 2017\u0026nbsp;\u003C\/p\u003E\r\n\r\n\u003Cp\u003E\u003Cstrong\u003ECurrent regional focus:\u003C\/strong\u003E\u0026nbsp;Both in and outside of Burundi\u0026nbsp;\u0026nbsp;\u003C\/p\u003E\r\n\r\n\u003Cp\u003E\u003Cstrong\u003EICC at a glance:\u003C\/strong\u003E\u0026nbsp;\u003Ca href=\u0022\/iccdocs\/PIDS\/docs\/ICCAtAGlanceSKirundi.pdf\u0022\u003EKirundi\u003C\/a\u003E\u003C\/p\u003E\r\n\r\n\u003Cp\u003E\u003Cstrong\u003EUnderstanding the ICC:\u003C\/strong\u003E\u0026nbsp;\u003Ca href=\u0022\/iccdocs\/PIDS\/docs\/UICCKIR.pdf\u0022\u003EKirundi\u003C\/a\u003E\u003C\/p\u003E\r\n\u003C\/div\u003E\r\n","pe_status":null},{"code":"BY","country":"Republic of Lithuania\/Republic of Belarus","description":"\u003Cp\u003ESituation referred to the ICC by the Republic of Lithuania on 30 September 2024\u003C\/p\u003E\u003Cp\u003EThe ICC Office of the Prosecutor announced that the preliminary examination had been concluded with a decision to proceed with an investigation, on 12 March 2026.\u003C\/p\u003E","pe_status":null}],"user":{"uid":0,"permissionsHash":"2469f9f08f94187686b92773a06de33ee8464a231f37736a509bab7a085052ad"}}</script>
+<script src="/core/assets/vendor/jquery/jquery.min.js?v=4.0.0"></script>
+<script src="/sites/default/files/js/js_F8KQ8otM7B7vm4uZ1xezawE5YhIIgpD-v7lkEDAGDLM.js?scope=footer&amp;delta=1&amp;language=en&amp;theme=icccpi&amp;include=eJxdzUEKwzAMRNEL2dGq5wljRxgHJRKWDM3t21LSRXfz32aKangM2IPKb-bdsyDYI1UdTNuYBlm2DtG2YMczNdUmvOKEXNGr0z-kXuvqPSai6-l0wMDy0WqdmmiBvH9uuHTGLJxNbVryQExfD3ZHY6dv57tf-31GuQ"></script>
+
+  </body>
+</html>

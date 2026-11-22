@@ -1,0 +1,2054 @@
+<!-- begin insert block -->
+
+    
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="uk">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>Сучасний лікувально-діагностичний комплекс «Охматдиту»</title>
+
+        <!-- Google tag (gtag.js) --> 
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-B4PFQNWQ1T"></script> 
+        <script> 
+        window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'G-B4PFQNWQ1T'); 
+        </script>
+
+        <!-- Fonts -->
+        <link rel="preconnect" href="https://fonts.bunny.net">
+        <link href="https://fonts.bunny.net/css?family=figtree:400,600&display=swap" rel="stylesheet" />
+        <script async src="https://www.google.com/recaptcha/api.js"></script>
+        <link href="https://api.mapbox.com/mapbox-gl-js/v3.0.1/mapbox-gl.css" rel="stylesheet">
+        <script src="https://api.mapbox.com/mapbox-gl-js/v3.0.1/mapbox-gl.js"></script>
+        <script src="https://unpkg.com/@mapbox/mapbox-sdk/umd/mapbox-sdk.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/pikaday/css/pikaday.css">
+        <link rel="preload" as="style" href="https://moz.gov.ua/build/assets/app-311b9063.css" /><link rel="preload" as="style" href="https://moz.gov.ua/build/assets/app-816446ca.css" /><link rel="modulepreload" href="https://moz.gov.ua/build/assets/app-c30757e5.js" /><link rel="stylesheet" href="https://moz.gov.ua/build/assets/app-311b9063.css" /><link rel="stylesheet" href="https://moz.gov.ua/build/assets/app-816446ca.css" /><script type="module" src="https://moz.gov.ua/build/assets/app-c30757e5.js"></script>
+    </head>
+    <body class="antialiased">
+    <a href="#layout-main" tabindex="0" class="link-skip">Перейти до основного вмісту</a>
+        <header>
+    <div id="inclusive-widget" class="inclusive-widget">
+    <div class="container">
+        <div id="inclusive-widget-reset" class="h4 inclusive-widget--button">
+            <span>Скинути</span>
+            <div class="inclusive-widget--icon inclusive-widget--reset_icon">
+                <svg width="18" height="18" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M8 16C5.76667 16 3.875 15.225 2.325 13.675C0.775 12.125 0 10.2333 0 8C0 5.76667 0.775 3.875 2.325 2.325C3.875 0.775 5.76667 0 8 0C9.15 0 10.25 0.237666 11.3 0.713C12.35 1.18767 13.25 1.86667 14 2.75V0H16V7H9V5H13.2C12.6667 4.06667 11.9377 3.33333 11.013 2.8C10.0877 2.26667 9.08333 2 8 2C6.33333 2 4.91667 2.58333 3.75 3.75C2.58333 4.91667 2 6.33333 2 8C2 9.66667 2.58333 11.0833 3.75 12.25C4.91667 13.4167 6.33333 14 8 14C9.28333 14 10.4417 13.6333 11.475 12.9C12.5083 12.1667 13.2333 11.2 13.65 10H15.75C15.2833 11.7667 14.3333 13.2083 12.9 14.325C11.4667 15.4417 9.83333 16 8 16Z"
+                        fill="white"></path>
+                </svg>
+            </div>
+        </div>
+        <div id="inclusive-widget-contrast" class="h4 inclusive-widget--button">
+            <span>Контраст</span>
+            <div class="inclusive-widget--icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                    fill="none">
+                    <circle cx="12" cy="12" r="12" fill="white" />
+                    <circle cx="12" cy="12" r="6.25" stroke="#1D1D1B" stroke-width="1.5" />
+                    <path d="M12 5C15.866 5 19 8.13401 19 12C19 15.866 15.866 19 12 19V5Z" fill="#1D1D1B" />
+                </svg>
+            </div>
+        </div>
+        <div id="inclusive-widget-size" class="h4 inclusive-widget--button">
+            <span>Розмір</span>
+            <div id="inclusive-widget-plus" class="inclusive-widget--icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                    fill="none">
+                    <circle cx="12" cy="12" r="12" fill="white" />
+                    <path d="M12 5V19M5 12H19" stroke="#1D1D1B" stroke-width="1.5" stroke-linecap="round"
+                        stroke-linejoin="round" />
+                </svg>
+            </div>
+            <div id="inclusive-widget-minus" class="inclusive-widget--icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                    fill="none">
+                    <circle cx="12" cy="12" r="12" fill="white" />
+                    <path d="M5 12H19" stroke="#1D1D1B" stroke-width="1.5" stroke-linecap="round"
+                        stroke-linejoin="round" />
+                </svg>
+            </div>
+        </div>
+        <div id="inclusive-widget-close" class="h4 inclusive-widget--button">
+            <span>Сховати налаштування</span>
+            <div class="inclusive-widget--icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                    fill="none">
+                    <circle cx="12" cy="12" r="12" fill="white" />
+                    <path d="M18 6L6 18M6 6L18 18" stroke="#1D1D1B" stroke-width="1.5" stroke-linecap="round"
+                        stroke-linejoin="round" />
+                </svg>
+            </div>
+        </div>
+    </div>
+</div>
+    <div class="header__top">
+        <div class="container">
+            <div class="header__top__row">
+                
+                                <a href="/" class="header__top__row--logo">
+                <!-- Generator: Adobe Illustrator 27.9.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg width="115" height="64" version="1.1" id="Слой_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 115 64" style="enable-background:new 0 0 115 64;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#FFCA05;}
+	.st1{fill:#2E3191;}
+</style>
+<g>
+	<g>
+		<path d="M16.9,7c-0.4,3.7-0.6,5.3-0.6,5.3s0.1,0,0.3,0s1.2,0.2,1.2,1.1c0,0.9-0.8,1.2-1.2,1.2s-0.4-0.1-0.4-0.1s-1.8-2.5-1.8-6.3
+			c0-2.4,0.2-4.6,0.2-5.9c0-0.2,0-1.4-0.9-2.3c-0.8,0.9-0.9,2.1-0.9,2.3c0,1.2,0.2,3.5,0.2,5.9c0,3.8-1.8,6.3-1.8,6.3s0,0.1-0.4,0.1
+			s-1.2-0.3-1.2-1.2s1-1.1,1.2-1.1s0.3,0,0.3,0s-0.2-1.6-0.6-5.3c-0.9-3.9-4-5.3-4-5.3v17.1h3.9c0,0,0.3,2.4,2.4,3.9
+			c0,0,0.7,0.6,0.7,0.8c0-0.2,0.7-0.8,0.7-0.8c2.1-1.5,2.4-3.9,2.4-3.9h3.9V1.7C20.6,1.7,17.7,3.1,16.9,7 M7.7,4.2
+			c0,0,1.1,1.3,1.4,2.9c0.2,1.4,0.5,4.2,0.5,4.2s-1,0.4-1.3,1.5H7.7V4.2z M10.4,17.7H7.7v-3.5h0.6c0.3,1.5,2,1.8,2.2,1.8
+			C10.4,16.7,10.4,17.7,10.4,17.7 M13,21.2c-1.1-1-1.2-2.4-1.2-2.4H13V21.2z M11.6,17.6c0-0.7,0.1-1.1,0.2-1.4
+			c1.2,0.2,1.2,1.4,1.2,1.4H11.6z M13.6,16c0,0-1-0.7-1.3-0.9c0.8-1.3,1.3-3.2,1.3-3.2s0.5,1.9,1.3,3.2C14.7,15.3,13.6,16,13.6,16
+			 M14.2,21.2v-2.4h1.2C15.4,18.8,15.3,20.2,14.2,21.2 M14.2,17.6c0,0,0-1.3,1.2-1.4c0.1,0.3,0.2,0.7,0.2,1.4H14.2z M19.4,17.7h-2.6
+			c0,0,0-1-0.2-1.7c0.2,0,1.9-0.2,2.2-1.8h0.6V17.7z M19.4,13h-0.6c-0.2-1.1-1.3-1.5-1.3-1.5s0.3-2.8,0.5-4.2
+			c0.3-1.6,1.4-2.9,1.4-2.9V13z"/>
+	</g>
+	<rect x="27.7" y="32.2" class="st0" width="1.4" height="31.8"/>
+	<rect x="27.7" y="0.7" class="st1" width="1.4" height="31.6"/>
+	<polygon points="42,0.8 40,10.4 38.1,0.8 36.2,0.8 36.2,12.9 37.4,12.9 37.4,3.2 39.3,12.8 40.6,12.8 42.6,3.1 42.6,12.9 
+		43.9,12.9 43.9,0.8 	"/>
+	<rect x="45.3" y="0.8" width="1.3" height="12.1"/>
+	<polygon points="52.2,0.8 52.2,6.2 49.3,6.2 49.3,0.8 48,0.8 48,12.9 49.3,12.9 49.3,7.4 52.2,7.4 52.2,12.9 53.6,12.9 53.6,0.8 	
+		"/>
+	<rect x="54.9" y="0.8" width="1.3" height="12.1"/>
+	<g>
+		<path d="M60.3,0.7c0.9,0,1.6,0.3,2,0.8C62.8,2,63,2.8,63,3.7v1.1h-1.3V3.6c0-0.5-0.1-1-0.3-1.3s-0.6-0.5-1.1-0.5S59.5,2,59.2,2.3
+			C59.1,2.6,59,3.1,59,3.6V10c0,0.5,0.1,1,0.3,1.3s0.6,0.5,1.1,0.5s0.8-0.2,1.1-0.5c0.2-0.3,0.3-0.7,0.3-1.3V8.5H63V10
+			c0,0.9-0.2,1.6-0.7,2.2c-0.4,0.5-1.1,0.8-2,0.8s-1.6-0.3-2-0.8s-0.7-1.3-0.7-2.2V3.7c0-0.5,0.1-0.9,0.2-1.2c0.1-0.4,0.3-0.7,0.5-1
+			s0.5-0.5,0.8-0.6C59.5,0.7,59.9,0.7,60.3,0.7"/>
+	</g>
+	<polygon points="63.9,0.8 63.9,2 66.1,2 66.1,12.9 67.4,12.9 67.4,2 69.6,2 69.6,0.8 	"/>
+	<polygon points="70.6,0.8 70.6,12.9 75.6,12.9 75.6,11.6 71.9,11.6 71.9,7.3 75,7.3 75,6.1 71.9,6.1 71.9,2 75.6,2 75.6,0.8 	"/>
+	<g>
+		<path d="M79.4,6.8c0.5,0,0.9-0.1,1.1-0.4c0.2-0.2,0.4-0.7,0.4-1.2V3.6c0-0.5-0.1-1-0.3-1.2C80.4,2.1,80,2,79.5,2h-1.3v4.8H79.4z
+			 M79.5,0.8c0.9,0,1.6,0.3,2.1,0.8c0.4,0.5,0.6,1.2,0.6,2.1v1.4c0,1-0.2,1.7-0.7,2.2S80.3,8,79.4,8h-1.2v4.7h-1.3v-12h2.6V0.8z"/>
+		<path d="M85.8,0.7c0.9,0,1.6,0.3,2,0.8s0.7,1.3,0.7,2.2v1.1h-1.3V3.6c0-0.5-0.1-1-0.3-1.3c-0.2-0.3-0.6-0.5-1.1-0.5S85,2,84.7,2.3
+			c-0.2,0.3-0.3,0.7-0.3,1.3V10c0,0.5,0.1,1,0.3,1.3c0.2,0.3,0.6,0.5,1.1,0.5s0.8-0.2,1.1-0.5c0.2-0.3,0.3-0.7,0.3-1.3V8.5h1.3V10
+			c0,0.9-0.2,1.6-0.7,2.2c-0.4,0.5-1.1,0.8-2,0.8s-1.6-0.3-2-0.8s-0.7-1.3-0.7-2.2V3.7c0-0.5,0.1-0.9,0.2-1.2c0.1-0.4,0.3-0.7,0.5-1
+			s0.5-0.5,0.8-0.6C84.9,0.7,85.3,0.7,85.8,0.7"/>
+	</g>
+	<polygon points="89.3,0.8 89.3,2 91.7,2 91.7,12.9 93,12.9 93,2 95.2,2 95.2,0.8 	"/>
+	<g>
+		<path d="M98.9,11.6c0.9,0,1.4-0.5,1.4-1.6V9c0-0.7-0.1-1.1-0.4-1.4c-0.2-0.3-0.6-0.4-1.2-0.4h-1.2v4.5L98.9,11.6
+			C98.9,11.7,98.9,11.6,98.9,11.6z M98.5,5.9c0.5,0,0.9-0.1,1.2-0.3s0.4-0.6,0.4-1.3V3.6c0-0.5-0.1-0.9-0.3-1.2
+			c-0.2-0.3-0.5-0.4-1-0.4h-1.3v3.9H98.5z M98.9,0.8c0.9,0,1.6,0.2,2,0.7c0.4,0.4,0.6,1.1,0.6,2v0.6c0,0.6-0.1,1.2-0.3,1.5
+			c-0.2,0.4-0.6,0.7-1.1,0.8c0.6,0.2,1,0.5,1.2,0.9s0.4,1,0.4,1.7v1c0,0.9-0.2,1.6-0.7,2.1c-0.4,0.5-1.1,0.7-2.1,0.7h-2.7v-12
+			C96.2,0.8,98.9,0.8,98.9,0.8z"/>
+		<path d="M104.1,10c0,0.5,0.1,1,0.4,1.3c0.2,0.3,0.6,0.5,1.1,0.5s0.8-0.2,1.1-0.5c0.2-0.3,0.3-0.7,0.3-1.3V3.6c0-0.5-0.1-1-0.3-1.3
+			c-0.2-0.3-0.6-0.5-1.1-0.5s-0.8,0.2-1.1,0.5c-0.2,0.3-0.4,0.7-0.4,1.3V10z M102.8,3.7c0-0.9,0.2-1.7,0.7-2.2s1.1-0.8,2.1-0.8
+			c0.9,0,1.6,0.3,2.1,0.8s0.7,1.3,0.7,2.2V10c0,0.9-0.2,1.6-0.7,2.2c-0.5,0.5-1.1,0.8-2.1,0.8c-0.9,0-1.6-0.3-2.1-0.8
+			s-0.7-1.3-0.7-2.2V3.7z"/>
+		<path d="M37.4,27.1c0,0.5,0.1,1,0.4,1.3c0.2,0.3,0.6,0.5,1.1,0.5s0.8-0.2,1.1-0.5c0.2-0.3,0.3-0.7,0.3-1.3v-6.3
+			c0-0.5-0.1-1-0.3-1.3S39.4,19,38.9,19s-0.8,0.2-1.1,0.5c-0.2,0.3-0.4,0.7-0.4,1.3V27.1z M36.1,20.7c0-0.9,0.2-1.7,0.7-2.2
+			s1.1-0.8,2.1-0.8c0.9,0,1.6,0.3,2.1,0.8s0.7,1.3,0.7,2.2V27c0,0.9-0.2,1.6-0.7,2.2c-0.5,0.5-1.1,0.8-2.1,0.8
+			c-0.9,0-1.6-0.3-2.1-0.8s-0.7-1.3-0.7-2.2V20.7z"/>
+	</g>
+	<polygon points="45.9,24.7 43.9,29.9 42.7,29.9 45.1,23.6 42.8,17.8 44.2,17.8 46.1,22.6 47.9,17.8 49.2,17.8 46.9,23.6 49.3,29.9 
+		47.9,29.9 	"/>
+	<g>
+		<path d="M51.6,27.1c0,0.5,0.1,1,0.4,1.3c0.2,0.3,0.6,0.5,1.1,0.5s0.8-0.2,1.1-0.5c0.2-0.3,0.3-0.7,0.3-1.3v-6.3
+			c0-0.5-0.1-1-0.3-1.3S53.6,19,53.1,19s-0.8,0.2-1.1,0.5c-0.2,0.3-0.4,0.7-0.4,1.3V27.1z M50.3,20.7c0-0.9,0.2-1.7,0.7-2.2
+			s1.1-0.8,2.1-0.8c0.9,0,1.6,0.3,2.1,0.8s0.7,1.3,0.7,2.2V27c0,0.9-0.2,1.6-0.7,2.2c-0.5,0.5-1.1,0.8-2.1,0.8
+			c-0.9,0-1.6-0.3-2.1-0.8s-0.7-1.3-0.7-2.2V20.7z"/>
+		<path d="M59.7,23.9c0.5,0,0.9-0.1,1.1-0.4c0.2-0.2,0.4-0.7,0.4-1.2v-1.6c0-0.5-0.1-1-0.3-1.2c-0.2-0.3-0.6-0.4-1.1-0.4h-1.3v4.8
+			C58.5,23.9,59.7,23.9,59.7,23.9z M59.8,17.8c0.9,0,1.6,0.3,2.1,0.8c0.4,0.5,0.6,1.2,0.6,2.1v1.5c0,1-0.2,1.7-0.7,2.2
+			s-1.2,0.7-2.1,0.7h-1.2v4.7h-1.3v-12C57.1,17.8,59.8,17.8,59.8,17.8z"/>
+		<path d="M64.7,27.1c0,0.5,0.1,1,0.4,1.3c0.2,0.3,0.6,0.5,1.1,0.5s0.8-0.2,1.1-0.5c0.2-0.3,0.3-0.7,0.3-1.3v-6.3
+			c0-0.5-0.1-1-0.3-1.3c-0.2-0.3-0.6-0.5-1.1-0.5s-0.8,0.2-1.1,0.5c-0.2,0.3-0.4,0.7-0.4,1.3V27.1z M63.4,20.7
+			c0-0.9,0.2-1.7,0.7-2.2c0.5-0.5,1.1-0.8,2.1-0.8c0.9,0,1.6,0.3,2.1,0.8s0.7,1.3,0.7,2.2V27c0,0.9-0.2,1.6-0.7,2.2
+			c-0.5,0.5-1.1,0.8-2.1,0.8c-0.9,0-1.6-0.3-2.1-0.8s-0.7-1.3-0.7-2.2C63.4,27,63.4,20.7,63.4,20.7z"/>
+	</g>
+	<polygon points="71.5,24.5 71.5,29.9 70.2,29.9 70.2,17.8 71.5,17.8 71.5,23.2 74.5,23.2 74.5,17.8 75.9,17.8 75.9,29.9 74.5,29.9 
+		74.5,24.5 	"/>
+	<polygon points="80.4,24.4 78.6,29.9 77.2,29.9 77.2,17.8 78.4,17.8 78.4,26.9 79.5,23.4 81.4,17.8 82.9,17.8 82.9,29.9 81.7,29.9 
+		81.7,20.3 	"/>
+	<g>
+		<path d="M38.8,34.7c0.9,0,1.6,0.3,2,0.8s0.7,1.3,0.7,2.2V38c0,0.6-0.1,1.1-0.4,1.6c-0.2,0.4-0.6,0.7-1.1,0.9
+			c0.5,0.2,0.9,0.5,1.1,0.9s0.4,1,0.4,1.6v1c0,0.9-0.2,1.6-0.7,2.2c-0.4,0.5-1.1,0.8-2,0.8s-1.6-0.3-2-0.8s-0.7-1.3-0.7-2.2v-1.2
+			h1.2V44c0,0.5,0.1,1,0.3,1.3s0.6,0.5,1.1,0.5s0.8-0.2,1.1-0.5c0.2-0.3,0.3-0.8,0.3-1.4V43c0-1.2-0.5-1.8-1.5-1.8H38V40h0.6
+			c0.4,0,0.8-0.1,1.1-0.4c0.3-0.3,0.4-0.7,0.4-1.2v-0.5c0-0.6-0.1-1.1-0.3-1.4c-0.2-0.3-0.6-0.5-1.1-0.5s-0.8,0.2-1.1,0.5
+			c-0.2,0.3-0.3,0.7-0.3,1.3v0.8h-1.2v-0.8c0-0.9,0.2-1.7,0.6-2.2C37.2,35,37.9,34.7,38.8,34.7"/>
+		<path d="M45.3,44c0,0.4-0.1,0.8-0.1,1.1c-0.1,0.3-0.2,0.5-0.4,0.7h3.1v-9.7h-2.2L45.3,44z M48.8,48.6V47h-4.9v1.6h-1.3v-2.8h0.8
+			c0.2-0.2,0.3-0.5,0.4-0.8c0.1-0.3,0.1-0.6,0.1-1l0.5-9.2h4.8v10.9h0.9v2.8h-1.3V48.6z"/>
+		<path d="M52.5,44.1c0,0.5,0.1,1,0.4,1.3c0.2,0.3,0.6,0.5,1.1,0.5s0.8-0.2,1.1-0.5c0.2-0.3,0.3-0.7,0.3-1.3v-6.3
+			c0-0.5-0.1-1-0.3-1.3S54.5,36,54,36s-0.8,0.2-1.1,0.5c-0.2,0.3-0.4,0.7-0.4,1.3V44.1z M51.2,37.7c0-0.9,0.2-1.7,0.7-2.2
+			s1.1-0.8,2.1-0.8c0.9,0,1.6,0.3,2.1,0.8s0.7,1.3,0.7,2.2V44c0,0.9-0.2,1.6-0.7,2.2C55.6,46.7,55,47,54,47c-0.9,0-1.6-0.3-2.1-0.8
+			s-0.7-1.3-0.7-2.2V37.7z"/>
+		<path d="M60.6,41c0.5,0,0.9-0.1,1.1-0.4c0.2-0.2,0.3-0.6,0.3-1.2v-1.6c0-0.5-0.1-1-0.3-1.2c-0.2-0.3-0.6-0.4-1.1-0.4h-1.3V41H60.6
+			z M60.7,34.9c0.9,0,1.6,0.3,2.1,0.8c0.4,0.5,0.6,1.2,0.6,2.1v1.4c0,1-0.2,1.7-0.7,2.2s-1.2,0.7-2.1,0.7h-1.2v4.7h-1.3v-12h2.6
+			C60.7,34.8,60.7,34.9,60.7,34.9z"/>
+		<path d="M65.6,44.1c0,0.5,0.1,1,0.4,1.3c0.2,0.3,0.6,0.5,1.1,0.5s0.8-0.2,1.1-0.5c0.2-0.3,0.3-0.7,0.3-1.3v-6.3
+			c0-0.5-0.1-1-0.3-1.3C68,36.2,67.6,36,67.1,36s-0.8,0.2-1.1,0.5c-0.2,0.3-0.4,0.7-0.4,1.3V44.1z M64.3,37.7c0-0.9,0.2-1.7,0.7-2.2
+			s1.1-0.8,2.1-0.8c0.9,0,1.6,0.3,2.1,0.8s0.7,1.3,0.7,2.2V44c0,0.9-0.2,1.6-0.7,2.2c-0.5,0.5-1.1,0.8-2.1,0.8
+			c-0.9,0-1.6-0.3-2.1-0.8s-0.7-1.3-0.7-2.2V37.7z"/>
+		<path d="M73.9,45.7c0.9,0,1.4-0.5,1.4-1.6V43c0-0.7-0.1-1.1-0.4-1.4s-0.7-0.4-1.3-0.4h-1.2v4.5C72.4,45.7,73.9,45.7,73.9,45.7z
+			 M73.4,39.9c0.5,0,0.9-0.1,1.2-0.3c0.3-0.2,0.4-0.6,0.4-1.3v-0.7c0-0.5-0.1-0.9-0.3-1.2c-0.2-0.3-0.5-0.4-1-0.4h-1.3v3.9H73.4z
+			 M73.8,34.9c0.9,0,1.6,0.2,2,0.7c0.4,0.4,0.6,1.1,0.6,2v0.6c0,0.6-0.1,1.2-0.3,1.5c-0.2,0.4-0.6,0.7-1.1,0.8
+			c0.6,0.2,1,0.5,1.2,0.9s0.4,1,0.4,1.7v1c0,0.9-0.2,1.6-0.7,2.1c-0.4,0.5-1.1,0.7-2.1,0.7H71v-12H73.8z"/>
+	</g>
+	<polygon points="78.6,38 78,38 78.4,36.5 77.9,36.5 77.9,34.9 79.2,34.9 79.2,36.4 	"/>
+	<g>
+		<path d="M83.3,36.1c-0.5,0-0.9,0.1-1.1,0.4c-0.2,0.3-0.3,0.7-0.3,1.2v1.1c0,0.7,0.1,1.1,0.4,1.3s0.7,0.3,1.2,0.3h1V36L83.3,36.1
+			L83.3,36.1z M83.7,41.8c-0.6,0-1,0.1-1.3,0.4c-0.3,0.3-0.5,0.7-0.5,1.4v1.9c0,0.4,0,0.7-0.1,0.9s-0.1,0.4-0.2,0.6h-1.4
+			c0.1-0.2,0.2-0.4,0.2-0.7c0-0.2,0-0.5,0-0.8v-1.9c0-0.7,0.1-1.2,0.3-1.6s0.6-0.7,1.2-0.9c-1-0.3-1.5-1.1-1.5-2.5v-1
+			c0-0.9,0.2-1.6,0.6-2c0.4-0.5,1.1-0.7,2-0.7h2.7V47h-1.3v-5.1C84.4,41.8,83.7,41.8,83.7,41.8z"/>
+		<path d="M39.8,61.3c-0.1,0.4-0.2,0.8-0.4,1.2c-0.1,0.3-0.3,0.6-0.6,0.9c-0.2,0.2-0.5,0.4-0.9,0.5C37.5,64,37.1,64,36.5,64v-1.2
+			c0.5,0,0.9-0.1,1.2-0.2c0.3-0.2,0.4-0.5,0.6-0.9l0.3-0.8l-2.8-9h1.3l1.2,4.2l0.8,3l0.7-3l1.1-4.2h1.4L39.8,61.3z"/>
+	</g>
+	<polygon points="48,51.9 44.8,57.8 44.8,51.9 43.4,51.9 43.4,64 44.8,64 44.8,60 45.5,58.8 48,64 49.4,64 46.3,57.5 49.3,51.9 	"/>
+	<g>
+		<path d="M53,58.1c0.5,0,0.9-0.1,1.1-0.4c0.2-0.2,0.4-0.7,0.4-1.2v-1.6c0-0.5-0.1-1-0.3-1.2c-0.2-0.3-0.6-0.4-1.1-0.4h-1.3v4.8
+			C51.8,58.1,53,58.1,53,58.1z M53.1,51.9c0.9,0,1.6,0.3,2.1,0.8c0.4,0.5,0.6,1.2,0.6,2.1v1.4c0,1-0.2,1.7-0.7,2.2s-1.2,0.7-2.1,0.7
+			h-1.2v4.7h-1.3v-12h2.6C53.1,51.8,53.1,51.9,53.1,51.9z"/>
+	</g>
+	<path d="M59.7,53.4l1.4,6.9h-2.7L59.7,53.4z M58.8,51.9L56.4,64h1.2l0.5-2.4h3l0.5,2.4H63l-2.3-12.1H58.8z"/>
+	<path d="M64.1,64h1.3V51.9h-1.3V64z M63.1,51.2h1.2v-1.5h-1.2C63.1,49.7,63.1,51.2,63.1,51.2z M65.3,51.2h1.2v-1.5h-1.2V51.2z"/>
+	<polygon points="71.1,51.9 71.1,57.4 68.1,57.4 68.1,51.9 66.8,51.9 66.8,64 68.1,64 68.1,58.6 71.1,58.6 71.1,64 72.4,64 
+		72.4,51.9 	"/>
+	<polygon points="78.1,51.9 76.1,57.6 75.1,60.9 75.1,51.9 73.9,51.9 73.9,64 75.3,64 77,58.4 78.3,54.3 78.3,64 79.5,64 79.5,51.9 
+			"/>
+</g>
+</svg>
+                </a>
+                               
+                
+
+              
+
+               
+                <div class="header__top__row--contact">
+                    <div class="contact_center--text">Гаряча лінія МОЗ</div>
+                                                <a class="contact_center--number" href="tel:0800 505 201">0800 505 201</a>
+                                        </div>
+                
+                    <div class="header__top__row socials-side">
+                        <div class="header__top__row--lang">
+                            <span class="header__top__row--lang-icon"></span>
+                            <span class="topMenu-title">Укр</span>
+                            <div class="submenu">
+                                                                                                    <a rel="alternate" hreflang="en"                                         href="https://moz.gov.ua/en/suchasnij-likuvalno-diagnostichnij-kompleks-ohmatditu">
+                                                                                    Англійська
+                                                                            </a>
+                                                                    <a rel="alternate" hreflang="uk"                                         href="https://moz.gov.ua/uk/suchasnij-likuvalno-diagnostichnij-kompleks-ohmatditu">
+                                                                                    Українська
+                                                                            </a>
+                                                            </div>
+                        </div>
+
+                       
+
+                        <a href="/uk/form/full_search" class="header__top__row--search">
+                            <span class="header__top__row--search-icon"></span>
+                            <span class="topMenu-title">Пошук</span>
+                        </a>
+                    </div>
+                  
+                
+                <div id="inclusive-widget-button" class="header__top__row--visual-impairment">
+                    <span class="header__top__row--visual-impairment-icon"></span>
+                    <span class="topMenu-title">Налаштування доступності</span>
+                </div>
+
+                <a class="diiaLink" target="_blank" href="https://diia.gov.ua/">
+                <svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_4001_3566)">
+<path d="M32 64C46.0225 64 53.8176 64 58.9088 58.9088C64 53.8176 64 46.0271 64 32C64 17.9729 64 10.1824 58.9088 5.09118C53.8176 0 46.0225 0 32 0C17.9775 0 10.1824 0 5.09118 5.09118C0 10.1824 0 17.9775 0 32C0 46.0225 0 53.8176 5.09118 58.9088C10.1824 64 17.9775 64 32 64Z" fill="black"/>
+<path d="M44.0183 25.6729C41.601 25.6729 39.8068 27.5389 39.8068 29.8414C39.8068 31.7214 41.1286 33.1883 42.8021 33.6224L39.3716 38.8772H42.5758L45.4921 33.9867H47.6751V38.8772H50.3501V25.6729H44.0183ZM44.3862 31.7528C43.286 31.7528 42.6048 30.8894 42.6048 29.9052C42.6048 28.9211 43.2291 27.9834 44.3862 27.9834H47.6786V31.7528H44.3862Z" fill="white"/>
+<path d="M29.369 25.6729L28.4812 28.1169L32.1241 28.096L29.9667 36.0084C29.3516 38.3155 31.7562 40.0585 33.808 38.7019L38.4744 35.536L37.1004 33.5167L32.4398 36.7453L35.5813 25.6729H29.369Z" fill="white"/>
+<path d="M34.3931 23.975C35.4153 23.975 36.2441 23.2283 36.2441 22.3073C36.2441 21.3863 35.4153 20.6396 34.3931 20.6396C33.3707 20.6396 32.542 21.3863 32.542 22.3073C32.542 23.2283 33.3707 23.975 34.3931 23.975Z" fill="white"/>
+<path d="M24.951 36.4401V22.6045H14.6863V29.9889C14.6863 33.4634 13.6801 35.6116 13.0871 36.4343H11.8708V42.469H14.4739V38.9016H24.206V42.4748H26.8078V36.4401H24.951ZM17.2742 29.8368V25.059H22.2818V36.432H15.8178C16.4038 35.4734 17.2742 33.0341 17.2742 29.8368Z" fill="white"/>
+</g>
+<defs>
+<clipPath id="clip0_4001_3566">
+<rect width="64" height="64" fill="white"/>
+</clipPath>
+</defs>
+</svg>                </a>
+
+                <div class="header__top__row--hamburger">
+                    <img src="/assets/pics/hamburgerBlack.svg" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+  
+    <div class="header__hamburger">
+<div class="close-button-wrap">
+    <div id="closeMenu" class="close-button">
+    <img src="/assets/pics/close-menu.svg" alt="Close">
+    </div>
+</div>
+    <div class="container">
+                    
+            <div class="submenu">
+                <div class="btn">
+                    <a href="/uk/pro-ministerstvo">Про міністерство</a>
+                    <div class="btn-close"></div>
+                </div>
+                <div class="body">
+                                            <a href="https://moz.gov.ua/uk/strategija">Стратегія</a>
+                                            <a href="https://moz.gov.ua/uk/molodizhna-rada-pri-moz-ukrayini">Молодіжна рада при МОЗ України</a>
+                                            <a href="https://moz.gov.ua/uk/genderna-politika">Гендерна політика</a>
+                                            <a href="https://moz.gov.ua/uk/kerivnictvo">Керівництво</a>
+                                            <a href="https://moz.gov.ua/uk/strukturam">Структура</a>
+                                            <a href="https://moz.gov.ua/uk/polozhennja-pro-ministriv">Положення про міністерство</a>
+                                            <a href="https://moz.gov.ua/uk/plan-reform">Трансформація системи</a>
+                                            <a href="https://moz.gov.ua/uk/evropeiska-integraciia">Європейська інтеграція</a>
+                                            <a href="https://moz.gov.ua/uk/mizhnarodna-spivpracja">Міжнародна співпраця</a>
+                                            <a href="https://moz.gov.ua/uk/vakansii">Вакансії</a>
+                                            <a href="https://moz.gov.ua/uk/partneri">Міжнародні партнери</a>
+                                            <a href="https://moz.gov.ua/uk/ochischennja-vlady">Очищення влади</a>
+                                            <a href="https://moz.gov.ua/uk/povidomiti-pro-korupciju">Запобігання корупції</a>
+                                            <a href="https://moz.gov.ua/uk/ogoloshennya">Оголошення</a>
+                                            <a href="https://moz.gov.ua/uk/vnutrishnij-audit">Внутрішній аудит</a>
+                                            <a href="https://moz.gov.ua/uk/protidija-ta-zapobigannja-domashnomu-nasilstvu">Протидія та запобігання домашньому насильству</a>
+                                            <a href="https://moz.gov.ua/uk/kritichna-infrastruktura">Критична інфраструктура</a>
+                                            <a href="https://moz.gov.ua/uk/administrativni-poslugi">Адміністративні послуги</a>
+                                    </div>
+            </div>
+                    
+            <div class="submenu">
+                <div class="btn">
+                    <a href="/uk/vojennyj-stan">Воєнний стан</a>
+                    <div class="btn-close"></div>
+                </div>
+                <div class="body">
+                                            <a href="https://moz.gov.ua/uk/informacija-dlja-gromadjan">Громадянам</a>
+                                            <a href="https://moz.gov.ua/uk/informacija-dlja-medikiv">Медикам</a>
+                                            <a href="https://moz.gov.ua/uk/perelik-vakantnih-posad-derzhavnoyi-sluzhbi-aparatu-moz-u-period-voyennogo-stanu">Перелік вакантних посад державної служби апарату МОЗ у період воєнного стану</a>
+                                            <a href="https://moz.gov.ua/uk/sankcijna-politika">Санкційна політика</a>
+                                            <a href="https://moz.gov.ua/uk/informacija-dlja-subektiv-gospodarjuvannja">Суб&#039;єктам господарювання</a>
+                                    </div>
+            </div>
+                    
+            <div class="submenu">
+                <div class="btn">
+                    <a href="/uk/gromadjanam">Громадянам</a>
+                    <div class="btn-close"></div>
+                </div>
+                <div class="body">
+                                            <a href="https://moz.gov.ua/uk/zayavka-na-likuvannya-za-kordonom">Заявка на лікування за кордоном</a>
+                                            <a href="https://moz.gov.ua/uk/dev-dostupni-liki">Доступні ліки</a>
+                                            <a href="https://moz.gov.ua/uk/zdorovja-a-ja">Здоров&#039;я А-Я</a>
+                                            <a href="https://moz.gov.ua/uk/zvernennja-dlja-gromadjan">Звернення громадян</a>
+                                            <a href="https://moz.gov.ua/uk/zakupivli-likiv">Закупівлі ліків</a>
+                                            <a href="https://moz.gov.ua/uk/gromadska-rada-mozu">Громадська рада МОЗ</a>
+                                            <a href="https://moz.gov.ua/uk/dostup-do-publichnoi-informaci">Доступ до публічної інформації</a>
+                                            <a href="https://moz.gov.ua/uk/konsultacii-z-gromadskistju-1">Консультації з громадськістю</a>
+                                            <a href="https://moz.gov.ua/uk/bezoplatna-pravnicha-dopomoga">Безоплатна правнича допомога</a>
+                                            <a href="https://moz.gov.ua/uk/opituvannja">Опитування</a>
+                                            <a href="https://moz.gov.ua/uk/zvituvannja-schodo-stvorennja-bezbarernogo-prostoru">Створення безбар`єрного простору</a>
+                                            <a href="https://moz.gov.ua/uk/medichnij-kanabis">Медичний канабіс</a>
+                                            <a href="https://moz.gov.ua/uk/ekopfo">Оцінювання повсякденного функціонування особи</a>
+                                            <a href="https://moz.gov.ua/uk/znizhennya-cin-na-likarski-zasobi">Зниження цін на лікарські засоби</a>
+                                            <a href="https://moz.gov.ua/uk/sluhoprotezuvannya">Слухопротезування</a>
+                                            <a href="https://moz.gov.ua/uk/nacionalnij-katalog-cin">Національний каталог цін</a>
+                                            <a href="https://moz.gov.ua/uk/bezoplatne-endoprotezuvannya">Безоплатне ендопротезування</a>
+                                            <a href="https://moz.gov.ua/uk/vidnovlennya-ohmatditu-pislya-raketnogo-udaru-klyuchovi-fakti-finansuvannya-ta-etapi-robit">Відновлення «Охматдиту» після ракетного удару: ключові факти, фінансування та етапи робіт</a>
+                                            <a href="https://moz.gov.ua/uk/bezoplatne-ochne-protezuvannya-dlya-postrazhdalih-vnaslidok-vijni">Безоплатне очне протезування для постраждалих внаслідок війни</a>
+                                            <a href="https://moz.gov.ua/uk/medichna-pidtrimka-lyudej-postrazhdalih-vnaslidok-chornobilskoyi-katastrofi">Медична підтримка людей, постраждалих внаслідок Чорнобильської катастрофи</a>
+                                            <a href="https://moz.gov.ua/uk/bezoplatne-planove-stentuvannya-sudin-sercya">Безоплатне планове стентування судин серця</a>
+                                            <a href="https://moz.gov.ua/uk/medichna-dopomoga-lyudyam-yaki-perezhili-polon">Медична допомога людям, які пережили полон</a>
+                                            <a href="https://moz.gov.ua/uk/medichni-oglyadi-moryakiv">Медичні огляди моряків і членів екіпажів суден внутрішнього плавання</a>
+                                            <a href="https://moz.gov.ua/uk/vlk">Військово-лікарські комісії</a>
+                                            <a href="https://moz.gov.ua/uk/mental-health">Психічне здоров&#039;я</a>
+                                            <a href="https://moz.gov.ua/uk/reabilitacija">Реабілітація</a>
+                                            <a href="https://moz.gov.ua/uk/immunization">Вакцинація</a>
+                                    </div>
+            </div>
+                    
+            <div class="submenu">
+                <div class="btn">
+                    <a href="/uk/medichnim-pracivnikam">Медичним працівникам</a>
+                    <div class="btn-close"></div>
+                </div>
+                <div class="body">
+                                            <a href="https://moz.gov.ua/uk/oplata-praci-medikiv">Оплата праці медиків</a>
+                                            <a href="https://moz.gov.ua/uk/naglyadovi-radi">Наглядові ради</a>
+                                            <a href="https://moz.gov.ua/uk/ekopfo-med">Реформа МСЕК та нова система оцінювання ЕКОПФО</a>
+                                            <a href="https://moz.gov.ua/uk/medichna-statistika-cgz">Медична статистика ЦГЗ</a>
+                                            <a href="https://moz.gov.ua/uk/sluzhbove-zhitlo-dlya-medichnih-pracivnikiv-u-seli-ta-na-prifrontovih-teritoriyah">Службове житло для  медичних працівників у селі та на прифронтових територіях</a>
+                                            <a href="https://moz.gov.ua/uk/konkursna-komisiya-z-obrannya-kandidativ-na-posadi-chleniv-nacionalnoyi-komisiyi-z-pitan-psihichnogo-zdorov-ya">Конкурсна комісія з обрання кандидатів на посади членів Національної комісії з питань психічного здоров’я</a>
+                                            <a href="https://moz.gov.ua/uk/yedinij-vebportal-vakansij-u-derzhavnih-ta-komunalnih-medzakladah">Єдиний вебпортал вакансій у державних та комунальних медзакладах</a>
+                                            <a href="https://moz.gov.ua/uk/statti">Статті</a>
+                                            <a href="https://moz.gov.ua/uk/dzherela-dokazovoyi-medicini">Джерела доказової медицини</a>
+                                            <a href="https://moz.gov.ua/uk/bezperervnij-profesijnij-rozvitok">Безперервний професійний розвиток</a>
+                                            <a href="https://moz.gov.ua/uk/icpc-2">ICPC-2</a>
+                                            <a href="https://moz.gov.ua/uk/mkf">МКФ</a>
+                                            <a href="https://moz.gov.ua/uk/ekstrena-dopomoga">Екстрена допомога</a>
+                                            <a href="https://moz.gov.ua/uk/dajdzhest-zmin-u-sistemi-ohoroni-zdorovja">Дайджест змін у системі охорони здоров’я</a>
+                                            <a href="https://moz.gov.ua/uk/prisjaga-likarja">Присяга лікаря</a>
+                                            <a href="https://moz.gov.ua/uk/baza-znan-kraschih-praktik">База знань кращих практик</a>
+                                            <a href="https://moz.gov.ua/uk/poryadok-verifikaciyi-dokumentiv-pro-osvitu">Порядок верифікації документів про освіту</a>
+                                    </div>
+            </div>
+                    
+            <div class="submenu">
+                <div class="btn">
+                    <a href="/uk/news/osvita">Освіта</a>
+                    <div class="btn-close"></div>
+                </div>
+                <div class="body">
+                                            <a href="https://moz.gov.ua/uk/likarska-rezidentura">Лікарська резидентура</a>
+                                            <a href="https://moz.gov.ua/uk/pidgotovka-fahivciv-z-reabilitaciyi-za-dualnoyu-formoyu-navchannya">Підготовка фахівців з реабілітації за дуальною формою навчання</a>
+                                            <a href="https://moz.gov.ua/uk/navchalni-zakladi">Заклади освіти</a>
+                                            <a href="https://moz.gov.ua/uk/naukovo-doslidni-ustanovi">Науково-дослідні установи</a>
+                                            <a href="https://moz.gov.ua/uk/vstup-na-specialnosti-galuzi-znan-i-ohorona-zdorov-ya-ta-socialne-zabezpechennya">Вступ на спеціальності галузі знань І «Охорона здоров&#039;я та соціальне забезпечення</a>
+                                            <a href="https://moz.gov.ua/uk/dev-yedki">ЄДКІ</a>
+                                            <a href="https://moz.gov.ua/uk/internatura">Інтернатура</a>
+                                            <a href="https://moz.gov.ua/uk/cikli-specializaciyi-tematichnogo-udoskonalennya-ta-zahodi-bpr-u-2024-roci">Цикли спеціалізації, тематичного удосконалення та заходи БПР у 2024 році</a>
+                                    </div>
+            </div>
+                    
+            <div class="submenu">
+                <div class="btn">
+                    <a href="/uk/pres-centr">Пресцентр</a>
+                    <div class="btn-close"></div>
+                </div>
+                <div class="body">
+                                            <a href="https://moz.gov.ua/uk/ostanni-novini">Останні новини</a>
+                                            <a href="https://moz.gov.ua/uk/anonsi-2">Анонси</a>
+                                            <a href="https://moz.gov.ua/uk/interv-yu">Інтерв&#039;ю</a>
+                                            <a href="https://moz.gov.ua/uk/press-sluzhba">Контакти пресслужби</a>
+                                    </div>
+            </div>
+                    
+            <div class="submenu">
+                <div class="btn">
+                    <a href="/uk/dokumenti">Документи</a>
+                    <div class="btn-close"></div>
+                </div>
+                <div class="body">
+                                            <a href="https://moz.gov.ua/uk/nakazi-moz">Накази МОЗ</a>
+                                            <a href="https://moz.gov.ua/uk/zakonoproekti">Законопроєкти</a>
+                                            <a href="https://moz.gov.ua/uk/dokumenty-z-pitan-ekonomiki-ta-finansiv">Документи з питань економіки та фінансів</a>
+                                            <a href="https://moz.gov.ua/uk/dokumenti-2">Документи</a>
+                                            <a href="https://moz.gov.ua/uk/nacionalna-rada-z-pitan-protidii-tuberkulozu-ta-vilsnid">Національна рада з питань протидії туберкульозу та ВІЛ/СНІД</a>
+                                            <a href="https://moz.gov.ua/uk/gromadska-ekspertiza">Громадська експертиза</a>
+                                            <a href="https://moz.gov.ua/uk/strategichna-ekologichna-ocinka">Стратегічна екологічна оцінка</a>
+                                            <a href="https://moz.gov.ua/uk/golovnij-derzhavnij-sanitarnij-likar-ukraini">Головний державний санітарний лікар України </a>
+                                            <a href="https://moz.gov.ua/uk/kerivnik-robit-z-likvidacii-nadzvichajnoi-situacii-covid-19">Керівник робіт з ліквідації наслідків надзвичайної ситуації (COVID-19)</a>
+                                            <a href="https://moz.gov.ua/uk/konsultativni-dopomizhni-ta-inshi-doradchi-organi-pri-moz">Консультативні, допоміжні та інші дорадчі органи при МОЗ</a>
+                                            <a href="https://moz.gov.ua/uk/united24">United24</a>
+                                            <a href="https://moz.gov.ua/uk/referens-laboratoriyi-v-sistemi-gromadskogo-zdorov-ya">Референс-лабораторії в системі громадського здоров&#039;я</a>
+                                            <a href="https://moz.gov.ua/uk/gromadske-obgovorennja">Громадське обговорення</a>
+                                            <a href="https://moz.gov.ua/uk/dev-gromadska-rada">Громадська рада</a>
+                                            <a href="https://moz.gov.ua/uk/regulyatorna-politika">Регуляторна політика</a>
+                                    </div>
+            </div>
+                    
+            <div class="submenu">
+                <div class="btn">
+                    <a href="/uk/news/ehealth">Е-здоров&#039;я</a>
+                    <div class="btn-close"></div>
+                </div>
+                <div class="body">
+                                            <a href="https://moz.gov.ua/uk/baza-znan-ehealth">База знань eHealth</a>
+                                            <a href="https://moz.gov.ua/uk/elektronni-rishennya-dlya-obigu-medichnogo-kanabisu">Електронні рішення для обігу медичного канабісу</a>
+                                            <a href="https://moz.gov.ua/uk/yedinij-portal-vakansij-u-sferi-ohoroni-zdorov-ya">Єдиний портал вакансій у сфері охорони здоров’я</a>
+                                            <a href="https://moz.gov.ua/uk/reyestr-dezinfekcijnih-zasobiv">Реєстр дезінфекційних засобів</a>
+                                            <a href="https://moz.gov.ua/uk/reyestr-osib-vidpovidalnih-za-vvedennya-medichnih-virobiv">Реєстр осіб відповідальних за введення медичних виробів</a>
+                                            <a href="https://moz.gov.ua/uk/elektronna-sistema-bezperervnogo-profesijnogo-rozvitku">Електронна система безперервного професійного розвитку</a>
+                                            <a href="https://moz.gov.ua/uk/elektronna-sistema-rejtingovogo-rozpodilu-v-internaturu">Електронна система рейтингового розподілу в інтернатуру</a>
+                                            <a href="https://moz.gov.ua/uk/elektronna-cherga-na-endoprotezuvannya">Електронна черга на ендопротезування</a>
+                                            <a href="https://moz.gov.ua/uk/sistema-elektronnoyi-notifikaciyi-nadannya-informaciyi-pro-kosmetichnu-produkciyu">Система електронної нотифікації (надання) інформації про косметичну продукцію</a>
+                                            <a href="https://moz.gov.ua/uk/elektronnij-licenzijnij-reyestr-z-medichnoyi-praktiki">Електронний Ліцензійний реєстр з медичної практики</a>
+                                            <a href="https://moz.gov.ua/uk/elektronna-sistema-epidemiologichnogo-naglyadu-esen-2">Електронна система епідеміологічного нагляду (ЕСЕН)</a>
+                                            <a href="https://moz.gov.ua/uk/informacijna-sistema-monitoring-socialno-znachushih-hvorob-is-szh">Інформаційна система «Моніторинг соціально значущих хвороб» (ІС СЗХ)</a>
+                                            <a href="https://moz.gov.ua/uk/elektronna-sistema-ohoroni-zdorovya">Електронна система охорони здоров&#039;я</a>
+                                            <a href="https://moz.gov.ua/uk/e-stock">e-Stock</a>
+                                            <a href="https://moz.gov.ua/uk/sistema-meddata">Система  Meddata</a>
+                                            <a href="https://moz.gov.ua/uk/kiberbezpeka">Кібербезпека</a>
+                                    </div>
+            </div>
+                    
+            <div class="submenu">
+                <div class="btn">
+                    <a href="/uk/kontakti">Контакти</a>
+                    <div class="btn-close"></div>
+                </div>
+                <div class="body">
+                                            <a href="https://moz.gov.ua/uk/dovidnik-2">Довідник</a>
+                                    </div>
+            </div>
+            </div>
+    <div class="container">
+    <div class="header__top__row socials-side">
+                        <div class="header__top__row--lang">
+                            <span class="header__top__row--lang-icon"></span>
+                            <span class="topMenu-title">Укр</span>
+                            <div class="submenu">
+                                                                                                    <a rel="alternate" hreflang="en"                                         href="https://moz.gov.ua/en/suchasnij-likuvalno-diagnostichnij-kompleks-ohmatditu">
+                                                                                    Англійська
+                                                                            </a>
+                                                                    <a rel="alternate" hreflang="uk"                                         href="https://moz.gov.ua/uk/suchasnij-likuvalno-diagnostichnij-kompleks-ohmatditu">
+                                                                                    Українська
+                                                                            </a>
+                                                            </div>
+                        </div>
+                      
+                        <a href="/uk/form/full_search" class="header__top__row--search">
+                            <span class="header__top__row--search-icon"></span>
+                            <span class="topMenu-title">Пошук</span>
+                        </a>
+                    </div>
+                    <div id="header-mobile-inclusive-widget-button" class="header__top__row--visual-impairment">
+                    <span class="header__top__row--visual-impairment-icon"></span>
+                    <span class="topMenu-title">Налаштування доступності</span>
+                </div>
+    </div>
+    <div class="container">
+    <div class="header__top__row--contact">
+                    <div class="contact_center--text">Гаряча лінія МОЗ</div>
+                                                <a class="contact_center--number" href="tel:0800 505 201">0800 505 201</a>
+                                            
+                </div>
+    </div>
+
+    <div class="container">
+    <div class="socials">
+                  
+                                                                                                                                                                                          <a href="https://bit.ly/moz-fb"><img src="https://moz.gov.ua/storage/uploads/885ccf46-170f-44d9-ba98-d61ccf8b252a/facebook.svg"
+                                          alt="Facebook"></a>
+                                                                                                                                                                                                                                <a href="https://bit.ly/moz-youtube"><img src="https://moz.gov.ua/storage/uploads/14b900c4-dac2-437d-837d-30273acc2923/youtube.svg"
+                                          alt="Youtube"></a>
+                                                                                                                                                                                                                                <a href="https://bit.ly/moz-tg"><img src="https://moz.gov.ua/storage/uploads/0a2ce20b-7a2e-48d7-a765-4b3f7f924155/telegram.svg"
+                                          alt="Telegram"></a>
+                                                                                                                                                                                                                                <a href="https://twitter.com/MoH_Ukraine"><img src="https://moz.gov.ua/storage/uploads/14b900c4-dac2-437d-837d-30273acc2923/x-white.svg"
+                                          alt="X White"></a>
+                                                                                                              </div>
+    </div>
+
+</div>
+<div class="header__bottom">
+    <div class="container">
+        <div class="header__bottom--row">
+            
+                            <span class="header-dropdown-box" data-key="0">
+                    <a href="https://moz.gov.ua/uk/pro-ministerstvo">Про міністерство</a>
+                                        <div class="btn-close"></div>
+                                       
+                    <div class="header__dropdown">
+                        <div class="container">
+                            <div class="inner">
+                                                        
+
+                                                            
+
+                                                                    <a class="dropdown-link" href="https://moz.gov.ua/uk/strategija">Стратегія</a>
+                                                                                            
+
+                                                                    <a class="dropdown-link" href="https://moz.gov.ua/uk/molodizhna-rada-pri-moz-ukrayini">Молодіжна рада при МОЗ України</a>
+                                                                                            
+
+                                                                    <a class="dropdown-link" href="https://moz.gov.ua/uk/genderna-politika">Гендерна політика</a>
+                                                                                            
+
+                                                                    <a class="dropdown-link" href="https://moz.gov.ua/uk/kerivnictvo">Керівництво</a>
+                                                                                            
+
+                                                                    <div class="submenu">
+                                        <div class="btn-sub"><a href="https://moz.gov.ua/uk/strukturam"
+                                            >Структура</a>
+                                            <div class="btn-close"></div>
+                                            </div>
+                                        <div class="body">
+                                                                                            <a href="https://moz.gov.ua/uk/struktura">Підрозділи МОЗ</a>
+                                                                                    </div>
+                                    </div>
+                                                                                            
+
+                                                                    <a class="dropdown-link" href="https://moz.gov.ua/uk/polozhennja-pro-ministriv">Положення про міністерство</a>
+                                                                                            
+
+                                                                    <div class="submenu">
+                                        <div class="btn-sub"><a href="https://moz.gov.ua/uk/plan-reform"
+                                            >Трансформація системи</a>
+                                            <div class="btn-close"></div>
+                                            </div>
+                                        <div class="body">
+                                                                                            <a href="https://moz.gov.ua/uk/spromozhna-merezha">Спроможна мережа медзакладів</a>
+                                                                                    </div>
+                                    </div>
+                                                                                            
+
+                                                                    <div class="submenu">
+                                        <div class="btn-sub"><a href="https://moz.gov.ua/uk/evropeiska-integraciia"
+                                            >Європейська інтеграція</a>
+                                            <div class="btn-close"></div>
+                                            </div>
+                                        <div class="body">
+                                                                                            <a href="https://moz.gov.ua/uk/vstup-do-es">Вступ до ЄС</a>
+                                                                                            <a href="https://moz.gov.ua/uk/programa-eu4health">Програма EU4Health</a>
+                                                                                    </div>
+                                    </div>
+                                                                                            
+
+                                                                    <div class="submenu">
+                                        <div class="btn-sub"><a href="https://moz.gov.ua/uk/mizhnarodna-spivpracja"
+                                            >Міжнародна співпраця</a>
+                                            <div class="btn-close"></div>
+                                            </div>
+                                        <div class="body">
+                                                                                            <a href="https://moz.gov.ua/uk/mizhnarodna-tehnichna-dopomoga">Міжнародна технічна допомога</a>
+                                                                                            <a href="https://moz.gov.ua/uk/biblioteka-proektiv-USAID-HRS">Бібліотека ресурсів Проєкту USAID HRS</a>
+                                                                                            <a href="https://moz.gov.ua/uk/programa-evropejskogo-sojuzu-eu4health">Програма Європейського Союзу EU4Health</a>
+                                                                                            <a href="https://moz.gov.ua/uk/srg-ohorona-zdorovja">Секторальна робоча група &quot;Охорона здоров&#039;я&quot;</a>
+                                                                                            <a href="https://moz.gov.ua/uk/mizhnarodne-medichne-partnerstvo">Міжнародне медичне партнерство</a>
+                                                                                            <a href="https://moz.gov.ua/uk/zviti-partneriv">Звіти партнерів</a>
+                                                                                    </div>
+                                    </div>
+                                                                                            
+
+                                                                    <div class="submenu">
+                                        <div class="btn-sub"><a href="https://moz.gov.ua/uk/vakansii"
+                                            >Вакансії</a>
+                                            <div class="btn-close"></div>
+                                            </div>
+                                        <div class="body">
+                                                                                            <a href="https://moz.gov.ua/uk/rezultati-konkursiv">Результати конкурсів</a>
+                                                                                            <a href="https://moz.gov.ua/uk/konkursi-na-zajnyattya-vakantnih-posad-derzhavnoyi-sluzhbi-aparatu-ministerstva-ohoroni-zdorov-ya-ukrayini">Конкурси на зайняття вакантних посад державної служби апарату Міністерства охорони здоров`я України</a>
+                                                                                            <a href="https://moz.gov.ua/uk/konkursi-na-zajnyattya-vakantnih-posad-fahivciv-z-pitan-reform-aparatu-ministerstva-ohoroni-zdorov-ya-ukrayini">Конкурси на зайняття вакантних посад фахівців з питань реформ апарату Міністерства охорони здоров`я України</a>
+                                                                                            <a href="https://moz.gov.ua/uk/konkursi-na-zajnyattya-posad-kerivnikiv-zakladiv">Конкурси на зайняття посад керівників закладів, підприємств, установ та організацій, що належать до сфери управління Міністерства охорони здоров’я України</a>
+                                                                                            <a href="https://moz.gov.ua/uk/konkursi-na-zajnjattja-posad-kerivnikiv-zakladiv-ohoroni-zdorovja">Конкурси на зайняття посад керівників закладів охорони здоров’я</a>
+                                                                                            <a href="https://moz.gov.ua/uk/rishennja-zasidannja-konkursnoi-komisii">Рішення засідання конкурсної комісії</a>
+                                                                                            <a href="https://moz.gov.ua/uk/konkursi-na-zajnjattja-posad-kerivnikiv-derzhavnih-naukovih-ustanov-2">Конкурси на зайняття посад керівників державних наукових установ</a>
+                                                                                            <a href="https://moz.gov.ua/uk/konkursi-na-zajnyattya-posad-kerivnikiv-vishih-navchalnih-zakladiv">Конкурси на зайняття посад керівників вищих навчальних закладів</a>
+                                                                                            <a href="https://moz.gov.ua/uk/konkursi-na-zajnjattja-posad-kerivnikiv-zakladiv-ohoroni-zdorov’ja+">Конкурси на зайняття посад керівників закладів охорони здоров’я</a>
+                                                                                            <a href="https://moz.gov.ua/uk/ogoloshennja-z-pitan-provedennja-konkursiv1">Оголошення з питань проведення конкурсів</a>
+                                                                                            <a href="https://moz.gov.ua/uk/videozapisi-zasidannja-konkursnoi-komisii+">Відеозаписи засідання конкурсної комісії</a>
+                                                                                            <a href="https://moz.gov.ua/uk/ogoloshennya-pro-provedennya-vidkritogo-vidboru-nezalezhnih-chleniv-naglyadovoyi-radi-dp-medichni-zakupivli-ukrayini">Оголошення про проведення відкритого відбору незалежних членів наглядової ради ДП &quot;Медичні закупівлі України&quot;</a>
+                                                                                    </div>
+                                    </div>
+                                                                                            
+
+                                                                    <a class="dropdown-link" href="https://moz.gov.ua/uk/partneri">Міжнародні партнери</a>
+                                                                                            
+
+                                                                    <a class="dropdown-link" href="https://moz.gov.ua/uk/ochischennja-vlady">Очищення влади</a>
+                                                                                            
+
+                                                                    <div class="submenu">
+                                        <div class="btn-sub"><a href="https://moz.gov.ua/uk/povidomiti-pro-korupciju"
+                                            >Запобігання корупції</a>
+                                            <div class="btn-close"></div>
+                                            </div>
+                                        <div class="body">
+                                                                                            <a href="https://moz.gov.ua/uk/antikorupcijna-programa-moz-ukraini">Антикорупційна програма МОЗ України</a>
+                                                                                            <a href="https://moz.gov.ua/uk/deklaruvannja">Декларування</a>
+                                                                                            <a href="https://moz.gov.ua/uk/vidpovidalnist-za-kriminalni-korupcijni-ta-pov-yazani-z-korupciyeyu-pravoporushennya-administrativni-pravoporushennya-pov-yazani-z-korupciyeyu">Відповідальність за кримінальні корупційні та пов’язані з корупцією правопорушення, адміністративні правопорушення, пов’язані з корупцією</a>
+                                                                                            <a href="https://moz.gov.ua/uk/vikrivacham-korupcii">Викривачам корупції</a>
+                                                                                            <a href="https://moz.gov.ua/uk/zapobigannya-korupciyi-v-utvorenih-pri-moz-doradchih-organah-cherez-konflikt-interesiv">Запобігання корупції в утворених при МОЗ дорадчих органах через конфлікт інтересів</a>
+                                                                                            <a href="https://moz.gov.ua/uk/normativni-ta-organizacijno-rozporyadchi-dokumenti-z-pitan-zapobigannya-ta-viyavlennya-korupciyi">Нормативні та організаційно-розпорядчі документи з питань запобігання та виявлення корупції</a>
+                                                                                            <a href="https://moz.gov.ua/uk/upovnovazhenij-pidrozdil-z-pitan-zapobigannja-ta-vijavlennja-korupcii">Уповноважений підрозділ з питань запобігання та виявлення корупції</a>
+                                                                                            <a href="https://moz.gov.ua/uk/povidomiti-pro-korupciyu">Повідомити про корупцію</a>
+                                                                                            <a href="https://moz.gov.ua/uk/analitichnij-zvit">Аналітичний звіт</a>
+                                                                                            <a href="https://moz.gov.ua/uk/analitichnij-zvit-schodo-ocinki-korupcijnih-rizikiv-pid-chas-zakupivel-likarskih-zasobiv-ta-medichnih-virobiv-scho-zumovleni-pandemieju-abo-zdijsnjujutsja-pid-chas-pand">Аналітичний звіт щодо оцінки корупційних ризиків під час закупівель лікарських засобів та медичних виробів, що зумовлені пандемією або здійснюються під час пандемії</a>
+                                                                                            <a href="https://moz.gov.ua/uk/metodichni-rekomendaciyi-ta-roz-yasnennya">МЕТОДИЧНІ РЕКОМЕНДАЦІЇ ТА РОЗ&#039;ЯСНЕННЯ</a>
+                                                                                    </div>
+                                    </div>
+                                                                                            
+
+                                                                    <div class="submenu">
+                                        <div class="btn-sub"><a href="https://moz.gov.ua/uk/ogoloshennya"
+                                            >Оголошення</a>
+                                            <div class="btn-close"></div>
+                                            </div>
+                                        <div class="body">
+                                                                                            <a href="https://moz.gov.ua/uk/ogoloshennia ta spetcifіkatcії">Оголошення та специфікації</a>
+                                                                                    </div>
+                                    </div>
+                                                                                            
+
+                                                                    <a class="dropdown-link" href="https://moz.gov.ua/uk/vnutrishnij-audit">Внутрішній аудит</a>
+                                                                                            
+
+                                                                    <div class="submenu">
+                                        <div class="btn-sub"><a href="https://moz.gov.ua/uk/protidija-ta-zapobigannja-domashnomu-nasilstvu"
+                                            >Протидія та запобігання домашньому насильству</a>
+                                            <div class="btn-close"></div>
+                                            </div>
+                                        <div class="body">
+                                                                                            <a href="https://moz.gov.ua/uk/zvit-schodo-nadannja-medichnoi-dopomogi-postrazhdalim-vid-domashnogo-nasilstva">Звіт щодо надання медичної допомоги постраждалим від домашнього насильства</a>
+                                                                                    </div>
+                                    </div>
+                                                                                            
+
+                                                                    <a class="dropdown-link" href="https://moz.gov.ua/uk/kritichna-infrastruktura">Критична інфраструктура</a>
+                                                                                            
+
+                                                                    <div class="submenu">
+                                        <div class="btn-sub"><a href="https://moz.gov.ua/uk/administrativni-poslugi"
+                                            >Адміністративні послуги</a>
+                                            <div class="btn-close"></div>
+                                            </div>
+                                        <div class="body">
+                                                                                            <a href="https://moz.gov.ua/uk/akreditaciya">Акредитація</a>
+                                                                                            <a href="https://moz.gov.ua/uk/derzhavna-reyestraciya-dezinfekcijnih-zasobiv">Державна реєстрація дезінфекційних засобів</a>
+                                                                                            <a href="https://moz.gov.ua/uk/licenzuvannya-69094">Ліцензування</a>
+                                                                                            <a href="https://moz.gov.ua/uk/derzhavnij-naglyad-kontrol">Державний нагляд (контроль)</a>
+                                                                                            <a href="https://moz.gov.ua/uk/kliniko-ekspertna-ocinka-yakosti-medichnoyi-dopomogi">Клініко-експертна оцінка якості медичної допомоги</a>
+                                                                                            <a href="https://moz.gov.ua/uk/baza-znan-akreditaciya-licenzuvannya">База знань – акредитація, ліцензування</a>
+                                                                                            <a href="https://moz.gov.ua/uk/arhiv-novin">Архів новин</a>
+                                                                                    </div>
+                                    </div>
+                                                                                        
+                        </div>
+                        </div>
+                    </div>
+                </span>
+                            <span class="header-dropdown-box" data-key="1">
+                    <a href="https://moz.gov.ua/uk/vojennyj-stan">Воєнний стан</a>
+                                        <div class="btn-close"></div>
+                                       
+                    <div class="header__dropdown">
+                        <div class="container">
+                            <div class="inner">
+                                                        
+
+                                                            
+
+                                                                    <div class="submenu">
+                                        <div class="btn-sub"><a href="https://moz.gov.ua/uk/informacija-dlja-gromadjan"
+                                            >Громадянам</a>
+                                            <div class="btn-close"></div>
+                                            </div>
+                                        <div class="body">
+                                                                                            <a href="https://moz.gov.ua/uk/medichna-dopomoga-vimushenim-pereselencjam-zakordonom">Медична допомога вимушеним переселенцям за кордоном</a>
+                                                                                    </div>
+                                    </div>
+                                                                                            
+
+                                                                    <div class="submenu">
+                                        <div class="btn-sub"><a href="https://moz.gov.ua/uk/informacija-dlja-medikiv"
+                                            >Медикам</a>
+                                            <div class="btn-close"></div>
+                                            </div>
+                                        <div class="body">
+                                                                                            <a href="https://moz.gov.ua/uk/jak-budut-vikoristovuvatisja-koshti-scho-nadijshli-u-ramkah-iniciativi-united24">Як будуть використовуватися кошти, що надійшли в рамках ініціативи United24</a>
+                                                                                            <a href="https://moz.gov.ua/uk/zmicnennja-sistemi-ohoroni-zdorovja-ta-zberezhennja-zhittja-heal-ukraine">Зміцнення системи охорони здоров&#039;я та збереження життя (Heal Ukraine)</a>
+                                                                                    </div>
+                                    </div>
+                                                                                            
+
+                                                                    <a class="dropdown-link" href="https://moz.gov.ua/uk/perelik-vakantnih-posad-derzhavnoyi-sluzhbi-aparatu-moz-u-period-voyennogo-stanu">Перелік вакантних посад державної служби апарату МОЗ у період воєнного стану</a>
+                                                                                            
+
+                                                                    <a class="dropdown-link" href="https://moz.gov.ua/uk/sankcijna-politika">Санкційна політика</a>
+                                                                                            
+
+                                                                    <a class="dropdown-link" href="https://moz.gov.ua/uk/informacija-dlja-subektiv-gospodarjuvannja">Суб&#039;єктам господарювання</a>
+                                                                                        
+                        </div>
+                        </div>
+                    </div>
+                </span>
+                            <span class="header-dropdown-box" data-key="2">
+                    <a href="https://moz.gov.ua/uk/gromadjanam">Громадянам</a>
+                                        <div class="btn-close"></div>
+                                       
+                    <div class="header__dropdown">
+                        <div class="container">
+                            <div class="inner">
+                                                        
+
+                                                            
+
+                                                                    <a class="dropdown-link" href="https://moz.gov.ua/uk/zayavka-na-likuvannya-za-kordonom">Заявка на лікування за кордоном</a>
+                                                                                            
+
+                                                                    <a class="dropdown-link" href="https://moz.gov.ua/uk/dev-dostupni-liki">Доступні ліки</a>
+                                                                                            
+
+                                                                    <a class="dropdown-link" href="https://moz.gov.ua/uk/zdorovja-a-ja">Здоров&#039;я А-Я</a>
+                                                                                            
+
+                                                                    <div class="submenu">
+                                        <div class="btn-sub"><a href="https://moz.gov.ua/uk/zvernennja-dlja-gromadjan"
+                                            >Звернення громадян</a>
+                                            <div class="btn-close"></div>
+                                            </div>
+                                        <div class="body">
+                                                                                            <a href="https://moz.gov.ua/uk/ogoloshennja-schodo-elektronnogo-zvernennja">Оголошення щодо електронного звернення</a>
+                                                                                            <a href="https://moz.gov.ua/uk/grafik-osobistogo-prijomu-gromadjann">Графік особистого прийому громадян</a>
+                                                                                            <a href="https://moz.gov.ua/uk/analiz-organizacii-roboti-zi-zvernennjami-gromadjan">Аналіз організації роботи зі зверненнями громадян</a>
+                                                                                    </div>
+                                    </div>
+                                                                                            
+
+                                                                    <a class="dropdown-link" href="https://moz.gov.ua/uk/zakupivli-likiv">Закупівлі ліків</a>
+                                                                                            
+
+                                                                    <div class="submenu">
+                                        <div class="btn-sub"><a href="https://moz.gov.ua/uk/gromadska-rada-mozu"
+                                            >Громадська рада МОЗ</a>
+                                            <div class="btn-close"></div>
+                                            </div>
+                                        <div class="body">
+                                                                                            <a href="https://moz.gov.ua/uk/sklad">Склад</a>
+                                                                                            <a href="https://moz.gov.ua/uk/komisii">Комісії</a>
+                                                                                            <a href="https://moz.gov.ua/uk/pravova-osnova">Правова основа</a>
+                                                                                    </div>
+                                    </div>
+                                                                                            
+
+                                                                    <div class="submenu">
+                                        <div class="btn-sub"><a href="https://moz.gov.ua/uk/dostup-do-publichnoi-informaci"
+                                            >Доступ до публічної інформації</a>
+                                            <div class="btn-close"></div>
+                                            </div>
+                                        <div class="body">
+                                                                                            <a href="https://moz.gov.ua/uk/reestr-dokumentiv">Реєстр документів</a>
+                                                                                            <a href="https://moz.gov.ua/uk/oblik-publichnoi-informacii">Облік публічної інформації</a>
+                                                                                            <a href="https://moz.gov.ua/uk/zviti">Звіти</a>
+                                                                                            <a href="https://moz.gov.ua/uk/perelik-vidomostej-scho-mistjat-sluzhbovu-informaciju-v-moz-ukraini">Перелік відомостей, що містять службову інформацію в МОЗ України</a>
+                                                                                            <a href="https://moz.gov.ua/uk/vidkriti-dani">Відкриті дані</a>
+                                                                                            <a href="https://moz.gov.ua/uk/perelik-navchalnih-zakladiv-de-zdobuvajut-medichnu-osvitu">Перелік навчальних закладів, де здобувають медичну освіту</a>
+                                                                                    </div>
+                                    </div>
+                                                                                            
+
+                                                                    <div class="submenu">
+                                        <div class="btn-sub"><a href="https://moz.gov.ua/uk/konsultacii-z-gromadskistju-1"
+                                            >Консультації з громадськістю</a>
+                                            <div class="btn-close"></div>
+                                            </div>
+                                        <div class="body">
+                                                                                            <a href="https://moz.gov.ua/uk/elektronni-konsultacii-z-gromadskistju-1">Електронні консультації з громадськістю</a>
+                                                                                            <a href="https://moz.gov.ua/uk/orientovni-plani-ta-zviti-pro-provedennja-konsultacij-z-gromadskistju-1">Орієнтовні плани та звіти про проведення консультацій з громадськістю</a>
+                                                                                    </div>
+                                    </div>
+                                                                                            
+
+                                                                    <a class="dropdown-link" href="https://moz.gov.ua/uk/bezoplatna-pravnicha-dopomoga">Безоплатна правнича допомога</a>
+                                                                                            
+
+                                                                    <a class="dropdown-link" href="https://moz.gov.ua/uk/opituvannja">Опитування</a>
+                                                                                            
+
+                                                                    <div class="submenu">
+                                        <div class="btn-sub"><a href="https://moz.gov.ua/uk/zvituvannja-schodo-stvorennja-bezbarernogo-prostoru"
+                                            >Створення безбар`єрного простору</a>
+                                            <div class="btn-close"></div>
+                                            </div>
+                                        <div class="body">
+                                                                                            <a href="https://moz.gov.ua/uk/flagmanskij-proyekt-moz-ukrayini">Флагманський проєкт МОЗ України</a>
+                                                                                    </div>
+                                    </div>
+                                                                                            
+
+                                                                    <a class="dropdown-link" href="https://moz.gov.ua/uk/medichnij-kanabis">Медичний канабіс</a>
+                                                                                            
+
+                                                                    <div class="submenu">
+                                        <div class="btn-sub"><a href="https://moz.gov.ua/uk/ekopfo"
+                                            >Оцінювання повсякденного функціонування особи</a>
+                                            <div class="btn-close"></div>
+                                            </div>
+                                        <div class="body">
+                                                                                            <a href="https://moz.gov.ua/uk/nova-sistema-ocinyuvannya-povsyakdennogo-funkcionuvannya-ta-robota-ekspertnih-komand-ekopfo-u-zapitannyah-ta-vidpovidyah-paciyentam">Нова система оцінювання ЕКОПФО у запитаннях та відповідях. Пацієнтам</a>
+                                                                                            <a href="https://moz.gov.ua/uk/zabezpechennya-prozorosti-ta-dobrochesnosti">Забезпечення прозорості та доброчесності</a>
+                                                                                            <a href="https://moz.gov.ua/uk/shlyah-paciyenta">Шлях пацієнта</a>
+                                                                                    </div>
+                                    </div>
+                                                                                            
+
+                                                                    <div class="submenu">
+                                        <div class="btn-sub"><a href="https://moz.gov.ua/uk/znizhennya-cin-na-likarski-zasobi"
+                                            >Зниження цін на лікарські засоби</a>
+                                            <div class="btn-close"></div>
+                                            </div>
+                                        <div class="body">
+                                                                                            <a href="https://moz.gov.ua/uk/liki-cini-na-yaki-budut-znizheni">ТОП-100 ліків, ціни на які знижені</a>
+                                                                                    </div>
+                                    </div>
+                                                                                            
+
+                                                                    <div class="submenu">
+                                        <div class="btn-sub"><a href="https://moz.gov.ua/uk/sluhoprotezuvannya"
+                                            >Слухопротезування</a>
+                                            <div class="btn-close"></div>
+                                            </div>
+                                        <div class="body">
+                                                                                            <a href="https://moz.gov.ua/uk/likarni-yaki-nadayut-poslugi-z-bezoplatnogo-sluhoprotezuvannya">Лікарні, які надають послуги з безоплатного слухопротезування</a>
+                                                                                    </div>
+                                    </div>
+                                                                                            
+
+                                                                    <div class="submenu">
+                                        <div class="btn-sub"><a href="https://moz.gov.ua/uk/nacionalnij-katalog-cin"
+                                            >Національний каталог цін</a>
+                                            <div class="btn-close"></div>
+                                            </div>
+                                        <div class="body">
+                                                                                            <a href="https://moz.gov.ua/uk/perelik-originalnih-innovacijnih-likarskih-zasobiv">Перелік оригінальних (інноваційних) лікарських засобів</a>
+                                                                                            <a href="https://moz.gov.ua/uk/informaciya-pro-oficijni-dzherela-danih-pro-cini-na-likarski-zasobi-u-referentnih-krayinah">Інформація про офіційні джерела даних про ціни на лікарські засоби у референтних країнах</a>
+                                                                                            <a href="https://moz.gov.ua/uk/normativno-pravove-zabezpechennya">Нормативно-правове забезпечення</a>
+                                                                                            <a href="https://moz.gov.ua/uk/instrukciya-zayavniku-dlya-podannya-dokumentiv">Інструкція заявнику для подання документів</a>
+                                                                                    </div>
+                                    </div>
+                                                                                            
+
+                                                                    <div class="submenu">
+                                        <div class="btn-sub"><a href="https://moz.gov.ua/uk/bezoplatne-endoprotezuvannya"
+                                            >Безоплатне ендопротезування</a>
+                                            <div class="btn-close"></div>
+                                            </div>
+                                        <div class="body">
+                                                                                            <a href="https://moz.gov.ua/uk/de-otrimati-poslugi-z-bezoplatnogo-endoprotezuvannya">Де отримати послуги з безоплатного ендопротезування?</a>
+                                                                                            <a href="https://moz.gov.ua/uk/yak-otrimati-poslugu-nevidkladno-i-planovo">Як отримати послугу невідкладно і планово?</a>
+                                                                                            <a href="https://moz.gov.ua/uk/elektronna-cherga-dlya-planovogo-endoprotezuvannya">Електронна черга для планового ендопротезування</a>
+                                                                                            <a href="https://moz.gov.ua/uk/platni-poslugi-z-endoprotezuvannya">Платні послуги з ендопротезування</a>
+                                                                                    </div>
+                                    </div>
+                                                                                            
+
+                                                                    <div class="submenu">
+                                        <div class="btn-sub"><a href="https://moz.gov.ua/uk/vidnovlennya-ohmatditu-pislya-raketnogo-udaru-klyuchovi-fakti-finansuvannya-ta-etapi-robit"
+                                            >Відновлення «Охматдиту» після ракетного удару: ключові факти, фінансування та етапи робіт</a>
+                                            <div class="btn-close"></div>
+                                            </div>
+                                        <div class="body">
+                                                                                            <a href="https://moz.gov.ua/uk/rada-z-vidnovlennya-ohmatditu">Рада з відновлення Охматдиту</a>
+                                                                                            <a href="https://moz.gov.ua/uk/protokoli-zasidan-radi-z-vidnovlennya">Протоколи засідань Ради з відновлення</a>
+                                                                                            <a href="https://moz.gov.ua/uk/suchasnij-likuvalno-diagnostichnij-kompleks-ohmatditu">Сучасний лікувально-діагностичний комплекс «Охматдиту»</a>
+                                                                                            <a href="https://moz.gov.ua/uk/transformatorna-pidstanciya-dizelna-elektropidstanciya">Трансформаторна підстанція, дизельна електропідстанція</a>
+                                                                                            <a href="https://moz.gov.ua/uk/toksikologichnij-korpus-3-j-pam-yatka-arhitekturi">Токсикологічний корпус (3-й), пам’ятка архітектури</a>
+                                                                                            <a href="https://moz.gov.ua/uk/hirurgichnij-korpus-11-j">Хірургічний корпус (11-й)</a>
+                                                                                            <a href="https://moz.gov.ua/uk/vidnovlennya-administrativnogo-korpusu-9">Відновлення адміністративного корпусу №9</a>
+                                                                                            <a href="https://moz.gov.ua/uk/finansuvannya-vidnovlennya-likarni">Фінансування відновлення лікарні</a>
+                                                                                    </div>
+                                    </div>
+                                                                                            
+
+                                                                    <a class="dropdown-link" href="https://moz.gov.ua/uk/bezoplatne-ochne-protezuvannya-dlya-postrazhdalih-vnaslidok-vijni">Безоплатне очне протезування для постраждалих внаслідок війни</a>
+                                                                                            
+
+                                                                    <a class="dropdown-link" href="https://moz.gov.ua/uk/medichna-pidtrimka-lyudej-postrazhdalih-vnaslidok-chornobilskoyi-katastrofi">Медична підтримка людей, постраждалих внаслідок Чорнобильської катастрофи</a>
+                                                                                            
+
+                                                                    <a class="dropdown-link" href="https://moz.gov.ua/uk/bezoplatne-planove-stentuvannya-sudin-sercya">Безоплатне планове стентування судин серця</a>
+                                                                                            
+
+                                                                    <a class="dropdown-link" href="https://moz.gov.ua/uk/medichna-dopomoga-lyudyam-yaki-perezhili-polon">Медична допомога людям, які пережили полон</a>
+                                                                                            
+
+                                                                    <a class="dropdown-link" href="https://moz.gov.ua/uk/medichni-oglyadi-moryakiv">Медичні огляди моряків і членів екіпажів суден внутрішнього плавання</a>
+                                                                                            
+
+                                                                    <a class="dropdown-link" href="https://moz.gov.ua/uk/vlk">Військово-лікарські комісії</a>
+                                                                                            
+
+                                                                    <div class="submenu">
+                                        <div class="btn-sub"><a href="https://moz.gov.ua/uk/mental-health"
+                                            >Психічне здоров&#039;я</a>
+                                            <div class="btn-close"></div>
+                                            </div>
+                                        <div class="body">
+                                                                                            <a href="https://moz.gov.ua/uk/bezoplatni-poslugi-z-ohoroni-psihichnogo-zdorov-ya">Безоплатні послуги з охорони психічного здоровʼя</a>
+                                                                                            <a href="https://moz.gov.ua/uk/de-i-yak-otrimati-bezoplatni-poslugi-z-ohoroni-psihichnogo-zdorov-ya">Де і як отримати безоплатні послуги з охорони психічного здоровʼя</a>
+                                                                                            <a href="https://moz.gov.ua/uk/do-yakogo-specialista-zvernutisya-u-razi-problem-iz-psihichnim-zdorov-yam">До якого спеціаліста звернутися у разі проблем із психічним здоров&#039;ям?</a>
+                                                                                    </div>
+                                    </div>
+                                                                                            
+
+                                                                    <div class="submenu">
+                                        <div class="btn-sub"><a href="https://moz.gov.ua/uk/reabilitacija"
+                                            >Реабілітація</a>
+                                            <div class="btn-close"></div>
+                                            </div>
+                                        <div class="body">
+                                                                                            <a href="https://moz.gov.ua/uk/istorii-reabilitacii">Історії реабілітації</a>
+                                                                                            <a href="https://moz.gov.ua/uk/aktualna-informacija-z-reabilitacii">Актуальна інформація з реабілітації</a>
+                                                                                            <a href="https://moz.gov.ua/uk/dopomizhni-zasobi-reabilitacii">Допоміжні засоби реабілітації</a>
+                                                                                            <a href="https://moz.gov.ua/uk/protezuvannja">Протезування</a>
+                                                                                            <a href="https://moz.gov.ua/uk/fahivcjam">Фахівцям</a>
+                                                                                            <a href="https://moz.gov.ua/uk/marshrut-paciyenta-z-amputaciyeyu">Маршрут пацієнта з ампутацією</a>
+                                                                                            <a href="https://moz.gov.ua/uk/nedokazova-reabilitaciya">Недоказова реабілітація</a>
+                                                                                    </div>
+                                    </div>
+                                                                                            
+
+                                                                    <div class="submenu">
+                                        <div class="btn-sub"><a href="https://moz.gov.ua/uk/immunization"
+                                            >Вакцинація</a>
+                                            <div class="btn-close"></div>
+                                            </div>
+                                        <div class="body">
+                                                                                            <a href="https://moz.gov.ua/uk/rozpodil-vakcin-proti-kovid">Розподіл вакцин проти СOVID-19</a>
+                                                                                    </div>
+                                    </div>
+                                                                                        
+                        </div>
+                        </div>
+                    </div>
+                </span>
+                            <span class="header-dropdown-box" data-key="3">
+                    <a href="https://moz.gov.ua/uk/medichnim-pracivnikam">Медичним працівникам</a>
+                                        <div class="btn-close"></div>
+                                       
+                    <div class="header__dropdown">
+                        <div class="container">
+                            <div class="inner">
+                                                        
+
+                                                            
+
+                                                                    <a class="dropdown-link" href="https://moz.gov.ua/uk/oplata-praci-medikiv">Оплата праці медиків</a>
+                                                                                            
+
+                                                                    <a class="dropdown-link" href="https://moz.gov.ua/uk/naglyadovi-radi">Наглядові ради</a>
+                                                                                            
+
+                                                                    <div class="submenu">
+                                        <div class="btn-sub"><a href="https://moz.gov.ua/uk/ekopfo-med"
+                                            >Реформа МСЕК та нова система оцінювання ЕКОПФО</a>
+                                            <div class="btn-close"></div>
+                                            </div>
+                                        <div class="body">
+                                                                                            <a href="https://moz.gov.ua/uk/it-sistema-ekopfo">ІТ система ЕКОПФО</a>
+                                                                                            <a href="https://moz.gov.ua/uk/nova-sistema-ocinyuvannya-povsyakdennogo-funkcionuvannya-ta-robota-ekspertnih-komand-ekopfo-u-zapitannyah-ta-vidpovidyah-medzkladam">Нова система оцінювання ЕКОПФО у запитаннях та відповідях. Медзкладам</a>
+                                                                                            <a href="https://moz.gov.ua/uk/likuyuchim-likaryam">Лікуючим лікарям</a>
+                                                                                            <a href="https://moz.gov.ua/uk/likaryam-ekopfo-ta-kerivnikam-zakladiv">Лікарям ЕКОПФО та керівникам закладів</a>
+                                                                                            <a href="https://moz.gov.ua/uk/monitoring-ta-oskarzhennya">Моніторинг та оскарження</a>
+                                                                                            <a href="https://moz.gov.ua/uk/biblioteka-pro-ekopfo">Бібліотека про ЕКОПФО</a>
+                                                                                    </div>
+                                    </div>
+                                                                                            
+
+                                                                    <a class="dropdown-link" href="https://moz.gov.ua/uk/medichna-statistika-cgz">Медична статистика ЦГЗ</a>
+                                                                                            
+
+                                                                    <a class="dropdown-link" href="https://moz.gov.ua/uk/sluzhbove-zhitlo-dlya-medichnih-pracivnikiv-u-seli-ta-na-prifrontovih-teritoriyah">Службове житло для  медичних працівників у селі та на прифронтових територіях</a>
+                                                                                            
+
+                                                                    <a class="dropdown-link" href="https://moz.gov.ua/uk/konkursna-komisiya-z-obrannya-kandidativ-na-posadi-chleniv-nacionalnoyi-komisiyi-z-pitan-psihichnogo-zdorov-ya">Конкурсна комісія з обрання кандидатів на посади членів Національної комісії з питань психічного здоров’я</a>
+                                                                                            
+
+                                                                    <a class="dropdown-link" href="https://moz.gov.ua/uk/yedinij-vebportal-vakansij-u-derzhavnih-ta-komunalnih-medzakladah">Єдиний вебпортал вакансій у державних та комунальних медзакладах</a>
+                                                                                            
+
+                                                                    <a class="dropdown-link" href="https://moz.gov.ua/uk/statti">Статті</a>
+                                                                                            
+
+                                                                    <a class="dropdown-link" href="https://moz.gov.ua/uk/dzherela-dokazovoyi-medicini">Джерела доказової медицини</a>
+                                                                                            
+
+                                                                    <div class="submenu">
+                                        <div class="btn-sub"><a href="https://moz.gov.ua/uk/bezperervnij-profesijnij-rozvitok"
+                                            >Безперервний професійний розвиток</a>
+                                            <div class="btn-close"></div>
+                                            </div>
+                                        <div class="body">
+                                                                                            <a href="https://moz.gov.ua/uk/novij-poryadok-provedennya-atestaciyi-pracivnikiv-sferi-ohoroni-zdorov-ya-zapitannya-ta-vidpovidi">Новий Порядок проведення атестації працівників сфери охорони здоров’я. Запитання та відповіді</a>
+                                                                                    </div>
+                                    </div>
+                                                                                            
+
+                                                                    <div class="submenu">
+                                        <div class="btn-sub"><a href="https://moz.gov.ua/uk/icpc-2"
+                                            >ICPC-2</a>
+                                            <div class="btn-close"></div>
+                                            </div>
+                                        <div class="body">
+                                                                                            <a href="https://moz.gov.ua/uk/material-dlja-treningu">Матеріал для тренінгу</a>
+                                                                                            <a href="https://moz.gov.ua/uk/navchalnij-trenazher">Навчальний тренажер</a>
+                                                                                    </div>
+                                    </div>
+                                                                                            
+
+                                                                    <a class="dropdown-link" href="https://moz.gov.ua/uk/mkf">МКФ</a>
+                                                                                            
+
+                                                                    <div class="submenu">
+                                        <div class="btn-sub"><a href="https://moz.gov.ua/uk/ekstrena-dopomoga"
+                                            >Екстрена допомога</a>
+                                            <div class="btn-close"></div>
+                                            </div>
+                                        <div class="body">
+                                                                                            <a href="https://moz.gov.ua/uk/domedichna-dopomoga">Домедична допомога</a>
+                                                                                            <a href="https://moz.gov.ua/uk/ekstrena-medichna-dopomoga">Екстрена медична допомога</a>
+                                                                                            <a href="https://moz.gov.ua/uk/medicina-katastrof">Медицина катастроф</a>
+                                                                                            <a href="https://moz.gov.ua/uk/media-materiali-2">Медіа матеріали</a>
+                                                                                    </div>
+                                    </div>
+                                                                                            
+
+                                                                    <a class="dropdown-link" href="https://moz.gov.ua/uk/dajdzhest-zmin-u-sistemi-ohoroni-zdorovja">Дайджест змін у системі охорони здоров’я</a>
+                                                                                            
+
+                                                                    <a class="dropdown-link" href="https://moz.gov.ua/uk/prisjaga-likarja">Присяга лікаря</a>
+                                                                                            
+
+                                                                    <div class="submenu">
+                                        <div class="btn-sub"><a href="https://moz.gov.ua/uk/baza-znan-kraschih-praktik"
+                                            >База знань кращих практик</a>
+                                            <div class="btn-close"></div>
+                                            </div>
+                                        <div class="body">
+                                                                                            <a href="https://moz.gov.ua/uk/menedzhment">Менеджмент</a>
+                                                                                            <a href="https://moz.gov.ua/uk/finansi">Фінанси</a>
+                                                                                            <a href="https://moz.gov.ua/uk/jakist">Якість</a>
+                                                                                            <a href="https://moz.gov.ua/uk/pacientoorientovanist">Пацієнтоорієнтованість</a>
+                                                                                            <a href="https://moz.gov.ua/uk/analitichni-zviti">Аналітичні звіти</a>
+                                                                                            <a href="https://moz.gov.ua/uk/onlajn-navchannja">Онлайн-навчання</a>
+                                                                                            <a href="https://moz.gov.ua/uk/komunikacii">Комунікації</a>
+                                                                                    </div>
+                                    </div>
+                                                                                            
+
+                                                                    <a class="dropdown-link" href="https://moz.gov.ua/uk/poryadok-verifikaciyi-dokumentiv-pro-osvitu">Порядок верифікації документів про освіту</a>
+                                                                                        
+                        </div>
+                        </div>
+                    </div>
+                </span>
+                            <span class="header-dropdown-box" data-key="4">
+                    <a href="https://moz.gov.ua/uk/news/osvita">Освіта</a>
+                                        <div class="btn-close"></div>
+                                       
+                    <div class="header__dropdown">
+                        <div class="container">
+                            <div class="inner">
+                                                        
+
+                                                            
+
+                                                                    <a class="dropdown-link" href="https://moz.gov.ua/uk/likarska-rezidentura">Лікарська резидентура</a>
+                                                                                            
+
+                                                                    <a class="dropdown-link" href="https://moz.gov.ua/uk/pidgotovka-fahivciv-z-reabilitaciyi-za-dualnoyu-formoyu-navchannya">Підготовка фахівців з реабілітації за дуальною формою навчання</a>
+                                                                                            
+
+                                                                    <div class="submenu">
+                                        <div class="btn-sub"><a href="https://moz.gov.ua/uk/navchalni-zakladi"
+                                            >Заклади освіти</a>
+                                            <div class="btn-close"></div>
+                                            </div>
+                                        <div class="body">
+                                                                                            <a href="https://moz.gov.ua/uk/bukovinskij-derzhavnij-medichnij-universitet">Буковинський державний медичний університет</a>
+                                                                                            <a href="https://moz.gov.ua/uk/poltavskij-derzhavnij-medichnij-universitet">Полтавський державний медичний університет</a>
+                                                                                            <a href="https://moz.gov.ua/uk/vinnickij-nacionalnij-medichnij-universitet-im-mi-pirogova">Вінницький національний медичний університет ім. М.І. Пирогова</a>
+                                                                                            <a href="https://moz.gov.ua/uk/ivano-frankivskij-nacionalnij-medichnij-universitet">Івано-Франківський національний медичний університет</a>
+                                                                                            <a href="https://moz.gov.ua/uk/ternopilskij-derzhavnij-medichnij-universitet-imeni-i-ja-gorbachevskogo">Тернопільський національний медичний університет імені І. Я. Горбачевського</a>
+                                                                                            <a href="https://moz.gov.ua/uk/dnipropetrovska-medichna-akademija">Дніпровський державний медичний університет</a>
+                                                                                            <a href="https://moz.gov.ua/uk/luganskij-derzhavnij-medichnij-universitet">Луганський державний медичний університет</a>
+                                                                                            <a href="https://moz.gov.ua/uk/doneckij-nacionalnij-medichnij-universitet">Донецький національний медичний університет</a>
+                                                                                            <a href="https://moz.gov.ua/uk/zaporizkij-derzhavnij-medichnij-universitet">Запорізький державний медико-фармацевтичний університет</a>
+                                                                                            <a href="https://moz.gov.ua/uk/lvivskij-nacionalnij-medichnij-universitet-imeni-danila-galickogo">Львівський національний медичний університет імені Данила Галицького</a>
+                                                                                            <a href="https://moz.gov.ua/uk/nacionalnij-medichnij-universitet-imeni-oo-bogomolcja">Національний медичний університет імені О.О. Богомольця</a>
+                                                                                            <a href="https://moz.gov.ua/uk/nacionalnij-universitet-ohoroni-zdorovja-ukraini-imeni-pl-shupika">Національний університет охорони здоров’я України імені П.Л. Шупика</a>
+                                                                                            <a href="https://moz.gov.ua/uk/nacionalnij-farmacevtichnij-universitet">Національний фармацевтичний університет</a>
+                                                                                            <a href="https://moz.gov.ua/uk/odeskij-nacionalnij-medichnij-universitet">Одеський національний медичний університет</a>
+                                                                                            <a href="https://moz.gov.ua/uk/harkivska-medichna-akademija-pisljadiplomnoi-osviti">Харківська медична академія післядипломної освіти</a>
+                                                                                            <a href="https://moz.gov.ua/uk/harkivskij-nacionalnij-medichnij-universitet">Харківський національний медичний університет</a>
+                                                                                    </div>
+                                    </div>
+                                                                                            
+
+                                                                    <a class="dropdown-link" href="https://moz.gov.ua/uk/naukovo-doslidni-ustanovi">Науково-дослідні установи</a>
+                                                                                            
+
+                                                                    <a class="dropdown-link" href="https://moz.gov.ua/uk/vstup-na-specialnosti-galuzi-znan-i-ohorona-zdorov-ya-ta-socialne-zabezpechennya">Вступ на спеціальності галузі знань І «Охорона здоров&#039;я та соціальне забезпечення</a>
+                                                                                            
+
+                                                                    <div class="submenu">
+                                        <div class="btn-sub"><a href="https://moz.gov.ua/uk/dev-yedki"
+                                            >ЄДКІ</a>
+                                            <div class="btn-close"></div>
+                                            </div>
+                                        <div class="body">
+                                                                                            <a href="https://moz.gov.ua/uk/yedki-za-mezhami-teritoriyi-ukrayini-poslidovnist-dij">ЄДКІ за межами території України: послідовність дій</a>
+                                                                                            <a href="https://moz.gov.ua/uk/etapi-yedki">Етапи ЄДКІ</a>
+                                                                                            <a href="https://moz.gov.ua/uk/grafik-skladannya-yedki-u-2026-roci">Графік складання ЄДКІ у 2026 році</a>
+                                                                                    </div>
+                                    </div>
+                                                                                            
+
+                                                                    <div class="submenu">
+                                        <div class="btn-sub"><a href="https://moz.gov.ua/uk/internatura"
+                                            >Інтернатура</a>
+                                            <div class="btn-close"></div>
+                                            </div>
+                                        <div class="body">
+                                                                                            <a href="https://moz.gov.ua/uk/vidpovidi-na-zapitannya-vipusnikiv">Відповіді на запитання випусників</a>
+                                                                                            <a href="https://moz.gov.ua/uk/vidpovidi-na-zapitannya-predstavnikiv-medzakladiv">Відповіді на запитання представників медзакладів</a>
+                                                                                            <a href="https://moz.gov.ua/uk/korisni-posilannya-dlya-koristuvachiv-elektronnoyi-sistemi-rejtingovogo-rozpodilu-v-internaturu">Корисні посилання для користувачів електронної системи рейтингового розподілу в інтернатуру</a>
+                                                                                            <a href="https://moz.gov.ua/uk/bazi-stazhuvannja-likariv-interniv">Бази стажування лікарів-інтернів</a>
+                                                                                            <a href="https://moz.gov.ua/uk/bazi-stazhuvannya-za-specialnistyu-farmaciya">Перелік баз стажування за спеціальністю «Фармація»</a>
+                                                                                    </div>
+                                    </div>
+                                                                                            
+
+                                                                    <a class="dropdown-link" href="https://moz.gov.ua/uk/cikli-specializaciyi-tematichnogo-udoskonalennya-ta-zahodi-bpr-u-2024-roci">Цикли спеціалізації, тематичного удосконалення та заходи БПР у 2024 році</a>
+                                                                                        
+                        </div>
+                        </div>
+                    </div>
+                </span>
+                            <span class="header-dropdown-box" data-key="5">
+                    <a href="https://moz.gov.ua/uk/pres-centr">Пресцентр</a>
+                                        <div class="btn-close"></div>
+                                       
+                    <div class="header__dropdown">
+                        <div class="container">
+                            <div class="inner">
+                                                        
+
+                                                            
+
+                                                                    <a class="dropdown-link" href="https://moz.gov.ua/uk/ostanni-novini">Останні новини</a>
+                                                                                            
+
+                                                                    <a class="dropdown-link" href="https://moz.gov.ua/uk/anonsi-2">Анонси</a>
+                                                                                            
+
+                                                                    <a class="dropdown-link" href="https://moz.gov.ua/uk/interv-yu">Інтерв&#039;ю</a>
+                                                                                            
+
+                                                                    <a class="dropdown-link" href="https://moz.gov.ua/uk/press-sluzhba">Контакти пресслужби</a>
+                                                                                        
+                        </div>
+                        </div>
+                    </div>
+                </span>
+                            <span class="header-dropdown-box" data-key="6">
+                    <a href="https://moz.gov.ua/uk/dokumenti">Документи</a>
+                                        <div class="btn-close"></div>
+                                       
+                    <div class="header__dropdown">
+                        <div class="container">
+                            <div class="inner">
+                                                        
+
+                                                            
+
+                                                                    <div class="submenu">
+                                        <div class="btn-sub"><a href="https://moz.gov.ua/uk/nakazi-moz"
+                                            >Накази МОЗ</a>
+                                            <div class="btn-close"></div>
+                                            </div>
+                                        <div class="body">
+                                                                                            <a href="https://moz.gov.ua/uk/nakazi-moz-sho-projshli-derzhavnu-reyestraciyu-v-min-yusti">Накази МОЗ, що пройшли державну реєстрацію в Мін’юсті</a>
+                                                                                    </div>
+                                    </div>
+                                                                                            
+
+                                                                    <a class="dropdown-link" href="https://moz.gov.ua/uk/zakonoproekti">Законопроєкти</a>
+                                                                                            
+
+                                                                    <a class="dropdown-link" href="https://moz.gov.ua/uk/dokumenty-z-pitan-ekonomiki-ta-finansiv">Документи з питань економіки та фінансів</a>
+                                                                                            
+
+                                                                    <a class="dropdown-link" href="https://moz.gov.ua/uk/dokumenti-2">Документи</a>
+                                                                                            
+
+                                                                    <div class="submenu">
+                                        <div class="btn-sub"><a href="https://moz.gov.ua/uk/nacionalna-rada-z-pitan-protidii-tuberkulozu-ta-vilsnid"
+                                            >Національна рада з питань протидії туберкульозу та ВІЛ/СНІД</a>
+                                            <div class="btn-close"></div>
+                                            </div>
+                                        <div class="body">
+                                                                                            <a href="https://moz.gov.ua/uk/oficijni-dokumenti">Офіційні документи</a>
+                                                                                            <a href="https://moz.gov.ua/uk/personalnij-sklad">Персональний склад</a>
+                                                                                            <a href="https://moz.gov.ua/uk/richni-plani-ta-zviti">Річні плани та звіти</a>
+                                                                                            <a href="https://moz.gov.ua/uk/sekretariat">Секретаріат</a>
+                                                                                            <a href="https://moz.gov.ua/uk/materiali-zasidan">Матеріали засідань</a>
+                                                                                            <a href="https://moz.gov.ua/uk/komisija-z-nagljadu">Комісія з нагляду</a>
+                                                                                            <a href="https://moz.gov.ua/uk/komitet-z-programnih-pitan">Комітет з програмних питань</a>
+                                                                                            <a href="https://moz.gov.ua/uk/komitet-z-regionalnoi-politiki">Комітет з регіональної політики</a>
+                                                                                            <a href="https://moz.gov.ua/uk/regionalni-radi">Регіональні ради</a>
+                                                                                            <a href="https://moz.gov.ua/uk/ogoloshennja">Оголошення</a>
+                                                                                            <a href="https://moz.gov.ua/uk/zahodi">Заходи</a>
+                                                                                    </div>
+                                    </div>
+                                                                                            
+
+                                                                    <a class="dropdown-link" href="https://moz.gov.ua/uk/gromadska-ekspertiza">Громадська експертиза</a>
+                                                                                            
+
+                                                                    <a class="dropdown-link" href="https://moz.gov.ua/uk/strategichna-ekologichna-ocinka">Стратегічна екологічна оцінка</a>
+                                                                                            
+
+                                                                    <div class="submenu">
+                                        <div class="btn-sub"><a href="https://moz.gov.ua/uk/golovnij-derzhavnij-sanitarnij-likar-ukraini"
+                                            >Головний державний санітарний лікар України </a>
+                                            <div class="btn-close"></div>
+                                            </div>
+                                        <div class="body">
+                                                                                            <a href="https://moz.gov.ua/uk/covid-19-oficijni-dokumenti-i-rekomendacii">COVID 19. Офіційні документи і рекомендації</a>
+                                                                                    </div>
+                                    </div>
+                                                                                            
+
+                                                                    <a class="dropdown-link" href="https://moz.gov.ua/uk/kerivnik-robit-z-likvidacii-nadzvichajnoi-situacii-covid-19">Керівник робіт з ліквідації наслідків надзвичайної ситуації (COVID-19)</a>
+                                                                                            
+
+                                                                    <a class="dropdown-link" href="https://moz.gov.ua/uk/konsultativni-dopomizhni-ta-inshi-doradchi-organi-pri-moz">Консультативні, допоміжні та інші дорадчі органи при МОЗ</a>
+                                                                                            
+
+                                                                    <a class="dropdown-link" href="https://moz.gov.ua/uk/united24">United24</a>
+                                                                                            
+
+                                                                    <a class="dropdown-link" href="https://moz.gov.ua/uk/referens-laboratoriyi-v-sistemi-gromadskogo-zdorov-ya">Референс-лабораторії в системі громадського здоров&#039;я</a>
+                                                                                            
+
+                                                                    <a class="dropdown-link" href="https://moz.gov.ua/uk/gromadske-obgovorennja">Громадське обговорення</a>
+                                                                                            
+
+                                                                    <div class="submenu">
+                                        <div class="btn-sub"><a href="https://moz.gov.ua/uk/dev-gromadska-rada"
+                                            >Громадська рада</a>
+                                            <div class="btn-close"></div>
+                                            </div>
+                                        <div class="body">
+                                                                                            <a href="https://moz.gov.ua/uk/gromadska-rada-arhiv">Громадська рада (архів)</a>
+                                                                                    </div>
+                                    </div>
+                                                                                            
+
+                                                                    <a class="dropdown-link" href="https://moz.gov.ua/uk/regulyatorna-politika">Регуляторна політика</a>
+                                                                                        
+                        </div>
+                        </div>
+                    </div>
+                </span>
+                            <span class="header-dropdown-box" data-key="7">
+                    <a href="https://moz.gov.ua/uk/news/ehealth">Е-здоров&#039;я</a>
+                                        <div class="btn-close"></div>
+                                       
+                    <div class="header__dropdown">
+                        <div class="container">
+                            <div class="inner">
+                                                        
+
+                                                            
+
+                                                                    <div class="submenu">
+                                        <div class="btn-sub"><a href="https://moz.gov.ua/uk/baza-znan-ehealth"
+                                            >База знань eHealth</a>
+                                            <div class="btn-close"></div>
+                                            </div>
+                                        <div class="body">
+                                                                                            <a href="https://moz.gov.ua/uk/zagalna-cifrova-gramotnist-pracivnikiv-ohoroni-zdorov-ya-2">Загальна цифрова грамотність працівників охорони здоров’я</a>
+                                                                                            <a href="https://moz.gov.ua/uk/cifrova-transformaciya-ohoroni-zdorov-ya-2">Цифрова трансформація охорони здоров’я</a>
+                                                                                            <a href="https://moz.gov.ua/uk/elektronna-sistema-ohoroni-zdorov-ya-esoz-2">Електронна система охорони здоров’я (ЕСОЗ)</a>
+                                                                                            <a href="https://moz.gov.ua/uk/informacijna-skladova-v-menedzhmenti-ohoroni-zdorov-ya-2">Інформаційна складова в менеджменті охорони здоров’я</a>
+                                                                                            <a href="https://moz.gov.ua/uk/telezdorov-ya-ta-telemedicina-2">Телездоров’я та телемедицина</a>
+                                                                                            <a href="https://moz.gov.ua/uk/osnovi-kiberbezpeki">Захист інформації та робота з персональними даними у закладі охорони здоров’я</a>
+                                                                                            <a href="https://moz.gov.ua/uk/glosarij">Глосарій</a>
+                                                                                            <a href="https://moz.gov.ua/uk/ramka-cifrovih-kompetentnostej-pracivnika-ohoroni-zdorov-ya">Рамка цифрової компетентності працівника охорони здоров’я</a>
+                                                                                            <a href="https://moz.gov.ua/uk/korisni-posilannya">Корисні посилання</a>
+                                                                                    </div>
+                                    </div>
+                                                                                            
+
+                                                                    <div class="submenu">
+                                        <div class="btn-sub"><a href="https://moz.gov.ua/uk/elektronni-rishennya-dlya-obigu-medichnogo-kanabisu"
+                                            >Електронні рішення для обігу медичного канабісу</a>
+                                            <div class="btn-close"></div>
+                                            </div>
+                                        <div class="body">
+                                                                                            <a href="https://moz.gov.ua/uk/elektronna-sistema-obliku-obigu-medichnogo-kanabisu-esork">Електронна система обліку обігу медичного канабісу (ЕСОРК)</a>
+                                                                                            <a href="https://moz.gov.ua/uk/elektronnij-recept-na-likarski-zasobi-na-osnovi-medichnogo-kanabisu">Електронний рецепт на лікарські засоби на основі медичного канабісу</a>
+                                                                                    </div>
+                                    </div>
+                                                                                            
+
+                                                                    <a class="dropdown-link" href="https://moz.gov.ua/uk/yedinij-portal-vakansij-u-sferi-ohoroni-zdorov-ya">Єдиний портал вакансій у сфері охорони здоров’я</a>
+                                                                                            
+
+                                                                    <a class="dropdown-link" href="https://moz.gov.ua/uk/reyestr-dezinfekcijnih-zasobiv">Реєстр дезінфекційних засобів</a>
+                                                                                            
+
+                                                                    <a class="dropdown-link" href="https://moz.gov.ua/uk/reyestr-osib-vidpovidalnih-za-vvedennya-medichnih-virobiv">Реєстр осіб відповідальних за введення медичних виробів</a>
+                                                                                            
+
+                                                                    <a class="dropdown-link" href="https://moz.gov.ua/uk/elektronna-sistema-bezperervnogo-profesijnogo-rozvitku">Електронна система безперервного професійного розвитку</a>
+                                                                                            
+
+                                                                    <a class="dropdown-link" href="https://moz.gov.ua/uk/elektronna-sistema-rejtingovogo-rozpodilu-v-internaturu">Електронна система рейтингового розподілу в інтернатуру</a>
+                                                                                            
+
+                                                                    <a class="dropdown-link" href="https://moz.gov.ua/uk/elektronna-cherga-na-endoprotezuvannya">Електронна черга на ендопротезування</a>
+                                                                                            
+
+                                                                    <a class="dropdown-link" href="https://moz.gov.ua/uk/sistema-elektronnoyi-notifikaciyi-nadannya-informaciyi-pro-kosmetichnu-produkciyu">Система електронної нотифікації (надання) інформації про косметичну продукцію</a>
+                                                                                            
+
+                                                                    <a class="dropdown-link" href="https://moz.gov.ua/uk/elektronnij-licenzijnij-reyestr-z-medichnoyi-praktiki">Електронний Ліцензійний реєстр з медичної практики</a>
+                                                                                            
+
+                                                                    <a class="dropdown-link" href="https://moz.gov.ua/uk/elektronna-sistema-epidemiologichnogo-naglyadu-esen-2">Електронна система епідеміологічного нагляду (ЕСЕН)</a>
+                                                                                            
+
+                                                                    <a class="dropdown-link" href="https://moz.gov.ua/uk/informacijna-sistema-monitoring-socialno-znachushih-hvorob-is-szh">Інформаційна система «Моніторинг соціально значущих хвороб» (ІС СЗХ)</a>
+                                                                                            
+
+                                                                    <div class="submenu">
+                                        <div class="btn-sub"><a href="https://moz.gov.ua/uk/elektronna-sistema-ohoroni-zdorovya"
+                                            >Електронна система охорони здоров&#039;я</a>
+                                            <div class="btn-close"></div>
+                                            </div>
+                                        <div class="body">
+                                                                                            <a href="https://moz.gov.ua/uk/medichni-visnovki">Медичні висновки</a>
+                                                                                            <a href="https://moz.gov.ua/uk/reabilitacija-v-esoz">Реабілітація в ЕСОЗ</a>
+                                                                                            <a href="https://moz.gov.ua/uk/e-recept">Е-рецепти</a>
+                                                                                    </div>
+                                    </div>
+                                                                                            
+
+                                                                    <a class="dropdown-link" href="https://moz.gov.ua/uk/e-stock">e-Stock</a>
+                                                                                            
+
+                                                                    <a class="dropdown-link" href="https://moz.gov.ua/uk/sistema-meddata">Система  Meddata</a>
+                                                                                            
+
+                                                                    <div class="submenu">
+                                        <div class="btn-sub"><a href="https://moz.gov.ua/uk/kiberbezpeka"
+                                            >Кібербезпека</a>
+                                            <div class="btn-close"></div>
+                                            </div>
+                                        <div class="body">
+                                                                                            <a href="https://moz.gov.ua/uk/shabloni-dlja-vprovadzhennja-kiberstandartiv-u-medichnih-zakladah">Шаблони для впровадження кіберстандартів у медичних закладах</a>
+                                                                                            <a href="https://moz.gov.ua/uk/efishing">Фішинг</a>
+                                                                                            <a href="https://moz.gov.ua/uk/chutlivi-dani">Чутливі дані</a>
+                                                                                            <a href="https://moz.gov.ua/uk/programi-vimagachi">Програми-вимагачі</a>
+                                                                                            <a href="https://moz.gov.ua/uk/rozblokovani-ekrani">Розблоковані екрани</a>
+                                                                                            <a href="https://moz.gov.ua/uk/socialna-inzheneriya">Соціальна інженерія</a>
+                                                                                            <a href="https://moz.gov.ua/uk/diyi-pri-kiberincidenti">Дії при кіберінциденті</a>
+                                                                                            <a href="https://moz.gov.ua/uk/organizaciya-robochih-dokumentiv">Організація робочих документів</a>
+                                                                                    </div>
+                                    </div>
+                                                                                        
+                        </div>
+                        </div>
+                    </div>
+                </span>
+                            <span class="header-dropdown-box" data-key="8">
+                    <a href="https://moz.gov.ua/uk/kontakti">Контакти</a>
+                                        <div class="btn-close"></div>
+                                       
+                    <div class="header__dropdown">
+                        <div class="container">
+                            <div class="inner">
+                                                        
+
+                                                            
+
+                                                                    <div class="submenu">
+                                        <div class="btn-sub"><a href="https://moz.gov.ua/uk/dovidnik-2"
+                                            >Довідник</a>
+                                            <div class="btn-close"></div>
+                                            </div>
+                                        <div class="body">
+                                                                                            <a href="https://moz.gov.ua/uk/regionalni-upravlinnja">Регіональні управління</a>
+                                                                                            <a href="https://moz.gov.ua/uk/vischi-navchalni-zakladi">Вищі навчальні заклади</a>
+                                                                                            <a href="https://moz.gov.ua/uk/doslidnicki-instituti">Дослідницькі інститути</a>
+                                                                                            <a href="https://moz.gov.ua/uk/garjachi-linii">Гарячі лінії</a>
+                                                                                            <a href="https://moz.gov.ua/uk/derzhavni-organi">Державні органи</a>
+                                                                                    </div>
+                                    </div>
+                                                                                        
+                        </div>
+                        </div>
+                    </div>
+                </span>
+                    </div>
+    </div>
+
+
+</div>
+</header>
+            <div id="layout-main">
+                    <article>
+        <div class="container">
+            
+            <div class="article__row">
+                
+                <div class="article__row__content">
+                    <div class="breadcrumb">
+    <a href="/">Головна<span class="breadcrumb-arrow"></span></a>
+    
+                            <a href="https://moz.gov.ua/uk/gromadjanam">Громадянам<span class="breadcrumb-arrow"></span></a>
+            
+                                    <a href="https://moz.gov.ua/uk/vidnovlennya-ohmatditu-pislya-raketnogo-udaru-klyuchovi-fakti-finansuvannya-ta-etapi-robit">Відновлення «Охматдиту» після ракетного удару: ключові факти, фінансування та етапи робіт<span class="breadcrumb-arrow"></span></a>
+            
+                                    <span class="p3">Сучасний лікувально-діагностичний комплекс «Охматдиту»</span>
+            </div>
+
+                   
+                    
+<h1 class="mainHeading">Сучасний лікувально-діагностичний комплекс «Охматдиту»</h1>
+
+
+
+
+
+
+
+    <div class="article_content--post">
+    
+
+
+        <div class="flex items-center mt-16 -mx-5 first:mt-0 md:mx-0 img-content-block">
+    <img class="block max-w-full" src="https://moz.gov.ua/img/13c5a0c2-1843-4bbf-b40d-eb62f3c37335/.jpeg?fm=jpg&amp;q=80&amp;fit=max&amp;crop=4160%2C2779%2C0%2C0" alt=" "/>
+</div>
+<section class="text_block">
+            <h3><strong>Хронологія відновлення після ракетного удару</strong><br class="softbreak"></h3><h4><strong>1. Ушкодження корпусу</strong></h4><p><strong>8 липня 2024 р.</strong> російська ракета <a href="https://moz.gov.ua/uk/rosiyani-atakuvali-raketami-dvi-dityachi-likarni-v-kiyevi" rel="noopener noreferrer">пошкодила</a> сучасний лікувально-діагностичний корпус. Після обстрілу сюди тимчасово перевели більшість відділень із зруйнованих будівель.<br class="softbreak"></p><h4><strong>2. Технічне обстеження та первинні заходи</strong></h4><p><strong>26 серпня 2024 р.</strong> – підписано <a href="https://moz.gov.ua/uk/ukladeno-dogovir-na-provedennya-tehnichnogo-obstezhennya-poshkodzhenogo-korpusu-ohmatditu" rel="noopener noreferrer">договір</a> між Охматдитом, БФ «Таблеточки» та інститутом «НДІпроектреконструкція» на передпроєктне обстеження і кошторис (2 984 412 грн).<br class="softbreak"></p><p><strong>8 вересня 2024 р.</strong> – до договору додано розробку дефектного акта та кошторису на на невідкладні протиаварійні роботи.<br class="softbreak"></p><p><strong>26 вересня 2024 р.</strong> – лікарня отримала експертизу кошторису протиаварійних робіт.<br class="softbreak"></p><p><strong>15 жовтня – 15 листопада 2024 р.</strong> – виконано невідкладні протиаварійні заходи (ТОВ «Юніт Девелепмент») за кошти БФ «Таблеточки». Корпус підготовлено до проходження зимового періоду.<br class="softbreak"></p><p><strong>16 листопада 2024 р.</strong> – укладено договір з ТОВ «Юніт Девелепмент» на доопрацювання функціональних рішень будівлі (строк робіт – до 28 лютого 2025 р.).</p><p><img src="https://moz.gov.ua/img/9e974d44-edb0-48c3-b394-226efad7b7eb/-whatsapp-2025-06-23-121801-997caf75.jpg?fm=jpg&amp;q=80&amp;fit=max&amp;crop=4032%2C3024%2C0%2C0"></p><p><br class="softbreak"></p><h4><strong>3. Підготовка до повноцінного відновлення</strong></h4><p><strong>14 листопада 2024 р.</strong> – МОЗ <a href="https://ohmatdyt.com.ua/vidnovlennya-ohmatditu-prozoro-efektivno-za-mizhnarodnimi-standartami/" rel="noopener noreferrer" target="_blank">залучає</a> міжнародну інжинірингову компанію <em>Eptisa Servicios de Ingeniería</em> (служба замовника, підтримка Світового банку).<br class="softbreak"></p><h4><strong>4. Розробка проєктно-кошторисної документації (ПКД)</strong></h4><p><strong>5 грудня 2024 року</strong> НДСЛ «Охматдит» оголосила <a href="https://prozorro.gov.ua/uk/tender/UA-2024-12-05-017653-a" rel="noopener noreferrer" target="_blank">закупівлю</a> на розроблення проєктно-кошторисної документації для відновлення токсикологічного корпусу № 3.</p><p>Тендер оголошено за <strong>кошти, зібрані на рахунок лікарні</strong>.</p><p><strong>20 січня 2025 р.</strong> – <a href="https://prozorro.gov.ua/uk/tender/UA-2024-12-05-017653-a/lots" rel="noopener noreferrer" target="_blank">укладено</a> договір з ТОВ «Інжинірингова компанія “Аркон”» (13 774 000 грн, строк – до 1 липня 2025 р. з експертизою).<br class="softbreak"></p><p><strong>січень – лютий 2025 р.</strong> – робочі зустрічі Eptisa, «Аркон» та лікарні для узгодження технічних рішень і прискорення проектування.<br class="softbreak"></p><p><strong>3 травня 2025 р.</strong> – позитивний експертний звіт: очікувана вартість будівельних робіт – 367,5 млн грн.<br class="softbreak"></p><h4><strong>5. Закупівлі та старт будівельних робіт</strong></h4><p><strong>5 травня 2025 р</strong>. – оголошено відкриту закупівлю на капремонт корпусу (коштами <a href="https://www.ohmatdytfund.org/" rel="noopener noreferrer" target="_blank">БФ «Охматдит – здорове дитинство»</a>).</p><p><strong>23 травня 2025 р. </strong>– <a href="https://ohmatdyt.com.ua/viznacheno-peremozhtsya-protseduri-zakupivli-na-kapitalnij-remont-likuvalno-diagnostichnogo-korpusu-ohmatditu/" rel="noopener noreferrer" target="_blank">переможець</a> торгів – ТОВ «Ріола-Модуль ЛТД» із пропозицією ~293 млн грн (економія ≈ 20 %).</p><p><strong>6 червня 2025 р.</strong> – <a href="https://ohmatdyt.com.ua/usi-zakupivli-pov-yazani-z-rekonstruktsiyeyu-likarni-ohmatdit-provodyatsya-vidkrito-prozoro-ta-vidpovidno-do-vimog-zakonodavstva/?utm_source=chatgpt.com" rel="noopener noreferrer" target="_blank">підписання</a> договорів на будівництво, технічний та авторський нагляд; після погодження остаточного кошторису будівельні роботи стартують без затримок.</p><p><strong>Червень - Липень 2025 р. </strong>- у корпусі тривають активні відновлювальні роботи. Виконано значний обсяг як зовнішніх, так і внутрішніх робіт, зокрема:</p><h5><strong>Зовнішні роботи:</strong></h5><ul><li>демонтовано основний обсяг старих навісних панелей на фасадах (понад 2 100 м² у блоках Д, В та Б);</li><li>розпочато монтаж нових кронштейнів для сучасної фасадної системи (понад 770 м²);</li><li>у блоці В проводяться підготовчі роботи на балконах — для подальшого оновлення зовнішніх конструкцій.</li></ul><h5><strong>Внутрішні роботи в "чистих зонах":</strong></h5><ul><li>завершено основний демонтаж старих гіпсокартонних конструкцій (<strong>понад 210 м²</strong> на 1–3 поверхах);</li><li>демонтовано <strong>770 м²</strong> підвісних стель типу «Армстронг» (1, 2, 3, 5, 6 поверхи);<strong><br class="softbreak"></strong></li><li>демонтовано <strong>95 м² HPL-панелей</strong> та <strong>160 м² металевих панелей</strong>;</li><li>встановлено <strong>понад 460 м²</strong> нових стель типу «Армстронг» та <strong>100 м² металевих стель</strong>;</li><li>облицьовано <strong>35 м²</strong> HPL-панелей;</li><li>завершено герметизацію стиків у приміщеннях 3-го поверху (<strong>240 м²</strong>) для забезпечення необхідного рівня стерильності.</li></ul><p>Також у корпусі частково демонтовано старі вікна та встановлено першу партію нових світильників.&nbsp;</p><p>Паралельно триває підготовка до запуску відділення трансплантації кісткового мозку, яке є одним із пріоритетних, адже потребує максимально стерильних умов.</p><p>Інженери працюють над налаштуванням системи вентиляції, після чого заплановано фінальну герметизацію критичних приміщень.&nbsp;</p><p>Додатково замовлено необхідні матеріали: для виконання фасадних робіт, внутрішнього оздоблення, а також виготовлення нових вікон і дверей.</p><h6><strong>Серпень 2025 р. -</strong> завершено частину внутрішніх робіт, активно ведеться ремонт фасаду. Зокрема:</h6><ul><li>знято понад 2 200 м² пошкодженого фасаду (блоки Д, В і Б);</li><li>встановлено кронштейни на понад 1 200 м² для нового фасаду;</li><li>доставлено утеплювач, підсистеми та інші необхідні матеріали;<strong><br class="softbreak"></strong>завершується виготовлення нових вікон, їх встановлення розпочнеться найближчим часом.<strong><br class="softbreak"><br class="softbreak"></strong></li></ul><p><strong>Внутрішні роботи проводяться на п’яти поверхах корпусу. </strong>Особливу увагу приділено підготовці відділення трансплантації кісткового мозку, яке потребує стерильних умов.</p><p>У блоці В:</p><ul><li>частково замінено гіпсокартон, підвісні стелі, HPL-панелі та вікна;</li><li>герметизовано стики у чистих приміщеннях (понад 2 300 м²);</li><li>оновлено частину вікон і дверей, покриття підлоги, проведено малярні роботи.</li></ul><p><strong>Оновлення інженерних мереж:</strong></p><ul><li>завершено монтаж 159 світильників на чотирьох поверхах блоку В;</li><li>проведено обстеження системи вентиляції, перевірку протипожежних і слабострумових систем;</li><li>частину приміщень уже передано в експлуатацію.<strong><br class="softbreak"></strong></li></ul><h6><strong>Вересень–жовтень 2025 р.</strong> —&nbsp;продовжується відновлення лікувально-діагностичного корпусу. Роботи охоплюють одночасно кілька напрямів: фасад, вікна, внутрішнє оздоблення та інженерні системи.</h6><p>&nbsp;<strong>Фасадні роботи:</strong></p><ul><li>завершено демонтаж старих навісних вентильованих конструкцій на блоках Б, В і Д;</li><li>розпочато монтаж нових фасадів: установлено кронштейни, утеплювач, металеві каркаси, облицювання плиткою;</li><li>загальна площа виконаних фасадних робіт — понад <strong>3 000 м²</strong>;</li><li>оновлено торцеву частину фасаду блоку В.<strong><br class="softbreak"><br class="softbreak"></strong></li></ul><p><strong>Віконні блоки:</strong></p><ul><li>демонтовано <strong>157 старих</strong> і встановлено <strong>217 нових</strong> віконних блоків, включно з дублюючими конструкціями;</li><li>виконано герметизацію стиків та укосів, монтаж протипожежних відсічок;</li><li>у межах енергозбереження реалізовано додаткове утеплення.<strong><br class="softbreak"><br class="softbreak"></strong></li></ul><p><strong>Інженерні мережі та зовнішнє освітлення:</strong></p><ul><li>прокладено новий кабель зовнішнього освітлення;</li><li>оновлено систему освітлення корпусу — встановлено <strong>понад 160 світильників</strong>;</li><li>проведено перевірку та тестування систем вентиляції й протипожежного захисту.</li></ul><p><strong>Блок В:</strong></p><ul><li>завершено демонтаж підвісних стель, панелей, стін і старих вікон;</li><li>виконано герметизацію стиків у чистих приміщеннях (операційні, лабораторії, реанімаційні зони);</li><li>оновлено стіни, відкоси, покриття підлоги, замінено частину дверей;</li><li>змонтовано понад <strong>160 нових світильників</strong>, ведуться роботи з ремонту стяжок і малярних покриттів.</li></ul><p><strong>Блок Д:</strong></p><ul><li>тривають роботи з оновлення гіпсокартонних конструкцій і модульних стель типу «Армстронг»;</li><li>виконано штукатурення, фарбування, облицювання ганку;</li><li>замінено радіатори та проведено оновлення стінових відкосів.</li></ul><p><strong>Блок Б:</strong></p><ul><li>проведено демонтаж і монтаж стель, стін, відкосів і вікон;</li><li>встановлено дублюючі вікна, металеві конструкції та HPL-панелі;</li><li>триває ремонт підлоги та оздоблення приміщень відповідно до санітарних вимог.</li></ul><p>Також завершено <strong>оновлення освітнього центру “</strong><a href="https://shs.gov.ua/" rel="noopener noreferrer" target="_blank"><strong>Школа Супергероїв</strong></a><strong>”</strong>, де діти мають змогу навчатися під час лікування.</p><p>Відновлення корпусу триває поетапно.<strong><br class="softbreak"></strong></p><h4><strong>6. Поточний статус</strong></h4><p>Станом на червень 2026 року повністю завершено внутрішні опоряджувальні та фасадні роботи в сучасному корпусі. Триває робота з документацією.</p><p>Роботи фінансуються благодійним фондом <a href="https://www.ohmatdytfund.org/" rel="noopener noreferrer" target="_blank">«Охматдит – здорове дитинство»</a> (збір 2024 р.).</p><p>Контроль здійснює <a href="https://moz.gov.ua/uk/rada-z-vidnovlennya-ohmatditu" rel="noopener noreferrer">Рада з відновлення «Охматдиту</a>» за участі МОЗ, керівництва лікарні та донорів.</p>
+        </section>
+<div class="itc-slider-root">
+        <div class="itc-slider" data-id="post-main-slider" data-interval="7000">
+            <div class="itc-slider-wrapper">
+                <div class="itc-slider-items">
+
+                                            <div class="itc-slider-item" data-slide="0">
+                            <img src="https://moz.gov.ua/img/13c5a0c2-1843-4bbf-b40d-eb62f3c37335/.jpeg?fm=jpg&amp;q=80&amp;fit=max&amp;crop=4160%2C2779%2C0%2C0" alt="https://moz.gov.ua/img/13c5a0c2-1843-4bbf-b40d-eb62f3c37335/.jpeg?fm=jpg&amp;q=80&amp;fit=max&amp;crop=4160%2C2779%2C0%2C0">
+                        </div>
+                                            <div class="itc-slider-item" data-slide="1">
+                            <img src="https://moz.gov.ua/img/cf4b5d0b-4ad5-4df8-a33b-920fc235771e/.jpeg?fm=jpg&amp;q=80&amp;fit=max&amp;crop=4160%2C2779%2C0%2C0" alt="https://moz.gov.ua/img/cf4b5d0b-4ad5-4df8-a33b-920fc235771e/.jpeg?fm=jpg&amp;q=80&amp;fit=max&amp;crop=4160%2C2779%2C0%2C0">
+                        </div>
+                                            <div class="itc-slider-item" data-slide="2">
+                            <img src="https://moz.gov.ua/img/cf4b5d0b-4ad5-4df8-a33b-920fc235771e/-2.jpeg?fm=jpg&amp;q=80&amp;fit=max&amp;crop=4160%2C2779%2C0%2C0" alt="https://moz.gov.ua/img/cf4b5d0b-4ad5-4df8-a33b-920fc235771e/-2.jpeg?fm=jpg&amp;q=80&amp;fit=max&amp;crop=4160%2C2779%2C0%2C0">
+                        </div>
+                    
+                </div>
+            </div>
+           
+        </div>
+        <div class="itc-slider" data-id="post-nav-slider">
+            <div class="itc-slider-wrapper">
+                <div class="itc-slider-items">
+
+                                            <div class="itc-slider-item  active " data-slide="0">
+                            <img src="https://moz.gov.ua/img/13c5a0c2-1843-4bbf-b40d-eb62f3c37335/.jpeg?fm=jpg&amp;q=80&amp;fit=max&amp;crop=4160%2C2779%2C0%2C0" alt="https://moz.gov.ua/img/13c5a0c2-1843-4bbf-b40d-eb62f3c37335/.jpeg?fm=jpg&amp;q=80&amp;fit=max&amp;crop=4160%2C2779%2C0%2C0">
+                        </div>
+                                            <div class="itc-slider-item " data-slide="1">
+                            <img src="https://moz.gov.ua/img/cf4b5d0b-4ad5-4df8-a33b-920fc235771e/.jpeg?fm=jpg&amp;q=80&amp;fit=max&amp;crop=4160%2C2779%2C0%2C0" alt="https://moz.gov.ua/img/cf4b5d0b-4ad5-4df8-a33b-920fc235771e/.jpeg?fm=jpg&amp;q=80&amp;fit=max&amp;crop=4160%2C2779%2C0%2C0">
+                        </div>
+                                            <div class="itc-slider-item " data-slide="2">
+                            <img src="https://moz.gov.ua/img/cf4b5d0b-4ad5-4df8-a33b-920fc235771e/-2.jpeg?fm=jpg&amp;q=80&amp;fit=max&amp;crop=4160%2C2779%2C0%2C0" alt="https://moz.gov.ua/img/cf4b5d0b-4ad5-4df8-a33b-920fc235771e/-2.jpeg?fm=jpg&amp;q=80&amp;fit=max&amp;crop=4160%2C2779%2C0%2C0">
+                        </div>
+                    
+                </div>
+            </div>
+            <button class="itc-slider-btn itc-slider-btn-prev"></button>
+            <button class="itc-slider-btn itc-slider-btn-next"></button>
+        </div>
+    </div>
+
+   
+
+
+    </div>
+                </div>
+                        <aside class="article__row__aside">
+            <div class="article__row__aside--info">
+                    </div>
+                <div class="article__row__aside--news">
+            
+                                    <a class="" href="https://moz.gov.ua/uk/zayavka-na-likuvannya-za-kordonom">Заявка на лікування за кордоном</a>
+                            
+                                    <a class="" href="https://moz.gov.ua/uk/dev-dostupni-liki">Доступні ліки</a>
+                            
+                                    <a class="" href="https://moz.gov.ua/uk/zdorovja-a-ja">Здоров&#039;я А-Я</a>
+                            
+                                    <div class="submenu
+                                                    ">
+                        <a href="https://moz.gov.ua/uk/zvernennja-dlja-gromadjan" class="btn ">Звернення громадян</a>
+                        <div class="body">
+                        <a class="" href="https://moz.gov.ua/uk/ogoloshennja-schodo-elektronnogo-zvernennja">Оголошення щодо електронного звернення</a>
+
+
+<a class="" href="https://moz.gov.ua/uk/grafik-osobistogo-prijomu-gromadjann">Графік особистого прийому громадян</a>
+
+
+<a class="" href="https://moz.gov.ua/uk/analiz-organizacii-roboti-zi-zvernennjami-gromadjan">Аналіз організації роботи зі зверненнями громадян</a>
+
+
+                        </div>
+                    </div>
+                            
+                                    <a class="" href="https://moz.gov.ua/uk/zakupivli-likiv">Закупівлі ліків</a>
+                            
+                                    <div class="submenu
+                                                    ">
+                        <a href="https://moz.gov.ua/uk/gromadska-rada-mozu" class="btn ">Громадська рада МОЗ</a>
+                        <div class="body">
+                        <a class="" href="https://moz.gov.ua/uk/sklad">Склад</a>
+
+
+<a class="" href="https://moz.gov.ua/uk/komisii">Комісії</a>
+
+
+<a class="" href="https://moz.gov.ua/uk/pravova-osnova">Правова основа</a>
+
+
+                        </div>
+                    </div>
+                            
+                                    <div class="submenu
+                                                    ">
+                        <a href="https://moz.gov.ua/uk/dostup-do-publichnoi-informaci" class="btn ">Доступ до публічної інформації</a>
+                        <div class="body">
+                        <a class="" href="https://moz.gov.ua/uk/reestr-dokumentiv">Реєстр документів</a>
+
+
+<a class="" href="https://moz.gov.ua/uk/oblik-publichnoi-informacii">Облік публічної інформації</a>
+
+
+<a class="" href="https://moz.gov.ua/uk/zviti">Звіти</a>
+
+
+<a class="" href="https://moz.gov.ua/uk/perelik-vidomostej-scho-mistjat-sluzhbovu-informaciju-v-moz-ukraini">Перелік відомостей, що містять службову інформацію в МОЗ України</a>
+
+
+<a class="" href="https://moz.gov.ua/uk/vidkriti-dani">Відкриті дані</a>
+
+
+<a class="" href="https://moz.gov.ua/uk/perelik-navchalnih-zakladiv-de-zdobuvajut-medichnu-osvitu">Перелік навчальних закладів, де здобувають медичну освіту</a>
+
+
+                        </div>
+                    </div>
+                            
+                                    <div class="submenu
+                                                    ">
+                        <a href="https://moz.gov.ua/uk/konsultacii-z-gromadskistju-1" class="btn ">Консультації з громадськістю</a>
+                        <div class="body">
+                        <a class="" href="https://moz.gov.ua/uk/elektronni-konsultacii-z-gromadskistju-1">Електронні консультації з громадськістю</a>
+
+
+<a class="" href="https://moz.gov.ua/uk/orientovni-plani-ta-zviti-pro-provedennja-konsultacij-z-gromadskistju-1">Орієнтовні плани та звіти про проведення консультацій з громадськістю</a>
+
+
+                        </div>
+                    </div>
+                            
+                                    <a class="" href="https://moz.gov.ua/uk/bezoplatna-pravnicha-dopomoga">Безоплатна правнича допомога</a>
+                            
+                                    <a class="" href="https://moz.gov.ua/uk/opituvannja">Опитування</a>
+                            
+                                    <div class="submenu
+                                                    ">
+                        <a href="https://moz.gov.ua/uk/zvituvannja-schodo-stvorennja-bezbarernogo-prostoru" class="btn ">Створення безбар`єрного простору</a>
+                        <div class="body">
+                        <a class="" href="https://moz.gov.ua/uk/flagmanskij-proyekt-moz-ukrayini">Флагманський проєкт МОЗ України</a>
+
+
+                        </div>
+                    </div>
+                            
+                                    <a class="" href="https://moz.gov.ua/uk/medichnij-kanabis">Медичний канабіс</a>
+                            
+                                    <div class="submenu
+                                                    ">
+                        <a href="https://moz.gov.ua/uk/ekopfo" class="btn ">Оцінювання повсякденного функціонування особи</a>
+                        <div class="body">
+                        <a class="" href="https://moz.gov.ua/uk/nova-sistema-ocinyuvannya-povsyakdennogo-funkcionuvannya-ta-robota-ekspertnih-komand-ekopfo-u-zapitannyah-ta-vidpovidyah-paciyentam">Нова система оцінювання ЕКОПФО у запитаннях та відповідях. Пацієнтам</a>
+
+
+<a class="" href="https://moz.gov.ua/uk/zabezpechennya-prozorosti-ta-dobrochesnosti">Забезпечення прозорості та доброчесності</a>
+
+
+<a class="" href="https://moz.gov.ua/uk/shlyah-paciyenta">Шлях пацієнта</a>
+
+
+                        </div>
+                    </div>
+                            
+                                    <div class="submenu
+                                                    ">
+                        <a href="https://moz.gov.ua/uk/znizhennya-cin-na-likarski-zasobi" class="btn ">Зниження цін на лікарські засоби</a>
+                        <div class="body">
+                        <a class="" href="https://moz.gov.ua/uk/liki-cini-na-yaki-budut-znizheni">ТОП-100 ліків, ціни на які знижені</a>
+
+
+                        </div>
+                    </div>
+                            
+                                    <div class="submenu
+                                                    ">
+                        <a href="https://moz.gov.ua/uk/sluhoprotezuvannya" class="btn ">Слухопротезування</a>
+                        <div class="body">
+                        <a class="" href="https://moz.gov.ua/uk/likarni-yaki-nadayut-poslugi-z-bezoplatnogo-sluhoprotezuvannya">Лікарні, які надають послуги з безоплатного слухопротезування</a>
+
+
+                        </div>
+                    </div>
+                            
+                                    <div class="submenu
+                                                    ">
+                        <a href="https://moz.gov.ua/uk/nacionalnij-katalog-cin" class="btn ">Національний каталог цін</a>
+                        <div class="body">
+                        <a class="" href="https://moz.gov.ua/uk/perelik-originalnih-innovacijnih-likarskih-zasobiv">Перелік оригінальних (інноваційних) лікарських засобів</a>
+
+
+<a class="" href="https://moz.gov.ua/uk/informaciya-pro-oficijni-dzherela-danih-pro-cini-na-likarski-zasobi-u-referentnih-krayinah">Інформація про офіційні джерела даних про ціни на лікарські засоби у референтних країнах</a>
+
+
+<a class="" href="https://moz.gov.ua/uk/normativno-pravove-zabezpechennya">Нормативно-правове забезпечення</a>
+
+
+<a class="" href="https://moz.gov.ua/uk/instrukciya-zayavniku-dlya-podannya-dokumentiv">Інструкція заявнику для подання документів</a>
+
+
+                        </div>
+                    </div>
+                            
+                                    <div class="submenu
+                                                    ">
+                        <a href="https://moz.gov.ua/uk/bezoplatne-endoprotezuvannya" class="btn ">Безоплатне ендопротезування</a>
+                        <div class="body">
+                        <a class="" href="https://moz.gov.ua/uk/de-otrimati-poslugi-z-bezoplatnogo-endoprotezuvannya">Де отримати послуги з безоплатного ендопротезування?</a>
+
+
+<a class="" href="https://moz.gov.ua/uk/yak-otrimati-poslugu-nevidkladno-i-planovo">Як отримати послугу невідкладно і планово?</a>
+
+
+<a class="" href="https://moz.gov.ua/uk/elektronna-cherga-dlya-planovogo-endoprotezuvannya">Електронна черга для планового ендопротезування</a>
+
+
+<a class="" href="https://moz.gov.ua/uk/platni-poslugi-z-endoprotezuvannya">Платні послуги з ендопротезування</a>
+
+
+                        </div>
+                    </div>
+                            
+                                    <div class="submenu
+                         active                             ">
+                        <a href="https://moz.gov.ua/uk/vidnovlennya-ohmatditu-pislya-raketnogo-udaru-klyuchovi-fakti-finansuvannya-ta-etapi-robit" class="btn ">Відновлення «Охматдиту» після ракетного удару: ключові факти, фінансування та етапи робіт</a>
+                        <div class="body">
+                        <div class="submenu
+                                                    ">
+                        <a href="https://moz.gov.ua/uk/rada-z-vidnovlennya-ohmatditu" class="btn ">Рада з відновлення Охматдиту</a>
+                        <div class="body">
+                        
+                         
+                                                     <a class=" subLink" href="https://moz.gov.ua/uk/chleni-radi-z-vidnovlennya">Члени Ради з відновлення</a>
+                                                    
+                        </div>
+</div>                     
+
+
+<a class="" href="https://moz.gov.ua/uk/protokoli-zasidan-radi-z-vidnovlennya">Протоколи засідань Ради з відновлення</a>
+
+
+<a class=" title " href="https://moz.gov.ua/uk/suchasnij-likuvalno-diagnostichnij-kompleks-ohmatditu">Сучасний лікувально-діагностичний комплекс «Охматдиту»</a>
+
+
+<a class="" href="https://moz.gov.ua/uk/transformatorna-pidstanciya-dizelna-elektropidstanciya">Трансформаторна підстанція, дизельна електропідстанція</a>
+
+
+<a class="" href="https://moz.gov.ua/uk/toksikologichnij-korpus-3-j-pam-yatka-arhitekturi">Токсикологічний корпус (3-й), пам’ятка архітектури</a>
+
+
+<a class="" href="https://moz.gov.ua/uk/hirurgichnij-korpus-11-j">Хірургічний корпус (11-й)</a>
+
+
+<a class="" href="https://moz.gov.ua/uk/vidnovlennya-administrativnogo-korpusu-9">Відновлення адміністративного корпусу №9</a>
+
+
+<a class="" href="https://moz.gov.ua/uk/finansuvannya-vidnovlennya-likarni">Фінансування відновлення лікарні</a>
+
+
+                        </div>
+                    </div>
+                            
+                                    <a class="" href="https://moz.gov.ua/uk/bezoplatne-ochne-protezuvannya-dlya-postrazhdalih-vnaslidok-vijni">Безоплатне очне протезування для постраждалих внаслідок війни</a>
+                            
+                                    <a class="" href="https://moz.gov.ua/uk/medichna-pidtrimka-lyudej-postrazhdalih-vnaslidok-chornobilskoyi-katastrofi">Медична підтримка людей, постраждалих внаслідок Чорнобильської катастрофи</a>
+                            
+                                    <a class="" href="https://moz.gov.ua/uk/bezoplatne-planove-stentuvannya-sudin-sercya">Безоплатне планове стентування судин серця</a>
+                            
+                                    <a class="" href="https://moz.gov.ua/uk/medichna-dopomoga-lyudyam-yaki-perezhili-polon">Медична допомога людям, які пережили полон</a>
+                            
+                                    <a class="" href="https://moz.gov.ua/uk/medichni-oglyadi-moryakiv">Медичні огляди моряків і членів екіпажів суден внутрішнього плавання</a>
+                            
+                                    <a class="" href="https://moz.gov.ua/uk/vlk">Військово-лікарські комісії</a>
+                            
+                                    <div class="submenu
+                                                    ">
+                        <a href="https://moz.gov.ua/uk/mental-health" class="btn ">Психічне здоров&#039;я</a>
+                        <div class="body">
+                        <a class="" href="https://moz.gov.ua/uk/bezoplatni-poslugi-z-ohoroni-psihichnogo-zdorov-ya">Безоплатні послуги з охорони психічного здоровʼя</a>
+
+
+<a class="" href="https://moz.gov.ua/uk/de-i-yak-otrimati-bezoplatni-poslugi-z-ohoroni-psihichnogo-zdorov-ya">Де і як отримати безоплатні послуги з охорони психічного здоровʼя</a>
+
+
+<a class="" href="https://moz.gov.ua/uk/do-yakogo-specialista-zvernutisya-u-razi-problem-iz-psihichnim-zdorov-yam">До якого спеціаліста звернутися у разі проблем із психічним здоров&#039;ям?</a>
+
+
+                        </div>
+                    </div>
+                            
+                                    <div class="submenu
+                                                    ">
+                        <a href="https://moz.gov.ua/uk/reabilitacija" class="btn ">Реабілітація</a>
+                        <div class="body">
+                        <a class="" href="https://moz.gov.ua/uk/istorii-reabilitacii">Історії реабілітації</a>
+
+
+<a class="" href="https://moz.gov.ua/uk/aktualna-informacija-z-reabilitacii">Актуальна інформація з реабілітації</a>
+
+
+<a class="" href="https://moz.gov.ua/uk/dopomizhni-zasobi-reabilitacii">Допоміжні засоби реабілітації</a>
+
+
+<a class="" href="https://moz.gov.ua/uk/protezuvannja">Протезування</a>
+
+
+<a class="" href="https://moz.gov.ua/uk/fahivcjam">Фахівцям</a>
+
+
+<a class="" href="https://moz.gov.ua/uk/marshrut-paciyenta-z-amputaciyeyu">Маршрут пацієнта з ампутацією</a>
+
+
+<a class="" href="https://moz.gov.ua/uk/nedokazova-reabilitaciya">Недоказова реабілітація</a>
+
+
+                        </div>
+                    </div>
+                            
+                                    <div class="submenu
+                                                    ">
+                        <a href="https://moz.gov.ua/uk/immunization" class="btn ">Вакцинація</a>
+                        <div class="body">
+                        <a class="" href="https://moz.gov.ua/uk/rozpodil-vakcin-proti-kovid">Розподіл вакцин проти СOVID-19</a>
+
+
+                        </div>
+                    </div>
+                                    </div>
+    </aside>
+            </div>
+        </div>
+    </article>
+        
+    <section class="subscribe">
+    <div class="subscribe-inner container">
+        <div class="subscribe__row">
+        <p class="p2">Ця розсилка створена для того, щоб ділитися новинами щодо змін в українській медицині.
+                Долучайтеся!</p>
+                                                    <form name="subscribeform">
+                <input type="hidden" name="_token" value="fsM0doimJMADAj17HsvDnDCzFgam6ThiEgJdpvT3" autocomplete="off">
+                <input type="hidden" name="_method" value="POST">
+                <input data-required name="email" type="email" placeholder="Email" maxlength="90">
+                <button class="btn-fill-1" id="subscribe-button">Підписатися</button>
+                <div class="overlay modal-click">
+    <div class="modal">
+        <div class="modal--title">
+            <div id="success-title">
+                <svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 34 34" fill="none">
+                    <path opacity="0.5"
+                        d="M33 15.5372V17.0092C32.998 20.4594 31.8808 23.8166 29.8149 26.5801C27.7491 29.3435 24.8452 31.3651 21.5366 32.3434C18.2279 33.3217 14.6916 33.2042 11.4551 32.0085C8.21869 30.8128 5.45545 28.6029 3.57754 25.7085C1.69963 22.814 0.807666 19.3901 1.03468 15.9473C1.2617 12.5045 2.59553 9.22728 4.83725 6.60447C7.07896 3.98167 10.1085 2.15377 13.4739 1.39339C16.8393 0.633014 20.3604 0.980897 23.512 2.38516M33 4.20916L17 20.2252L12.2 15.4252"
+                        stroke="#169B00" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+                <h2 class="h1">Дякуємо</h2>
+            </div>
+            <div id="error-title">
+                <svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 34 34"
+                    fill="none">
+                    <path opacity="0.5"
+                        d="M21.8 12.2L12.2 21.8M12.2 12.2L21.8 21.8M33 17C33 25.8366 25.8366 33 17 33C8.16344 33 1 25.8366 1 17C1 8.16344 8.16344 1 17 1C25.8366 1 33 8.16344 33 17Z"
+                        stroke="#FF0000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+                <h2 class="h1">Увага</h2>
+            </div>
+        </div>
+        <p class="modal-description"></p>
+        <div class="btn-border closeModal">        
+            <span class="link-inner">
+            <span>Продовжити</span>
+            </span>
+        </div>
+       
+        <div class="modal--close closeModal">
+        <svg xmlns="http://www.w3.org/2000/svg" width="38" height="38" viewBox="0 0 38 38" fill="none">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M18.7935 21.7937L34.8993 37.8995L37.0206 35.7782L20.9148 19.6724L37.5868 3.00045L35.4655 0.879131L18.7935 17.5511L2.12132 0.878906L0 3.00023L16.6722 19.6724L0.56618 35.7784L2.6875 37.8998L18.7935 21.7937Z" fill="black"/>
+</svg>
+        </div>
+    </div>
+</div>
+                
+            </form>
+           
+        </div>
+    </div>
+</section>
+            </div>
+         <div id="dark-screen"></div>
+         <footer>
+    <div class="container">
+        <div class="footer__wrapper laptop">
+        <div class="footer__row footer__row--map">
+        <div class="footer__row__column column-map">
+                                        <div class="footer__row__column map">
+                    <a target="_blank" href="/uk/mapa-sajtu" class="p3">Карта сайту</a>
+                </div>
+                </div>
+        </div>
+        <div class="footer__row footer__row--contact">
+        <div class="footer__row__column column-logo">
+                <a href="/" class="logo-footer">
+                                <img src="https://moz.gov.ua/assets/pics/footer-logo.svg" alt="footer logo">
+                             
+                </a>
+
+                <div id="footer-inclusive-widget-button" class="footer--visual-impairment">
+                    <span class="footer--visual-impairment-icon footer-icon"></span>
+                    Налаштування доступності
+                </div>
+            </div>
+            <div class="footer__row__column column-contacts">
+                <div class="address">
+                <h4>Наші контакти</h4>
+                <div class="adress-items">
+                                <a href="/cdn-cgi/l/email-protection#1b7674615b767461357c746d356e7a" class="adress-item email"><span class="__cf_email__" data-cfemail="036e6c79436e6c792d646c752d7662">[email&#160;protected]</span></a>
+                                                <div class="adress-item address">01601, м. Київ, вул. Грушевського, 7</div>
+                                                <div class="adress-item workTime">Пн-Пт: 9:00-18:00
+Обід: 13:00-14:00</div>
+                                </div>
+                </div>
+                <div class="socials">
+                  
+                                                                                                                                                                                          <a href="https://bit.ly/moz-fb"><img src="https://moz.gov.ua/storage/uploads/885ccf46-170f-44d9-ba98-d61ccf8b252a/facebook.svg"
+                                          alt="Facebook"></a>
+                                                                                                                                                                                                                                <a href="https://bit.ly/moz-youtube"><img src="https://moz.gov.ua/storage/uploads/14b900c4-dac2-437d-837d-30273acc2923/youtube.svg"
+                                          alt="Youtube"></a>
+                                                                                                                                                                                                                                <a href="https://bit.ly/moz-tg"><img src="https://moz.gov.ua/storage/uploads/0a2ce20b-7a2e-48d7-a765-4b3f7f924155/telegram.svg"
+                                          alt="Telegram"></a>
+                                                                                                                                                                                                                                <a href="https://twitter.com/MoH_Ukraine"><img src="https://moz.gov.ua/storage/uploads/14b900c4-dac2-437d-837d-30273acc2923/x-white.svg"
+                                          alt="X White"></a>
+                                                                                                              </div>
+
+            </div>
+
+            <div class="footer__row__column column-phones">
+                <div class="footer-phones-wrap">
+               
+                <div class="footer-phones">
+                <div class="footer-phone">
+               
+                <div class="footer-phone-label">Телефон:</div>
+                                <a href="tel:044 253 61 94">044 253 61 94</a>
+                                
+                </div>
+
+                <div class="footer-phone">
+                
+                <div class="footer-phone-label">Факс:</div>
+                                <a href="tel:044 253 40 17">044 253 40 17</a>
+                                </div>
+
+                <div class="footer-phone">
+                
+                <div class="footer-phone-label">Гаряча лінія МОЗ:</div>
+                                <a href="tel:0800 505 201">0800 505 201</a>
+                                
+                </div>
+
+                </div>
+                </div>
+                
+
+            </div>
+           
+
+               
+        </div>   
+        <div class="footer__row footer__row--menu">
+            <div class="footer__row__column column-menu">
+                <h4>Розділи</h4>
+                                                                                <a href="/uk/pro-ministerstvo" class="p3">Про міністерство</a>
+                                                                                                    <a href="/uk/vojennyj-stan" class="p3">Воєнний стан</a>
+                                                                                                    <a href="/uk/gromadjanam" class="p3">Громадянам</a>
+                                                                                                    <a href="/uk/medichnim-pracivnikam" class="p3">Медичним працівникам</a>
+                                    
+            </div>
+            <div class="footer__row__column column-tools">
+                <h4>Інструментарій</h4>
+                                                                                <a href="/uk/dokumenti" class="p3">Документи</a>
+                                                                                                    <a href="/uk/kontakti" class="p3">Контакти</a>
+                                                   
+            </div>
+            <div class="footer__row__column column-others">
+                <h4>Інше</h4>
+                                                                                <a href="/uk/news/osvita" class="p3">Освіта</a>
+                                                                                                    <a href="/uk/pres-centr" class="p3">Пресцентр</a>
+                                                                                                    <a href="/uk/dokumenti" class="p3">Документи</a>
+                                                </div>
+        </div>
+        </div>
+        
+      
+        <div class="footer__row bottom">
+
+            
+           
+            <div class="license">
+                Всі матеріали на цьому сайті розміщені на умовах ліцензії <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/deed.uk" class="p3">Creative Commons
+                Attribution-NonCommercial-NoDerivatives 4.0 International</a>. Використання будь-яких матеріалів, розміщених
+                на сайті, дозволяється за умови посилання на <a href="https://moz.gov.ua/" class="p3">moz.gov.ua</a> в незалежності від повного або часткового
+                використання матеріалів.
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
+   window.WchatSettings = {
+       pageid: "163698939317135", 
+       lang: "uk", 
+       title: "НКЦ МОЗ"
+   };
+</script>
+<script>
+   (function(w,d,s,l,g,a,b,o){w[a]=w[a]||{};w[a].clientPath=w[a].clientPath||l;
+       if(w[g]){w[g](w[a]||{})}else{b=d.createElement(s),o=d.getElementsByTagName(s)[0];
+       b.async=1;b.src=l+"wchat.min.js";o.parentNode.insertBefore(b,o)}
+   })(window,document,'script','https://cdn.smile-soft.com/wchat/v1/','Wchat','WchatSettings');
+</script>
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+    var style = document.createElement('style');
+    style.type = 'text/css';
+    style.innerHTML = `
+        .swc-message-content * {
+            font-size: 14px !important;
+        }
+        .swc-agent-msg .swc-message-content * {
+            font-size: 14px !important;
+        }
+    `;
+    document.head.appendChild(style);
+});
+</script>
+
+
+
+	 <script 
+    src="https://pulse.gov.ua/assets/pulse-feedback-widget/pulse-feedback-widget.js"
+    data-api-url="https://api.pulse.gov.ua/api/v2/feedback"
+    data-complete-url="https://pulse.gov.ua/complete-feedback"
+    data-media-files-host="https://pulse.gov.ua"
+    defer
+></script>
+    </body>
+</html>
