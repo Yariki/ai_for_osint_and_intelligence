@@ -85,12 +85,12 @@ def main() -> None:
         debugpy.wait_for_client()
 
     parser = argparse.ArgumentParser(description=__doc__.splitlines()[0])
-    parser.add_argument("address", nargs="?", default="91.197.96.156")
+    parser.add_argument("address", nargs="?", default="")
     parser.add_argument("--ports", default="top-100")
     parser.add_argument("--syn", action="store_true")
     parser.add_argument("--discovery", action="store_true")
     parser.add_argument("--pps", type=int, default=1000)
-    parser.add_argument("--timeout-ms", type=int, default=1500)
+    parser.add_argument("--timeout-ms", type=int, default=5000)
     parser.add_argument("--retries", type=int, default=1)
     asyncio.run(scan(build_chunk(parser.parse_args())))
 

@@ -4,7 +4,7 @@
         {
             // On the host, with the backend venv. No NET_RAW, so the scanner
             // runs in connect mode: no SYN, no ICMP.
-            "name": "scan_one: local (connect mode)",
+            "name": "scan_one: connect",
             "type": "debugpy",
             "request": "launch",
             "python": "${workspaceFolder}/.venv/bin/python",
@@ -15,14 +15,49 @@
             "justMyCode": true,
             "env": {
                 "NDM_VANTAGE_POINT": "dev",
-                // The test switch, so that the lab and 127.0.0.1 may be scanned.
+                "NDM_ALLOW_NON_PUBLIC_TARGETS": "true"
+            }
+        },
+        {
+            // SYN scan on the host. Requires NET_RAW on the Python binary:
+            //   sudo setcap cap_net_raw+ep .venv/bin/python3.x
+            // Without the capability the scanner falls back to connect mode.
+            "name": "scan_one: SYN (local)",
+            "type": "debugpy",
+            "request": "launch",
+            "python": "${workspaceFolder}/.venv/bin/python",
+            "program": "${workspaceFolder}/scripts/scan_one.py",
+            "args": ["${input:address}", "--ports", "${input:ports}", "--syn"],
+            "cwd": "${workspaceFolder}",
+            "console": "integratedTerminal",
+            "justMyCode": true,
+            "env": {
+                "NDM_VANTAGE_POINT": "dev",
+                "NDM_ALLOW_NON_PUBLIC_TARGETS": "true"
+            }
+        },
+        {
+            // Host discovery: ICMP echo + TCP probes to the given ports.
+            // ICMP needs NET_RAW (see "SYN (local)" above); without it
+            // discovery uses only TCP probes.
+            "name": "scan_one: discovery (local)",
+            "type": "debugpy",
+            "request": "launch",
+            "python": "${workspaceFolder}/.venv/bin/python",
+            "program": "${workspaceFolder}/scripts/scan_one.py",
+            "args": ["${input:address}", "--ports", "${input:ports}", "--discovery"],
+            "cwd": "${workspaceFolder}",
+            "console": "integratedTerminal",
+            "justMyCode": true,
+            "env": {
+                "NDM_VANTAGE_POINT": "dev",
                 "NDM_ALLOW_NON_PUBLIC_TARGETS": "true"
             }
         },
         {
             // In the dev scanner container (host network, NET_RAW): SYN and ICMP
             // work. The task starts it; it waits for this debugger on port 5678.
-            "name": "scan_one: scanner container (SYN, attach)",
+            "name": "scan_one: SYN (container, attach)",
             "type": "debugpy",
             "request": "attach",
             "preLaunchTask": "scan_one: start in scanner container",
