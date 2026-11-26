@@ -225,8 +225,8 @@ services:
       PYTHONPATH: /src:/app/.venv/lib/python3.14/site-packages
       NDM_BROKER_URL: amqp://ndm:dev-broker@127.0.0.1:5673/
       # The lab's transit address. Set NDM_DEV_EGRESS_ADDRESS= (empty) to send
-      # from the address the host routes from.
-      NDM_EGRESS_ADDRESS: ${NDM_DEV_EGRESS_ADDRESS-10.77.0.1}
+      # from the address the host routes from. #-10.77.0.1
+      NDM_EGRESS_ADDRESS: ${NDM_DEV_EGRESS_ADDRESS}
       NDM_SOURCE_PORT_RANGE: 62000-62999
       <<: *scan-settings
     volumes:
