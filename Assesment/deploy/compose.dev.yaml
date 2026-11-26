@@ -1,0 +1,309 @@
+# Network Discovery Map: the development stack. From Assesment/:
+#
+#   docker compose -f deploy/lab/compose.lab.yaml up -d      # the lab targets (once)
+#   docker compose -f deploy/compose.dev.yaml up --build --watch
+#
+# then open http://localhost:5173 and enter the setup token that the api prints
+# ("setup_required", field "setup_token").
+#
+# What it does differently from deploy/compose.yaml:
+#   - backend/src is mounted into every Python container and comes before the
+#     installed package, so a changed file is used without a rebuild: the api
+#     reloads itself; "--watch" restarts the orchestrator and the scanner.
+#   - The frontend runs on Vite's dev server, with hot reload, on plain HTTP;
+#     there is no proxy and no TLS.
+#   - Fixed throwaway passwords, and ports on the loopback address only:
+#     api 8000, frontend 5173, PostgreSQL 5433, RabbitMQ 5673. They do not clash
+#     with the release stack (compose.yaml) or the lab on the same host.
+#   - The test switch is on, and the scanner sends from the lab's transit
+#     address, so a project with the scope 10.77.3.0/24 scans the lab
+#     (deploy/lab/README.md). NEVER use this file for a real installation.
+#
+# Reference datasets, the map's tiles and the classification threshold are read
+# from deploy/.env if they are set there, as in compose.yaml.
+#
+# Stop with Ctrl-C, or "docker compose -f deploy/compose.dev.yaml down";
+# "down -v" also deletes the dev database.
+
+name: ndm-dev
+
+x-backend-build: &backend-build
+  context: ..
+  dockerfile: deploy/Dockerfile.backend
+  args:
+    NDM_VERSION: dev
+
+# The working copy's source, read-only. PYTHONPATH puts it before the package
+# installed in the image, so "import ndm" (migrations included) reads it.
+x-backend-source: &backend-source ../backend/src:/src:ro
+
+# Throwaway credentials of the dev stack. Not secrets: everything listens on
+# the loopback address only.
+x-database-app: &database-app postgresql+asyncpg://ndm_app:dev-app@postgres:5432/ndm
+x-broker: &broker amqp://ndm:dev-broker@rabbitmq:5672/
+
+x-scan-settings: &scan-settings
+  NDM_ALLOW_NON_PUBLIC_TARGETS: ${NDM_DEV_ALLOW_NON_PUBLIC_TARGETS:-true}
+  NDM_NEVER_SCAN: ${NDM_NEVER_SCAN:-}
+  NDM_GLOBAL_RATE_PPS: ${NDM_GLOBAL_RATE_PPS:-5000}
+  NDM_MAX_CONCURRENT_SCANS: ${NDM_MAX_CONCURRENT_SCANS:-3}
+  NDM_MAX_CONCURRENT_TRACEROUTES: ${NDM_MAX_CONCURRENT_TRACEROUTES:-5}
+  NDM_MIN_SCHEDULE_INTERVAL_SECONDS: ${NDM_MIN_SCHEDULE_INTERVAL_SECONDS:-3600}
+  NDM_VANTAGE_POINT: dev
+  NDM_LOG_LEVEL: ${NDM_DEV_LOG_LEVEL:-INFO}
+
+# Restart a service when the backend source changes ("up --watch"). After a
+# change of dependencies (backend/uv.lock), run "up --build" instead.
+x-restart-on-change: &restart-on-change
+  watch:
+    - path: ../backend/src
+      action: restart
+
+services:
+  postgres:
+    image: postgis/postgis:17-3.5
+    user: postgres
+    environment:
+      POSTGRES_USER: ndm_owner
+      POSTGRES_PASSWORD: dev-owner
+      POSTGRES_DB: ndm
+      NDM_APP_DB_ROLE: ndm_app
+      NDM_APP_DB_PASSWORD: dev-app
+    volumes:
+      - postgres-data:/var/lib/postgresql/data
+      - ./postgres/no-postgis-init.sh:/docker-entrypoint-initdb.d/10_postgis.sh:ro
+      - ./postgres/init-roles.sh:/docker-entrypoint-initdb.d/20-init-roles.sh:ro
+    ports:
+      # psql postgresql://ndm_owner:dev-owner@127.0.0.1:5433/ndm
+      - "127.0.0.1:5433:5432"
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ndm_owner -d ndm"]
+      interval: 5s
+      timeout: 3s
+      retries: 12
+      start_period: 20s
+    shm_size: 256m
+
+  rabbitmq:
+    image: rabbitmq:4.3.7-alpine
+    hostname: rabbitmq
+    environment:
+      RABBITMQ_DEFAULT_USER: ndm
+      RABBITMQ_DEFAULT_PASS: dev-broker
+    volumes:
+      - rabbitmq-data:/var/lib/rabbitmq
+    ports:
+      # The scanner runs on the host network and reaches the broker here.
+      - "127.0.0.1:5673:5672"
+    healthcheck:
+      test: ["CMD", "rabbitmq-diagnostics", "-q", "ping"]
+      interval: 10s
+      timeout: 10s
+      retries: 12
+      start_period: 30s
+
+  # Applies the migrations of the working copy, then exits. After adding one:
+  #   docker compose -f deploy/compose.dev.yaml up migrate
+  migrate:
+    build: *backend-build
+    image: ndm-backend:dev
+    command: ["alembic", "upgrade", "head"]
+    restart: "no"
+    environment:
+      PYTHONPATH: /src
+      NDM_MIGRATION_DATABASE_URL: postgresql+asyncpg://ndm_owner:dev-owner@postgres:5432/ndm
+      NDM_APP_DB_ROLE: ndm_app
+    volumes:
+      - *backend-source
+    depends_on:
+      postgres:
+        condition: service_healthy
+
+  api:
+    build: *backend-build
+    image: ndm-backend:dev
+    # Reloads itself when a file under /src changes.
+    command:
+      - uvicorn
+      - --factory
+      - ndm.api.app:production_app
+      - --host
+      - 0.0.0.0
+      - --port
+      - "8000"
+      - --reload
+      - --reload-dir
+      - /src
+    environment:
+      PYTHONPATH: /src
+      NDM_DATABASE_URL: *database-app
+      NDM_BROKER_URL: *broker
+      NDM_SESSION_IDLE_TIMEOUT_SECONDS: ${NDM_SESSION_IDLE_TIMEOUT_SECONDS:-1800}
+      NDM_PROJECT_SCOPE_CEILING: ${NDM_PROJECT_SCOPE_CEILING:-65536}
+      NDM_TILE_URL_TEMPLATE: ${NDM_TILE_URL_TEMPLATE:-}
+      NDM_TILE_ATTRIBUTION: ${NDM_TILE_ATTRIBUTION:-}
+      <<: *scan-settings
+    volumes:
+      - *backend-source
+    ports:
+      # The API directly, for curl and http://localhost:8000/docs.
+      - "127.0.0.1:8000:8000"
+    depends_on:
+      migrate:
+        condition: service_completed_successfully
+      rabbitmq:
+        condition: service_healthy
+    healthcheck:
+      test:
+        - CMD
+        - python
+        - -c
+        - "import urllib.request; urllib.request.urlopen('http://127.0.0.1:8000/healthz', timeout=3)"
+      interval: 10s
+      timeout: 5s
+      retries: 5
+      start_period: 10s
+
+  orchestrator:
+    build: *backend-build
+    image: ndm-backend:dev
+    command: ["python", "-m", "ndm.orchestrator.main"]
+    init: true
+    environment:
+      PYTHONPATH: /src
+      NDM_DATABASE_URL: *database-app
+      NDM_BROKER_URL: *broker
+      NDM_MAXMIND_ACCOUNT_ID: ${NDM_MAXMIND_ACCOUNT_ID:-}
+      NDM_MAXMIND_LICENSE_KEY: ${NDM_MAXMIND_LICENSE_KEY:-}
+      NDM_RIR_OBJECT_REGISTRIES: ${NDM_RIR_OBJECT_REGISTRIES:-}
+      NDM_RIR_FILES_PATH: /var/lib/ndm/registry-files
+      # Reverse DNS goes to the lab resolver, which knows the lab hosts and
+      # forwards nothing. Set NDM_DEV_PTR_RESOLVER= (empty) for the host's resolver.
+      NDM_PTR_ENABLED: ${NDM_PTR_ENABLED:-true}
+      NDM_PTR_RESOLVER: ${NDM_DEV_PTR_RESOLVER-10.77.0.1:1053}
+      NDM_CLASSIFICATION_THRESHOLD: ${NDM_CLASSIFICATION_THRESHOLD:-0.5}
+      <<: *scan-settings
+    volumes:
+      - *backend-source
+      - reference-data:/var/lib/ndm/reference
+      - ${NDM_RIR_FILES_DIR:-./registry-files}:/var/lib/ndm/registry-files:ro
+    depends_on:
+      migrate:
+        condition: service_completed_successfully
+      rabbitmq:
+        condition: service_healthy
+    develop: *restart-on-change
+    healthcheck:
+      test:
+        - CMD
+        - python
+        - -c
+        - "import urllib.request; urllib.request.urlopen('http://127.0.0.1:9108/healthz', timeout=3)"
+      interval: 10s
+      timeout: 5s
+      retries: 5
+      start_period: 15s
+
+  # On the host network with NET_RAW, as in production: SYN scans, ICMP
+  # discovery and traceroutes work. Its own source ports, so that it never
+  # shares them with the scanner of a release or lab stack on the same host.
+  scanner:
+    build:
+      context: ..
+      dockerfile: deploy/Dockerfile.scanner
+      args:
+        NDM_VERSION: dev
+    image: ndm-scanner:dev
+    network_mode: host
+    cap_drop:
+      - ALL
+    cap_add:
+      - NET_RAW
+    init: true
+    environment:
+      # The image names its packages to the capable interpreter the same way.
+      PYTHONPATH: /src:/app/.venv/lib/python3.14/site-packages
+      NDM_BROKER_URL: amqp://ndm:dev-broker@127.0.0.1:5673/
+      # The lab's transit address. Set NDM_DEV_EGRESS_ADDRESS= (empty) to send
+      # from the address the host routes from.
+      NDM_EGRESS_ADDRESS: ${NDM_DEV_EGRESS_ADDRESS-10.77.0.1}
+      NDM_SOURCE_PORT_RANGE: 62000-62999
+      <<: *scan-settings
+    volumes:
+      - *backend-source
+    depends_on:
+      rabbitmq:
+        condition: service_healthy
+      scanner-netinit:
+        condition: service_completed_successfully
+    develop: *restart-on-change
+    ulimits:
+      nofile:
+        soft: 65536
+        hard: 65536
+    healthcheck:
+      test:
+        - CMD
+        - python
+        - -c
+        - "import os, sys, time; sys.exit(time.time() - os.path.getmtime('/tmp/ndm-scanner.heartbeat') > 30)"
+      interval: 10s
+      timeout: 5s
+      retries: 3
+      start_period: 15s
+
+  # The two connection-tracking rules for the dev scanner's source ports. It
+  # only adds what is missing; the rules of another stack stay as they are.
+  # Remove them with: docker compose -f deploy/compose.dev.yaml run --rm scanner-netinit remove
+  scanner-netinit:
+    build:
+      context: ./scanner-netinit
+      args:
+        NDM_VERSION: dev
+    image: ndm-scanner-netinit:dev
+    network_mode: host
+    cap_drop:
+      - ALL
+    cap_add:
+      - NET_ADMIN
+    environment:
+      NDM_SCANNER_SOURCE_PORTS: 62000-62999
+      NDM_NETINIT_SKIP: ${NDM_NETINIT_SKIP:-false}
+      NDM_IPTABLES: ${NDM_IPTABLES:-iptables}
+    tmpfs:
+      - /run
+    restart: "no"
+
+  # Vite's dev server with hot reload. Its own node_modules (Linux, musl) in a
+  # volume, installed again only when package-lock.json changes.
+  frontend:
+    image: node:26.12.0-alpine
+    working_dir: /app
+    command:
+      - sh
+      - -c
+      - >-
+        sum=$$(md5sum package-lock.json | cut -d' ' -f1);
+        if [ "$$(cat node_modules/.lock-sum 2>/dev/null)" != "$$sum" ]; then
+        npm ci --no-audit --no-fund && echo "$$sum" > node_modules/.lock-sum; fi;
+        exec npm run dev -- --host 0.0.0.0 --port 5173 --strictPort
+    environment:
+      NDM_DEV_API_URL: http://api:8000
+    volumes:
+      - ../frontend:/app
+      - frontend-modules:/app/node_modules
+    ports:
+      - "127.0.0.1:5173:5173"
+    depends_on:
+      api:
+        condition: service_healthy
+    develop:
+      watch:
+        - path: ../frontend/package-lock.json
+          action: restart
+
+volumes:
+  postgres-data: {}
+  rabbitmq-data: {}
+  reference-data: {}
+  frontend-modules: {}

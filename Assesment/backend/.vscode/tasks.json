@@ -1,0 +1,52 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            // Runs scripts/scan_one.py in the dev scanner container, under debugpy.
+            // debugpy is the copy bundled with the VS Code Python debugger
+            // extension, mounted read-only. The egress address is left to the
+            // kernel's route, which is the lab's transit address for the lab
+            // and the host's own address for anything else.
+            "label": "scan_one: start in scanner container",
+            "type": "shell",
+            "options": { "cwd": "${workspaceFolder}/.." },
+            "command": "DEBUGPY=$(ls -d ~/.vscode/extensions/ms-python.debugpy-*/bundled/libs | sort -V | tail -1) && NDM_DEV_EGRESS_ADDRESS= docker compose -f deploy/compose.dev.yaml run --rm -T -v \"$PWD/backend/scripts:/scripts:ro\" -v \"$DEBUGPY:/debugpy:ro\" -e PYTHONPATH=/src:/app/.venv/lib/python3.14/site-packages:/debugpy -e SCAN_ONE_DEBUG_PORT=5678 scanner python-netraw /scripts/scan_one.py ${input:address} --ports ${input:ports} ${input:technique}",
+            "isBackground": true,
+            "problemMatcher": {
+                "owner": "scan_one",
+                "pattern": { "regexp": "^__never_matches__$" },
+                "background": {
+                    "activeBegins": true,
+                    "beginsPattern": ".",
+                    "endsPattern": "debugpy listening on"
+                }
+            },
+            "presentation": { "reveal": "always", "panel": "dedicated", "clear": true }
+        }
+    ],
+    "inputs": [
+        {
+            "id": "address",
+            "type": "promptString",
+            "description": "Address to scan",
+            "default": "10.77.3.10"
+        },
+        {
+            "id": "ports",
+            "type": "promptString",
+            "description": "Ports: a list (22,80,8000-8100) or top-100, top-1000, full",
+            "default": "22,80,443"
+        },
+        {
+            "id": "technique",
+            "type": "pickString",
+            "description": "Technique",
+            "options": [
+                { "label": "SYN port scan", "value": "--syn" },
+                { "label": "SYN discovery (ICMP echo + TCP)", "value": "--syn --discovery" },
+                { "label": "connect port scan", "value": " " }
+            ],
+            "default": "--syn"
+        }
+    ]
+}

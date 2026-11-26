@@ -1,0 +1,51 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            // On the host, with the backend venv. No NET_RAW, so the scanner
+            // runs in connect mode: no SYN, no ICMP.
+            "name": "scan_one: local (connect mode)",
+            "type": "debugpy",
+            "request": "launch",
+            "python": "${workspaceFolder}/.venv/bin/python",
+            "program": "${workspaceFolder}/scripts/scan_one.py",
+            "args": ["${input:address}", "--ports", "${input:ports}"],
+            "cwd": "${workspaceFolder}",
+            "console": "integratedTerminal",
+            "justMyCode": true,
+            "env": {
+                "NDM_VANTAGE_POINT": "dev",
+                // The test switch, so that the lab and 127.0.0.1 may be scanned.
+                "NDM_ALLOW_NON_PUBLIC_TARGETS": "true"
+            }
+        },
+        {
+            // In the dev scanner container (host network, NET_RAW): SYN and ICMP
+            // work. The task starts it; it waits for this debugger on port 5678.
+            "name": "scan_one: scanner container (SYN, attach)",
+            "type": "debugpy",
+            "request": "attach",
+            "preLaunchTask": "scan_one: start in scanner container",
+            "connect": { "host": "127.0.0.1", "port": 5678 },
+            "pathMappings": [
+                { "localRoot": "${workspaceFolder}/src", "remoteRoot": "/src" },
+                { "localRoot": "${workspaceFolder}/scripts", "remoteRoot": "/scripts" }
+            ],
+            "justMyCode": true
+        }
+    ],
+    "inputs": [
+        {
+            "id": "address",
+            "type": "promptString",
+            "description": "Address to scan",
+            "default": "10.77.3.10"
+        },
+        {
+            "id": "ports",
+            "type": "promptString",
+            "description": "Ports: a list (22,80,8000-8100) or top-100, top-1000, full",
+            "default": "22,80,443"
+        }
+    ]
+}

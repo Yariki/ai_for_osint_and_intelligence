@@ -6,7 +6,8 @@ export default defineConfig({
   plugins: [vue(), vuetify()],
   server: {
     // Development only. In the deployed stack the proxy routes /api to the API.
-    proxy: { '/api': 'http://localhost:8000' },
+    // The dev Compose stack (deploy/compose.dev.yaml) points it at its api container.
+    proxy: { '/api': process.env.NDM_DEV_API_URL ?? 'http://localhost:8000' },
   },
   test: {
     environment: 'jsdom',
