@@ -38,6 +38,7 @@ export class FakeMap {
   eased: unknown[] = []
   fitted: unknown[] = []
   removed = false
+  zoom = 5
   private handlers = new Map<string, Handler[]>()
 
   constructor(readonly options: Record<string, unknown>) {
@@ -77,6 +78,10 @@ export class FakeMap {
 
   getCanvas(): { style: Record<string, string> } {
     return { style: {} }
+  }
+
+  getZoom(): number {
+    return this.zoom
   }
 
   easeTo(options: unknown): void {

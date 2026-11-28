@@ -22,6 +22,27 @@
                 }
             },
             "presentation": { "reveal": "always", "panel": "dedicated", "clear": true }
+        },
+        {
+            // The dev stack with debugpy in the api, the orchestrator and the
+            // scanner (deploy/compose.debug.yaml). Returns once every service is
+            // healthy; the stack keeps running after the debug session ends.
+            // Logs: docker compose -f deploy/compose.dev.yaml logs -f api orchestrator scanner
+            "label": "dev stack (debug): up",
+            "type": "shell",
+            "options": { "cwd": "${workspaceFolder}/.." },
+            "command": "NDM_DEBUGPY_DIR=$(ls -d ~/.vscode/extensions/ms-python.debugpy-*/bundled/libs | sort -V | tail -1) docker compose -f deploy/compose.dev.yaml -f deploy/compose.debug.yaml up -d --build --wait",
+            "problemMatcher": [],
+            "presentation": { "reveal": "always", "panel": "dedicated", "clear": true }
+        },
+        {
+            // Stops the dev stack, debug or not. The database is kept.
+            "label": "dev stack: down",
+            "type": "shell",
+            "options": { "cwd": "${workspaceFolder}/.." },
+            "command": "docker compose -f deploy/compose.dev.yaml down",
+            "problemMatcher": [],
+            "presentation": { "reveal": "always", "panel": "dedicated", "clear": true }
         }
     ],
     "inputs": [

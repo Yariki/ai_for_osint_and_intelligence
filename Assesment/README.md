@@ -92,6 +92,7 @@ Open **<http://localhost:5173>** and enter the setup token from the output (`set
 - **Separate from the other stacks:** project `ndm-dev`, its own volumes, fixed throwaway passwords, and ports on `127.0.0.1` only: frontend 5173, API 8000 (`/docs`), PostgreSQL 5433 (`postgresql://ndm_owner:dev-owner@127.0.0.1:5433/ndm`), RabbitMQ 5673.
 - **Settings:** the test switch is on, probes leave from the lab's transit address, and reverse DNS asks the lab resolver. `NDM_DEV_EGRESS_ADDRESS=` and `NDM_DEV_PTR_RESOLVER=` (empty) switch the last two back to the host's own. MaxMind, tiles and the other optional settings are read from `deploy/.env` if set. **Never use this file for a real installation.**
 - **Stop:** Ctrl-C, or `docker compose -f deploy/compose.dev.yaml down`; `down -v` also deletes the dev database.
+- **Debugging:** in VS Code (folder `backend`), run **dev stack: debug all**. It starts the stack with the overlay [deploy/compose.debug.yaml](deploy/compose.debug.yaml) (debugpy in the api, orchestrator and scanner on `127.0.0.1` ports 5681–5683, no image change) and attaches to all three. Saving a file restarts the service process inside its container, and the debugger attaches to the new process by itself. Without VS Code: `export NDM_DEBUGPY_DIR=$(ls -d ~/.vscode/extensions/ms-python.debugpy-*/bundled/libs | sort -V | tail -1)`, then `docker compose -f deploy/compose.dev.yaml -f deploy/compose.debug.yaml up -d --build --wait` (no `--watch`: it would restart the container and end the session).
 
 ### 2.4 Development: local processes with hot reload
 

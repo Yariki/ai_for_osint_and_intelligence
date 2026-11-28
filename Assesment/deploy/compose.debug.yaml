@@ -1,0 +1,111 @@
+# Network Discovery Map: the dev stack with a debugger in the api, the
+# orchestrator and the scanner. An overlay of compose.dev.yaml. From Assesment/:
+#
+#   export NDM_DEBUGPY_DIR=$(ls -d ~/.vscode/extensions/ms-python.debugpy-*/bundled/libs | sort -V | tail -1)
+#   docker compose -f deploy/compose.dev.yaml -f deploy/compose.debug.yaml up -d --build --wait
+#
+# then attach VS Code: "dev stack: debug all" in backend/.vscode/launch.json
+# (that configuration also runs the two commands above).
+#
+# What it changes:
+#   - Each of the three runs under debugpy, which listens on the loopback
+#     address: api 5681, orchestrator 5682, scanner 5683. Nothing waits for the
+#     debugger; attach whenever you like.
+#   - Hot reload is done in the container by backend/scripts/dev_reload.py: it
+#     restarts the service process when a file under backend/src changes, and
+#     the debugger follows the new process. Start it WITHOUT "--watch": that
+#     would restart the whole container on a change and end the debug session.
+#     uvicorn's own "--reload" is not used either.
+#   - debugpy is the copy bundled with the VS Code Python debugger extension
+#     (NDM_DEBUGPY_DIR), mounted read-only. No image changes. Its directory
+#     backend/scripts/debugpy_compat makes it work on Python 3.14.
+#
+# Back to the plain dev stack: "up -d" with compose.dev.yaml alone recreates
+# the three services without the debugger.
+
+x-debugpy: &debugpy ${NDM_DEBUGPY_DIR:?set NDM_DEBUGPY_DIR to the bundled/libs directory of the VS Code debugpy extension}:/debugpy:ro
+x-scripts: &scripts ../backend/scripts:/scripts:ro
+
+# Without it, debugpy warns at every start that frozen modules may hide
+# breakpoints; that only concerns breakpoints in the standard library.
+x-debug-env: &debug-env
+  PYDEVD_DISABLE_FILE_VALIDATION: "1"
+
+services:
+  api:
+    init: true
+    command:
+      - python
+      - -m
+      - debugpy
+      - --listen
+      - 0.0.0.0:5681
+      - /scripts/dev_reload.py
+      - /src
+      - --
+      - python
+      - -m
+      - uvicorn
+      - --factory
+      - ndm.api.app:production_app
+      - --host
+      - 0.0.0.0
+      - --port
+      - "8000"
+    environment:
+      PYTHONPATH: /src:/debugpy:/scripts/debugpy_compat
+      <<: *debug-env
+    volumes:
+      - *debugpy
+      - *scripts
+    ports:
+      - "127.0.0.1:5681:5681"
+
+  orchestrator:
+    command:
+      - python
+      - -m
+      - debugpy
+      - --listen
+      - 0.0.0.0:5682
+      - /scripts/dev_reload.py
+      - /src
+      - --
+      - python
+      - -m
+      - ndm.orchestrator.main
+    environment:
+      PYTHONPATH: /src:/debugpy:/scripts/debugpy_compat
+      <<: *debug-env
+    volumes:
+      - *debugpy
+      - *scripts
+    ports:
+      - "127.0.0.1:5682:5682"
+
+  # On the host network: debugpy listens on the host's loopback address itself.
+  # It starts ndm.scanner.main on python-netraw directly, so SYN and ICMP work
+  # under the debugger. The launcher (ndm.scanner.start) is skipped: this stack
+  # always has NET_RAW, and the debugger cannot follow the launcher's execv (the
+  # new program reconnects with the same process id, is refused, and hangs).
+  # Only the two packages the scanner image is made of are watched.
+  scanner:
+    command:
+      - python
+      - -m
+      - debugpy
+      - --listen
+      - 127.0.0.1:5683
+      - /scripts/dev_reload.py
+      - /src/ndm/core
+      - /src/ndm/scanner
+      - --
+      - python-netraw
+      - -m
+      - ndm.scanner.main
+    environment:
+      PYTHONPATH: /src:/app/.venv/lib/python3.14/site-packages:/debugpy:/scripts/debugpy_compat
+      <<: *debug-env
+    volumes:
+      - *debugpy
+      - *scripts

@@ -67,6 +67,65 @@
                 { "localRoot": "${workspaceFolder}/scripts", "remoteRoot": "/scripts" }
             ],
             "justMyCode": true
+        },
+        // The dev stack under debugpy (deploy/compose.debug.yaml). Start it with
+        // "dev stack: debug all", which runs the task "dev stack (debug): up"
+        // first; the three below attach to a stack that is already up.
+        // Hot reload: saving a file under src restarts the service process in
+        // its container and the debugger attaches to the new process by
+        // itself (subProcess). A breakpoint in a loop that was already running
+        // when you attached is hit only after the next reload.
+        {
+            "name": "api (dev container, attach)",
+            "type": "debugpy",
+            "request": "attach",
+            "connect": { "host": "127.0.0.1", "port": 5681 },
+            "pathMappings": [
+                { "localRoot": "${workspaceFolder}/src", "remoteRoot": "/src" },
+                { "localRoot": "${workspaceFolder}/scripts", "remoteRoot": "/scripts" }
+            ],
+            "subProcess": true,
+            "justMyCode": true
+        },
+        {
+            "name": "orchestrator (dev container, attach)",
+            "type": "debugpy",
+            "request": "attach",
+            "connect": { "host": "127.0.0.1", "port": 5682 },
+            "pathMappings": [
+                { "localRoot": "${workspaceFolder}/src", "remoteRoot": "/src" },
+                { "localRoot": "${workspaceFolder}/scripts", "remoteRoot": "/scripts" }
+            ],
+            "subProcess": true,
+            "justMyCode": true
+        },
+        {
+            // On the host network, with NET_RAW: SYN and ICMP work.
+            "name": "scanner (dev container, attach)",
+            "type": "debugpy",
+            "request": "attach",
+            "connect": { "host": "127.0.0.1", "port": 5683 },
+            "pathMappings": [
+                { "localRoot": "${workspaceFolder}/src", "remoteRoot": "/src" },
+                { "localRoot": "${workspaceFolder}/scripts", "remoteRoot": "/scripts" }
+            ],
+            "subProcess": true,
+            "justMyCode": true
+        }
+    ],
+    "compounds": [
+        {
+            // Starts (or updates) the debug dev stack, then attaches to all three.
+            // Stopping the session detaches; the stack keeps running
+            // (task "dev stack: down" stops it).
+            "name": "dev stack: debug all",
+            "configurations": [
+                "api (dev container, attach)",
+                "orchestrator (dev container, attach)",
+                "scanner (dev container, attach)"
+            ],
+            "preLaunchTask": "dev stack (debug): up",
+            "stopAll": true
         }
     ],
     "inputs": [

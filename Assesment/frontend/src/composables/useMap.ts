@@ -63,10 +63,91 @@ export function addressNumber(address: string): number {
 
 /**
  * A cluster can be split by zooming in only if the map can zoom that far.
- * Hosts on one coordinate never split; they are opened as a list (FR-MAP-2).
+ * Hosts on one coordinate never split; zooming cannot take them apart, so they
+ * are spread out around their shared point instead (spiderfied), or, when there
+ * are too many for that to be legible, opened as a list (FR-MAP-2).
  */
 export function canSplit(expansionZoom: number): boolean {
   return expansionZoom <= MAX_ZOOM
+}
+
+/**
+ * How many co-located hosts the map spreads out around their point. Beyond
+ * this many, spread markers overlap unreadably, so the cluster opens as the
+ * searchable list instead.
+ */
+export const SPIDER_MAX = 200
+
+/** A pixel offset from the centre of a spiderfied cluster. */
+export interface SpiderOffset {
+  x: number
+  y: number
+}
+
+/**
+ * Where to place `count` markers around one point so that each is visible and
+ * clickable: concentric rings that grow outward, the innermost first, each ring
+ * holding as many as fit without crowding. The offsets are in screen pixels, so
+ * the spread keeps its size and shape at any zoom.
+ */
+export function spiderOffsets(count: number, ringGap = 34, firstRadius = 42): SpiderOffset[] {
+  const offsets: SpiderOffset[] = []
+  for (let ring = 0; offsets.length < count; ring++) {
+    const radius = firstRadius + ring * ringGap
+    const capacity = Math.max(1, Math.floor((2 * Math.PI * radius) / ringGap))
+    const onRing = Math.min(capacity, count - offsets.length)
+    for (let index = 0; index < onRing; index++) {
+      const angle = (2 * Math.PI * index) / onRing
+      offsets.push({ x: radius * Math.cos(angle), y: radius * Math.sin(angle) })
+    }
+  }
+  return offsets
+}
+
+// MapLibre's zoom is defined so that the whole world is this many pixels wide
+// at zoom 0; it doubles each level.
+const WORLD_PIXELS_AT_ZOOM_0 = 512
+
+/** A pixel offset from a point, as a [longitude, latitude], at the given zoom. */
+export function offsetLngLat(
+  center: [number, number],
+  offset: SpiderOffset,
+  zoom: number,
+): [number, number] {
+  const worldPixels = WORLD_PIXELS_AT_ZOOM_0 * 2 ** zoom
+  const lngPerPixel = 360 / worldPixels
+  // Near the point, a pixel spans more longitude than latitude by 1/cos(lat).
+  const latPerPixel = lngPerPixel / Math.cos((center[1] * Math.PI) / 180)
+  // Screen y grows downward, so a positive offset is further south.
+  return [center[0] + offset.x * lngPerPixel, center[1] - offset.y * latPerPixel]
+}
+
+/**
+ * The markers and legs of a spiderfied cluster: each host at its own offset
+ * around the shared point, with a thin line (a leg) back to the centre so it is
+ * clear they belong together.
+ */
+export function spiderFeatures(
+  center: [number, number],
+  hosts: ClusterHost[],
+  zoom: number,
+): { leaves: FeatureCollection<Point, ClusterHost>; legs: FeatureCollection<LineString> } {
+  const offsets = spiderOffsets(hosts.length)
+  const leaves: PointFeature[] = []
+  const legs: Array<Feature<LineString>> = []
+  hosts.forEach((host, index) => {
+    const at = offsetLngLat(center, offsets[index] ?? { x: 0, y: 0 }, zoom)
+    leaves.push({ type: 'Feature', geometry: { type: 'Point', coordinates: at }, properties: host })
+    legs.push({
+      type: 'Feature',
+      geometry: { type: 'LineString', coordinates: [center, at] },
+      properties: {},
+    })
+  })
+  return {
+    leaves: { type: 'FeatureCollection', features: leaves },
+    legs: { type: 'FeatureCollection', features: legs },
+  }
 }
 
 /** The box that holds every point, as [west, south, east, north]; null without points. */
@@ -172,6 +253,7 @@ export function useMap(handlers: MapHandlers) {
   let pending: MapPoint[] = []
   let pendingPath: PathHop[] = []
   let fitted = false
+  let spiderActive = false
 
   function hostSource(): GeoJSONSource | undefined {
     return map?.getSource('hosts') as GeoJSONSource | undefined
@@ -259,6 +341,27 @@ export function useMap(handlers: MapHandlers) {
           'circle-stroke-width': 1.5,
         },
       })
+      // The spread of a spiderfied cluster: a leg to each host, then the hosts
+      // themselves on top, each its own clickable marker (FR-MAP-2).
+      created.addSource('spider-legs', { type: 'geojson', data: EMPTY })
+      created.addLayer({
+        id: 'spider-legs',
+        type: 'line',
+        source: 'spider-legs',
+        paint: { 'line-color': '#d32f2f', 'line-width': 1, 'line-opacity': 0.5 },
+      })
+      created.addSource('spider', { type: 'geojson', data: EMPTY })
+      created.addLayer({
+        id: 'spider',
+        type: 'circle',
+        source: 'spider',
+        paint: {
+          'circle-color': '#d32f2f',
+          'circle-radius': 6,
+          'circle-stroke-color': '#ffffff',
+          'circle-stroke-width': 1.5,
+        },
+      })
       loaded = true
       showPath(pendingPath)
       fit(pending)
@@ -273,13 +376,27 @@ export function useMap(handlers: MapHandlers) {
       const feature = event.features?.[0]
       if (feature) void openCluster(feature)
     })
-    for (const layer of ['host', 'clusters']) {
+    // A spread-out host is selected like any other; the spread then closes.
+    created.on('click', 'spider', (event) => {
+      const feature = event.features?.[0]
+      const [host] = feature ? clusterHosts([feature]) : []
+      if (host) handlers.onHost(host)
+      collapseSpider()
+    })
+    // Panning or zooming puts an open spread away: its markers are pinned to the
+    // screen, not the ground, so they would no longer point at their place.
+    created.on('movestart', () => collapseSpider())
+    for (const layer of ['host', 'clusters', 'spider']) {
       created.on('mouseenter', layer, () => (created.getCanvas().style.cursor = 'pointer'))
       created.on('mouseleave', layer, () => (created.getCanvas().style.cursor = ''))
     }
   }
 
-  /** Zoom into a cluster, or list its hosts if zooming cannot take it apart. */
+  /**
+   * Zoom into a cluster; if zooming cannot take it apart, spread its hosts out
+   * around the point so each can be seen and clicked, or, when there are too
+   * many for that, list them.
+   */
   async function openCluster(feature: Feature): Promise<void> {
     const source = hostSource()
     if (!map || !source) return
@@ -291,7 +408,27 @@ export function useMap(handlers: MapHandlers) {
       map.easeTo({ center: [longitude, latitude], zoom })
       return
     }
-    handlers.onCluster(clusterHosts(await source.getClusterLeaves(clusterId, count, 0)))
+    const hosts = clusterHosts(await source.getClusterLeaves(clusterId, count, 0))
+    if (hosts.length <= SPIDER_MAX) spiderfy(feature, hosts)
+    else handlers.onCluster(hosts)
+  }
+
+  /** Spread the hosts of a cluster out around its point as individual markers. */
+  function spiderfy(feature: Feature, hosts: ClusterHost[]): void {
+    if (!map) return
+    const [longitude = 0, latitude = 0] = (feature.geometry as Point).coordinates
+    const { leaves, legs } = spiderFeatures([longitude, latitude], hosts, map.getZoom())
+    ;(map.getSource('spider-legs') as GeoJSONSource | undefined)?.setData(legs)
+    ;(map.getSource('spider') as GeoJSONSource | undefined)?.setData(leaves)
+    spiderActive = true
+  }
+
+  /** Gather an open spread back into its point. */
+  function collapseSpider(): void {
+    if (!spiderActive) return
+    spiderActive = false
+    ;(map?.getSource('spider-legs') as GeoJSONSource | undefined)?.setData(EMPTY)
+    ;(map?.getSource('spider') as GeoJSONSource | undefined)?.setData(EMPTY)
   }
 
   function fit(points: MapPoint[]): void {
@@ -305,6 +442,7 @@ export function useMap(handlers: MapHandlers) {
   function setPoints(points: MapPoint[]): void {
     pending = points
     if (!loaded) return
+    collapseSpider()
     hostSource()?.setData(toFeatures(points))
     fit(points)
   }
@@ -339,6 +477,7 @@ export function useMap(handlers: MapHandlers) {
     map?.remove()
     map = null
     loaded = false
+    spiderActive = false
   }
 
   return { mount, setPoints, refit, showAccuracy, showPath, destroy }

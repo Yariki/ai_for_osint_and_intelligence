@@ -18,7 +18,11 @@ import {
   clusterHosts,
   MAX_ZOOM,
   MAXMIND_ATTRIBUTION,
+  offsetLngLat,
   pathSegments,
+  SPIDER_MAX,
+  spiderFeatures,
+  spiderOffsets,
   toFeatures,
   useMap,
 } from './useMap'
@@ -79,6 +83,52 @@ test('a cluster can be split only while the map can zoom that far', () => {
   expect(canSplit(MAX_ZOOM)).toBe(true)
   // Hosts on one coordinate would split only beyond the last zoom level: never.
   expect(canSplit(MAX_ZOOM + 1)).toBe(false)
+})
+
+test.each([1, 7, 20, 50, SPIDER_MAX])('spreading %i hosts gives that many distinct offsets', (count) => {
+  const offsets = spiderOffsets(count)
+
+  expect(offsets).toHaveLength(count)
+  // No two markers land on the same spot.
+  const spots = new Set(offsets.map((offset) => `${offset.x.toFixed(3)},${offset.y.toFixed(3)}`))
+  expect(spots.size).toBe(count)
+  // Every marker is clear of the point, and the spread grows outward: the
+  // last ring is the farthest out.
+  const radii = offsets.map((offset) => Math.hypot(offset.x, offset.y))
+  expect(Math.min(...radii)).toBeGreaterThan(0)
+  expect(Math.max(...radii) - (radii.at(-1) ?? 0)).toBeLessThan(1e-6)
+})
+
+test('a pixel offset becomes a nearby coordinate, east and north of the point', () => {
+  const [lng, lat] = offsetLngLat([10, 50], { x: 100, y: -100 }, 12)
+
+  // East (x) raises the longitude, up the screen (negative y) raises the latitude.
+  expect(lng).toBeGreaterThan(10)
+  expect(lat).toBeGreaterThan(50)
+  // A hundred pixels at this zoom is a small fraction of a degree.
+  expect(lng).toBeCloseTo(10, 1)
+  expect(lat).toBeCloseTo(50, 1)
+})
+
+test('spiderfied hosts each get a marker and a leg back to the point', () => {
+  const hosts = [
+    { address: '1.1.1.1', scan_id: 7, open_port_count: 0 },
+    { address: '1.1.1.2', scan_id: 7, open_port_count: 2 },
+    { address: '1.1.1.3', scan_id: 7, open_port_count: 1 },
+  ]
+  const { leaves, legs } = spiderFeatures([37.4, -122.1], hosts, 8)
+
+  expect(leaves.features.map((feature) => feature.properties.address)).toEqual([
+    '1.1.1.1',
+    '1.1.1.2',
+    '1.1.1.3',
+  ])
+  // Each leg runs from the shared point to its host's marker.
+  expect(legs.features).toHaveLength(3)
+  for (const [index, leg] of legs.features.entries()) {
+    expect(leg.geometry.coordinates[0]).toEqual([37.4, -122.1])
+    expect(leg.geometry.coordinates[1]).toEqual(leaves.features[index]?.geometry.coordinates)
+  }
 })
 
 test('the bounds hold every point', () => {
@@ -159,6 +209,8 @@ test('hosts are a clustered source that keeps hosts on one coordinate together',
     'path-dashed',
     'clusters',
     'host',
+    'spider-legs',
+    'spider',
   ])
   expect(fake.fitted).toHaveLength(1)
 })
@@ -190,8 +242,8 @@ test('a cluster that can be split is zoomed into', async () => {
   expect(clusters).toEqual([])
 })
 
-test('a cluster of hosts on one coordinate opens as the list of all of them', async () => {
-  const points = colocated(300)
+test('a cluster of too many hosts on one coordinate opens as the list of all of them', async () => {
+  const points = colocated(300) // more than SPIDER_MAX: too many to spread legibly
   const { fake, clusters } = await mountedMap(points)
   const source = fake.getSource('hosts')
   if (source) {
@@ -220,6 +272,64 @@ test('a click on a single host selects it', async () => {
   fake.fire('click:host', toFeatures([mapPoint('8.8.8.8', ...HERE, { scan_id: 9 })]).features)
 
   expect(clicked).toEqual([{ address: '8.8.8.8', scan_id: 9, open_port_count: 1 }])
+})
+
+/** Click the one cluster of `points`, all on HERE, that zooming cannot split. */
+function openColocatedCluster(fake: FakeMap, points: ReturnType<typeof colocated>): void {
+  const source = fake.getSource('hosts')
+  if (source) {
+    source.expansionZoom = MAX_ZOOM + 5
+    source.leaves = toFeatures(points).features
+  }
+  fake.fire('click:clusters', [
+    {
+      type: 'Feature',
+      geometry: { type: 'Point', coordinates: [HERE[1], HERE[0]] },
+      properties: { cluster_id: 1, point_count: points.length },
+    },
+  ])
+}
+
+test('a cluster on one coordinate spreads out into one marker per host', async () => {
+  const points = colocated(12)
+  const { fake, clusters } = await mountedMap(points)
+
+  openColocatedCluster(fake, points)
+  await flushPromises()
+
+  // Spread on the map, not zoomed and not opened as the list.
+  expect(fake.eased).toEqual([])
+  expect(clusters).toEqual([])
+  const spread = fake.getSource('spider')?.data as { features: Feature[] }
+  const legs = fake.getSource('spider-legs')?.data as { features: Feature[] }
+  expect(spread.features).toHaveLength(12)
+  expect(legs.features).toHaveLength(12)
+  expect(new Set(spread.features.map((feature) => feature.properties?.address)).size).toBe(12)
+})
+
+test('clicking a spread-out host selects it and gathers the spread back in', async () => {
+  const points = colocated(12)
+  const { fake, clicked } = await mountedMap(points)
+  openColocatedCluster(fake, points)
+  await flushPromises()
+
+  fake.fire('click:spider', toFeatures([mapPoint('8.8.8.8', ...HERE, { scan_id: 9 })]).features)
+
+  expect(clicked).toEqual([{ address: '8.8.8.8', scan_id: 9, open_port_count: 1 }])
+  expect((fake.getSource('spider')?.data as { features: Feature[] }).features).toEqual([])
+  expect((fake.getSource('spider-legs')?.data as { features: Feature[] }).features).toEqual([])
+})
+
+test('panning the map gathers an open spread back in', async () => {
+  const points = colocated(12)
+  const { fake } = await mountedMap(points)
+  openColocatedCluster(fake, points)
+  await flushPromises()
+  expect((fake.getSource('spider')?.data as { features: Feature[] }).features).toHaveLength(12)
+
+  fake.fire('movestart')
+
+  expect((fake.getSource('spider')?.data as { features: Feature[] }).features).toEqual([])
 })
 
 test('the accuracy radius of a location is drawn, and removed again', async () => {
